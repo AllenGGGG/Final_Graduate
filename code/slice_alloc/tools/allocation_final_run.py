@@ -15,11 +15,12 @@ import time
 
 import numpy as np
 import torch
-from stable_baselines3 import PPO
+from stable_baselines3 import A2C, PPO
 from stable_baselines3.common.callbacks import BaseCallback
 
 from slice_alloc import allocation_final as a
 from slice_alloc.allocation_final_policy import CandidatePPOPolicy
+from slice_alloc.allocation_value import MaskedDoubleDQN
 from slice_alloc.distributional_allocation import MaskedDoubleQRDQN, CandidateQRPolicy
 from slice_alloc.tools import modal_binding_run as old
 
@@ -29,17 +30,32 @@ INITS = (11, 23, 37)
 LOADS = (48, 80)
 CHECKPOINTS = (8192, 16384, 32768)
 VALIDATION = tuple(range(42000, 42008))
-TEST = tuple(range(43000, 43030))
-CONTROL = tuple(range(44000, 44010))
+TEST = tuple(range(53000, 53030))
+CONTROL = tuple(range(54000, 54010))
+ALGORITHMS = ('candidate_ppo', 'double_qrdqn', 'double_dqn', 'candidate_a2c')
+MAIN_RULES = ('first_fit', 'nearest', 'greedy', 'quota')
+PRIMARY_RULE = 'greedy'
+CONTROL_RULES = ('greedy', 'semantic', 'price')
 RULES = ('first_fit', 'nearest', 'greedy', 'price', 'semantic', 'quota')
-SOURCES = ('__main__.py', 'ALLOCATION_FINAL.md', 'allocation_final.py', 'allocation_final_policy.py', 'modal_binding.py',
+REGISTRATIONS = ('protocol.json', 'stress_protocol.json', 'auxiliary_sources.json',
+    'deployment.json', 'tests_complete.json', 'selection.json', 'training_complete.json') + tuple(
+    f'rules/{method}.json' for method in RULES)
+SOURCES = ('__main__.py', 'ALLOCATION_FINAL.md', 'allocation_final.py', 'allocation_final_policy.py', 'allocation_value.py', 'modal_binding.py',
            'modal_binding_rl.py', 'patrol.py', 'initial_allocation.py',
            'distributional_allocation.py', 'execution/allocation_final_scenario.cc',
            'tools/allocation_final_run.py', 'tools/modal_binding_run.py',
-           'tests/test_allocation_final.py', 'tests/test_allocation_final_pipeline.py')
+           'tests/test_allocation_final.py', 'tests/test_allocation_final_pipeline.py',
+           'tests/test_allocation_algorithms.py')
 write, read, sha = old.write, old.read, old.sha
 PPO_HYPER = dict(learning_rate=3e-4, n_steps=512, batch_size=128,
     n_epochs=10, gamma=1., gae_lambda=1., clip_range=.2, ent_coef=.01)
+A2C_HYPER = dict(learning_rate=7e-4, n_steps=128, gamma=1., gae_lambda=1.,
+    ent_coef=.01, vf_coef=.5, max_grad_norm=.5, normalize_advantage=True,
+    use_rms_prop=True, rms_prop_eps=1e-5)
+MODEL_CLASSES = dict(candidate_ppo=PPO, double_qrdqn=MaskedDoubleQRDQN,
+                     double_dqn=MaskedDoubleDQN, candidate_a2c=A2C)
+POLICIES = dict(candidate_ppo=CandidatePPOPolicy, double_qrdqn=CandidateQRPolicy,
+                double_dqn=CandidateQRPolicy, candidate_a2c=CandidatePPOPolicy)
 
 
 def training_parameters(algorithm):
@@ -47,6 +63,12 @@ def training_parameters(algorithm):
         return copy.deepcopy(PPO_HYPER)
     if algorithm == 'double_qrdqn':
         return copy.deepcopy(old.HYPER)
+    if algorithm == 'double_dqn':
+        parameters = copy.deepcopy(old.HYPER)
+        parameters['policy_kwargs']['n_quantiles'] = 1
+        return parameters
+    if algorithm == 'candidate_a2c':
+        return copy.deepcopy(A2C_HYPER)
     raise ValueError(algorithm)
 
 
@@ -67,12 +89,14 @@ def freeze():
         sources={n: sha(ROOT/'slice_alloc'/n) for n in SOURCES},
         binary_sha256=sha(a.NS3/'build/scratch/allocation-final-scenario'),
         training=[41000000, 42000000], validation=VALIDATION, test=TEST, control=CONTROL,
-        algorithms=['candidate_ppo', 'double_qrdqn'], initializations=INITS,
+        algorithms=ALGORITHMS, initializations=INITS,
         loads=LOADS, checkpoints=CHECKPOINTS,
-        selection='mean validation success of ALL 3 initializations; ties PPO; checkpoints by validation, tie earliest',
+        selection='mean validation success of ALL registered initializations; ties registered algorithm order; checkpoints by validation, tie earliest',
         ablations=['fixed', 'no_motion', 'no_calendar'],
         ablation_protocol='retrain selected algorithm with identical budget and initializations',
         rule_thresholds=[1., 4., None],
+        primary_rule=PRIMARY_RULE, main_rules=MAIN_RULES, control_rules=CONTROL_RULES,
+        supplemental_rules=['price', 'semantic'],
         reward='raw actual SLA successes, gamma=1, no shaping or expert prior',
         objective='successful requests / all arrivals; rejected requests fail',
         scope='point 1 only; no demand prediction, proactive migration or hard QoS guarantee',
@@ -81,8 +105,10 @@ def freeze():
         quotas='per-modality one third of each shared wire-direction and airtime; intrinsic state/cache quotas unchanged',
         ppo=serialize_parameters(training_parameters('candidate_ppo')),
         qrdqn=serialize_parameters(training_parameters('double_qrdqn')),
-        policies=dict(candidate_ppo=serialize_parameters(CandidatePPOPolicy),
-                      double_qrdqn=serialize_parameters(CandidateQRPolicy)),
+        dqn=serialize_parameters(training_parameters('double_dqn')),
+        a2c=serialize_parameters(training_parameters('candidate_a2c')),
+        policies={name:serialize_parameters(policy) for name,policy in POLICIES.items()},
+        model_classes={name:serialize_parameters(model) for name,model in MODEL_CLASSES.items()},
         execution=dict(device='cpu', verbose=0))
     path = OUT/'protocol.json'
     normalized = json.loads(json.dumps(protocol))
@@ -197,7 +223,7 @@ def score(model, variant='full'):
 
 
 def load_model(algorithm, path):
-    return (PPO if algorithm == 'candidate_ppo' else MaskedDoubleQRDQN).load(path, device='cpu')
+    return MODEL_CLASSES[algorithm].load(path, device='cpu')
 
 
 class Checkpoints(BaseCallback):
@@ -229,11 +255,8 @@ def train(spec):
         assert cached['model_sha256'] == sha(OUT/cached['model']), 'Cached model changed'
         return cached
     env = environment(variant, seed=init+100, loads=LOADS)
-    if algorithm == 'candidate_ppo':
-        model = PPO(CandidatePPOPolicy, env, **training_parameters(algorithm),
-                    seed=init, device='cpu', verbose=0)
-    else:
-        model = MaskedDoubleQRDQN(CandidateQRPolicy, env, **training_parameters(algorithm), seed=init, device='cpu', verbose=0)
+    model = MODEL_CLASSES[algorithm](POLICIES[algorithm], env, **training_parameters(algorithm),
+                                    seed=init, device='cpu', verbose=0)
     before = torch.cat([p.detach().flatten() for p in model.policy.parameters()]).clone()
     cb = Checkpoints(folder, variant)
     started = time.perf_counter()
@@ -292,6 +315,10 @@ def pool_map(function, specs, workers):
         return list(pool.map(function, specs))
 
 
+def preregistration_snapshot():
+    return {name:sha(OUT/name) for name in REGISTRATIONS}
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('command', choices=['freeze','train','evaluate','all'])
@@ -303,9 +330,9 @@ def main():
     if args.command in ('train', 'evaluate', 'all'):
         ensure_tests()
     if args.command in ('train','all'):
-        results = pool_map(train, [(m,'full',i) for m in ('candidate_ppo','double_qrdqn') for i in INITS], args.workers)
+        results = pool_map(train, [(m,'full',i) for m in ALGORITHMS for i in INITS], args.workers)
         values = {m:float(np.mean([r['selected']['validation']['rate'] for r in results if r['algorithm']==m]))
-                  for m in ('candidate_ppo','double_qrdqn')}
+                  for m in ALGORITHMS}
         selected = max(values, key=values.get)
         selection = dict(selected=selected, validation=values, models=results, protocol_sha256=sha(OUT/'protocol.json'))
         if (OUT/'selection.json').exists():
@@ -320,14 +347,20 @@ def main():
         assert (OUT/'training_complete.json').exists()
         prepare_evaluation()
         selected = read(OUT/'selection.json')['selected']
-        models = [(m,'full',i) for m in ('candidate_ppo','double_qrdqn') for i in INITS]
+        models = [(m,'full',i) for m in ALGORITHMS for i in INITS]
         models += [(selected,v,i) for v in ('fixed','no_motion','no_calendar') for i in INITS]
         methods = models+[(r,'full',0) for r in RULES]
         groups = [(m,v,i,'test',l,TEST,'mixed') for m,v,i in methods for l in LOADS]
-        controls = [(selected,'full',i) for i in INITS]+[('semantic','full',0),('price','full',0)]
+        controls = [(selected,'full',i) for i in INITS]+[(r,'full',0) for r in CONTROL_RULES]
         groups += [(m,v,i,'mobility_'+mobi,80,CONTROL,mobi) for m,v,i in controls for mobi in ('stationary','local','mixed')]
-        write(OUT/'test_started.json', dict(time=time.time(), protocol_sha256=sha(OUT/'protocol.json'),
-            selection_sha256=sha(OUT/'selection.json'), jobs=len(groups))) if not (OUT/'test_started.json').exists() else None
+        registered = preregistration_snapshot()
+        marker = OUT/'test_started.json'
+        if marker.exists():
+            assert read(marker)['preregistration_sha256'] == registered, 'Preregistered inputs changed'
+        else:
+            write(marker, dict(time=time.time(), protocol_sha256=sha(OUT/'protocol.json'),
+                selection_sha256=sha(OUT/'selection.json'), jobs=len(groups),
+                preregistration_sha256=registered))
         batches = pool_map(evaluate_group, groups, args.workers)
         write(OUT/'evaluation.json', [r for batch in batches for r in batch])
         print('EVALUATED', sum(map(len,batches)), flush=True)

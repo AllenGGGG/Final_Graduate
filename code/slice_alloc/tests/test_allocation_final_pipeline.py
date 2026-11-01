@@ -1,5 +1,6 @@
 """Regression checks for failed validation, frozen config and formal entry points."""
 import copy
+import os
 from contextlib import ExitStack
 import subprocess
 import sys
@@ -163,6 +164,20 @@ class PipelineRegressionTests(unittest.TestCase):
             run.write(self.out/'test_started.json', {})
             pipeline.prepare_evaluation()
             self.assertEqual(stamps, {p:(self.out/p).stat().st_mtime_ns for p in paths})
+
+    def test_equal_registration_timestamps_are_valid_with_hash_snapshot(self):
+        from slice_alloc.tools import allocation_final_report as report
+        self.invoke('all')
+        timestamp=(self.out/'test_started.json').stat().st_mtime_ns
+        for name in run.REGISTRATIONS:
+            os.utime(self.out/name, ns=(timestamp,timestamp))
+        report.verify_registration()
+
+    def test_registered_rule_cannot_change_after_test_started(self):
+        self.invoke('all')
+        run.write(self.out/'rules/greedy.json', {'chosen': {'threshold': 123}})
+        with self.assertRaisesRegex(AssertionError, 'Preregistered inputs changed'):
+            self.invoke('evaluate')
 
 
 if __name__ == '__main__':

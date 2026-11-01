@@ -10,6 +10,7 @@ import tempfile
 from unittest.mock import patch
 
 from slice_alloc.tools import allocation_final_pipeline as pipeline
+from slice_alloc.tools import allocation_final_calibrate as calibrate
 from slice_alloc.tools import allocation_final_report as report
 from slice_alloc.tools import allocation_final_run as run
 from slice_alloc.tools import allocation_final_stress as stress
@@ -59,10 +60,11 @@ def main():
     hyper.update(buffer_size=128, learning_starts=16, batch_size=16, exploration_steps=64)
     hyper['replay_buffer_kwargs']['horizon'] = 3
     ppo = dict(run.PPO_HYPER, n_steps=64, batch_size=32, n_epochs=1)
+    a2c = dict(run.A2C_HYPER, n_steps=64)
     with ExitStack() as stack:
         for name, value in dict(OUT=output/'experiment', INITS=(11,), LOADS=(4, 8),
                                 CHECKPOINTS=(64, 128), VALIDATION=(49000,),
-                                TEST=(49001,), CONTROL=(49002,), PPO_HYPER=ppo).items():
+                                TEST=(49001,), CONTROL=(49002,), PPO_HYPER=ppo, A2C_HYPER=a2c).items():
             stack.enter_context(patch.object(run, name, value))
         stack.enter_context(patch.object(run.old, 'HYPER', hyper))
         stack.enter_context(patch.object(stress, 'SEEDS', (49100,)))
@@ -75,22 +77,26 @@ def main():
         sys.argv = ['allocation_final_stress']
         stress.main()
         rows = run.read(run.OUT/'evaluation.json') + run.read(run.OUT/'stress_evaluation.json')
-        assert len(rows) == 37
-        assert all(report.audit_saved(row) for row in rows)
+        assert len(rows) == 46
+        calibrate.main()
+        report.main()
+        checks = run.read(run.OUT/'verification.json')
+        assert checks['native_packet_audits'] == len(rows)
         records = [run.read(path) for path in sorted((run.OUT/'training').rglob('training.json'))]
-        assert len(records) == 5
-        replays = []
+        assert len(records) == 7
         for record in records:
             algorithm = record['algorithm']
             model = run.load_model(algorithm, run.OUT/record['model'])
             expected = run.training_parameters(algorithm)
             assert model.learning_rate == expected['learning_rate']
-            assert model.batch_size == expected['batch_size']
+            if 'batch_size' in expected:
+                assert model.batch_size == expected['batch_size']
             assert record['protocol_sha256'] == run.sha(run.OUT/'protocol.json')
-            replays.append(report.replay((algorithm, record['variant'], record['init'])))
+        assert checks['exact_event_replays'] == len(records)
         result = dict(purpose='engineering verification only, not algorithm performance',
             retry_probe=retry, trained_and_reloaded_models=len(records),
-            training_steps_per_model=128, audited_episodes=len(rows), exact_event_replays=len(replays),
+            training_steps_per_model=128, audited_episodes=len(rows), exact_event_replays=checks['exact_event_replays'],
+            complete_report_generated=(run.OUT/'FINAL_RESULT.json').exists(),
             preregistration_unchanged_after_test=True, actual_parameters_match_protocol=True,
             protocol_sha256=run.sha(run.OUT/'protocol.json'))
         run.write(output/'verification.json', result)

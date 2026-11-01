@@ -10,7 +10,7 @@ import torch
 
 from slice_alloc.tools import allocation_final_run as run
 
-SEEDS=tuple(range(45000,45010))
+SEEDS=tuple(range(55000,55010))
 
 
 def scenario(seed,case):
@@ -32,7 +32,7 @@ def scenario(seed,case):
 
 def freeze():
     protocol=dict(seeds=SEEDS,cases=['backhaul','airtime'],initializations=run.INITS,
-        methods='validation-selected full RL, resource price, semantic/mobile rule',
+        methods=['validation-selected full RL', *run.CONTROL_RULES],
         backhaul='80 balanced requests, backhaul reduced from1Mbps to0.45Mbps, other parameters unchanged',
         airtime='160 requests; each existing request independently forced to telemetry with probability.85, otherwise retained; all wire rates multiplied8; same PHY and application contract choices',
         interpretation='sensitivity only; does not change primary scene or count as RL algorithm improvement',
@@ -74,7 +74,7 @@ def main():
     from slice_alloc.tools.allocation_final_pipeline import prepare_evaluation
     prepare_evaluation()
     chosen=run.read(run.OUT/'selection.json')['selected']
-    specs=[(m,i,c) for c in ('backhaul','airtime') for m,i in [(chosen,j) for j in run.INITS]+[('price',0),('semantic',0)]]
+    specs=[(m,i,c) for c in ('backhaul','airtime') for m,i in [(chosen,j) for j in run.INITS]+[(r,0) for r in run.CONTROL_RULES]]
     with cf.ProcessPoolExecutor(max_workers=6) as pool:
         batches=list(pool.map(evaluate,specs))
     run.write(run.OUT/'stress_evaluation.json',[r for batch in batches for r in batch])
