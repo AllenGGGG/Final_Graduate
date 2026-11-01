@@ -1,9 +1,15 @@
-"""Public entry for the current measured protocol-contract adapter.
+"""Research point 1: the default and ``all`` run the complete workflow."""
+import sys
 
-python -B -m slice_alloc [calibrate|train|evaluate|verify|all]
-The superseded VNF experiment is not an inference/deployment entry.
-"""
-from .tools.joint_run import main
+
+def main():
+    if len(sys.argv) == 1 or sys.argv[1] == 'all' or sys.argv[1].startswith('-'):
+        from .tools.allocation_final_pipeline import main as execute
+        if len(sys.argv) > 1 and sys.argv[1] == 'all':
+            del sys.argv[1]
+    else:
+        from .tools.allocation_final_run import main as execute
+    execute()
 
 if __name__ == "__main__":
     main()

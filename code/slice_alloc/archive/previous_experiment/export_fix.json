@@ -1,0 +1,17 @@
+{
+  "reason": "Report export only: qualify output root with run.ROOT; explicitly register installed CJK font. No algorithm/environment/metrics changes.",
+  "before": {
+    "allocation_final_pipeline.py": "f644803da24425459e3e6f75e646c0ad2d2f6cde06dcca69302f4068ffce7fb6",
+    "allocation_final_report.py": "41d3413da779be96222a55e218995d01f75a4f83c6449b32a1311d441c2b1985",
+    "allocation_final_calibrate.py": "d954562a9c21ddf39afd227b144a6a20d0c6231aa84a5ea47f72885ac376e788",
+    "allocation_final_stress.py": "2f2c98e114a20c36f84357ad03cf98d9e906f62dc8a0891d5890b30550b1420f",
+    "allocation_final_allocate.py": "d8737649a5f5879062a044b4faf635affd4cbbbd28c9acc23f78935ac99ac08d"
+  },
+  "after": {
+    "allocation_final_pipeline.py": "f644803da24425459e3e6f75e646c0ad2d2f6cde06dcca69302f4068ffce7fb6",
+    "allocation_final_report.py": "82332efe4f0e71f0a80718133c5b5306ba207118f2266c6b74650977926d9e56",
+    "allocation_final_calibrate.py": "d954562a9c21ddf39afd227b144a6a20d0c6231aa84a5ea47f72885ac376e788",
+    "allocation_final_stress.py": "2f2c98e114a20c36f84357ad03cf98d9e906f62dc8a0891d5890b30550b1420f",
+    "allocation_final_allocate.py": "d8737649a5f5879062a044b4faf635affd4cbbbd28c9acc23f78935ac99ac08d"
+  }
+}

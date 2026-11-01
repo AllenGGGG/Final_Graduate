@@ -210,7 +210,7 @@ class BindingEnv(gym.Env):
         state[4*len(p.RESOURCES):]=[*(float(r.service==s) for s in SERVICES),float(r.reusable),
             (r.stop-r.start)/8,r.period/2,r.deadline,r.payload/1000,r.chunks/8,len(r.members)/2,
             r.minimum_ratio,now/30,len(self.ledger.plans)/20,*motion,0.,0.]
-        self.options=candidates(r,self.ledger,self.current,self.fixed)
+        self.options=self.get_candidates(r)
         for i,plan in enumerate(self.options,1):
             integral,_=marginal_cost(self.ledger,plan);mode=plan.request.mode
             rows[i]=np.r_[plan.peak/self.ledger.capacity,integral/8,
@@ -218,6 +218,9 @@ class BindingEnv(gym.Env):
                 [plan.server==s for s in (1,2)],[plan.cache==s for s in (1,2)],plan.warm,1.]
             mask[i]=1
         return dict(state=state,candidates=rows,mask=mask)
+    def get_candidates(self, r):
+        return candidates(r,self.ledger,self.current,self.fixed)
+
     def step(self,action):
         action=int(action);r=self.requests[self.current['request_id']]
         if not 0<=action<=len(self.options):raise ValueError('masked action')

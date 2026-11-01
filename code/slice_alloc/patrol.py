@@ -21,7 +21,7 @@ from gymnasium import spaces
 from jsonschema import Draft202012Validator
 
 ROOT = Path(__file__).resolve().parents[1]
-NS3 = Path('/home/allen/.local/share/lowalt-ndnsim/ns-3')
+NS3 = Path(os.environ.get('LOWALT_NS3_ROOT', str(Path.home()/'.local/share/lowalt-ndnsim/ns-3'))).expanduser().resolve()
 PROTOCOL = 'patrol-v2'
 SCHEMA = json.loads((Path(__file__).with_name('patrol_contract.schema.json')).read_text())
 VALIDATORS = {name: Draft202012Validator({'$ref': '#/$defs/'+name, '$defs': SCHEMA['$defs']}) for name in SCHEMA['$defs']}

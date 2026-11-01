@@ -21,6 +21,8 @@ EXTRA_DIM = 12*8 + 9*7 + 8
 
 
 class Session(b.Session):
+    binary_name = 'binding-rl-scenario'
+    ns3_root = b.p.NS3
     def __init__(self, cfg, prefix=None, trace=False):
         b.validate(cfg)
         self.temp = None
@@ -35,11 +37,11 @@ class Session(b.Session):
         self.messages = []
         self.started = time.perf_counter()
         self.process = subprocess.Popen([
-            str(b.p.NS3/'build/scratch/binding-rl-scenario'),
+            str(self.ns3_root/'build/scratch'/self.binary_name),
             f'--config={self.config_path}', f'--output={self.prefix}', f'--trace={int(trace)}'],
             stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=self.stderr,
             text=True, bufsize=1,
-            env=dict(os.environ, LD_LIBRARY_PATH=str(b.p.NS3/'build/lib')))
+            env=dict(os.environ, LD_LIBRARY_PATH=str(self.ns3_root/'build/lib')))
         self.observation = self.read()
         if 'active' not in self.observation:
             self.close()
@@ -47,6 +49,7 @@ class Session(b.Session):
 
 
 class BindingRLEnv(b.BindingEnv):
+    session_class = Session
     def __init__(self, *args, enhanced=True, shaping=.5, **kwargs):
         super().__init__(*args, **kwargs)
         self.enhanced = enhanced
@@ -76,7 +79,7 @@ class BindingRLEnv(b.BindingEnv):
         self.previous_time = self.motion_frame = None
         self.velocities = {}
         self.resource_integral = np.zeros(len(b.p.RESOURCES))
-        self.session = Session(cfg, opts.get('prefix'), opts.get('trace', False))
+        self.session = self.session_class(cfg, opts.get('prefix'), opts.get('trace', False))
         self.current = self.session.observation
         return self.encode(), {}
 

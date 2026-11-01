@@ -1,0 +1,25 @@
+CHECKPOINT training/candidate_ppo/full/11 64 0.9166666666666666
+CHECKPOINT training/candidate_ppo/full/11 128 0.9166666666666666
+TRAINED candidate_ppo full 11 4.106510445999447
+CHECKPOINT training/double_qrdqn/full/11 64 0.0
+CHECKPOINT training/double_qrdqn/full/11 128 0.0
+TRAINED double_qrdqn full 11 3.261990119000984
+SELECTED candidate_ppo {'candidate_ppo': 0.9166666666666666, 'double_qrdqn': 0.0}
+CHECKPOINT training/candidate_ppo/fixed/11 64 0.9166666666666666
+CHECKPOINT training/candidate_ppo/fixed/11 128 0.9166666666666666
+TRAINED candidate_ppo fixed 11 4.250536646002729
+CHECKPOINT training/candidate_ppo/no_motion/11 64 0.9166666666666666
+CHECKPOINT training/candidate_ppo/no_motion/11 128 0.9166666666666666
+TRAINED candidate_ppo no_motion 11 3.9724601920024725
+CHECKPOINT training/candidate_ppo/no_calendar/11 64 0.9166666666666666
+CHECKPOINT training/candidate_ppo/no_calendar/11 128 0.9166666666666666
+TRAINED candidate_ppo no_calendar 11 4.0073296560003655
+RULE first_fit {'threshold': None, 'rate': 0.9166666666666666}
+RULE nearest {'threshold': None, 'rate': 0.9166666666666666}
+RULE greedy {'threshold': None, 'rate': 0.9166666666666666}
+RULE price {'threshold': None, 'rate': 0.9166666666666666}
+RULE semantic {'threshold': None, 'rate': 0.9166666666666666}
+RULE quota {'threshold': None, 'rate': 0.9166666666666666}
+EVALUATED 31
+STRESS EVALUATED 6
+VERIFICATION_PASSED {'purpose': 'engineering verification only, not algorithm performance', 'retry_probe': {'failure_retried': True, 'failed_log_preserved': True, 'successful_validation_cached': True}, 'trained_and_reloaded_models': 5, 'training_steps_per_model': 128, 'audited_episodes': 37, 'exact_event_replays': 5, 'preregistration_unchanged_after_test': True, 'actual_parameters_match_protocol': True, 'protocol_sha256': 'd9950d1b575719c57fe7aef96e0020a0c509652a8805b1be71a0a71e0fdbae42'}
