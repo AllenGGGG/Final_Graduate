@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lowalt:binding-v1",
+  "title": "Semantic service-to-modality binding",
+  "description": "A request has service semantics and SLA, never a prescribed modality. Only the decision carries the selected modality. The native simulator owns private future motion; policy observations do not contain it.",
+  "$defs": {
+    "request": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "tenant", "service", "members", "start", "stop", "period", "deadline", "payload", "chunks", "content", "reusable", "version", "minimum_ratio"],
+      "properties": {
+        "id": {"type": "integer", "minimum": 1},
+        "tenant": {"type": "integer", "minimum": 1},
+        "service": {"enum": ["telemetry", "object", "command"]},
+        "members": {"type": "array", "minItems": 1, "maxItems": 2, "uniqueItems": true, "items": {"type": "integer", "minimum": 5, "maximum": 16}},
+        "start": {"type": "number", "minimum": 1},
+        "stop": {"type": "number", "exclusiveMinimum": 1},
+        "period": {"type": "number", "exclusiveMinimum": 0},
+        "deadline": {"type": "number", "exclusiveMinimum": 0},
+        "payload": {"type": "integer", "minimum": 64, "maximum": 1000},
+        "chunks": {"type": "integer", "minimum": 1, "maximum": 32},
+        "content": {"type": "integer", "minimum": 1},
+        "reusable": {"type": "boolean"},
+        "version": {"type": "integer", "minimum": 1},
+        "minimum_ratio": {"type": "number", "exclusiveMinimum": 0, "maximum": 1}
+      }
+    },
+    "decision": {
+      "type": "object", "additionalProperties": false,
+      "required": ["schema", "request_id", "accept", "mode", "edge", "server", "cache"],
+      "properties": {
+        "schema": {"const": "binding-v1"},
+        "request_id": {"type": "integer", "minimum": 1},
+        "accept": {"type": "boolean"},
+        "mode": {"enum": ["ip", "id", "ndn"]},
+        "edge": {"enum": [0, 1, 2]},
+        "server": {"enum": [0, 1, 2]},
+        "cache": {"enum": [0, 1, 2]}
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# Chinese filenames and directories currently in this project
+**/研究方案_第一部分.md
+**/第一部分_设计核对与补充验证方案.md
+**/论文/
+**/面向低空智联的多模态网络切片技术.docx
+**/面向低空智联的多模态网络切片技术.md
+**/黄子宸_毕设归档.zip
+
+# Python caches and local assistant session data
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.codex-context/
