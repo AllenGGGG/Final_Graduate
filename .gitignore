@@ -11,3 +11,6 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .codex-context/
+
+# Generated experiment outputs, traces, and model checkpoints
+/code/slice_alloc/results/
