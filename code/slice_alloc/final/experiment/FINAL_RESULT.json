@@ -1,40 +1,40 @@
 {
   "title": "面向低空智联的多模态网络切片技术",
   "research": "智能分配",
-  "selected": "double_qrdqn",
+  "selected": "double_dqn",
   "summary": {
-    "rate": 0.7838541666666666,
+    "rate": 0.79375,
     "ci95": [
-      0.7666644965277776,
-      0.80078125
+      0.7750868055555556,
+      0.8111111111111111
     ],
-    "admission_rate": 0.8515625,
-    "admitted_violation_rate": 0.07951070336391437,
+    "admission_rate": 0.8760416666666667,
+    "admitted_violation_rate": 0.093935790725327,
     "by_service": {
-      "telemetry": 0.6025260029717682,
-      "command": 0.8792372881355932,
-      "object": 0.8832258064516129
+      "telemetry": 0.6430722891566265,
+      "command": 0.8786342123056119,
+      "object": 0.8700305810397554
     },
     "by_init": {
-      "11": 0.78203125,
-      "23": 0.7864583333333334,
-      "37": 0.7830729166666667
+      "11": 0.784375,
+      "23": 0.7989583333333333,
+      "37": 0.7979166666666667
     },
-    "init_sample_sd": 0.0023146339628426385,
-    "forced_reject": 0.14817708333333332,
-    "voluntary_reject": 0.00026041666666666666,
-    "wire_bytes_per_success": 117138.70819490586,
-    "phy_tx_seconds_per_success": 0.02601627464008843,
-    "normalized_reservation_seconds_per_success": 2.4690484269034525,
-    "decision_ms": 0.6850810250373089,
+    "init_sample_sd": 0.008135676745736084,
+    "forced_reject": 0.1203125,
+    "voluntary_reject": 0.0036458333333333334,
+    "wire_bytes_per_success": 117145.31485126859,
+    "phy_tx_seconds_per_success": 0.02578071872265981,
+    "normalized_reservation_seconds_per_success": 2.264601785133819,
+    "decision_ms": 0.8506185743117047,
     "episodes": 180
   },
-  "selected_rule": "price",
+  "selected_rule": "greedy",
   "comparison": {
-    "difference": -0.0010416666666666593,
+    "difference": 0.0002604166666666593,
     "ci95": [
-      -0.012326388888888928,
-      0.009722222222222262
+      -0.010677083333333101,
+      0.0107660590277779
     ]
   },
   "protocol": {
@@ -42,19 +42,21 @@
     "research": "智能分配",
     "sources": {
       "__main__.py": "91ae41c7c407532ac41211bad2ec80bfc423d1293df398165af917ec5cb0d3f8",
-      "ALLOCATION_FINAL.md": "108f9a4b24896213ce3bdcb76281cd9fa7145c448b0feea7811d8d51ebb7bc44",
+      "ALLOCATION_FINAL.md": "b4f0ff917e20c0503714703ccce6d622ddf90f612cedf4fc892150bbccd15f7e",
       "allocation_final.py": "eaba91cf1e3db4a484d2cbe98867b39373d422592183a2de72c3fadca775d656",
       "allocation_final_policy.py": "b439fb6bc6e649a6c22e48290c18d23a45d5942e7be275b2e43a2c8528017fee",
+      "allocation_value.py": "e4e2d0b7b6bd0efac7e048050e36a07865d0ca7df9b51203f544d4cfc51caad4",
       "modal_binding.py": "5e3c5ccafd62eeebaab1fe7e5c8d7f9aaf817b5a18a1f9bc18c6c8bc085891a8",
       "modal_binding_rl.py": "eae65aad11853415d4a87d839991e8e2863b50784a14688b10bd2bfa7b3b1106",
       "patrol.py": "c55cab09985d11390e202d9e7e54876dbf626179f40c79023242f65fe76ba675",
       "initial_allocation.py": "dc80996d94e5beb3a14b75c1be596429a902726ad42e20a8041193d61890dbb6",
       "distributional_allocation.py": "49e9a810fce9191cc48b12a6682a625717694ec5886d567dccc33877428dc695",
       "execution/allocation_final_scenario.cc": "d252fa17af3596b9f536d3a329b861c14641b855f44e49142543445216ddacac",
-      "tools/allocation_final_run.py": "94dffe8b52d5df6a43abaa5c7c658085e16a86791437adffd4e1dc1b47c6d321",
+      "tools/allocation_final_run.py": "0a180c8784cca34f1f06328b3f6f3367d6b7ca0c9796b8cee3506377e204199a",
       "tools/modal_binding_run.py": "99b68219217c999538458b21bcb1918c2da24a6863e2281e7e5652f68f23a5e1",
       "tests/test_allocation_final.py": "3abf68c7a213ce1d52c3d75249faa22499ce86a4db0da2cdc2d0066a194f58ca",
-      "tests/test_allocation_final_pipeline.py": "84397f9b89792302b0d68dd5e49b256b87644df572051daf3b62df1ec7b96242"
+      "tests/test_allocation_final_pipeline.py": "e03d1a499da7c6b02c53d270606d407117061e372b406639bd2aa834b779e161",
+      "tests/test_allocation_algorithms.py": "218179f20696f08301a71fa81064bf8c8bda234ba94158c45f2cf542cbef723a"
     },
     "binary_sha256": "4713d4f5ed04fb073c3d0256450b59c13f7e103aae3f2f9bd67df98ac0f20ad5",
     "training": [
@@ -72,52 +74,54 @@
       42007
     ],
     "test": [
-      43000,
-      43001,
-      43002,
-      43003,
-      43004,
-      43005,
-      43006,
-      43007,
-      43008,
-      43009,
-      43010,
-      43011,
-      43012,
-      43013,
-      43014,
-      43015,
-      43016,
-      43017,
-      43018,
-      43019,
-      43020,
-      43021,
-      43022,
-      43023,
-      43024,
-      43025,
-      43026,
-      43027,
-      43028,
-      43029
+      53000,
+      53001,
+      53002,
+      53003,
+      53004,
+      53005,
+      53006,
+      53007,
+      53008,
+      53009,
+      53010,
+      53011,
+      53012,
+      53013,
+      53014,
+      53015,
+      53016,
+      53017,
+      53018,
+      53019,
+      53020,
+      53021,
+      53022,
+      53023,
+      53024,
+      53025,
+      53026,
+      53027,
+      53028,
+      53029
     ],
     "control": [
-      44000,
-      44001,
-      44002,
-      44003,
-      44004,
-      44005,
-      44006,
-      44007,
-      44008,
-      44009
+      54000,
+      54001,
+      54002,
+      54003,
+      54004,
+      54005,
+      54006,
+      54007,
+      54008,
+      54009
     ],
     "algorithms": [
       "candidate_ppo",
-      "double_qrdqn"
+      "double_qrdqn",
+      "double_dqn",
+      "candidate_a2c"
     ],
     "initializations": [
       11,
@@ -133,7 +137,7 @@
       16384,
       32768
     ],
-    "selection": "mean validation success of ALL 3 initializations; ties PPO; checkpoints by validation, tie earliest",
+    "selection": "mean validation success of ALL registered initializations; ties registered algorithm order; checkpoints by validation, tie earliest",
     "ablations": [
       "fixed",
       "no_motion",
@@ -144,6 +148,22 @@
       1.0,
       4.0,
       null
+    ],
+    "primary_rule": "greedy",
+    "main_rules": [
+      "first_fit",
+      "nearest",
+      "greedy",
+      "quota"
+    ],
+    "control_rules": [
+      "greedy",
+      "semantic",
+      "price"
+    ],
+    "supplemental_rules": [
+      "price",
+      "semantic"
     ],
     "reward": "raw actual SLA successes, gamma=1, no shaping or expert prior",
     "objective": "successful requests / all arrivals; rejected requests fail",
@@ -186,9 +206,54 @@
         "discount": 1.0
       }
     },
+    "dqn": {
+      "learning_rate": 0.0001,
+      "buffer_size": 20000,
+      "learning_starts": 1024,
+      "batch_size": 128,
+      "train_freq": 4,
+      "gradient_steps": 1,
+      "gamma": 1.0,
+      "target_update_interval": 1000,
+      "exploration_initial_eps": 1.0,
+      "exploration_final_eps": 0.05,
+      "exploration_steps": 16384,
+      "max_grad_norm": 10.0,
+      "policy_kwargs": {
+        "n_quantiles": 1,
+        "net_arch": [
+          96
+        ]
+      },
+      "replay_buffer_class": "slice_alloc.distributional_allocation.NStepDictReplay",
+      "replay_buffer_kwargs": {
+        "horizon": 8,
+        "discount": 1.0
+      }
+    },
+    "a2c": {
+      "learning_rate": 0.0007,
+      "n_steps": 128,
+      "gamma": 1.0,
+      "gae_lambda": 1.0,
+      "ent_coef": 0.01,
+      "vf_coef": 0.5,
+      "max_grad_norm": 0.5,
+      "normalize_advantage": true,
+      "use_rms_prop": true,
+      "rms_prop_eps": 1e-05
+    },
     "policies": {
       "candidate_ppo": "slice_alloc.allocation_final_policy.CandidatePPOPolicy",
-      "double_qrdqn": "slice_alloc.distributional_allocation.CandidateQRPolicy"
+      "double_qrdqn": "slice_alloc.distributional_allocation.CandidateQRPolicy",
+      "double_dqn": "slice_alloc.distributional_allocation.CandidateQRPolicy",
+      "candidate_a2c": "slice_alloc.allocation_final_policy.CandidatePPOPolicy"
+    },
+    "model_classes": {
+      "candidate_ppo": "stable_baselines3.ppo.ppo.PPO",
+      "double_qrdqn": "slice_alloc.distributional_allocation.MaskedDoubleQRDQN",
+      "double_dqn": "slice_alloc.allocation_value.MaskedDoubleDQN",
+      "candidate_a2c": "stable_baselines3.a2c.a2c.A2C"
     },
     "execution": {
       "device": "cpu",
@@ -196,31 +261,37 @@
     }
   },
   "models": {
-    "models/candidate_ppo-full-11.zip": "9727eefcf6bd4cc791062b43c915cf7930d0cde069c1b48475f7127b28a4294c",
-    "models/candidate_ppo-full-23.zip": "ab121f24f3dbe802e3db0186d8cc25bec157d319a86297abc004023fc722ccbf",
-    "models/candidate_ppo-full-37.zip": "bd0ac037421ecfa7becbadfc34d93f6254c35c3f5ac112178b5c2eba56948c55",
-    "models/double_qrdqn-fixed-11.zip": "89b2e9a5fd3eb9a2d0ddcfc7f8d34697cb0e0fd28cb40226ad330ffdf41e61c3",
-    "models/double_qrdqn-fixed-23.zip": "decb6a254b0e464dcc1fc0c650dfc386740ef07cdb0ca86128a3917367fa5391",
-    "models/double_qrdqn-fixed-37.zip": "11d463af71dd86153bb16a9b149c32f35b6680699edbaa5f53ae7288d9551c8d",
-    "models/double_qrdqn-full-11.zip": "e050630515b9743cd2706a2b1af6737ab4ac135476d159349e316c5131f3ed49",
-    "models/double_qrdqn-full-23.zip": "a96a02bf52d390783a5d5a1a39d6de591f89c6f7a4937247e67ac488fb7b9510",
-    "models/double_qrdqn-full-37.zip": "2b9ca3bfc2a2733e9e6eea35da6be936d432a70a5654cf9ed0abee84592dd2a7",
-    "models/double_qrdqn-no_calendar-11.zip": "df4bcdedb44b0717e82bb937053f8e873efbeeea53e8e318956adf3310d5894f",
-    "models/double_qrdqn-no_calendar-23.zip": "b0127a7c8c42c2d07b34ca179e44b208bce9128507025542b0dc31fe3cc7981d",
-    "models/double_qrdqn-no_calendar-37.zip": "f19b15cd1751ff2a2f9f26ddfe2026ad818e28ff86c3e04bcfc39732ac35f3e1",
-    "models/double_qrdqn-no_motion-11.zip": "61884c78f1fbf4e6ad3daffb520ec1763d37a06dc6959b72d43cdb47723a684a",
-    "models/double_qrdqn-no_motion-23.zip": "f8bb4c744090a3666b5746c253b938b726770d0124a098575b7cd869bcc8b908",
-    "models/double_qrdqn-no_motion-37.zip": "7d416ac584a4df44499ef7f4bbd8cabc6fe105b3b6ee4ae619572ab09003edbd"
+    "models/candidate_a2c-full-11.zip": "1ba1d162cd5cfb4e7c3acd9dcd36f4eb69f21d6c08c81fd56bdbe07c6690fab0",
+    "models/candidate_a2c-full-23.zip": "5be6f59d4f42c9a9e831f169209c09f6c69a245658e7f79eb9d5bd4ba1c899ec",
+    "models/candidate_a2c-full-37.zip": "b699548311137b5e65f3664e32f20d066e321d83182ac9460f92d23ae21ef0fe",
+    "models/candidate_ppo-full-11.zip": "d81e9883bd4c8f2bbb758d93ed64638d41fdef08db46d7caffe501971a29f4af",
+    "models/candidate_ppo-full-23.zip": "41f029f78e83807147e3351f3e74ba7687746af67bdfb4ff6f1006dea9a53a05",
+    "models/candidate_ppo-full-37.zip": "5dd09d5b0ca1b9ca261c473667c203e78cb63da56ff2da0b06db22ebcae388b4",
+    "models/double_dqn-fixed-11.zip": "ddf78bcfcf6d9873d2b57538331bf9722b656c4ab663e41af800f194b9195a8b",
+    "models/double_dqn-fixed-23.zip": "ac29df520d7753f4582b1732d7fee6354bec46f95e5edb0b07e99156e5f7a34e",
+    "models/double_dqn-fixed-37.zip": "9dc2779f5e9f384c00dc0fa2adfabe4a319382caeee2ea055e9fc478615dca48",
+    "models/double_dqn-full-11.zip": "fd94638dc475f7edeb06203f9fcf3c8958d7dac427d2005993e7e71b240d0b45",
+    "models/double_dqn-full-23.zip": "ef5498ef0a3b115b98cb4cc7d9c71e5780e206edc7d466a0da9d24fa8078ece4",
+    "models/double_dqn-full-37.zip": "9715d5070efa2a29f3855fce77b70247fa254c6f02f35079fccbeb9d08fdd1e0",
+    "models/double_dqn-no_calendar-11.zip": "91f003d60bbfe840c7d9ddf8e976590cd652c1fec9f6d8cb03ae230288a7867a",
+    "models/double_dqn-no_calendar-23.zip": "a9ba56a0e19390b5378f12e7bf258e47b3fbf179c7b23f39b81cc4cdc16a001c",
+    "models/double_dqn-no_calendar-37.zip": "f25871171bf8ac1bd9b982cc4699e0b3c7a50639040d8ca26a0d718fbfd6d813",
+    "models/double_dqn-no_motion-11.zip": "6076b950b0b610dd6ab8d9be23b6e401242742d8cf3bcd699c7e52d543fbd54b",
+    "models/double_dqn-no_motion-23.zip": "a4fa56c9ef5f23de7e58085998dbef6c367842dba872d4527a9e3ff45491fbe7",
+    "models/double_dqn-no_motion-37.zip": "c7fb1000f17ee6860c26e0976394e5581fcf3433cdeb078985c1a1e6c453e143",
+    "models/double_qrdqn-full-11.zip": "fecabea91417c6969ef41e4bc288af288938a48263daebd7e29475e363811dde",
+    "models/double_qrdqn-full-23.zip": "b1422733d57968a4f00482a06c382cd2333359c4980c538080a1f737d444199d",
+    "models/double_qrdqn-full-37.zip": "d4d2ac5133b2aebe762f442b27a6904980afee02de66d26cdd05de7054462cbf"
   },
   "artifacts": {
-    "protocol.json": "f35169b7dbc6b47f6de8be57602a2ff5f8ec77e845f34611416ef22acdd71dd3",
-    "selection.json": "9cbcd85d6a20e4ef839bf05e8a760c05689be14a7eac23115476237198b2066c",
-    "evaluation.json": "1e13780b78c51806c931573776cfbb62b1b294982a6b4b5b39713b21dbbcda6a",
-    "analysis.json": "8fbfc481b0605504d783a0e014b830839e1286b7ac7b84209049cfe8cb7f0d8a",
-    "verification.json": "acbee6334a8787f8a821c984f82b253f856b9c82b21787d3dc41fb25847f0384",
-    "report.md": "33c8351ceb623c5a59c118953543fd4f3443774bb9df62ec50f9c1a645683250"
+    "protocol.json": "9d8053417ec66f9014746b53b08ddab684912666d58e4a02cc049ead52b273ec",
+    "selection.json": "e0ccb8f4f4d771db70f1ca86aea36dc2a0808a724455a2be85c8e9cced420b8c",
+    "evaluation.json": "f09754ee61bf053fa197e05cd070f6ec5c92b5d5fe2f8d1adf1b860e94e46274",
+    "analysis.json": "d29b1a89daea8b35e3427e5d91450bd47817db13347479d457809f641530e77c",
+    "verification.json": "c4f68bd38783fcb6ac927cef18bb464422f1812916d9bf331e0c67eaf3841536",
+    "report.md": "9b308a5c38f9c10c9593cd37cdd47759acf10e79c87fccdf2c8db84b19202e47"
   },
-  "manifest_sha256": "f8807b40b6e8b4cf7093d7a1f7c46c53075b2f263a234cfed7594aa7e832ba1b",
-  "audited_episodes": 1510,
-  "replayed_models": 15
+  "manifest_sha256": "b35d20adf4165e343b5cec5a94f36afc17acc779b0e527658ed36964d9194602",
+  "audited_episodes": 1920,
+  "replayed_models": 21
 }

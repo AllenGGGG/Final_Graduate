@@ -3,7 +3,7 @@ F
 FAIL: test_gate (test_probe.Probe)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/tmp/lowalt-retry-ydn03t4a/slice_alloc/tests/test_probe.py", line 5, in test_gate
+  File "/tmp/lowalt-retry-c1k5v7gu/slice_alloc/tests/test_probe.py", line 5, in test_gate
     self.assertTrue(Path('allow_pass').exists())
 AssertionError: False is not true
 

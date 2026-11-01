@@ -1,5 +1,5 @@
 {
-  "algorithm": "double_qrdqn",
+  "algorithm": "double_dqn",
   "initialization": 11,
   "selection": "lowest preregistered initialization chosen before formal test, never best-test initialization",
   "policy": "single learned model, no ensemble or rule fallback"

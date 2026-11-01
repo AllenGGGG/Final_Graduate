@@ -1,0 +1,74 @@
+{
+  "requests": 12,
+  "success": 12,
+  "admitted": 12,
+  "resource_time": [
+    0.42593280000000017,
+    3.33542,
+    2.0747696,
+    2.2295800000000003,
+    0.4814419200000001,
+    11.173856320000002,
+    1.3576004800000003,
+    1.23846048,
+    1.1027328000000003,
+    2.7732200000000002,
+    1.0726521230769233,
+    0.0,
+    0.7124999999999999,
+    0.0,
+    0.7124999999999999,
+    2.950000000000001,
+    8.645474763252418
+  ],
+  "resource_per_success": 3.3571784405274454,
+  "by_service": {
+    "telemetry": {
+      "requests": 5,
+      "success": 5
+    },
+    "object": {
+      "requests": 6,
+      "success": 6
+    },
+    "command": {
+      "requests": 1,
+      "success": 1
+    }
+  },
+  "modes": {
+    "ndn": 6,
+    "ip": 5,
+    "id": 1
+  },
+  "native_seconds": 0.2927878439950291,
+  "decision_ms": 0.5071421668011075,
+  "forced_reject": 0,
+  "voluntary_reject": 0,
+  "scenario_sha256": "f023757ecc28260cab9d95109630a2628827ac163bded31e217799ab77f4c71d",
+  "audited": true,
+  "wire_bytes": 1993837,
+  "origin_wire_bytes": 39509,
+  "phy_tx_seconds": 0.4185439999999848,
+  "native_summary": {
+    "budget_drops": 0,
+    "delivered": 811,
+    "generated": 811,
+    "id_decapsulated": 20,
+    "ip_uplink_payload_bytes": 594000,
+    "ndn_source_payload_bytes": 28000,
+    "remaining_application": 0,
+    "remaining_cache_entries": 0,
+    "remaining_mapcache": 0,
+    "remaining_mapping": 0,
+    "remaining_pending": 0,
+    "schema": "binding-v1"
+  },
+  "direction_audited": true,
+  "telemetry_generated": 594,
+  "telemetry_delivered": 594,
+  "associations": {
+    "associate": 21,
+    "deassociate": 9
+  }
+}

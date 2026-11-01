@@ -1,0 +1,179 @@
+{
+  "algorithm": "double_dqn",
+  "initialization": 11,
+  "model_sha256": "fd94638dc475f7edeb06203f9fcf3c8958d7dac427d2005993e7e71b240d0b45",
+  "success": 12,
+  "requests": 12,
+  "admitted": 12,
+  "decisions": [
+    {
+      "request": 1,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 1,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 2,
+        "mode": "ndn"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 2,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 2,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 2
+    },
+    {
+      "request": 3,
+      "service": "command",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 3,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "id"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 4,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 4,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 2
+    },
+    {
+      "request": 5,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 5,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 2,
+        "mode": "ndn"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 6,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 6,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 2,
+        "mode": "ndn"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 7,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 7,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 2,
+        "mode": "ndn"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 8,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 8,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 1,
+        "mode": "ndn"
+      },
+      "feasible": 3
+    },
+    {
+      "request": 9,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 9,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 2,
+        "mode": "ndn"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 10,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 10,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 2
+    },
+    {
+      "request": 11,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 11,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 1
+    },
+    {
+      "request": 12,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 12,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 2
+    }
+  ],
+  "scenario_sha256": "f023757ecc28260cab9d95109630a2628827ac163bded31e217799ab77f4c71d"
+}

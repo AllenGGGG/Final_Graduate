@@ -1,6 +1,21 @@
 {
-  "time": 1793538947.9795668,
-  "protocol_sha256": "f35169b7dbc6b47f6de8be57602a2ff5f8ec77e845f34611416ef22acdd71dd3",
-  "selection_sha256": "9cbcd85d6a20e4ef839bf05e8a760c05689be14a7eac23115476237198b2066c",
-  "jobs": 57
+  "time": 1793543222.1027288,
+  "protocol_sha256": "9d8053417ec66f9014746b53b08ddab684912666d58e4a02cc049ead52b273ec",
+  "selection_sha256": "e0ccb8f4f4d771db70f1ca86aea36dc2a0808a724455a2be85c8e9cced420b8c",
+  "jobs": 72,
+  "preregistration_sha256": {
+    "protocol.json": "9d8053417ec66f9014746b53b08ddab684912666d58e4a02cc049ead52b273ec",
+    "stress_protocol.json": "6636e011e5b59c2806c88a1e871022c8f296a022df6b005ddd2a48d788adef7c",
+    "auxiliary_sources.json": "19ae610e94e994ffcf82506e6acf650970a81eff0b227470aec09ba4cb46da28",
+    "deployment.json": "e987e0ca2398a12fa2cd695523062f805beafd1ec23bddbbe1f7dbcbf6cb9ec5",
+    "tests_complete.json": "237238f18d5f71daf95b0aa4fc7c0571ea4d7de58344f70990f11a0d5fbd2ede",
+    "selection.json": "e0ccb8f4f4d771db70f1ca86aea36dc2a0808a724455a2be85c8e9cced420b8c",
+    "training_complete.json": "4bf5c7e74e054e3d0283f14b5d81fc64a355277610a4b4c36b33c1777d6debee",
+    "rules/first_fit.json": "dbcbcb465f5873b59af4df7e0a6f1ac60f0f36b76d3c81a187f6c30848b392b9",
+    "rules/nearest.json": "bef42ae2626d24c93f0b58bea77b89138557016326188cfc737e33b5ffe60163",
+    "rules/greedy.json": "2ff45f3a82670e37bd775b996a59768a3ba7e9c6b5d69500c58fa697908437ed",
+    "rules/price.json": "4027e491761e4c0c19fcb2ef4c5956a55d35a17c46c73e00e14469750d89bd68",
+    "rules/semantic.json": "4ac8ef8fbf9036c9e32fc5aedcd032fdbc7bf3ae9fe8384e46d164b830bbb50e",
+    "rules/quota.json": "df026d0f331bf21df3e08f8082537b8716cc1a419fa25f3d31ee786926e7a895"
+  }
 }

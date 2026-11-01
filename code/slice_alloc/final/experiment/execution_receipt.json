@@ -1,10 +1,21 @@
 {
-  "source_commit": "5c98fb20ea1567937ea1d8a3b719046f3f93f82f",
-  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 python -u -m slice_alloc all --workers 6",
-  "started_utc": "2026-11-01T12:41:21.069137+00:00",
+  "source_commit": "209ca9fdb4560a51382066db03b109128b5d743d",
+  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 python -u -m slice_alloc all --workers 12",
+  "started_utc": "2026-11-01T13:54:43.548596+00:00",
   "output": "code/slice_alloc/results/final",
-  "models": 15,
+  "models": 21,
   "training_steps_per_model": 32768,
-  "total_training_decisions": 491520,
-  "test_seed_interpretation": "Complete rerun after workflow fixes using the registered historical seed sets; not a new blind test or post-test parameter search."
+  "total_training_decisions": 688128,
+  "algorithms": [
+    "candidate_ppo",
+    "double_qrdqn",
+    "double_dqn",
+    "candidate_a2c"
+  ],
+  "primary_rule": "greedy",
+  "supplemental_rules": [
+    "price",
+    "semantic"
+  ],
+  "test_seed_interpretation": "Fresh registered test, mobility and stress seeds; algorithms selected only by validation; no post-test parameter or baseline selection."
 }
