@@ -1,15 +1,10 @@
 {
-  "purpose": "engineering verification only, not algorithm performance",
-  "retry_probe": {
-    "failure_retried": true,
-    "failed_log_preserved": true,
-    "successful_validation_cached": true
-  },
-  "trained_and_reloaded_models": 5,
-  "training_steps_per_model": 128,
-  "audited_episodes": 37,
-  "exact_event_replays": 5,
-  "preregistration_unchanged_after_test": true,
-  "actual_parameters_match_protocol": true,
-  "protocol_sha256": "d9950d1b575719c57fe7aef96e0020a0c509652a8805b1be71a0a71e0fdbae42"
+  "source_hashes": true,
+  "binary_hash": true,
+  "model_hashes": true,
+  "native_packet_audits": 1510,
+  "direction_and_ledger_audits": 1510,
+  "exact_event_replays": 15,
+  "scene_fingerprints": true,
+  "selection_precedes_test": true
 }

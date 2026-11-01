@@ -1,0 +1,158 @@
+{
+  "title": "面向低空智联的多模态网络切片技术",
+  "research": "智能分配",
+  "sources": {
+    "__main__.py": "91ae41c7c407532ac41211bad2ec80bfc423d1293df398165af917ec5cb0d3f8",
+    "ALLOCATION_FINAL.md": "108f9a4b24896213ce3bdcb76281cd9fa7145c448b0feea7811d8d51ebb7bc44",
+    "allocation_final.py": "eaba91cf1e3db4a484d2cbe98867b39373d422592183a2de72c3fadca775d656",
+    "allocation_final_policy.py": "b439fb6bc6e649a6c22e48290c18d23a45d5942e7be275b2e43a2c8528017fee",
+    "modal_binding.py": "5e3c5ccafd62eeebaab1fe7e5c8d7f9aaf817b5a18a1f9bc18c6c8bc085891a8",
+    "modal_binding_rl.py": "eae65aad11853415d4a87d839991e8e2863b50784a14688b10bd2bfa7b3b1106",
+    "patrol.py": "c55cab09985d11390e202d9e7e54876dbf626179f40c79023242f65fe76ba675",
+    "initial_allocation.py": "dc80996d94e5beb3a14b75c1be596429a902726ad42e20a8041193d61890dbb6",
+    "distributional_allocation.py": "49e9a810fce9191cc48b12a6682a625717694ec5886d567dccc33877428dc695",
+    "execution/allocation_final_scenario.cc": "d252fa17af3596b9f536d3a329b861c14641b855f44e49142543445216ddacac",
+    "tools/allocation_final_run.py": "94dffe8b52d5df6a43abaa5c7c658085e16a86791437adffd4e1dc1b47c6d321",
+    "tools/modal_binding_run.py": "99b68219217c999538458b21bcb1918c2da24a6863e2281e7e5652f68f23a5e1",
+    "tests/test_allocation_final.py": "3abf68c7a213ce1d52c3d75249faa22499ce86a4db0da2cdc2d0066a194f58ca",
+    "tests/test_allocation_final_pipeline.py": "84397f9b89792302b0d68dd5e49b256b87644df572051daf3b62df1ec7b96242"
+  },
+  "binary_sha256": "4713d4f5ed04fb073c3d0256450b59c13f7e103aae3f2f9bd67df98ac0f20ad5",
+  "training": [
+    41000000,
+    42000000
+  ],
+  "validation": [
+    42000,
+    42001,
+    42002,
+    42003,
+    42004,
+    42005,
+    42006,
+    42007
+  ],
+  "test": [
+    43000,
+    43001,
+    43002,
+    43003,
+    43004,
+    43005,
+    43006,
+    43007,
+    43008,
+    43009,
+    43010,
+    43011,
+    43012,
+    43013,
+    43014,
+    43015,
+    43016,
+    43017,
+    43018,
+    43019,
+    43020,
+    43021,
+    43022,
+    43023,
+    43024,
+    43025,
+    43026,
+    43027,
+    43028,
+    43029
+  ],
+  "control": [
+    44000,
+    44001,
+    44002,
+    44003,
+    44004,
+    44005,
+    44006,
+    44007,
+    44008,
+    44009
+  ],
+  "algorithms": [
+    "candidate_ppo",
+    "double_qrdqn"
+  ],
+  "initializations": [
+    11,
+    23,
+    37
+  ],
+  "loads": [
+    48,
+    80
+  ],
+  "checkpoints": [
+    8192,
+    16384,
+    32768
+  ],
+  "selection": "mean validation success of ALL 3 initializations; ties PPO; checkpoints by validation, tie earliest",
+  "ablations": [
+    "fixed",
+    "no_motion",
+    "no_calendar"
+  ],
+  "ablation_protocol": "retrain selected algorithm with identical budget and initializations",
+  "rule_thresholds": [
+    1.0,
+    4.0,
+    null
+  ],
+  "reward": "raw actual SLA successes, gamma=1, no shaping or expert prior",
+  "objective": "successful requests / all arrivals; rejected requests fail",
+  "scope": "point 1 only; no demand prediction, proactive migration or hard QoS guarantee",
+  "propagation": "LogDistance n=2.5 reference46.6777dB plus 120m finite footprint, TX20dBm, fixed24Mbps",
+  "directions": "telemetry uplink IP; command downlink IP/ID; object retrieval IP/NDN",
+  "quotas": "per-modality one third of each shared wire-direction and airtime; intrinsic state/cache quotas unchanged",
+  "ppo": {
+    "learning_rate": 0.0003,
+    "n_steps": 512,
+    "batch_size": 128,
+    "n_epochs": 10,
+    "gamma": 1.0,
+    "gae_lambda": 1.0,
+    "clip_range": 0.2,
+    "ent_coef": 0.01
+  },
+  "qrdqn": {
+    "learning_rate": 0.0001,
+    "buffer_size": 20000,
+    "learning_starts": 1024,
+    "batch_size": 128,
+    "train_freq": 4,
+    "gradient_steps": 1,
+    "gamma": 1.0,
+    "target_update_interval": 1000,
+    "exploration_initial_eps": 1.0,
+    "exploration_final_eps": 0.05,
+    "exploration_steps": 16384,
+    "max_grad_norm": 10.0,
+    "policy_kwargs": {
+      "n_quantiles": 32,
+      "net_arch": [
+        96
+      ]
+    },
+    "replay_buffer_class": "slice_alloc.distributional_allocation.NStepDictReplay",
+    "replay_buffer_kwargs": {
+      "horizon": 8,
+      "discount": 1.0
+    }
+  },
+  "policies": {
+    "candidate_ppo": "slice_alloc.allocation_final_policy.CandidatePPOPolicy",
+    "double_qrdqn": "slice_alloc.distributional_allocation.CandidateQRPolicy"
+  },
+  "execution": {
+    "device": "cpu",
+    "verbose": 0
+  }
+}

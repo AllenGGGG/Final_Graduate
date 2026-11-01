@@ -1,0 +1,27 @@
+{
+  "inputs": {
+    "protocol_sha256": "f35169b7dbc6b47f6de8be57602a2ff5f8ec77e845f34611416ef22acdd71dd3",
+    "sources": {
+      "slice_alloc/tests/test_allocation_final.py": "3abf68c7a213ce1d52c3d75249faa22499ce86a4db0da2cdc2d0066a194f58ca",
+      "slice_alloc/tests/test_allocation_final_entrypoint.py": "0d708db356b41047d3b71cacc07fa6ab63a81face04dd5f751c3e71cbc686969",
+      "slice_alloc/tests/test_allocation_final_pipeline.py": "84397f9b89792302b0d68dd5e49b256b87644df572051daf3b62df1ec7b96242",
+      "slice_alloc/tests/test_allocation_study.py": "eb5f5b098365ec97e2ee39dd818a79ce6820985d1e90b9da63c7f20a2d8a38ae",
+      "slice_alloc/tests/test_design_contracts.py": "031c1640466e367763cb47fd7d64fde5c99a685197787c76492c6adfcfb3c907",
+      "slice_alloc/tests/test_distributional_allocation.py": "3b7f5a6317b1afaf766b50f9986ec60ebd231c0573f73d5aad6c3f61f8672d27",
+      "slice_alloc/tests/test_initial_allocation.py": "51670c0cbc61f112cf95fbb32d322e9379cb5747c82abc33525fcf8ac75d8ddf",
+      "slice_alloc/tests/test_joint_analysis.py": "74d56c73bcc74e09e42308c9c87b23ac1dcc96e9681408c6cfc3e2960eafdc8b",
+      "slice_alloc/tests/test_joint_contracts.py": "464c7470cd8fb0321a444986ec0ee6e49fea38777f92f272ec865a95a1ca6d17",
+      "slice_alloc/tests/test_joint_diagnosis.py": "81c69fa562a9105b80439949f20fba9b74e5649fced40289587e98275d700455",
+      "slice_alloc/tests/test_lowalt_allocation.py": "ac993e7c989cbe0af127460c4d88746ca1f202abf36529442e91916734602785",
+      "slice_alloc/tests/test_modal_binding.py": "5b57cb8d39d31d1eaf860fbfdb4be86e68a7acf39c4e75fd2a84fa089a471422",
+      "slice_alloc/tests/test_modal_binding_rl.py": "8069b8c5a769a5da2b20eba9b1bb22e39d80bb3b02634cd09996a815e858afcb",
+      "slice_alloc/tests/test_modal_binding_rl_ppo.py": "0f6b8b3c1935c74591a8ce0d64b1e4020544822a836e51ac023b86d003689111",
+      "slice_alloc/tests/test_modal_binding_rl_statistics.py": "ee768944f4bca64f01eea9afabe4ba94ae3c67a98da1de198e74e9f216996311",
+      "slice_alloc/tests/test_patrol.py": "89e65eaafa59ce71fc0f7ea6510e16c7c237e0d972e0af1344b35cc353cdac5f",
+      "slice_alloc/tests/test_qrdqn_ensemble.py": "dc966d8d13a213774c6c076b0e6e4d377260547c86e2a68a51d7dd6f321f848b",
+      "slice_alloc/tests/test_report.py": "13b77eda2e70e483468164f7122bb873ea49a40429b16c5e25c8a171e3e406a1",
+      "slice_alloc/tests/test_trimodal.py": "d3c1f9155621af3236453871df62d1f35a5b222648b3ccb4875038a06358c932"
+    }
+  },
+  "log_sha256": "8b9bd9b7cf36efba6ffdfc74d67ef8c4d645115498b72460440950c0bec731d5"
+}

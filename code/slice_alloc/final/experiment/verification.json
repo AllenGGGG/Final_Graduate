@@ -1,0 +1,10 @@
+{
+  "source_hashes": true,
+  "binary_hash": true,
+  "model_hashes": true,
+  "native_packet_audits": 1510,
+  "direction_and_ledger_audits": 1510,
+  "exact_event_replays": 15,
+  "scene_fingerprints": true,
+  "selection_precedes_test": true
+}

@@ -1,0 +1,226 @@
+{
+  "title": "面向低空智联的多模态网络切片技术",
+  "research": "智能分配",
+  "selected": "double_qrdqn",
+  "summary": {
+    "rate": 0.7838541666666666,
+    "ci95": [
+      0.7666644965277776,
+      0.80078125
+    ],
+    "admission_rate": 0.8515625,
+    "admitted_violation_rate": 0.07951070336391437,
+    "by_service": {
+      "telemetry": 0.6025260029717682,
+      "command": 0.8792372881355932,
+      "object": 0.8832258064516129
+    },
+    "by_init": {
+      "11": 0.78203125,
+      "23": 0.7864583333333334,
+      "37": 0.7830729166666667
+    },
+    "init_sample_sd": 0.0023146339628426385,
+    "forced_reject": 0.14817708333333332,
+    "voluntary_reject": 0.00026041666666666666,
+    "wire_bytes_per_success": 117138.70819490586,
+    "phy_tx_seconds_per_success": 0.02601627464008843,
+    "normalized_reservation_seconds_per_success": 2.4690484269034525,
+    "decision_ms": 0.6850810250373089,
+    "episodes": 180
+  },
+  "selected_rule": "price",
+  "comparison": {
+    "difference": -0.0010416666666666593,
+    "ci95": [
+      -0.012326388888888928,
+      0.009722222222222262
+    ]
+  },
+  "protocol": {
+    "title": "面向低空智联的多模态网络切片技术",
+    "research": "智能分配",
+    "sources": {
+      "__main__.py": "91ae41c7c407532ac41211bad2ec80bfc423d1293df398165af917ec5cb0d3f8",
+      "ALLOCATION_FINAL.md": "108f9a4b24896213ce3bdcb76281cd9fa7145c448b0feea7811d8d51ebb7bc44",
+      "allocation_final.py": "eaba91cf1e3db4a484d2cbe98867b39373d422592183a2de72c3fadca775d656",
+      "allocation_final_policy.py": "b439fb6bc6e649a6c22e48290c18d23a45d5942e7be275b2e43a2c8528017fee",
+      "modal_binding.py": "5e3c5ccafd62eeebaab1fe7e5c8d7f9aaf817b5a18a1f9bc18c6c8bc085891a8",
+      "modal_binding_rl.py": "eae65aad11853415d4a87d839991e8e2863b50784a14688b10bd2bfa7b3b1106",
+      "patrol.py": "c55cab09985d11390e202d9e7e54876dbf626179f40c79023242f65fe76ba675",
+      "initial_allocation.py": "dc80996d94e5beb3a14b75c1be596429a902726ad42e20a8041193d61890dbb6",
+      "distributional_allocation.py": "49e9a810fce9191cc48b12a6682a625717694ec5886d567dccc33877428dc695",
+      "execution/allocation_final_scenario.cc": "d252fa17af3596b9f536d3a329b861c14641b855f44e49142543445216ddacac",
+      "tools/allocation_final_run.py": "94dffe8b52d5df6a43abaa5c7c658085e16a86791437adffd4e1dc1b47c6d321",
+      "tools/modal_binding_run.py": "99b68219217c999538458b21bcb1918c2da24a6863e2281e7e5652f68f23a5e1",
+      "tests/test_allocation_final.py": "3abf68c7a213ce1d52c3d75249faa22499ce86a4db0da2cdc2d0066a194f58ca",
+      "tests/test_allocation_final_pipeline.py": "84397f9b89792302b0d68dd5e49b256b87644df572051daf3b62df1ec7b96242"
+    },
+    "binary_sha256": "4713d4f5ed04fb073c3d0256450b59c13f7e103aae3f2f9bd67df98ac0f20ad5",
+    "training": [
+      41000000,
+      42000000
+    ],
+    "validation": [
+      42000,
+      42001,
+      42002,
+      42003,
+      42004,
+      42005,
+      42006,
+      42007
+    ],
+    "test": [
+      43000,
+      43001,
+      43002,
+      43003,
+      43004,
+      43005,
+      43006,
+      43007,
+      43008,
+      43009,
+      43010,
+      43011,
+      43012,
+      43013,
+      43014,
+      43015,
+      43016,
+      43017,
+      43018,
+      43019,
+      43020,
+      43021,
+      43022,
+      43023,
+      43024,
+      43025,
+      43026,
+      43027,
+      43028,
+      43029
+    ],
+    "control": [
+      44000,
+      44001,
+      44002,
+      44003,
+      44004,
+      44005,
+      44006,
+      44007,
+      44008,
+      44009
+    ],
+    "algorithms": [
+      "candidate_ppo",
+      "double_qrdqn"
+    ],
+    "initializations": [
+      11,
+      23,
+      37
+    ],
+    "loads": [
+      48,
+      80
+    ],
+    "checkpoints": [
+      8192,
+      16384,
+      32768
+    ],
+    "selection": "mean validation success of ALL 3 initializations; ties PPO; checkpoints by validation, tie earliest",
+    "ablations": [
+      "fixed",
+      "no_motion",
+      "no_calendar"
+    ],
+    "ablation_protocol": "retrain selected algorithm with identical budget and initializations",
+    "rule_thresholds": [
+      1.0,
+      4.0,
+      null
+    ],
+    "reward": "raw actual SLA successes, gamma=1, no shaping or expert prior",
+    "objective": "successful requests / all arrivals; rejected requests fail",
+    "scope": "point 1 only; no demand prediction, proactive migration or hard QoS guarantee",
+    "propagation": "LogDistance n=2.5 reference46.6777dB plus 120m finite footprint, TX20dBm, fixed24Mbps",
+    "directions": "telemetry uplink IP; command downlink IP/ID; object retrieval IP/NDN",
+    "quotas": "per-modality one third of each shared wire-direction and airtime; intrinsic state/cache quotas unchanged",
+    "ppo": {
+      "learning_rate": 0.0003,
+      "n_steps": 512,
+      "batch_size": 128,
+      "n_epochs": 10,
+      "gamma": 1.0,
+      "gae_lambda": 1.0,
+      "clip_range": 0.2,
+      "ent_coef": 0.01
+    },
+    "qrdqn": {
+      "learning_rate": 0.0001,
+      "buffer_size": 20000,
+      "learning_starts": 1024,
+      "batch_size": 128,
+      "train_freq": 4,
+      "gradient_steps": 1,
+      "gamma": 1.0,
+      "target_update_interval": 1000,
+      "exploration_initial_eps": 1.0,
+      "exploration_final_eps": 0.05,
+      "exploration_steps": 16384,
+      "max_grad_norm": 10.0,
+      "policy_kwargs": {
+        "n_quantiles": 32,
+        "net_arch": [
+          96
+        ]
+      },
+      "replay_buffer_class": "slice_alloc.distributional_allocation.NStepDictReplay",
+      "replay_buffer_kwargs": {
+        "horizon": 8,
+        "discount": 1.0
+      }
+    },
+    "policies": {
+      "candidate_ppo": "slice_alloc.allocation_final_policy.CandidatePPOPolicy",
+      "double_qrdqn": "slice_alloc.distributional_allocation.CandidateQRPolicy"
+    },
+    "execution": {
+      "device": "cpu",
+      "verbose": 0
+    }
+  },
+  "models": {
+    "models/candidate_ppo-full-11.zip": "9727eefcf6bd4cc791062b43c915cf7930d0cde069c1b48475f7127b28a4294c",
+    "models/candidate_ppo-full-23.zip": "ab121f24f3dbe802e3db0186d8cc25bec157d319a86297abc004023fc722ccbf",
+    "models/candidate_ppo-full-37.zip": "bd0ac037421ecfa7becbadfc34d93f6254c35c3f5ac112178b5c2eba56948c55",
+    "models/double_qrdqn-fixed-11.zip": "89b2e9a5fd3eb9a2d0ddcfc7f8d34697cb0e0fd28cb40226ad330ffdf41e61c3",
+    "models/double_qrdqn-fixed-23.zip": "decb6a254b0e464dcc1fc0c650dfc386740ef07cdb0ca86128a3917367fa5391",
+    "models/double_qrdqn-fixed-37.zip": "11d463af71dd86153bb16a9b149c32f35b6680699edbaa5f53ae7288d9551c8d",
+    "models/double_qrdqn-full-11.zip": "e050630515b9743cd2706a2b1af6737ab4ac135476d159349e316c5131f3ed49",
+    "models/double_qrdqn-full-23.zip": "a96a02bf52d390783a5d5a1a39d6de591f89c6f7a4937247e67ac488fb7b9510",
+    "models/double_qrdqn-full-37.zip": "2b9ca3bfc2a2733e9e6eea35da6be936d432a70a5654cf9ed0abee84592dd2a7",
+    "models/double_qrdqn-no_calendar-11.zip": "df4bcdedb44b0717e82bb937053f8e873efbeeea53e8e318956adf3310d5894f",
+    "models/double_qrdqn-no_calendar-23.zip": "b0127a7c8c42c2d07b34ca179e44b208bce9128507025542b0dc31fe3cc7981d",
+    "models/double_qrdqn-no_calendar-37.zip": "f19b15cd1751ff2a2f9f26ddfe2026ad818e28ff86c3e04bcfc39732ac35f3e1",
+    "models/double_qrdqn-no_motion-11.zip": "61884c78f1fbf4e6ad3daffb520ec1763d37a06dc6959b72d43cdb47723a684a",
+    "models/double_qrdqn-no_motion-23.zip": "f8bb4c744090a3666b5746c253b938b726770d0124a098575b7cd869bcc8b908",
+    "models/double_qrdqn-no_motion-37.zip": "7d416ac584a4df44499ef7f4bbd8cabc6fe105b3b6ee4ae619572ab09003edbd"
+  },
+  "artifacts": {
+    "protocol.json": "f35169b7dbc6b47f6de8be57602a2ff5f8ec77e845f34611416ef22acdd71dd3",
+    "selection.json": "9cbcd85d6a20e4ef839bf05e8a760c05689be14a7eac23115476237198b2066c",
+    "evaluation.json": "1e13780b78c51806c931573776cfbb62b1b294982a6b4b5b39713b21dbbcda6a",
+    "analysis.json": "8fbfc481b0605504d783a0e014b830839e1286b7ac7b84209049cfe8cb7f0d8a",
+    "verification.json": "acbee6334a8787f8a821c984f82b253f856b9c82b21787d3dc41fb25847f0384",
+    "report.md": "33c8351ceb623c5a59c118953543fd4f3443774bb9df62ec50f9c1a645683250"
+  },
+  "manifest_sha256": "f8807b40b6e8b4cf7093d7a1f7c46c53075b2f263a234cfed7594aa7e832ba1b",
+  "audited_episodes": 1510,
+  "replayed_models": 15
+}

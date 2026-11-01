@@ -1,0 +1,10 @@
+{
+  "source_commit": "5c98fb20ea1567937ea1d8a3b719046f3f93f82f",
+  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 python -u -m slice_alloc all --workers 6",
+  "started_utc": "2026-11-01T12:41:21.069137+00:00",
+  "output": "code/slice_alloc/results/final",
+  "models": 15,
+  "training_steps_per_model": 32768,
+  "total_training_decisions": 491520,
+  "test_seed_interpretation": "Complete rerun after workflow fixes using the registered historical seed sets; not a new blind test or post-test parameter search."
+}

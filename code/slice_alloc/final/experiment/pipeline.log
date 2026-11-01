@@ -1,0 +1,72 @@
+CALIBRATED 20 12
+CHECKPOINT training/candidate_ppo/full/37 8192 0.7685546875
+CHECKPOINT training/candidate_ppo/full/11 8192 0.765625
+CHECKPOINT training/candidate_ppo/full/23 8192 0.7646484375
+CHECKPOINT training/double_qrdqn/full/37 8192 0.7421875
+CHECKPOINT training/double_qrdqn/full/23 8192 0.759765625
+CHECKPOINT training/double_qrdqn/full/11 8192 0.7822265625
+CHECKPOINT training/candidate_ppo/full/11 16384 0.763671875
+CHECKPOINT training/candidate_ppo/full/37 16384 0.765625
+CHECKPOINT training/candidate_ppo/full/23 16384 0.7783203125
+CHECKPOINT training/double_qrdqn/full/37 16384 0.77734375
+CHECKPOINT training/double_qrdqn/full/23 16384 0.767578125
+CHECKPOINT training/double_qrdqn/full/11 16384 0.7783203125
+CHECKPOINT training/candidate_ppo/full/37 32768 0.765625
+TRAINED candidate_ppo full 37 584.5848486299983
+CHECKPOINT training/candidate_ppo/full/23 32768 0.765625
+CHECKPOINT training/candidate_ppo/full/11 32768 0.767578125
+TRAINED candidate_ppo full 23 602.9486543099956
+TRAINED candidate_ppo full 11 605.3937807220027
+CHECKPOINT training/double_qrdqn/full/23 32768 0.7744140625
+CHECKPOINT training/double_qrdqn/full/37 32768 0.7763671875
+CHECKPOINT training/double_qrdqn/full/11 32768 0.7783203125
+TRAINED double_qrdqn full 23 694.3415266060001
+TRAINED double_qrdqn full 37 696.071448409999
+TRAINED double_qrdqn full 11 706.7462577539955
+SELECTED double_qrdqn {'candidate_ppo': 0.771484375, 'double_qrdqn': 0.7779947916666666}
+CHECKPOINT training/double_qrdqn/no_motion/23 8192 0.529296875
+CHECKPOINT training/double_qrdqn/fixed/37 8192 0.7216796875
+CHECKPOINT training/double_qrdqn/fixed/23 8192 0.724609375
+CHECKPOINT training/double_qrdqn/no_motion/37 8192 0.5849609375
+CHECKPOINT training/double_qrdqn/fixed/11 8192 0.744140625
+CHECKPOINT training/double_qrdqn/no_motion/11 8192 0.677734375
+CHECKPOINT training/double_qrdqn/no_motion/23 16384 0.7626953125
+CHECKPOINT training/double_qrdqn/no_motion/11 16384 0.7568359375
+CHECKPOINT training/double_qrdqn/fixed/23 16384 0.7470703125
+CHECKPOINT training/double_qrdqn/fixed/37 16384 0.7568359375
+CHECKPOINT training/double_qrdqn/fixed/11 16384 0.7587890625
+CHECKPOINT training/double_qrdqn/no_motion/37 16384 0.771484375
+CHECKPOINT training/double_qrdqn/no_motion/11 32768 0.75390625
+CHECKPOINT training/double_qrdqn/no_motion/23 32768 0.7783203125
+TRAINED double_qrdqn no_motion 11 652.0657527040021
+TRAINED double_qrdqn no_motion 23 662.687113470005
+CHECKPOINT training/double_qrdqn/fixed/37 32768 0.7587890625
+CHECKPOINT training/double_qrdqn/no_motion/37 32768 0.76953125
+CHECKPOINT training/double_qrdqn/fixed/23 32768 0.76171875
+CHECKPOINT training/double_qrdqn/fixed/11 32768 0.7587890625
+TRAINED double_qrdqn fixed 37 681.5272408559977
+TRAINED double_qrdqn no_motion 37 682.9137891130013
+TRAINED double_qrdqn fixed 23 686.3096524030043
+TRAINED double_qrdqn fixed 11 688.2671192339985
+CHECKPOINT training/double_qrdqn/no_calendar/11 8192 0.77734375
+CHECKPOINT training/double_qrdqn/no_calendar/23 8192 0.78125
+CHECKPOINT training/double_qrdqn/no_calendar/37 8192 0.6767578125
+CHECKPOINT training/double_qrdqn/no_calendar/11 16384 0.7666015625
+CHECKPOINT training/double_qrdqn/no_calendar/23 16384 0.7685546875
+CHECKPOINT training/double_qrdqn/no_calendar/37 16384 0.767578125
+CHECKPOINT training/double_qrdqn/no_calendar/23 32768 0.7841796875
+CHECKPOINT training/double_qrdqn/no_calendar/11 32768 0.765625
+TRAINED double_qrdqn no_calendar 23 603.4264109430005
+TRAINED double_qrdqn no_calendar 11 616.2463838280019
+CHECKPOINT training/double_qrdqn/no_calendar/37 32768 0.765625
+TRAINED double_qrdqn no_calendar 37 605.1749191350027
+RULE first_fit {'threshold': None, 'rate': 0.765625}
+RULE nearest {'threshold': None, 'rate': 0.779296875}
+RULE greedy {'threshold': None, 'rate': 0.7734375}
+RULE quota {'threshold': None, 'rate': 0.6328125}
+RULE price {'threshold': None, 'rate': 0.78125}
+RULE semantic {'threshold': None, 'rate': 0.7744140625}
+EVALUATED 1410
+STRESS EVALUATED 100
+AUDITED 1510 REPLAYED 15
+FINAL double_qrdqn 0.7838541666666666 price {'difference': -0.0010416666666666593, 'ci95': [-0.012326388888888928, 0.009722222222222262]}

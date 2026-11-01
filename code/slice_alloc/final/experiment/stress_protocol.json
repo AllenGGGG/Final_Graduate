@@ -1,0 +1,29 @@
+{
+  "seeds": [
+    45000,
+    45001,
+    45002,
+    45003,
+    45004,
+    45005,
+    45006,
+    45007,
+    45008,
+    45009
+  ],
+  "cases": [
+    "backhaul",
+    "airtime"
+  ],
+  "initializations": [
+    11,
+    23,
+    37
+  ],
+  "methods": "validation-selected full RL, resource price, semantic/mobile rule",
+  "backhaul": "80 balanced requests, backhaul reduced from1Mbps to0.45Mbps, other parameters unchanged",
+  "airtime": "160 requests; each existing request independently forced to telemetry with probability.85, otherwise retained; all wire rates multiplied8; same PHY and application contract choices",
+  "interpretation": "sensitivity only; does not change primary scene or count as RL algorithm improvement",
+  "source_sha256": "94abef8914548f4cc942feaf98ad458c3e2e0c085bcc0fcf40133a7af6fe43f9",
+  "main_protocol_sha256": "f35169b7dbc6b47f6de8be57602a2ff5f8ec77e845f34611416ef22acdd71dd3"
+}
