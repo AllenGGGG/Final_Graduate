@@ -10,7 +10,7 @@ import torch
 
 from slice_alloc.tools import allocation_final_run as run
 
-SEEDS=tuple(range(55000,55010))
+SEEDS=tuple(range(75000,75010))
 
 
 def scenario(seed,case):

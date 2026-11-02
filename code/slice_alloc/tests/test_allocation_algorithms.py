@@ -10,7 +10,7 @@ from gymnasium import spaces
 import numpy as np
 import torch
 from torch import nn
-from stable_baselines3 import A2C
+from stable_baselines3 import A2C, PPO
 
 from slice_alloc.allocation_final_policy import CandidatePPOPolicy
 from slice_alloc.allocation_value import MaskedDoubleDQN
@@ -114,11 +114,9 @@ class AlgorithmTests(unittest.TestCase):
                          int(again.predict(obs, deterministic=True)[0]))
 
     def test_registry_distinguishes_scalar_and_distributional_training(self):
-        self.assertEqual(len(run.ALGORITHMS), 4)
-        self.assertIs(run.MODEL_CLASSES['double_dqn'], MaskedDoubleDQN)
-        self.assertIs(run.MODEL_CLASSES['candidate_a2c'], A2C)
-        self.assertEqual(run.training_parameters('double_dqn')['policy_kwargs']['n_quantiles'], 1)
-        self.assertEqual(run.training_parameters('double_qrdqn')['policy_kwargs']['n_quantiles'], 32)
+        self.assertEqual(run.ALGORITHMS, ('candidate_ppo',))
+        self.assertIs(run.MODEL_CLASSES['candidate_ppo'], PPO)
+        self.assertTrue(run.POLICIES['candidate_ppo'].__name__.endswith('HierarchicalPPOPolicy'))
 
     def test_baseline_choice_is_frozen_before_new_test(self):
         with tempfile.TemporaryDirectory() as directory, patch.object(run, 'OUT', Path(directory)):

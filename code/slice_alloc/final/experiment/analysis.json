@@ -1,1598 +1,1103 @@
 {
-  "selected": "double_dqn",
+  "selected": "candidate_ppo",
   "selected_rule": "greedy",
   "validation": {
-    "candidate_ppo": 0.771484375,
-    "double_qrdqn": 0.7779947916666666,
-    "double_dqn": 0.7893880208333334,
-    "candidate_a2c": 0.7692057291666666
+    "candidate_ppo": 0.7105446441008497
   },
   "summary": {
     "candidate_ppo/full": {
-      "rate": 0.7879340277777778,
+      "rate": 0.7333854166666667,
       "ci95": [
-        0.7699652777777778,
-        0.8067708333333333
+        0.7046354166666668,
+        0.7616666666666666
       ],
-      "admission_rate": 0.8586805555555556,
-      "admitted_violation_rate": 0.08238980994743227,
+      "admission_rate": 0.884375,
+      "admitted_violation_rate": 0.17073027090694934,
       "by_service": {
-        "telemetry": 0.6237449799196787,
-        "command": 0.8752535496957403,
-        "object": 0.8743993010048056
+        "telemetry": 0.5366812227074236,
+        "command": 0.841890440386681,
+        "object": 0.8436482084690554
       },
       "by_init": {
-        "11": 0.7895833333333333,
-        "23": 0.7981770833333334,
-        "37": 0.7760416666666666
+        "11": 0.7471354166666667,
+        "23": 0.7526041666666666,
+        "37": 0.7229166666666667,
+        "53": 0.69765625,
+        "71": 0.7466145833333333
       },
-      "init_sample_sd": 0.011159494807715388,
-      "forced_reject": 0.14131944444444444,
+      "init_sample_sd": 0.023019566565825527,
+      "forced_reject": 0.115625,
       "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 115893.9351107194,
-      "phy_tx_seconds_per_success": 0.025434167676545095,
-      "normalized_reservation_seconds_per_success": 2.4008004501652858,
-      "decision_ms": 0.8977176355510555,
-      "episodes": 180
-    },
-    "double_qrdqn/full": {
-      "rate": 0.7909722222222222,
-      "ci95": [
-        0.771875,
-        0.8104166666666666
-      ],
-      "admission_rate": 0.86171875,
-      "admitted_violation_rate": 0.08209932507303314,
-      "by_service": {
-        "telemetry": 0.6219879518072289,
-        "command": 0.8769438810006761,
-        "object": 0.8824814329401486
-      },
-      "by_init": {
-        "11": 0.7880208333333333,
-        "23": 0.7841145833333333,
-        "37": 0.80078125
-      },
-      "init_sample_sd": 0.008716505419291469,
-      "forced_reject": 0.13810763888888888,
-      "voluntary_reject": 0.00017361111111111112,
-      "wire_bytes_per_success": 114748.15035118525,
-      "phy_tx_seconds_per_success": 0.025389500877963093,
-      "normalized_reservation_seconds_per_success": 2.431592371770021,
-      "decision_ms": 0.8537694433646349,
-      "episodes": 180
-    },
-    "double_dqn/full": {
-      "rate": 0.79375,
-      "ci95": [
-        0.7750868055555556,
-        0.8111111111111111
-      ],
-      "admission_rate": 0.8760416666666667,
-      "admitted_violation_rate": 0.093935790725327,
-      "by_service": {
-        "telemetry": 0.6430722891566265,
-        "command": 0.8786342123056119,
-        "object": 0.8700305810397554
-      },
-      "by_init": {
-        "11": 0.784375,
-        "23": 0.7989583333333333,
-        "37": 0.7979166666666667
-      },
-      "init_sample_sd": 0.008135676745736084,
-      "forced_reject": 0.1203125,
-      "voluntary_reject": 0.0036458333333333334,
-      "wire_bytes_per_success": 117145.31485126859,
-      "phy_tx_seconds_per_success": 0.02578071872265981,
-      "normalized_reservation_seconds_per_success": 2.264601785133819,
-      "decision_ms": 0.8506185743117047,
-      "episodes": 180
-    },
-    "candidate_a2c/full": {
-      "rate": 0.7793402777777778,
-      "ci95": [
-        0.7619769965277775,
-        0.79609375
-      ],
-      "admission_rate": 0.8605034722222222,
-      "admitted_violation_rate": 0.0943205891253909,
-      "by_service": {
-        "telemetry": 0.6187248995983936,
-        "command": 0.8772819472616633,
-        "object": 0.8558322411533421
-      },
-      "by_init": {
-        "11": 0.7861979166666667,
-        "23": 0.7713541666666667,
-        "37": 0.78046875
-      },
-      "init_sample_sd": 0.007485941202205019,
-      "forced_reject": 0.13949652777777777,
-      "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 120638.94653597684,
-      "phy_tx_seconds_per_success": 0.025459254176876972,
-      "normalized_reservation_seconds_per_success": 2.0336014471184485,
-      "decision_ms": 0.9069026779340037,
-      "episodes": 180
-    },
-    "double_dqn/fixed": {
-      "rate": 0.7717013888888888,
-      "ci95": [
-        0.7493923611111111,
-        0.7943598090277777
-      ],
-      "admission_rate": 0.8269097222222223,
-      "admitted_violation_rate": 0.06676464413184967,
-      "by_service": {
-        "telemetry": 0.6295180722891566,
-        "command": 0.8326572008113591,
-        "object": 0.8560506771515946
-      },
-      "by_init": {
-        "11": 0.7872395833333333,
-        "23": 0.7744791666666667,
-        "37": 0.7533854166666667
-      },
-      "init_sample_sd": 0.01709716898233879,
-      "forced_reject": 0.1646701388888889,
-      "voluntary_reject": 0.008420138888888888,
-      "wire_bytes_per_success": 112388.59246344207,
-      "phy_tx_seconds_per_success": 0.025086912035995525,
-      "normalized_reservation_seconds_per_success": 2.3443899238430363,
-      "decision_ms": 0.8646595343157902,
-      "episodes": 180
-    },
-    "double_dqn/no_motion": {
-      "rate": 0.7806423611111111,
-      "ci95": [
-        0.7621527777777779,
-        0.7991319444444444
-      ],
-      "admission_rate": 0.8805555555555555,
-      "admitted_violation_rate": 0.11346608832807571,
-      "by_service": {
-        "telemetry": 0.6410642570281124,
-        "command": 0.8830290736984449,
-        "object": 0.8359545653123635
-      },
-      "by_init": {
-        "11": 0.7841145833333333,
-        "23": 0.7838541666666666,
-        "37": 0.7739583333333333
-      },
-      "init_sample_sd": 0.005790002133907037,
-      "forced_reject": 0.11579861111111112,
-      "voluntary_reject": 0.0036458333333333334,
-      "wire_bytes_per_success": 127372.18970310241,
-      "phy_tx_seconds_per_success": 0.026480005782275547,
-      "normalized_reservation_seconds_per_success": 1.7529130106759778,
-      "decision_ms": 0.8528296598529373,
-      "episodes": 180
-    },
-    "double_dqn/no_calendar": {
-      "rate": 0.7974826388888889,
-      "ci95": [
-        0.7786458333333334,
-        0.8155381944444444
-      ],
-      "admission_rate": 0.8848958333333333,
-      "admitted_violation_rate": 0.09878359819501667,
-      "by_service": {
-        "telemetry": 0.652359437751004,
-        "command": 0.8789722785665991,
-        "object": 0.8711227610310179
-      },
-      "by_init": {
-        "11": 0.79453125,
-        "23": 0.79140625,
-        "37": 0.8065104166666667
-      },
-      "init_sample_sd": 0.007972890627225726,
-      "forced_reject": 0.11293402777777778,
-      "voluntary_reject": 0.002170138888888889,
-      "wire_bytes_per_success": 119597.31882007184,
-      "phy_tx_seconds_per_success": 0.026141913573528026,
-      "normalized_reservation_seconds_per_success": 2.0104047169325185,
-      "decision_ms": 0.8746771918676031,
-      "episodes": 180
+      "wire_bytes_per_success": 132017.90419714508,
+      "phy_tx_seconds_per_success": 0.028089396207655763,
+      "normalized_reservation_seconds_per_success": 2.499312906091506,
+      "decision_ms": 0.8927899457018308,
+      "episodes": 300
     },
     "first_fit/full": {
-      "rate": 0.7794270833333333,
+      "rate": 0.32916666666666666,
       "ci95": [
-        0.7614583333333333,
-        0.7971354166666667
+        0.31354166666666666,
+        0.3455729166666667
       ],
-      "admission_rate": 0.8854166666666666,
-      "admitted_violation_rate": 0.11970588235294118,
+      "admission_rate": 0.9447916666666667,
+      "admitted_violation_rate": 0.6515986769570011,
       "by_service": {
-        "telemetry": 0.6265060240963856,
-        "command": 0.8843813387423936,
-        "object": 0.8446920052424639
+        "telemetry": 0.0,
+        "command": 0.5091299677765844,
+        "object": 0.5146579804560261
       },
       "by_init": {
-        "0": 0.7794270833333333
+        "0": 0.32916666666666666
       },
       "init_sample_sd": null,
-      "forced_reject": 0.11458333333333333,
+      "forced_reject": 0.05520833333333333,
       "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 131088.52088205813,
-      "phy_tx_seconds_per_success": 0.02602476445038498,
-      "normalized_reservation_seconds_per_success": 1.2381714373029948,
-      "decision_ms": 0.00339181090617381,
+      "wire_bytes_per_success": 210770.28797468354,
+      "phy_tx_seconds_per_success": 0.04437689556962202,
+      "normalized_reservation_seconds_per_success": 3.03494300097371,
+      "decision_ms": 0.004552212567432434,
       "episodes": 60
     },
     "nearest/full": {
-      "rate": 0.8002604166666667,
+      "rate": 0.7708333333333334,
       "ci95": [
-        0.7809830729166667,
-        0.8192708333333333
+        0.7510416666666667,
+        0.7908854166666667
       ],
-      "admission_rate": 0.903125,
-      "admitted_violation_rate": 0.11389850057670127,
+      "admission_rate": 0.9291666666666667,
+      "admitted_violation_rate": 0.17040358744394618,
       "by_service": {
-        "telemetry": 0.6822289156626506,
-        "command": 0.8864097363083164,
-        "object": 0.8473132372214941
+        "telemetry": 0.653566229985444,
+        "command": 0.8582169709989259,
+        "object": 0.8228013029315961
       },
       "by_init": {
-        "0": 0.8002604166666667
+        "0": 0.7708333333333334
       },
       "init_sample_sd": null,
-      "forced_reject": 0.096875,
+      "forced_reject": 0.07083333333333333,
       "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 124187.41750732184,
-      "phy_tx_seconds_per_success": 0.026712830458835633,
-      "normalized_reservation_seconds_per_success": 1.1809124929835542,
-      "decision_ms": 1.2722169307365523,
+      "wire_bytes_per_success": 142064.0722972973,
+      "phy_tx_seconds_per_success": 0.030400431081081494,
+      "normalized_reservation_seconds_per_success": 1.1902604114961886,
+      "decision_ms": 3.2025484117134004,
       "episodes": 60
     },
     "greedy/full": {
-      "rate": 0.7934895833333333,
+      "rate": 0.7731770833333333,
       "ci95": [
-        0.7739518229166666,
-        0.8122395833333333
+        0.7536458333333333,
+        0.7924479166666667
       ],
-      "admission_rate": 0.8994791666666667,
-      "admitted_violation_rate": 0.1178343949044586,
+      "admission_rate": 0.9302083333333333,
+      "admitted_violation_rate": 0.16881298992161253,
       "by_service": {
-        "telemetry": 0.6671686746987951,
-        "command": 0.8843813387423936,
-        "object": 0.8446920052424639
+        "telemetry": 0.6550218340611353,
+        "command": 0.8603651987110634,
+        "object": 0.826058631921824
       },
       "by_init": {
-        "0": 0.7934895833333333
+        "0": 0.7731770833333333
       },
       "init_sample_sd": null,
-      "forced_reject": 0.10052083333333334,
+      "forced_reject": 0.06979166666666667,
       "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 126893.82047915983,
-      "phy_tx_seconds_per_success": 0.02669601706596716,
-      "normalized_reservation_seconds_per_success": 1.1738202994218783,
-      "decision_ms": 1.3209233139797207,
+      "wire_bytes_per_success": 141593.3496126642,
+      "phy_tx_seconds_per_success": 0.030350947793870396,
+      "normalized_reservation_seconds_per_success": 1.1893756343453294,
+      "decision_ms": 3.2643796355740857,
       "episodes": 60
     },
     "price/full": {
-      "rate": 0.79765625,
+      "rate": 0.7481770833333333,
       "ci95": [
-        0.7809895833333333,
-        0.8138020833333334
+        0.73046875,
+        0.7658854166666667
       ],
-      "admission_rate": 0.903125,
-      "admitted_violation_rate": 0.11678200692041522,
+      "admission_rate": 0.8692708333333333,
+      "admitted_violation_rate": 0.13930497303774717,
       "by_service": {
-        "telemetry": 0.6814759036144579,
-        "command": 0.8803245436105477,
-        "object": 0.8453473132372215
+        "telemetry": 0.5778748180494906,
+        "command": 0.8635875402792696,
+        "object": 0.8306188925081434
       },
       "by_init": {
-        "0": 0.79765625
+        "0": 0.7481770833333333
       },
       "init_sample_sd": null,
-      "forced_reject": 0.096875,
-      "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 127192.4319294809,
-      "phy_tx_seconds_per_success": 0.026861628468822053,
-      "normalized_reservation_seconds_per_success": 1.1886249993130025,
-      "decision_ms": 1.3248816340425644,
+      "forced_reject": 0.00703125,
+      "voluntary_reject": 0.12369791666666667,
+      "wire_bytes_per_success": 111556.14305603899,
+      "phy_tx_seconds_per_success": 0.025552885485555992,
+      "normalized_reservation_seconds_per_success": 0.8210650344354304,
+      "decision_ms": 3.229736574648996,
       "episodes": 60
     },
     "semantic/full": {
-      "rate": 0.7955729166666666,
+      "rate": 0.6463541666666667,
       "ci95": [
-        0.7763020833333333,
-        0.8143229166666667
+        0.6296875,
+        0.6627604166666666
       ],
-      "admission_rate": 0.8528645833333334,
-      "admitted_violation_rate": 0.06717557251908397,
+      "admission_rate": 0.7065104166666667,
+      "admitted_violation_rate": 0.08514559528197567,
       "by_service": {
-        "telemetry": 0.6498493975903614,
-        "command": 0.8640973630831643,
-        "object": 0.8781127129750983
+        "telemetry": 0.5705967976710334,
+        "command": 0.8968850698174007,
+        "object": 0.5622149837133551
       },
       "by_init": {
-        "0": 0.7955729166666666
+        "0": 0.6463541666666667
       },
       "init_sample_sd": null,
-      "forced_reject": 0.11510416666666666,
-      "voluntary_reject": 0.03203125,
-      "wire_bytes_per_success": 110599.80392798691,
-      "phy_tx_seconds_per_success": 0.025132506710310986,
-      "normalized_reservation_seconds_per_success": 2.1171093420411102,
-      "decision_ms": 0.7137735991768246,
+      "forced_reject": 0.008333333333333333,
+      "voluntary_reject": 0.28515625,
+      "wire_bytes_per_success": 104182.80701047543,
+      "phy_tx_seconds_per_success": 0.024293410153102987,
+      "normalized_reservation_seconds_per_success": 1.636243956746337,
+      "decision_ms": 1.5871887803829547,
       "episodes": 60
     },
     "quota/full": {
-      "rate": 0.6330729166666667,
+      "rate": 0.6140625,
       "ci95": [
-        0.6177083333333333,
-        0.6494791666666667
+        0.6005208333333333,
+        0.6276041666666666
       ],
-      "admission_rate": 0.6723958333333333,
-      "admitted_violation_rate": 0.05848179705654531,
+      "admission_rate": 0.7111979166666667,
+      "admitted_violation_rate": 0.1365800073233248,
       "by_service": {
-        "telemetry": 0.3546686746987952,
-        "command": 0.8995943204868154,
-        "object": 0.7031454783748362
+        "telemetry": 0.25836972343522563,
+        "command": 0.8925886143931256,
+        "object": 0.7635179153094462
       },
       "by_init": {
-        "0": 0.6330729166666667
+        "0": 0.6140625
       },
       "init_sample_sd": null,
       "forced_reject": 0.21979166666666666,
-      "voluntary_reject": 0.1078125,
-      "wire_bytes_per_success": 64401.47511312217,
-      "phy_tx_seconds_per_success": 0.01651133360756856,
-      "normalized_reservation_seconds_per_success": 1.8314095619193502,
-      "decision_ms": 0.4149456247756057,
+      "voluntary_reject": 0.06901041666666667,
+      "wire_bytes_per_success": 62742.210347752334,
+      "phy_tx_seconds_per_success": 0.016763177268871457,
+      "normalized_reservation_seconds_per_success": 1.7301766253840902,
+      "decision_ms": 0.9806361133905739,
       "episodes": 60
     }
   },
   "primary": {
-    "difference": 0.0002604166666666593,
+    "difference": -0.03979166666666667,
     "ci95": [
-      -0.010677083333333101,
-      0.0107660590277779
+      -0.06442708333333336,
+      -0.018489583333333334
     ]
   },
-  "reference_rule": "price",
+  "reference_rule": "greedy",
   "strong_comparison": {
-    "difference": -0.003906250000000008,
+    "difference": -0.03979166666666667,
     "ci95": [
-      -0.014496527777777624,
-      0.0067708333333333336
+      -0.06442708333333336,
+      -0.018489583333333334
     ]
   },
-  "ablations": {
-    "fixed": {
-      "difference": 0.022048611111111106,
-      "ci95": [
-        -0.0016493055555553613,
-        0.04583333333333333
-      ]
-    },
-    "no_motion": {
-      "difference": 0.013107638888888884,
-      "ci95": [
-        0.0005208333333333333,
-        0.02638888888888905
-      ]
-    },
-    "no_calendar": {
-      "difference": -0.0037326388888889025,
-      "ci95": [
-        -0.014756944444444408,
-        0.00868055555555548
-      ]
-    }
-  },
+  "ablations": {},
   "sharing": {
-    "difference": 0.1625,
+    "difference": 0.03229166666666667,
     "ci95": [
-      0.14817708333333332,
-      0.17708333333333334
+      0.01640625,
+      0.04765625
     ]
   },
   "by_load": {
     "48": {
       "candidate_ppo/full": {
-        "rate": 0.8226851851851852,
+        "rate": 0.79,
         "ci95": [
-          0.8009259259259258,
-          0.8462962962962963
+          0.7581909722222222,
+          0.8223611111111111
         ],
-        "admission_rate": 0.8921296296296296,
-        "admitted_violation_rate": 0.07784120394395433,
+        "admission_rate": 0.9268055555555555,
+        "admitted_violation_rate": 0.14760977071781808,
         "by_service": {
-          "telemetry": 0.6858085808580858,
-          "command": 0.8810172570390554,
-          "object": 0.9066901408450704
+          "telemetry": 0.627788649706458,
+          "command": 0.8631578947368421,
+          "object": 0.8894366197183099
         },
         "by_init": {
-          "11": 0.8208333333333333,
-          "23": 0.8361111111111111,
-          "37": 0.8111111111111111
+          "11": 0.8090277777777778,
+          "23": 0.7958333333333333,
+          "37": 0.7743055555555556,
+          "53": 0.7638888888888888,
+          "71": 0.8069444444444445
         },
-        "init_sample_sd": 0.012602460730385383,
-        "forced_reject": 0.10787037037037037,
+        "init_sample_sd": 0.02007052573019502,
+        "forced_reject": 0.07319444444444445,
         "voluntary_reject": 0.0,
-        "wire_bytes_per_success": 125464.14575126617,
-        "phy_tx_seconds_per_success": 0.027201808666292304,
-        "normalized_reservation_seconds_per_success": 2.611800757537092,
-        "decision_ms": 0.8968467055974879,
-        "episodes": 90
-      },
-      "double_qrdqn/full": {
-        "rate": 0.8324074074074074,
-        "ci95": [
-          0.8134259259259259,
-          0.8525462962962962
-        ],
-        "admission_rate": 0.8983796296296296,
-        "admitted_violation_rate": 0.0734346817830456,
-        "by_service": {
-          "telemetry": 0.6963696369636964,
-          "command": 0.8891916439600364,
-          "object": 0.9166666666666666
-        },
-        "by_init": {
-          "11": 0.8277777777777777,
-          "23": 0.8326388888888889,
-          "37": 0.8368055555555556
-        },
-        "init_sample_sd": 0.004518338262949841,
-        "forced_reject": 0.10162037037037037,
-        "voluntary_reject": 0.0,
-        "wire_bytes_per_success": 123764.2327586207,
-        "phy_tx_seconds_per_success": 0.026953855394884024,
-        "normalized_reservation_seconds_per_success": 2.6432230120230917,
-        "decision_ms": 0.825551518898835,
-        "episodes": 90
-      },
-      "double_dqn/full": {
-        "rate": 0.8298611111111112,
-        "ci95": [
-          0.8055555555555556,
-          0.8534722222222224
-        ],
-        "admission_rate": 0.9048611111111111,
-        "admitted_violation_rate": 0.08288564850345356,
-        "by_service": {
-          "telemetry": 0.7075907590759076,
-          "command": 0.8864668483197093,
-          "object": 0.9019953051643192
-        },
-        "by_init": {
-          "11": 0.8173611111111111,
-          "23": 0.8333333333333334,
-          "37": 0.8388888888888889
-        },
-        "init_sample_sd": 0.011176025652382718,
-        "forced_reject": 0.09050925925925926,
-        "voluntary_reject": 0.004629629629629629,
-        "wire_bytes_per_success": 125385.5380753138,
-        "phy_tx_seconds_per_success": 0.02726796875871795,
-        "normalized_reservation_seconds_per_success": 2.475229193702023,
-        "decision_ms": 0.8593643779359237,
-        "episodes": 90
-      },
-      "candidate_a2c/full": {
-        "rate": 0.8178240740740741,
-        "ci95": [
-          0.7993055555555554,
-          0.8368055555555557
-        ],
-        "admission_rate": 0.8939814814814815,
-        "admitted_violation_rate": 0.085189021232522,
-        "by_service": {
-          "telemetry": 0.6811881188118812,
-          "command": 0.885558583106267,
-          "object": 0.8955399061032864
-        },
-        "by_init": {
-          "11": 0.8256944444444444,
-          "23": 0.8159722222222222,
-          "37": 0.8118055555555556
-        },
-        "init_sample_sd": 0.00712722422145398,
-        "forced_reject": 0.10601851851851851,
-        "voluntary_reject": 0.0,
-        "wire_bytes_per_success": 129727.89102745542,
-        "phy_tx_seconds_per_success": 0.027021579394283415,
-        "normalized_reservation_seconds_per_success": 2.236499799053614,
-        "decision_ms": 0.8956207305985758,
-        "episodes": 90
-      },
-      "double_dqn/fixed": {
-        "rate": 0.8141203703703703,
-        "ci95": [
-          0.7895833333333333,
-          0.8393518518518518
-        ],
-        "admission_rate": 0.8747685185185186,
-        "admitted_violation_rate": 0.06933051071712093,
-        "by_service": {
-          "telemetry": 0.6825082508250825,
-          "command": 0.8610354223433242,
-          "object": 0.9008215962441315
-        },
-        "by_init": {
-          "11": 0.825,
-          "23": 0.8243055555555555,
-          "37": 0.7930555555555555
-        },
-        "init_sample_sd": 0.018245968887906066,
-        "forced_reject": 0.1136574074074074,
-        "voluntary_reject": 0.011574074074074073,
-        "wire_bytes_per_success": 119993.53852715383,
-        "phy_tx_seconds_per_success": 0.026746039237987747,
-        "normalized_reservation_seconds_per_success": 2.5006879127225745,
-        "decision_ms": 0.8873456793396514,
-        "episodes": 90
-      },
-      "double_dqn/no_motion": {
-        "rate": 0.819212962962963,
-        "ci95": [
-          0.7988425925925925,
-          0.8402777777777776
-        ],
-        "admission_rate": 0.9148148148148149,
-        "admitted_violation_rate": 0.10450404858299595,
-        "by_service": {
-          "telemetry": 0.7082508250825083,
-          "command": 0.8937329700272479,
-          "object": 0.8697183098591549
-        },
-        "by_init": {
-          "11": 0.8229166666666666,
-          "23": 0.8229166666666666,
-          "37": 0.8118055555555556
-        },
-        "init_sample_sd": 0.006415002990995819,
-        "forced_reject": 0.0849537037037037,
-        "voluntary_reject": 0.0002314814814814815,
-        "wire_bytes_per_success": 136341.6595083357,
-        "phy_tx_seconds_per_success": 0.02796098784967654,
-        "normalized_reservation_seconds_per_success": 1.8778485465104493,
-        "decision_ms": 0.8562193491141239,
-        "episodes": 90
-      },
-      "double_dqn/no_calendar": {
-        "rate": 0.8358796296296296,
-        "ci95": [
-          0.8131944444444443,
-          0.8581018518518517
-        ],
-        "admission_rate": 0.9148148148148149,
-        "admitted_violation_rate": 0.08628542510121458,
-        "by_service": {
-          "telemetry": 0.7221122112211221,
-          "command": 0.8919164396003633,
-          "object": 0.9008215962441315
-        },
-        "by_init": {
-          "11": 0.8347222222222223,
-          "23": 0.8270833333333333,
-          "37": 0.8458333333333333
-        },
-        "init_sample_sd": 0.00942843141408164,
-        "forced_reject": 0.08287037037037037,
-        "voluntary_reject": 0.0023148148148148147,
-        "wire_bytes_per_success": 127872.97175297701,
-        "phy_tx_seconds_per_success": 0.027580077540848614,
-        "normalized_reservation_seconds_per_success": 2.1668619889742424,
-        "decision_ms": 0.8260370462570185,
-        "episodes": 90
+        "wire_bytes_per_success": 138513.58456399437,
+        "phy_tx_seconds_per_success": 0.029378969760901152,
+        "normalized_reservation_seconds_per_success": 2.621430837193716,
+        "decision_ms": 0.8886498941834967,
+        "episodes": 150
       },
       "first_fit/full": {
-        "rate": 0.8111111111111111,
+        "rate": 0.35347222222222224,
         "ci95": [
-          0.7930555555555555,
-          0.8305555555555556
+          0.32916666666666666,
+          0.3784722222222222
         ],
-        "admission_rate": 0.9111111111111111,
-        "admitted_violation_rate": 0.10975609756097561,
+        "admission_rate": 0.9763888888888889,
+        "admitted_violation_rate": 0.6379800853485064,
         "by_service": {
-          "telemetry": 0.695049504950495,
-          "command": 0.888283378746594,
-          "object": 0.8644366197183099
+          "telemetry": 0.0,
+          "command": 0.5595567867036011,
+          "object": 0.5404929577464789
         },
         "by_init": {
-          "0": 0.8111111111111111
+          "0": 0.35347222222222224
         },
         "init_sample_sd": null,
-        "forced_reject": 0.08888888888888889,
+        "forced_reject": 0.02361111111111111,
         "voluntary_reject": 0.0,
-        "wire_bytes_per_success": 141968.2859589041,
-        "phy_tx_seconds_per_success": 0.027711171232878334,
-        "normalized_reservation_seconds_per_success": 1.3533558601685982,
-        "decision_ms": 0.003449943015867676,
+        "wire_bytes_per_success": 212605.3634577603,
+        "phy_tx_seconds_per_success": 0.044443858546169925,
+        "normalized_reservation_seconds_per_success": 3.1623443983073907,
+        "decision_ms": 0.004701965872300207,
         "episodes": 30
       },
       "nearest/full": {
-        "rate": 0.8291666666666667,
+        "rate": 0.8097222222222222,
         "ci95": [
-          0.8083333333333333,
-          0.8506944444444444
+          0.7840277777777778,
+          0.8340277777777778
         ],
-        "admission_rate": 0.9256944444444445,
-        "admitted_violation_rate": 0.10427606901725431,
+        "admission_rate": 0.9597222222222223,
+        "admitted_violation_rate": 0.15629522431259044,
         "by_service": {
-          "telemetry": 0.7465346534653465,
-          "command": 0.888283378746594,
-          "object": 0.8644366197183099
+          "telemetry": 0.735812133072407,
+          "command": 0.853185595567867,
+          "object": 0.8485915492957746
         },
         "by_init": {
-          "0": 0.8291666666666667
+          "0": 0.8097222222222222
         },
         "init_sample_sd": null,
-        "forced_reject": 0.07430555555555556,
+        "forced_reject": 0.04027777777777778,
         "voluntary_reject": 0.0,
-        "wire_bytes_per_success": 131815.59128978226,
-        "phy_tx_seconds_per_success": 0.02831921608040358,
-        "normalized_reservation_seconds_per_success": 1.2559757795788058,
-        "decision_ms": 0.8435524790760004,
+        "wire_bytes_per_success": 151644.8833619211,
+        "phy_tx_seconds_per_success": 0.032448881646656706,
+        "normalized_reservation_seconds_per_success": 1.2448313191643574,
+        "decision_ms": 2.229836892977093,
         "episodes": 30
       },
       "greedy/full": {
-        "rate": 0.8256944444444444,
+        "rate": 0.8104166666666667,
         "ci95": [
-          0.8048611111111111,
-          0.8472222222222222
+          0.7847222222222222,
+          0.8347222222222223
         ],
-        "admission_rate": 0.9229166666666667,
-        "admitted_violation_rate": 0.1053423626787058,
+        "admission_rate": 0.9597222222222223,
+        "admitted_violation_rate": 0.15557163531114326,
         "by_service": {
-          "telemetry": 0.7346534653465346,
-          "command": 0.888283378746594,
-          "object": 0.8661971830985915
+          "telemetry": 0.735812133072407,
+          "command": 0.8559556786703602,
+          "object": 0.8485915492957746
         },
         "by_init": {
-          "0": 0.8256944444444444
+          "0": 0.8104166666666667
         },
         "init_sample_sd": null,
-        "forced_reject": 0.07708333333333334,
+        "forced_reject": 0.04027777777777778,
         "voluntary_reject": 0.0,
-        "wire_bytes_per_success": 134981.1118587048,
-        "phy_tx_seconds_per_success": 0.02820932211942965,
-        "normalized_reservation_seconds_per_success": 1.2446988255518898,
-        "decision_ms": 0.8815888854971692,
+        "wire_bytes_per_success": 151498.27506426736,
+        "phy_tx_seconds_per_success": 0.03243429648671957,
+        "normalized_reservation_seconds_per_success": 1.2440155410331113,
+        "decision_ms": 2.383973311174891,
         "episodes": 30
       },
       "price/full": {
-        "rate": 0.8284722222222223,
+        "rate": 0.7777777777777778,
         "ci95": [
-          0.8090277777777778,
-          0.8493229166666664
+          0.7569444444444444,
+          0.7993055555555556
         ],
-        "admission_rate": 0.9284722222222223,
-        "admitted_violation_rate": 0.10770381451009724,
+        "admission_rate": 0.8916666666666667,
+        "admitted_violation_rate": 0.1277258566978193,
         "by_service": {
-          "telemetry": 0.7425742574257426,
-          "command": 0.8910081743869209,
-          "object": 0.8644366197183099
+          "telemetry": 0.6360078277886497,
+          "command": 0.853185595567867,
+          "object": 0.8573943661971831
         },
         "by_init": {
-          "0": 0.8284722222222223
+          "0": 0.7777777777777778
         },
         "init_sample_sd": null,
-        "forced_reject": 0.07152777777777777,
-        "voluntary_reject": 0.0,
-        "wire_bytes_per_success": 136472.8491198659,
-        "phy_tx_seconds_per_success": 0.028613703269071172,
-        "normalized_reservation_seconds_per_success": 1.2789162433010222,
-        "decision_ms": 0.932763146435415,
+        "forced_reject": 0.004166666666666667,
+        "voluntary_reject": 0.10416666666666667,
+        "wire_bytes_per_success": 117820.16160714286,
+        "phy_tx_seconds_per_success": 0.02687640714285869,
+        "normalized_reservation_seconds_per_success": 0.8699371516758244,
+        "decision_ms": 2.2577634429580935,
         "episodes": 30
       },
       "semantic/full": {
-        "rate": 0.8298611111111112,
+        "rate": 0.6840277777777778,
         "ci95": [
-          0.8069444444444445,
-          0.8534722222222222
+          0.6576388888888889,
+          0.7090277777777778
         ],
-        "admission_rate": 0.8923611111111112,
-        "admitted_violation_rate": 0.07003891050583658,
+        "admission_rate": 0.7493055555555556,
+        "admitted_violation_rate": 0.0871177015755329,
         "by_service": {
-          "telemetry": 0.7108910891089109,
-          "command": 0.8746594005449592,
-          "object": 0.9066901408450704
+          "telemetry": 0.6203522504892368,
+          "command": 0.8836565096952909,
+          "object": 0.6144366197183099
         },
         "by_init": {
-          "0": 0.8298611111111112
+          "0": 0.6840277777777778
         },
         "init_sample_sd": null,
-        "forced_reject": 0.08888888888888889,
-        "voluntary_reject": 0.01875,
-        "wire_bytes_per_success": 121231.53472803347,
-        "phy_tx_seconds_per_success": 0.02731653556485431,
-        "normalized_reservation_seconds_per_success": 2.3163810705610106,
-        "decision_ms": 0.5646804984179552,
+        "forced_reject": 0.003472222222222222,
+        "voluntary_reject": 0.24722222222222223,
+        "wire_bytes_per_success": 110439.06294416243,
+        "phy_tx_seconds_per_success": 0.026093502538071557,
+        "normalized_reservation_seconds_per_success": 1.7723878864549025,
+        "decision_ms": 1.1845038728400443,
         "episodes": 30
       },
       "quota/full": {
-        "rate": 0.6756944444444445,
+        "rate": 0.6666666666666666,
         "ci95": [
-          0.6555555555555556,
-          0.6958506944444441
+          0.6430555555555556,
+          0.6895833333333333
         ],
-        "admission_rate": 0.7180555555555556,
-        "admitted_violation_rate": 0.05899419729206963,
+        "admission_rate": 0.7611111111111111,
+        "admitted_violation_rate": 0.12408759124087591,
         "by_service": {
-          "telemetry": 0.3900990099009901,
-          "command": 0.9046321525885559,
-          "object": 0.7816901408450704
+          "telemetry": 0.32093933463796476,
+          "command": 0.8808864265927978,
+          "object": 0.8415492957746479
         },
         "by_init": {
-          "0": 0.6756944444444445
+          "0": 0.6666666666666666
         },
         "init_sample_sd": null,
-        "forced_reject": 0.20694444444444443,
-        "voluntary_reject": 0.075,
-        "wire_bytes_per_success": 66989.27132579651,
-        "phy_tx_seconds_per_success": 0.017535334018498848,
-        "normalized_reservation_seconds_per_success": 1.9385013113764062,
-        "decision_ms": 0.3304235991991947,
+        "forced_reject": 0.2,
+        "voluntary_reject": 0.03888888888888889,
+        "wire_bytes_per_success": 64607.104166666664,
+        "phy_tx_seconds_per_success": 0.01754589166666595,
+        "normalized_reservation_seconds_per_success": 1.852039024375796,
+        "decision_ms": 0.7823290297740946,
         "episodes": 30
       }
     },
     "80": {
       "candidate_ppo/full": {
-        "rate": 0.7670833333333333,
+        "rate": 0.6994166666666667,
         "ci95": [
-          0.7429166666666667,
-          0.7908333333333334
+          0.6659145833333333,
+          0.7325
         ],
-        "admission_rate": 0.8386111111111111,
-        "admitted_violation_rate": 0.08529314342497515,
+        "admission_rate": 0.8589166666666667,
+        "admitted_violation_rate": 0.18569903948772679,
         "by_service": {
-          "telemetry": 0.5856622114216282,
-          "command": 0.871836295099623,
-          "object": 0.8552540013917884
+          "telemetry": 0.4827346465816918,
+          "command": 0.828421052631579,
+          "object": 0.8167528438469494
         },
         "by_init": {
-          "11": 0.7708333333333334,
-          "23": 0.7754166666666666,
-          "37": 0.755
+          "11": 0.71,
+          "23": 0.7266666666666667,
+          "37": 0.6920833333333334,
+          "53": 0.6579166666666667,
+          "71": 0.7104166666666667
         },
-        "init_sample_sd": 0.010712466776818695,
-        "forced_reject": 0.1613888888888889,
+        "init_sample_sd": 0.02622783455711803,
+        "forced_reject": 0.14108333333333334,
         "voluntary_reject": 0.0,
-        "wire_bytes_per_success": 109735.59206952743,
-        "phy_tx_seconds_per_success": 0.024296706862212015,
-        "normalized_reservation_seconds_per_success": 2.2650236816700087,
-        "decision_ms": 0.8985885655046231,
-        "episodes": 90
-      },
-      "double_qrdqn/full": {
-        "rate": 0.7661111111111111,
-        "ci95": [
-          0.739027777777778,
-          0.792638888888889
-        ],
-        "admission_rate": 0.8397222222222223,
-        "admitted_violation_rate": 0.08766126364538537,
-        "by_service": {
-          "telemetry": 0.5763466990684488,
-          "command": 0.8696822832525579,
-          "object": 0.8622129436325678
-        },
-        "by_init": {
-          "11": 0.7641666666666667,
-          "23": 0.755,
-          "37": 0.7791666666666667
-        },
-        "init_sample_sd": 0.012200106253332087,
-        "forced_reject": 0.16,
-        "voluntary_reject": 0.0002777777777777778,
-        "wire_bytes_per_success": 108870.37073966642,
-        "phy_tx_seconds_per_success": 0.02436966424945554,
-        "normalized_reservation_seconds_per_success": 2.2936257687333943,
-        "decision_ms": 0.8819873678304349,
-        "episodes": 90
-      },
-      "double_dqn/full": {
-        "rate": 0.7720833333333333,
-        "ci95": [
-          0.7491666666666666,
-          0.7954166666666667
-        ],
-        "admission_rate": 0.85875,
-        "admitted_violation_rate": 0.10092188258127123,
-        "by_service": {
-          "telemetry": 0.6034831915755366,
-          "command": 0.8739903069466882,
-          "object": 0.8510786360473208
-        },
-        "by_init": {
-          "11": 0.7645833333333333,
-          "23": 0.7783333333333333,
-          "37": 0.7733333333333333
-        },
-        "init_sample_sd": 0.006959705453537549,
-        "forced_reject": 0.13819444444444445,
-        "voluntary_reject": 0.0030555555555555557,
-        "wire_bytes_per_success": 111831.19355999281,
-        "phy_tx_seconds_per_success": 0.024821590933620685,
-        "normalized_reservation_seconds_per_success": 2.128768135247687,
-        "decision_ms": 0.841872770687486,
-        "episodes": 90
-      },
-      "candidate_a2c/full": {
-        "rate": 0.75625,
-        "ci95": [
-          0.73125,
-          0.7799999999999999
-        ],
-        "admission_rate": 0.8404166666666667,
-        "admitted_violation_rate": 0.10014873574615767,
-        "by_service": {
-          "telemetry": 0.5803969218307007,
-          "command": 0.8723747980613893,
-          "object": 0.8322894919972165
-        },
-        "by_init": {
-          "11": 0.7625,
-          "23": 0.7445833333333334,
-          "37": 0.7616666666666667
-        },
-        "init_sample_sd": 0.010112217582926306,
-        "forced_reject": 0.15958333333333333,
-        "voluntary_reject": 0.0,
-        "wire_bytes_per_success": 114741.56528925619,
-        "phy_tx_seconds_per_success": 0.024445536088153936,
-        "normalized_reservation_seconds_per_success": 1.9019504136222272,
-        "decision_ms": 0.9181846252694312,
-        "episodes": 90
-      },
-      "double_dqn/fixed": {
-        "rate": 0.74625,
-        "ci95": [
-          0.7191666666666666,
-          0.7736111111111111
-        ],
-        "admission_rate": 0.7981944444444444,
-        "admitted_violation_rate": 0.06507743170349747,
-        "by_service": {
-          "telemetry": 0.5970028351559336,
-          "command": 0.815831987075929,
-          "object": 0.8295059151009047
-        },
-        "by_init": {
-          "11": 0.7645833333333333,
-          "23": 0.7445833333333334,
-          "37": 0.7295833333333334
-        },
-        "init_sample_sd": 0.017559422921421187,
-        "forced_reject": 0.19527777777777777,
-        "voluntary_reject": 0.006527777777777778,
-        "wire_bytes_per_success": 107410.62944351387,
-        "phy_tx_seconds_per_success": 0.024000898566908145,
-        "normalized_reservation_seconds_per_success": 2.242082083364842,
-        "decision_ms": 0.8419733892919289,
-        "episodes": 90
-      },
-      "double_dqn/no_motion": {
-        "rate": 0.7575,
-        "ci95": [
-          0.7331944444444445,
-          0.7816701388888889
-        ],
-        "admission_rate": 0.86,
-        "admitted_violation_rate": 0.11918604651162791,
-        "by_service": {
-          "telemetry": 0.59983799108951,
-          "command": 0.8766828217555197,
-          "object": 0.8159359777313848
-        },
-        "by_init": {
-          "11": 0.7608333333333334,
-          "23": 0.7604166666666666,
-          "37": 0.75125
-        },
-        "init_sample_sd": 0.005416666666666681,
-        "forced_reject": 0.13430555555555557,
-        "voluntary_reject": 0.005694444444444445,
-        "wire_bytes_per_success": 121552.06618995233,
-        "phy_tx_seconds_per_success": 0.025519023835716696,
-        "normalized_reservation_seconds_per_success": 1.6718446459311664,
-        "decision_ms": 0.8494399705917507,
-        "episodes": 90
-      },
-      "double_dqn/no_calendar": {
-        "rate": 0.7744444444444445,
-        "ci95": [
-          0.7495833333333334,
-          0.7977777777777778
-        ],
-        "admission_rate": 0.8669444444444444,
-        "admitted_violation_rate": 0.10669657161166293,
-        "by_service": {
-          "telemetry": 0.6095585257189146,
-          "command": 0.8712977921378567,
-          "object": 0.8535142658315936
-        },
-        "by_init": {
-          "11": 0.7704166666666666,
-          "23": 0.77,
-          "37": 0.7829166666666667
-        },
-        "init_sample_sd": 0.00734011681206881,
-        "forced_reject": 0.1309722222222222,
-        "voluntary_reject": 0.0020833333333333333,
-        "wire_bytes_per_success": 114238.03210186513,
-        "phy_tx_seconds_per_success": 0.0252105631276897,
-        "normalized_reservation_seconds_per_success": 1.909083481397607,
-        "decision_ms": 0.9233173374781877,
-        "episodes": 90
+        "wire_bytes_per_success": 127615.7321577505,
+        "phy_tx_seconds_per_success": 0.02721544239246932,
+        "normalized_reservation_seconds_per_success": 2.416552654440204,
+        "decision_ms": 0.8969299972201649,
+        "episodes": 150
       },
       "first_fit/full": {
-        "rate": 0.7604166666666666,
+        "rate": 0.3145833333333333,
         "ci95": [
-          0.7354166666666667,
-          0.7858333333333334
+          0.2975,
+          0.33208333333333334
         ],
-        "admission_rate": 0.87,
-        "admitted_violation_rate": 0.12595785440613028,
+        "admission_rate": 0.9258333333333333,
+        "admitted_violation_rate": 0.6602160216021602,
         "by_service": {
-          "telemetry": 0.5844471445929527,
-          "command": 0.8820678513731826,
-          "object": 0.8329853862212944
+          "telemetry": 0.0,
+          "command": 0.47719298245614034,
+          "object": 0.49948293691830403
         },
         "by_init": {
-          "0": 0.7604166666666666
+          "0": 0.3145833333333333
         },
         "init_sample_sd": null,
-        "forced_reject": 0.13,
+        "forced_reject": 0.07416666666666667,
         "voluntary_reject": 0.0,
-        "wire_bytes_per_success": 124125.4712328767,
-        "phy_tx_seconds_per_success": 0.024945464109589224,
-        "normalized_reservation_seconds_per_success": 1.1644534066690087,
-        "decision_ms": 0.003333678796479944,
+        "wire_bytes_per_success": 209533.13112582781,
+        "phy_tx_seconds_per_success": 0.04433175099337981,
+        "normalized_reservation_seconds_per_success": 2.9490525225063666,
+        "decision_ms": 0.004402459262564662,
         "episodes": 30
       },
       "nearest/full": {
-        "rate": 0.7829166666666667,
+        "rate": 0.7475,
         "ci95": [
-          0.7570833333333333,
-          0.8079166666666666
+          0.7266666666666667,
+          0.7683333333333333
         ],
-        "admission_rate": 0.8895833333333333,
-        "admitted_violation_rate": 0.11990632318501171,
+        "admission_rate": 0.9108333333333334,
+        "admitted_violation_rate": 0.17932296431838976,
         "by_service": {
-          "telemetry": 0.6427703523693803,
-          "command": 0.8852988691437803,
-          "object": 0.837160751565762
+          "telemetry": 0.6048667439165701,
+          "command": 0.8614035087719298,
+          "object": 0.8076525336091003
         },
         "by_init": {
-          "0": 0.7829166666666667
+          "0": 0.7475
         },
         "init_sample_sd": null,
-        "forced_reject": 0.11041666666666666,
+        "forced_reject": 0.08916666666666667,
         "voluntary_reject": 0.0,
-        "wire_bytes_per_success": 119340.13730707823,
-        "phy_tx_seconds_per_success": 0.02569206173496542,
-        "normalized_reservation_seconds_per_success": 1.133213948973586,
-        "decision_ms": 1.7008813823971043,
+        "wire_bytes_per_success": 135837.0791527313,
+        "phy_tx_seconds_per_success": 0.02906905239687821,
+        "normalized_reservation_seconds_per_success": 1.1547923633684936,
+        "decision_ms": 4.175259930449708,
         "episodes": 30
       },
       "greedy/full": {
-        "rate": 0.7741666666666667,
+        "rate": 0.7508333333333334,
         "ci95": [
-          0.7479166666666667,
-          0.8
+          0.7304166666666667,
+          0.77
         ],
-        "admission_rate": 0.8854166666666666,
-        "admitted_violation_rate": 0.12564705882352942,
+        "admission_rate": 0.9125,
+        "admitted_violation_rate": 0.1771689497716895,
         "by_service": {
-          "telemetry": 0.6257594167679222,
-          "command": 0.8820678513731826,
-          "object": 0.8319415448851775
+          "telemetry": 0.6071842410196987,
+          "command": 0.8631578947368421,
+          "object": 0.81282316442606
         },
         "by_init": {
-          "0": 0.7741666666666667
+          "0": 0.7508333333333334
         },
         "init_sample_sd": null,
-        "forced_reject": 0.11458333333333333,
+        "forced_reject": 0.0875,
         "voluntary_reject": 0.0,
-        "wire_bytes_per_success": 121718.47631862217,
-        "phy_tx_seconds_per_success": 0.025727599569429535,
-        "normalized_reservation_seconds_per_success": 1.1284626204290986,
-        "decision_ms": 1.7602577424622723,
+        "wire_bytes_per_success": 135178.78357380687,
+        "phy_tx_seconds_per_success": 0.029001742508323797,
+        "normalized_reservation_seconds_per_success": 1.1539900787933637,
+        "decision_ms": 4.144785959973281,
         "episodes": 30
       },
       "price/full": {
-        "rate": 0.7791666666666667,
+        "rate": 0.7304166666666667,
         "ci95": [
-          0.7570833333333333,
-          0.8008333333333333
+          0.71125,
+          0.74959375
         ],
-        "admission_rate": 0.8879166666666667,
-        "admitted_violation_rate": 0.12247770999530737,
+        "admission_rate": 0.8558333333333333,
+        "admitted_violation_rate": 0.14654333008763387,
         "by_service": {
-          "telemetry": 0.6439854191980559,
-          "command": 0.8739903069466882,
-          "object": 0.8340292275574113
+          "telemetry": 0.5434530706836617,
+          "command": 0.8701754385964913,
+          "object": 0.8148914167528438
         },
         "by_init": {
-          "0": 0.7791666666666667
+          "0": 0.7304166666666667
         },
         "init_sample_sd": null,
-        "forced_reject": 0.11208333333333333,
-        "voluntary_reject": 0.0,
-        "wire_bytes_per_success": 121271.82352941176,
-        "phy_tx_seconds_per_success": 0.025743860962566867,
-        "normalized_reservation_seconds_per_success": 1.1310220826939075,
-        "decision_ms": 1.7170001216497137,
+        "forced_reject": 0.00875,
+        "voluntary_reject": 0.13541666666666666,
+        "wire_bytes_per_success": 107554.03194523674,
+        "phy_tx_seconds_per_success": 0.024707281232173785,
+        "normalized_reservation_seconds_per_success": 0.7898404073337527,
+        "decision_ms": 4.201709706339898,
         "episodes": 30
       },
       "semantic/full": {
-        "rate": 0.775,
+        "rate": 0.62375,
         "ci95": [
-          0.7495833333333334,
-          0.7995833333333333
+          0.6070833333333333,
+          0.6408333333333334
         ],
-        "admission_rate": 0.8291666666666667,
-        "admitted_violation_rate": 0.06532663316582915,
+        "admission_rate": 0.6808333333333333,
+        "admitted_violation_rate": 0.08384332925336598,
         "by_service": {
-          "telemetry": 0.6123936816524909,
-          "command": 0.8578352180936996,
-          "object": 0.8611691022964509
+          "telemetry": 0.541135573580533,
+          "command": 0.9052631578947369,
+          "object": 0.531540847983454
         },
         "by_init": {
-          "0": 0.775
+          "0": 0.62375
         },
         "init_sample_sd": null,
-        "forced_reject": 0.13083333333333333,
-        "voluntary_reject": 0.04,
-        "wire_bytes_per_success": 103769.20268817204,
-        "phy_tx_seconds_per_success": 0.02372932688171998,
-        "normalized_reservation_seconds_per_success": 1.989082613233969,
-        "decision_ms": 0.8628666999356938,
+        "forced_reject": 0.01125,
+        "voluntary_reject": 0.30791666666666667,
+        "wire_bytes_per_success": 100066.29926519706,
+        "phy_tx_seconds_per_success": 0.023108980627923256,
+        "normalized_reservation_seconds_per_success": 1.5466636155553306,
+        "decision_ms": 1.989873687925865,
         "episodes": 30
       },
       "quota/full": {
-        "rate": 0.6075,
+        "rate": 0.5825,
         "ci95": [
-          0.5858333333333333,
-          0.62875
+          0.5670833333333334,
+          0.5991666666666666
         ],
-        "admission_rate": 0.645,
-        "admitted_violation_rate": 0.05813953488372093,
+        "admission_rate": 0.68125,
+        "admitted_violation_rate": 0.14495412844036698,
         "by_service": {
-          "telemetry": 0.33292831105710813,
-          "command": 0.8966074313408724,
-          "object": 0.6565762004175365
+          "telemetry": 0.2213209733487833,
+          "command": 0.9,
+          "object": 0.717683557394002
         },
         "by_init": {
-          "0": 0.6075
+          "0": 0.5825
         },
         "init_sample_sd": null,
-        "forced_reject": 0.2275,
-        "voluntary_reject": 0.1275,
-        "wire_bytes_per_success": 62674.50274348423,
-        "phy_tx_seconds_per_success": 0.015827964334704937,
-        "normalized_reservation_seconds_per_success": 1.759941611149998,
-        "decision_ms": 0.4994676503520168,
+        "forced_reject": 0.23166666666666666,
+        "voluntary_reject": 0.08708333333333333,
+        "wire_bytes_per_success": 61461.59656652361,
+        "phy_tx_seconds_per_success": 0.016225690987124175,
+        "normalized_reservation_seconds_per_success": 1.646494291312533,
+        "decision_ms": 1.1789431970070534,
         "episodes": 30
       }
     }
   },
   "mobility": {
-    "double_dqn/stationary": {
-      "rate": 0.8525,
+    "candidate_ppo/stationary": {
+      "rate": 0.83925,
       "ci95": [
-        0.8116666666666668,
-        0.89125
+        0.81125,
+        0.8670062500000001
       ],
-      "admission_rate": 0.8591666666666666,
-      "admitted_violation_rate": 0.007759456838021339,
+      "admission_rate": 0.888,
+      "admitted_violation_rate": 0.05489864864864865,
       "by_service": {
-        "telemetry": 0.6748538011695906,
-        "command": 0.9569377990430622,
-        "object": 0.9466230936819172
+        "telemetry": 0.6036764705882353,
+        "command": 0.9765258215962441,
+        "object": 0.9498412698412698
       },
       "by_init": {
-        "11": 0.855,
-        "23": 0.87625,
-        "37": 0.82625
+        "11": 0.845,
+        "23": 0.85375,
+        "37": 0.855,
+        "53": 0.7925,
+        "71": 0.85
       },
-      "init_sample_sd": 0.02509357487485588,
-      "forced_reject": 0.13708333333333333,
-      "voluntary_reject": 0.00375,
-      "wire_bytes_per_success": 106018.89393939394,
-      "phy_tx_seconds_per_success": 0.021595722385141524,
-      "normalized_reservation_seconds_per_success": 1.9702612164974378,
-      "decision_ms": 0.8778302587537231,
-      "episodes": 30
+      "init_sample_sd": 0.0264220551812307,
+      "forced_reject": 0.112,
+      "voluntary_reject": 0.0,
+      "wire_bytes_per_success": 108542.42955019363,
+      "phy_tx_seconds_per_success": 0.02172049448912685,
+      "normalized_reservation_seconds_per_success": 2.1170246094572116,
+      "decision_ms": 0.9082408236990887,
+      "episodes": 50
     },
     "greedy/stationary": {
-      "rate": 0.88,
+      "rate": 0.86,
       "ci95": [
-        0.8525,
-        0.90875
+        0.84,
+        0.8825
       ],
-      "admission_rate": 0.8875,
-      "admitted_violation_rate": 0.008450704225352112,
+      "admission_rate": 0.9175,
+      "admitted_violation_rate": 0.06267029972752043,
       "by_service": {
-        "telemetry": 0.7052631578947368,
-        "command": 0.9712918660287081,
-        "object": 0.9803921568627451
+        "telemetry": 0.6470588235294118,
+        "command": 0.9765258215962441,
+        "object": 0.9650793650793651
       },
       "by_init": {
-        "0": 0.88
+        "0": 0.86
       },
       "init_sample_sd": null,
-      "forced_reject": 0.1125,
+      "forced_reject": 0.0825,
       "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 110913.51988636363,
-      "phy_tx_seconds_per_success": 0.021502556818182066,
-      "normalized_reservation_seconds_per_success": 1.0605216958187642,
-      "decision_ms": 1.674931184943489,
+      "wire_bytes_per_success": 115808.25581395348,
+      "phy_tx_seconds_per_success": 0.02228156395348856,
+      "normalized_reservation_seconds_per_success": 0.9848532678543034,
+      "decision_ms": 4.268956018804602,
       "episodes": 10
     },
     "semantic/stationary": {
-      "rate": 0.8375,
+      "rate": 0.69375,
       "ci95": [
-        0.79625,
-        0.8725
+        0.67125,
+        0.71375
       ],
-      "admission_rate": 0.8375,
-      "admitted_violation_rate": 0.0,
+      "admission_rate": 0.69625,
+      "admitted_violation_rate": 0.003590664272890485,
       "by_service": {
-        "telemetry": 0.6771929824561403,
-        "command": 0.937799043062201,
-        "object": 0.9183006535947712
+        "telemetry": 0.6102941176470589,
+        "command": 1.0,
+        "object": 0.5587301587301587
       },
       "by_init": {
-        "0": 0.8375
+        "0": 0.69375
       },
       "init_sample_sd": null,
-      "forced_reject": 0.13125,
-      "voluntary_reject": 0.03125,
-      "wire_bytes_per_success": 98858.16865671641,
-      "phy_tx_seconds_per_success": 0.021742943283581787,
-      "normalized_reservation_seconds_per_success": 1.8643501820374713,
-      "decision_ms": 0.8643535037572292,
+      "forced_reject": 0.00125,
+      "voluntary_reject": 0.3025,
+      "wire_bytes_per_success": 83295.03063063063,
+      "phy_tx_seconds_per_success": 0.019153326126126868,
+      "normalized_reservation_seconds_per_success": 1.3771897862885254,
+      "decision_ms": 2.2167350586914836,
       "episodes": 10
     },
     "price/stationary": {
-      "rate": 0.895,
+      "rate": 0.855,
       "ci95": [
-        0.87,
-        0.9175
+        0.8425,
+        0.86875
       ],
-      "admission_rate": 0.9,
-      "admitted_violation_rate": 0.005555555555555556,
+      "admission_rate": 0.86625,
+      "admitted_violation_rate": 0.012987012987012988,
       "by_service": {
-        "telemetry": 0.7228070175438597,
-        "command": 0.9904306220095693,
-        "object": 0.9901960784313726
+        "telemetry": 0.6066176470588235,
+        "command": 0.9859154929577465,
+        "object": 0.9809523809523809
       },
       "by_init": {
-        "0": 0.895
+        "0": 0.855
       },
       "init_sample_sd": null,
-      "forced_reject": 0.1,
-      "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 109547.42318435754,
-      "phy_tx_seconds_per_success": 0.021053335195530976,
-      "normalized_reservation_seconds_per_success": 1.0068396085971447,
-      "decision_ms": 1.5310365936238668,
+      "forced_reject": 0.0025,
+      "voluntary_reject": 0.13125,
+      "wire_bytes_per_success": 86033.47660818713,
+      "phy_tx_seconds_per_success": 0.017574760233918924,
+      "normalized_reservation_seconds_per_success": 0.6405649695256661,
+      "decision_ms": 4.278421403842003,
       "episodes": 10
     },
-    "double_dqn/local": {
-      "rate": 0.8529166666666667,
+    "candidate_ppo/local": {
+      "rate": 0.84025,
       "ci95": [
-        0.8116666666666668,
-        0.8916666666666666
+        0.813,
+        0.8677499999999999
       ],
-      "admission_rate": 0.8595833333333334,
-      "admitted_violation_rate": 0.007755695588948134,
+      "admission_rate": 0.888,
+      "admitted_violation_rate": 0.05377252252252252,
       "by_service": {
-        "telemetry": 0.6760233918128655,
-        "command": 0.9569377990430622,
-        "object": 0.9466230936819172
+        "telemetry": 0.6036764705882353,
+        "command": 0.9802816901408451,
+        "object": 0.9498412698412698
       },
       "by_init": {
-        "11": 0.855,
-        "23": 0.87625,
-        "37": 0.8275
+        "11": 0.84625,
+        "23": 0.85375,
+        "37": 0.855,
+        "53": 0.795,
+        "71": 0.85125
       },
-      "init_sample_sd": 0.02444168229343742,
-      "forced_reject": 0.13708333333333333,
-      "voluntary_reject": 0.0033333333333333335,
-      "wire_bytes_per_success": 106029.37176355642,
-      "phy_tx_seconds_per_success": 0.02159700048851956,
-      "normalized_reservation_seconds_per_success": 1.9703986940763412,
-      "decision_ms": 0.9068892266865684,
-      "episodes": 30
+      "init_sample_sd": 0.025516538754305974,
+      "forced_reject": 0.112,
+      "voluntary_reject": 0.0,
+      "wire_bytes_per_success": 108409.97857780423,
+      "phy_tx_seconds_per_success": 0.0216944242784882,
+      "normalized_reservation_seconds_per_success": 2.1131807532790137,
+      "decision_ms": 0.9085435774977668,
+      "episodes": 50
     },
     "greedy/local": {
-      "rate": 0.88625,
+      "rate": 0.86,
       "ci95": [
-        0.855,
-        0.91875
+        0.84,
+        0.8825
       ],
-      "admission_rate": 0.88875,
-      "admitted_violation_rate": 0.0028129395218002813,
+      "admission_rate": 0.9175,
+      "admitted_violation_rate": 0.06267029972752043,
       "by_service": {
-        "telemetry": 0.7052631578947368,
-        "command": 0.9856459330143541,
-        "object": 0.9869281045751634
+        "telemetry": 0.6470588235294118,
+        "command": 0.9765258215962441,
+        "object": 0.9650793650793651
       },
       "by_init": {
-        "0": 0.88625
+        "0": 0.86
       },
       "init_sample_sd": null,
-      "forced_reject": 0.11125,
+      "forced_reject": 0.0825,
       "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 110158.97602256699,
-      "phy_tx_seconds_per_success": 0.021357235543018577,
-      "normalized_reservation_seconds_per_success": 1.0533665034561739,
-      "decision_ms": 1.5016553176155867,
+      "wire_bytes_per_success": 115808.25581395348,
+      "phy_tx_seconds_per_success": 0.02228456395348856,
+      "normalized_reservation_seconds_per_success": 0.9848532678543034,
+      "decision_ms": 4.305134561100203,
       "episodes": 10
     },
     "semantic/local": {
-      "rate": 0.8375,
+      "rate": 0.69375,
       "ci95": [
-        0.79625,
-        0.8725
+        0.67125,
+        0.71375
       ],
-      "admission_rate": 0.8375,
-      "admitted_violation_rate": 0.0,
+      "admission_rate": 0.69625,
+      "admitted_violation_rate": 0.003590664272890485,
       "by_service": {
-        "telemetry": 0.6771929824561403,
-        "command": 0.937799043062201,
-        "object": 0.9183006535947712
+        "telemetry": 0.6102941176470589,
+        "command": 1.0,
+        "object": 0.5587301587301587
       },
       "by_init": {
-        "0": 0.8375
+        "0": 0.69375
       },
       "init_sample_sd": null,
-      "forced_reject": 0.13125,
-      "voluntary_reject": 0.03125,
-      "wire_bytes_per_success": 98858.16865671641,
-      "phy_tx_seconds_per_success": 0.021748083582089246,
-      "normalized_reservation_seconds_per_success": 1.8643501820374713,
-      "decision_ms": 0.8135326011688448,
+      "forced_reject": 0.00125,
+      "voluntary_reject": 0.3025,
+      "wire_bytes_per_success": 83295.03063063063,
+      "phy_tx_seconds_per_success": 0.01915716756756831,
+      "normalized_reservation_seconds_per_success": 1.3771897862885254,
+      "decision_ms": 2.159184194952104,
       "episodes": 10
     },
     "price/local": {
-      "rate": 0.9,
+      "rate": 0.855,
       "ci95": [
-        0.87125,
-        0.92625
+        0.8425,
+        0.86875
       ],
-      "admission_rate": 0.90125,
-      "admitted_violation_rate": 0.0013869625520110957,
+      "admission_rate": 0.86625,
+      "admitted_violation_rate": 0.012987012987012988,
       "by_service": {
-        "telemetry": 0.7228070175438597,
-        "command": 1.0,
-        "object": 0.9967320261437909
+        "telemetry": 0.6066176470588235,
+        "command": 0.9859154929577465,
+        "object": 0.9809523809523809
       },
       "by_init": {
-        "0": 0.9
+        "0": 0.855
       },
       "init_sample_sd": null,
-      "forced_reject": 0.09875,
-      "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 108962.36805555556,
-      "phy_tx_seconds_per_success": 0.020942466666666913,
-      "normalized_reservation_seconds_per_success": 1.001564912291073,
-      "decision_ms": 1.512141011253334,
+      "forced_reject": 0.0025,
+      "voluntary_reject": 0.13125,
+      "wire_bytes_per_success": 86033.47660818713,
+      "phy_tx_seconds_per_success": 0.017571491228070973,
+      "normalized_reservation_seconds_per_success": 0.6405649695256661,
+      "decision_ms": 4.3311443625225365,
       "episodes": 10
     },
-    "double_dqn/mixed": {
-      "rate": 0.7579166666666667,
+    "candidate_ppo/mixed": {
+      "rate": 0.72175,
       "ci95": [
-        0.7195833333333335,
-        0.7933333333333333
+        0.6775,
+        0.7635
       ],
-      "admission_rate": 0.8570833333333333,
-      "admitted_violation_rate": 0.11570247933884298,
+      "admission_rate": 0.8765,
+      "admitted_violation_rate": 0.17655447803764973,
       "by_service": {
-        "telemetry": 0.6210526315789474,
-        "command": 0.7878787878787878,
-        "object": 0.8649237472766884
+        "telemetry": 0.5213235294117647,
+        "command": 0.8234741784037559,
+        "object": 0.826031746031746
       },
       "by_init": {
-        "11": 0.74875,
-        "23": 0.7675,
-        "37": 0.7575
+        "11": 0.75625,
+        "23": 0.71,
+        "37": 0.6925,
+        "53": 0.6925,
+        "71": 0.7575
       },
-      "init_sample_sd": 0.009381941874331386,
-      "forced_reject": 0.14,
-      "voluntary_reject": 0.002916666666666667,
-      "wire_bytes_per_success": 117195.21275426059,
-      "phy_tx_seconds_per_success": 0.025858975261131973,
-      "normalized_reservation_seconds_per_success": 2.210375445644332,
-      "decision_ms": 0.9063899068011475,
-      "episodes": 30
+      "init_sample_sd": 0.032853843001999,
+      "forced_reject": 0.1235,
+      "voluntary_reject": 0.0,
+      "wire_bytes_per_success": 121667.84274333218,
+      "phy_tx_seconds_per_success": 0.026299591271215197,
+      "normalized_reservation_seconds_per_success": 2.3370922980841518,
+      "decision_ms": 0.9124129632855329,
+      "episodes": 50
     },
     "greedy/mixed": {
-      "rate": 0.74875,
+      "rate": 0.73625,
       "ci95": [
-        0.70625,
-        0.78625
+        0.6975,
+        0.7725
       ],
-      "admission_rate": 0.88375,
-      "admitted_violation_rate": 0.15275813295615276,
+      "admission_rate": 0.9175,
+      "admitted_violation_rate": 0.19754768392370572,
       "by_service": {
-        "telemetry": 0.6280701754385964,
-        "command": 0.7655502392344498,
-        "object": 0.8496732026143791
+        "telemetry": 0.5661764705882353,
+        "command": 0.863849765258216,
+        "object": 0.7968253968253968
       },
       "by_init": {
-        "0": 0.74875
+        "0": 0.73625
       },
       "init_sample_sd": null,
-      "forced_reject": 0.11625,
+      "forced_reject": 0.0825,
       "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 131849.32220367278,
-      "phy_tx_seconds_per_success": 0.028277996661101826,
-      "normalized_reservation_seconds_per_success": 1.2552886754476837,
-      "decision_ms": 1.3388627388485475,
+      "wire_bytes_per_success": 132187.63837011883,
+      "phy_tx_seconds_per_success": 0.028540135823429336,
+      "normalized_reservation_seconds_per_success": 1.1433133178401753,
+      "decision_ms": 4.235409291204633,
       "episodes": 10
     },
     "semantic/mixed": {
-      "rate": 0.76125,
+      "rate": 0.63625,
       "ci95": [
-        0.725,
-        0.7975
+        0.60625,
+        0.66625
       ],
-      "admission_rate": 0.83375,
-      "admitted_violation_rate": 0.08695652173913043,
+      "admission_rate": 0.69625,
+      "admitted_violation_rate": 0.08617594254937164,
       "by_service": {
-        "telemetry": 0.624561403508772,
-        "command": 0.7703349282296651,
-        "object": 0.8823529411764706
+        "telemetry": 0.5477941176470589,
+        "command": 0.9014084507042254,
+        "object": 0.5333333333333333
       },
       "by_init": {
-        "0": 0.76125
+        "0": 0.63625
       },
       "init_sample_sd": null,
-      "forced_reject": 0.135,
-      "voluntary_reject": 0.03125,
-      "wire_bytes_per_success": 107811.67159277503,
-      "phy_tx_seconds_per_success": 0.02475063382594367,
-      "normalized_reservation_seconds_per_success": 2.0447784202161214,
-      "decision_ms": 0.8043732135865866,
+      "forced_reject": 0.01,
+      "voluntary_reject": 0.29375,
+      "wire_bytes_per_success": 90991.42239685658,
+      "phy_tx_seconds_per_success": 0.02141952848723057,
+      "normalized_reservation_seconds_per_success": 1.4879192973428752,
+      "decision_ms": 2.0398994551669603,
       "episodes": 10
     },
     "price/mixed": {
-      "rate": 0.75875,
+      "rate": 0.74,
       "ci95": [
-        0.71875,
-        0.79
+        0.70875,
+        0.77
       ],
-      "admission_rate": 0.8925,
-      "admitted_violation_rate": 0.14985994397759103,
+      "admission_rate": 0.86375,
+      "admitted_violation_rate": 0.14327062228654125,
       "by_service": {
-        "telemetry": 0.6350877192982456,
-        "command": 0.7942583732057417,
-        "object": 0.8496732026143791
+        "telemetry": 0.5625,
+        "command": 0.8685446009389671,
+        "object": 0.8063492063492064
       },
       "by_init": {
-        "0": 0.75875
+        "0": 0.74
       },
       "init_sample_sd": null,
-      "forced_reject": 0.1075,
-      "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 126774.06589785832,
-      "phy_tx_seconds_per_success": 0.027464626029654052,
-      "normalized_reservation_seconds_per_success": 1.1869664433827567,
-      "decision_ms": 1.2726210299479135,
+      "forced_reject": 0.01,
+      "voluntary_reject": 0.12625,
+      "wire_bytes_per_success": 100667.01858108108,
+      "phy_tx_seconds_per_success": 0.023232932432432952,
+      "normalized_reservation_seconds_per_success": 0.7456649583379534,
+      "decision_ms": 3.6268682300124055,
       "episodes": 10
     }
   },
   "stress": {
-    "double_dqn/backhaul": {
-      "rate": 0.6475,
+    "candidate_ppo/backhaul": {
+      "rate": 0.561,
       "ci95": [
-        0.5979166666666667,
-        0.6941666666666667
+        0.5195000000000001,
+        0.6092562499999999
       ],
-      "admission_rate": 0.7366666666666667,
-      "admitted_violation_rate": 0.12104072398190045,
+      "admission_rate": 0.71475,
+      "admitted_violation_rate": 0.21511017838405036,
       "by_service": {
-        "telemetry": 0.38295165394402036,
-        "command": 0.8544839255499154,
-        "object": 0.7311827956989247
+        "telemetry": 0.2576512455516014,
+        "command": 0.7489795918367347,
+        "object": 0.7108359133126935
       },
       "by_init": {
-        "11": 0.62875,
-        "23": 0.67625,
-        "37": 0.6375
+        "11": 0.56125,
+        "23": 0.55875,
+        "37": 0.60625,
+        "53": 0.52375,
+        "71": 0.555
       },
-      "init_sample_sd": 0.025279685520195865,
-      "forced_reject": 0.25916666666666666,
-      "voluntary_reject": 0.004166666666666667,
-      "wire_bytes_per_success": 93064.19562419562,
-      "phy_tx_seconds_per_success": 0.02131427541827609,
-      "normalized_reservation_seconds_per_success": 2.6535146119276023,
-      "decision_ms": 0.6032998699083691,
-      "episodes": 30
+      "init_sample_sd": 0.029479866010550287,
+      "forced_reject": 0.28525,
+      "voluntary_reject": 0.0,
+      "wire_bytes_per_success": 102353.21345811052,
+      "phy_tx_seconds_per_success": 0.022389190730838525,
+      "normalized_reservation_seconds_per_success": 3.04705433015018,
+      "decision_ms": 0.7825418612810608,
+      "episodes": 50
     },
     "greedy/backhaul": {
-      "rate": 0.65125,
+      "rate": 0.55,
       "ci95": [
-        0.61375,
-        0.6925
+        0.48375,
+        0.61
       ],
-      "admission_rate": 0.79,
-      "admitted_violation_rate": 0.17563291139240506,
+      "admission_rate": 0.78375,
+      "admitted_violation_rate": 0.2982456140350877,
       "by_service": {
-        "telemetry": 0.3931297709923664,
-        "command": 0.8020304568527918,
-        "object": 0.7624633431085044
+        "telemetry": 0.35231316725978645,
+        "command": 0.6020408163265306,
+        "object": 0.6904024767801857
       },
       "by_init": {
-        "0": 0.65125
+        "0": 0.55
       },
       "init_sample_sd": null,
-      "forced_reject": 0.21,
+      "forced_reject": 0.21625,
       "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 106160.50287907869,
-      "phy_tx_seconds_per_success": 0.023048276391555694,
-      "normalized_reservation_seconds_per_success": 1.5080676202623708,
-      "decision_ms": 0.851692699970954,
+      "wire_bytes_per_success": 121720.69318181818,
+      "phy_tx_seconds_per_success": 0.027041072727274025,
+      "normalized_reservation_seconds_per_success": 1.6326229659134945,
+      "decision_ms": 2.6886842087606055,
       "episodes": 10
     },
     "semantic/backhaul": {
-      "rate": 0.66,
+      "rate": 0.51375,
       "ci95": [
-        0.61125,
-        0.70375
+        0.48875,
+        0.5425
       ],
-      "admission_rate": 0.71375,
-      "admitted_violation_rate": 0.07530647985989491,
+      "admission_rate": 0.57,
+      "admitted_violation_rate": 0.09868421052631579,
       "by_service": {
-        "telemetry": 0.38549618320610685,
-        "command": 0.883248730964467,
-        "object": 0.7419354838709677
+        "telemetry": 0.29537366548042704,
+        "command": 0.8469387755102041,
+        "object": 0.5015479876160991
       },
       "by_init": {
-        "0": 0.66
+        "0": 0.51375
       },
       "init_sample_sd": null,
-      "forced_reject": 0.22125,
-      "voluntary_reject": 0.065,
-      "wire_bytes_per_success": 82665.32196969698,
-      "phy_tx_seconds_per_success": 0.019738962121212223,
-      "normalized_reservation_seconds_per_success": 2.46993847400303,
-      "decision_ms": 0.4328492886179447,
+      "forced_reject": 0.07875,
+      "voluntary_reject": 0.35125,
+      "wire_bytes_per_success": 64108.087591240874,
+      "phy_tx_seconds_per_success": 0.016436496350364704,
+      "normalized_reservation_seconds_per_success": 1.757787955250967,
+      "decision_ms": 1.2897251649155805,
       "episodes": 10
     },
     "price/backhaul": {
-      "rate": 0.655,
+      "rate": 0.56125,
       "ci95": [
-        0.60875,
-        0.7000312499999995
+        0.52375,
+        0.5975
       ],
-      "admission_rate": 0.79375,
-      "admitted_violation_rate": 0.17480314960629922,
+      "admission_rate": 0.75625,
+      "admitted_violation_rate": 0.2578512396694215,
       "by_service": {
-        "telemetry": 0.40076335877862596,
-        "command": 0.8020304568527918,
-        "object": 0.7653958944281525
+        "telemetry": 0.302491103202847,
+        "command": 0.6020408163265306,
+        "object": 0.7616099071207431
       },
       "by_init": {
-        "0": 0.655
+        "0": 0.56125
       },
       "init_sample_sd": null,
-      "forced_reject": 0.20625,
-      "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 104760.30916030535,
-      "phy_tx_seconds_per_success": 0.02303001526717657,
-      "normalized_reservation_seconds_per_success": 1.4823876277418935,
-      "decision_ms": 0.9369081799468404,
+      "forced_reject": 0.0825,
+      "voluntary_reject": 0.16125,
+      "wire_bytes_per_success": 88679.11804008909,
+      "phy_tx_seconds_per_success": 0.02142280623608125,
+      "normalized_reservation_seconds_per_success": 1.1031069173827248,
+      "decision_ms": 2.826455825161247,
       "episodes": 10
     },
-    "double_dqn/airtime": {
-      "rate": 0.70875,
+    "candidate_ppo/airtime": {
+      "rate": 0.647125,
       "ci95": [
-        0.682078125,
-        0.7412499999999999
+        0.624,
+        0.672003125
       ],
-      "admission_rate": 0.8254166666666667,
-      "admitted_violation_rate": 0.1413427561837456,
+      "admission_rate": 0.75775,
+      "admitted_violation_rate": 0.14599142197294623,
       "by_service": {
-        "telemetry": 0.7083333333333334,
-        "command": 0.5932203389830508,
-        "object": 0.768
+        "telemetry": 0.6351219512195122,
+        "command": 0.8338461538461538,
+        "object": 0.698
       },
       "by_init": {
-        "11": 0.725625,
-        "23": 0.7075,
-        "37": 0.693125
+        "11": 0.64875,
+        "23": 0.646875,
+        "37": 0.648125,
+        "53": 0.643125,
+        "71": 0.64875
       },
-      "init_sample_sd": 0.016286017775994213,
-      "forced_reject": 0.13666666666666666,
-      "voluntary_reject": 0.03791666666666667,
-      "wire_bytes_per_success": 333798.46266901825,
-      "phy_tx_seconds_per_success": 0.0611916966490313,
-      "normalized_reservation_seconds_per_success": 0.7797760323817141,
-      "decision_ms": 0.643868833722081,
-      "episodes": 30
+      "init_sample_sd": 0.0023634588001486645,
+      "forced_reject": 0.24225,
+      "voluntary_reject": 0.0,
+      "wire_bytes_per_success": 336182.13869036123,
+      "phy_tx_seconds_per_success": 0.05917057446397314,
+      "normalized_reservation_seconds_per_success": 0.7960177763418681,
+      "decision_ms": 0.8066195593701195,
+      "episodes": 50
     },
     "greedy/airtime": {
-      "rate": 0.70875,
+      "rate": 0.735625,
       "ci95": [
-        0.67375,
-        0.745
+        0.708125,
+        0.76125
       ],
-      "admission_rate": 0.855,
-      "admitted_violation_rate": 0.17105263157894737,
+      "admission_rate": 0.88125,
+      "admitted_violation_rate": 0.1652482269503546,
       "by_service": {
-        "telemetry": 0.731638418079096,
-        "command": 0.6610169491525424,
-        "object": 0.472
+        "telemetry": 0.7477351916376307,
+        "command": 0.8153846153846154,
+        "object": 0.51
       },
       "by_init": {
-        "0": 0.70875
+        "0": 0.735625
       },
       "init_sample_sd": null,
-      "forced_reject": 0.145,
+      "forced_reject": 0.11875,
       "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 337300.8562610229,
-      "phy_tx_seconds_per_success": 0.06490380952381306,
-      "normalized_reservation_seconds_per_success": 0.5109338755667858,
-      "decision_ms": 1.8765073263239174,
+      "wire_bytes_per_success": 308765.73152081564,
+      "phy_tx_seconds_per_success": 0.06327968394222948,
+      "normalized_reservation_seconds_per_success": 0.41569366368795807,
+      "decision_ms": 4.55509782680565,
       "episodes": 10
     },
     "semantic/airtime": {
-      "rate": 0.725625,
+      "rate": 0.741875,
       "ci95": [
-        0.691875,
-        0.758125
+        0.72,
+        0.764375
       ],
-      "admission_rate": 0.83,
-      "admitted_violation_rate": 0.12575301204819278,
+      "admission_rate": 0.864375,
+      "admitted_violation_rate": 0.14172089660159073,
       "by_service": {
-        "telemetry": 0.7189265536723164,
-        "command": 0.6101694915254238,
-        "object": 0.856
+        "telemetry": 0.7407665505226481,
+        "command": 0.8,
+        "object": 0.72
       },
       "by_init": {
-        "0": 0.725625
+        "0": 0.741875
       },
       "init_sample_sd": null,
-      "forced_reject": 0.165,
-      "voluntary_reject": 0.005,
-      "wire_bytes_per_success": 308367.2480620155,
-      "phy_tx_seconds_per_success": 0.06187738845822746,
-      "normalized_reservation_seconds_per_success": 0.70457061699383,
-      "decision_ms": 1.7048848412423467,
+      "forced_reject": 0.126875,
+      "voluntary_reject": 0.00875,
+      "wire_bytes_per_success": 307327.1946082561,
+      "phy_tx_seconds_per_success": 0.06179594945240346,
+      "normalized_reservation_seconds_per_success": 0.560486190202154,
+      "decision_ms": 3.586880576181102,
       "episodes": 10
     },
     "price/airtime": {
-      "rate": 0.706875,
+      "rate": 0.739375,
       "ci95": [
-        0.66875,
-        0.741875
+        0.7174843750000001,
+        0.763125
       ],
-      "admission_rate": 0.85875,
-      "admitted_violation_rate": 0.17685589519650655,
+      "admission_rate": 0.88625,
+      "admitted_violation_rate": 0.16572637517630465,
       "by_service": {
-        "telemetry": 0.731638418079096,
-        "command": 0.6101694915254238,
-        "object": 0.472
+        "telemetry": 0.7533101045296168,
+        "command": 0.8461538461538461,
+        "object": 0.47
       },
       "by_init": {
-        "0": 0.706875
+        "0": 0.739375
       },
       "init_sample_sd": null,
-      "forced_reject": 0.14125,
-      "voluntary_reject": 0.0,
-      "wire_bytes_per_success": 329243.2413793103,
-      "phy_tx_seconds_per_success": 0.06555603890362867,
-      "normalized_reservation_seconds_per_success": 0.5160298616824232,
-      "decision_ms": 1.9238840793286727,
+      "forced_reject": 0.111875,
+      "voluntary_reject": 0.001875,
+      "wire_bytes_per_success": 316249.2493660186,
+      "phy_tx_seconds_per_success": 0.06350292814877799,
+      "normalized_reservation_seconds_per_success": 0.43452947453065516,
+      "decision_ms": 4.188622125498114,
       "episodes": 10
     }
   },
-  "bootstrap": "10000 paired scene and initialization resamples; 3 inits; exploratory intervals",
-  "audited_episodes": 1920,
+  "bootstrap": "10000 paired scene and initialization resamples; 5 inits; exploratory intervals",
+  "audited_episodes": 1060,
   "replayed_models": [
     {
       "algorithm": "candidate_ppo",
@@ -1613,113 +1118,1074 @@
       "exact_event_replay": true
     },
     {
-      "algorithm": "double_qrdqn",
+      "algorithm": "candidate_ppo",
       "variant": "full",
-      "init": 11,
+      "init": 53,
       "exact_event_replay": true
     },
     {
-      "algorithm": "double_qrdqn",
+      "algorithm": "candidate_ppo",
       "variant": "full",
-      "init": 23,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "double_qrdqn",
-      "variant": "full",
-      "init": 37,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "double_dqn",
-      "variant": "full",
-      "init": 11,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "double_dqn",
-      "variant": "full",
-      "init": 23,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "double_dqn",
-      "variant": "full",
-      "init": 37,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "candidate_a2c",
-      "variant": "full",
-      "init": 11,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "candidate_a2c",
-      "variant": "full",
-      "init": 23,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "candidate_a2c",
-      "variant": "full",
-      "init": 37,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "double_dqn",
-      "variant": "fixed",
-      "init": 11,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "double_dqn",
-      "variant": "fixed",
-      "init": 23,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "double_dqn",
-      "variant": "fixed",
-      "init": 37,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "double_dqn",
-      "variant": "no_motion",
-      "init": 11,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "double_dqn",
-      "variant": "no_motion",
-      "init": 23,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "double_dqn",
-      "variant": "no_motion",
-      "init": 37,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "double_dqn",
-      "variant": "no_calendar",
-      "init": 11,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "double_dqn",
-      "variant": "no_calendar",
-      "init": 23,
-      "exact_event_replay": true
-    },
-    {
-      "algorithm": "double_dqn",
-      "variant": "no_calendar",
-      "init": 37,
+      "init": 71,
       "exact_event_replay": true
     }
   ],
-  "training_decisions": 688128
+  "training_decisions": 40960,
+  "objective": "weighted SLA utility with service priorities command=3, telemetry=2, object=1; formal headline remains unweighted packet SLA success",
+  "main_actual": {
+    "candidate_ppo": {
+      "episodes": 300,
+      "requests": 19200,
+      "success": 14081,
+      "rate": 0.7333854166666667,
+      "utility": 25606.0,
+      "utility_available": 35380.0,
+      "utility_rate": 0.7237422272470322,
+      "admitted": 16980,
+      "admission_rate": 0.884375,
+      "forced_reject": 0.115625,
+      "voluntary_reject": 0.0,
+      "risk_sum": 1010.1617938361906,
+      "by_service": {
+        "telemetry": {
+          "requests": 6870,
+          "success": 3687,
+          "rate": 0.5366812227074236
+        },
+        "command": {
+          "requests": 4655,
+          "success": 3919,
+          "rate": 0.841890440386681
+        },
+        "object": {
+          "requests": 7675,
+          "success": 6475,
+          "rate": 0.8436482084690554
+        }
+      }
+    },
+    "greedy": {
+      "episodes": 60,
+      "requests": 3840,
+      "success": 2969,
+      "rate": 0.7731770833333333,
+      "utility": 5471.0,
+      "utility_available": 7076.0,
+      "utility_rate": 0.7731769361221029,
+      "admitted": 3572,
+      "admission_rate": 0.9302083333333333,
+      "forced_reject": 0.06979166666666667,
+      "voluntary_reject": 0.0,
+      "risk_sum": 80.83583040000012,
+      "by_service": {
+        "telemetry": {
+          "requests": 1374,
+          "success": 900,
+          "rate": 0.6550218340611353
+        },
+        "command": {
+          "requests": 931,
+          "success": 801,
+          "rate": 0.8603651987110634
+        },
+        "object": {
+          "requests": 1535,
+          "success": 1268,
+          "rate": 0.826058631921824
+        }
+      }
+    },
+    "nearest": {
+      "episodes": 60,
+      "requests": 3840,
+      "success": 2960,
+      "rate": 0.7708333333333334,
+      "utility": 5456.0,
+      "utility_available": 7076.0,
+      "utility_rate": 0.7710570944036179,
+      "admitted": 3568,
+      "admission_rate": 0.9291666666666667,
+      "forced_reject": 0.07083333333333333,
+      "voluntary_reject": 0.0,
+      "risk_sum": 74.34969800000009,
+      "by_service": {
+        "telemetry": {
+          "requests": 1374,
+          "success": 898,
+          "rate": 0.653566229985444
+        },
+        "command": {
+          "requests": 931,
+          "success": 799,
+          "rate": 0.8582169709989259
+        },
+        "object": {
+          "requests": 1535,
+          "success": 1263,
+          "rate": 0.8228013029315961
+        }
+      }
+    },
+    "first_fit": {
+      "episodes": 60,
+      "requests": 3840,
+      "success": 1264,
+      "rate": 0.32916666666666666,
+      "utility": 2212.0,
+      "utility_available": 7076.0,
+      "utility_rate": 0.31260599208592427,
+      "admitted": 3628,
+      "admission_rate": 0.9447916666666667,
+      "forced_reject": 0.05520833333333333,
+      "voluntary_reject": 0.0,
+      "risk_sum": 167.8094708,
+      "by_service": {
+        "telemetry": {
+          "requests": 1374,
+          "success": 0,
+          "rate": 0.0
+        },
+        "command": {
+          "requests": 931,
+          "success": 474,
+          "rate": 0.5091299677765844
+        },
+        "object": {
+          "requests": 1535,
+          "success": 790,
+          "rate": 0.5146579804560261
+        }
+      }
+    },
+    "quota": {
+      "episodes": 60,
+      "requests": 3840,
+      "success": 2358,
+      "rate": 0.6140625,
+      "utility": 4375.0,
+      "utility_available": 7076.0,
+      "utility_rate": 0.6182871678914641,
+      "admitted": 2731,
+      "admission_rate": 0.7111979166666667,
+      "forced_reject": 0.21979166666666666,
+      "voluntary_reject": 0.06901041666666667,
+      "risk_sum": 0.0,
+      "by_service": {
+        "telemetry": {
+          "requests": 1374,
+          "success": 355,
+          "rate": 0.25836972343522563
+        },
+        "command": {
+          "requests": 931,
+          "success": 831,
+          "rate": 0.8925886143931256
+        },
+        "object": {
+          "requests": 1535,
+          "success": 1172,
+          "rate": 0.7635179153094462
+        }
+      }
+    },
+    "price": {
+      "episodes": 60,
+      "requests": 3840,
+      "success": 2873,
+      "rate": 0.7481770833333333,
+      "utility": 5275.0,
+      "utility_available": 7076.0,
+      "utility_rate": 0.7454776710005653,
+      "admitted": 3338,
+      "admission_rate": 0.8692708333333333,
+      "forced_reject": 0.00703125,
+      "voluntary_reject": 0.12369791666666667,
+      "risk_sum": 0.6525600000000029,
+      "by_service": {
+        "telemetry": {
+          "requests": 1374,
+          "success": 794,
+          "rate": 0.5778748180494906
+        },
+        "command": {
+          "requests": 931,
+          "success": 804,
+          "rate": 0.8635875402792696
+        },
+        "object": {
+          "requests": 1535,
+          "success": 1275,
+          "rate": 0.8306188925081434
+        }
+      }
+    },
+    "semantic": {
+      "episodes": 60,
+      "requests": 3840,
+      "success": 2482,
+      "rate": 0.6463541666666667,
+      "utility": 4936.0,
+      "utility_available": 7076.0,
+      "utility_rate": 0.6975692481628039,
+      "admitted": 2713,
+      "admission_rate": 0.7065104166666667,
+      "forced_reject": 0.008333333333333333,
+      "voluntary_reject": 0.28515625,
+      "risk_sum": 0.28159000000000134,
+      "by_service": {
+        "telemetry": {
+          "requests": 1374,
+          "success": 784,
+          "rate": 0.5705967976710334
+        },
+        "command": {
+          "requests": 931,
+          "success": 835,
+          "rate": 0.8968850698174007
+        },
+        "object": {
+          "requests": 1535,
+          "success": 863,
+          "rate": 0.5622149837133551
+        }
+      }
+    }
+  },
+  "sensitivity_actual": {
+    "mobility_stationary": {
+      "candidate_ppo": {
+        "episodes": 50,
+        "requests": 4000,
+        "success": 3357,
+        "rate": 0.83925,
+        "utility": 6258.0,
+        "utility_available": 7490.0,
+        "utility_rate": 0.8355140186915888,
+        "admitted": 3552,
+        "admission_rate": 0.888,
+        "forced_reject": 0.112,
+        "voluntary_reject": 0.0,
+        "risk_sum": 257.7872600914285,
+        "by_service": {
+          "telemetry": {
+            "requests": 1360,
+            "success": 821,
+            "rate": 0.6036764705882353
+          },
+          "command": {
+            "requests": 1065,
+            "success": 1040,
+            "rate": 0.9765258215962441
+          },
+          "object": {
+            "requests": 1575,
+            "success": 1496,
+            "rate": 0.9498412698412698
+          }
+        }
+      },
+      "greedy": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 688,
+        "rate": 0.86,
+        "utility": 1280.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.8544726301735648,
+        "admitted": 734,
+        "admission_rate": 0.9175,
+        "forced_reject": 0.0825,
+        "voluntary_reject": 0.0,
+        "risk_sum": 24.984267600000024,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 176,
+            "rate": 0.6470588235294118
+          },
+          "command": {
+            "requests": 213,
+            "success": 208,
+            "rate": 0.9765258215962441
+          },
+          "object": {
+            "requests": 315,
+            "success": 304,
+            "rate": 0.9650793650793651
+          }
+        }
+      },
+      "price": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 684,
+        "rate": 0.855,
+        "utility": 1269.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.8471295060080107,
+        "admitted": 693,
+        "admission_rate": 0.86625,
+        "forced_reject": 0.0025,
+        "voluntary_reject": 0.13125,
+        "risk_sum": 0.13315000000000077,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 165,
+            "rate": 0.6066176470588235
+          },
+          "command": {
+            "requests": 213,
+            "success": 210,
+            "rate": 0.9859154929577465
+          },
+          "object": {
+            "requests": 315,
+            "success": 309,
+            "rate": 0.9809523809523809
+          }
+        }
+      },
+      "semantic": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 555,
+        "rate": 0.69375,
+        "utility": 1147.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.7656875834445928,
+        "admitted": 557,
+        "admission_rate": 0.69625,
+        "forced_reject": 0.00125,
+        "voluntary_reject": 0.3025,
+        "risk_sum": 0.1738600000000008,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 166,
+            "rate": 0.6102941176470589
+          },
+          "command": {
+            "requests": 213,
+            "success": 213,
+            "rate": 1.0
+          },
+          "object": {
+            "requests": 315,
+            "success": 176,
+            "rate": 0.5587301587301587
+          }
+        }
+      }
+    },
+    "mobility_local": {
+      "candidate_ppo": {
+        "episodes": 50,
+        "requests": 4000,
+        "success": 3361,
+        "rate": 0.84025,
+        "utility": 6270.0,
+        "utility_available": 7490.0,
+        "utility_rate": 0.8371161548731643,
+        "admitted": 3552,
+        "admission_rate": 0.888,
+        "forced_reject": 0.112,
+        "voluntary_reject": 0.0,
+        "risk_sum": 257.65767502476183,
+        "by_service": {
+          "telemetry": {
+            "requests": 1360,
+            "success": 821,
+            "rate": 0.6036764705882353
+          },
+          "command": {
+            "requests": 1065,
+            "success": 1044,
+            "rate": 0.9802816901408451
+          },
+          "object": {
+            "requests": 1575,
+            "success": 1496,
+            "rate": 0.9498412698412698
+          }
+        }
+      },
+      "greedy": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 688,
+        "rate": 0.86,
+        "utility": 1280.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.8544726301735648,
+        "admitted": 734,
+        "admission_rate": 0.9175,
+        "forced_reject": 0.0825,
+        "voluntary_reject": 0.0,
+        "risk_sum": 24.984267600000024,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 176,
+            "rate": 0.6470588235294118
+          },
+          "command": {
+            "requests": 213,
+            "success": 208,
+            "rate": 0.9765258215962441
+          },
+          "object": {
+            "requests": 315,
+            "success": 304,
+            "rate": 0.9650793650793651
+          }
+        }
+      },
+      "price": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 684,
+        "rate": 0.855,
+        "utility": 1269.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.8471295060080107,
+        "admitted": 693,
+        "admission_rate": 0.86625,
+        "forced_reject": 0.0025,
+        "voluntary_reject": 0.13125,
+        "risk_sum": 0.13315000000000077,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 165,
+            "rate": 0.6066176470588235
+          },
+          "command": {
+            "requests": 213,
+            "success": 210,
+            "rate": 0.9859154929577465
+          },
+          "object": {
+            "requests": 315,
+            "success": 309,
+            "rate": 0.9809523809523809
+          }
+        }
+      },
+      "semantic": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 555,
+        "rate": 0.69375,
+        "utility": 1147.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.7656875834445928,
+        "admitted": 557,
+        "admission_rate": 0.69625,
+        "forced_reject": 0.00125,
+        "voluntary_reject": 0.3025,
+        "risk_sum": 0.1738600000000008,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 166,
+            "rate": 0.6102941176470589
+          },
+          "command": {
+            "requests": 213,
+            "success": 213,
+            "rate": 1.0
+          },
+          "object": {
+            "requests": 315,
+            "success": 176,
+            "rate": 0.5587301587301587
+          }
+        }
+      }
+    },
+    "mobility_mixed": {
+      "candidate_ppo": {
+        "episodes": 50,
+        "requests": 4000,
+        "success": 2887,
+        "rate": 0.72175,
+        "utility": 5350.0,
+        "utility_available": 7490.0,
+        "utility_rate": 0.7142857142857143,
+        "admitted": 3506,
+        "admission_rate": 0.8765,
+        "forced_reject": 0.1235,
+        "voluntary_reject": 0.0,
+        "risk_sum": 229.6476905866666,
+        "by_service": {
+          "telemetry": {
+            "requests": 1360,
+            "success": 709,
+            "rate": 0.5213235294117647
+          },
+          "command": {
+            "requests": 1065,
+            "success": 877,
+            "rate": 0.8234741784037559
+          },
+          "object": {
+            "requests": 1575,
+            "success": 1301,
+            "rate": 0.826031746031746
+          }
+        }
+      },
+      "greedy": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 589,
+        "rate": 0.73625,
+        "utility": 1111.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.7416555407209613,
+        "admitted": 734,
+        "admission_rate": 0.9175,
+        "forced_reject": 0.0825,
+        "voluntary_reject": 0.0,
+        "risk_sum": 26.181435200000017,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 154,
+            "rate": 0.5661764705882353
+          },
+          "command": {
+            "requests": 213,
+            "success": 184,
+            "rate": 0.863849765258216
+          },
+          "object": {
+            "requests": 315,
+            "success": 251,
+            "rate": 0.7968253968253968
+          }
+        }
+      },
+      "price": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 592,
+        "rate": 0.74,
+        "utility": 1115.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.7443257676902537,
+        "admitted": 691,
+        "admission_rate": 0.86375,
+        "forced_reject": 0.01,
+        "voluntary_reject": 0.12625,
+        "risk_sum": 0.42608000000000246,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 153,
+            "rate": 0.5625
+          },
+          "command": {
+            "requests": 213,
+            "success": 185,
+            "rate": 0.8685446009389671
+          },
+          "object": {
+            "requests": 315,
+            "success": 254,
+            "rate": 0.8063492063492064
+          }
+        }
+      },
+      "semantic": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 509,
+        "rate": 0.63625,
+        "utility": 1042.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.6955941255006676,
+        "admitted": 557,
+        "admission_rate": 0.69625,
+        "forced_reject": 0.01,
+        "voluntary_reject": 0.29375,
+        "risk_sum": 0.5354500000000013,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 149,
+            "rate": 0.5477941176470589
+          },
+          "command": {
+            "requests": 213,
+            "success": 192,
+            "rate": 0.9014084507042254
+          },
+          "object": {
+            "requests": 315,
+            "success": 168,
+            "rate": 0.5333333333333333
+          }
+        }
+      }
+    },
+    "stress_backhaul": {
+      "candidate_ppo": {
+        "episodes": 50,
+        "requests": 4000,
+        "success": 2244,
+        "rate": 0.561,
+        "utility": 4074.0,
+        "utility_available": 7365.0,
+        "utility_rate": 0.5531568228105906,
+        "admitted": 2859,
+        "admission_rate": 0.71475,
+        "forced_reject": 0.28525,
+        "voluntary_reject": 0.0,
+        "risk_sum": 212.45094123851845,
+        "by_service": {
+          "telemetry": {
+            "requests": 1405,
+            "success": 362,
+            "rate": 0.2576512455516014
+          },
+          "command": {
+            "requests": 980,
+            "success": 734,
+            "rate": 0.7489795918367347
+          },
+          "object": {
+            "requests": 1615,
+            "success": 1148,
+            "rate": 0.7108359133126935
+          }
+        }
+      },
+      "greedy": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 440,
+        "rate": 0.55,
+        "utility": 775.0,
+        "utility_available": 1473.0,
+        "utility_rate": 0.5261371350984385,
+        "admitted": 627,
+        "admission_rate": 0.78375,
+        "forced_reject": 0.21625,
+        "voluntary_reject": 0.0,
+        "risk_sum": 12.47402447407414,
+        "by_service": {
+          "telemetry": {
+            "requests": 281,
+            "success": 99,
+            "rate": 0.35231316725978645
+          },
+          "command": {
+            "requests": 196,
+            "success": 118,
+            "rate": 0.6020408163265306
+          },
+          "object": {
+            "requests": 323,
+            "success": 223,
+            "rate": 0.6904024767801857
+          }
+        }
+      },
+      "price": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 449,
+        "rate": 0.56125,
+        "utility": 770.0,
+        "utility_available": 1473.0,
+        "utility_rate": 0.5227427019687713,
+        "admitted": 605,
+        "admission_rate": 0.75625,
+        "forced_reject": 0.0825,
+        "voluntary_reject": 0.16125,
+        "risk_sum": 0.3331650370370396,
+        "by_service": {
+          "telemetry": {
+            "requests": 281,
+            "success": 85,
+            "rate": 0.302491103202847
+          },
+          "command": {
+            "requests": 196,
+            "success": 118,
+            "rate": 0.6020408163265306
+          },
+          "object": {
+            "requests": 323,
+            "success": 246,
+            "rate": 0.7616099071207431
+          }
+        }
+      },
+      "semantic": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 411,
+        "rate": 0.51375,
+        "utility": 826.0,
+        "utility_available": 1473.0,
+        "utility_rate": 0.5607603530210454,
+        "admitted": 456,
+        "admission_rate": 0.57,
+        "forced_reject": 0.07875,
+        "voluntary_reject": 0.35125,
+        "risk_sum": 0.1342222222222229,
+        "by_service": {
+          "telemetry": {
+            "requests": 281,
+            "success": 83,
+            "rate": 0.29537366548042704
+          },
+          "command": {
+            "requests": 196,
+            "success": 166,
+            "rate": 0.8469387755102041
+          },
+          "object": {
+            "requests": 323,
+            "success": 162,
+            "rate": 0.5015479876160991
+          }
+        }
+      }
+    },
+    "stress_airtime": {
+      "candidate_ppo": {
+        "episodes": 50,
+        "requests": 8000,
+        "success": 5177,
+        "rate": 0.647125,
+        "utility": 10276.0,
+        "utility_available": 15825.0,
+        "utility_rate": 0.6493522906793049,
+        "admitted": 6062,
+        "admission_rate": 0.75775,
+        "forced_reject": 0.24225,
+        "voluntary_reject": 0.0,
+        "risk_sum": 388.217118980964,
+        "by_service": {
+          "telemetry": {
+            "requests": 7175,
+            "success": 4557,
+            "rate": 0.6351219512195122
+          },
+          "command": {
+            "requests": 325,
+            "success": 271,
+            "rate": 0.8338461538461538
+          },
+          "object": {
+            "requests": 500,
+            "success": 349,
+            "rate": 0.698
+          }
+        }
+      },
+      "greedy": {
+        "episodes": 10,
+        "requests": 1600,
+        "success": 1177,
+        "rate": 0.735625,
+        "utility": 2356.0,
+        "utility_available": 3165.0,
+        "utility_rate": 0.744391785150079,
+        "admitted": 1410,
+        "admission_rate": 0.88125,
+        "forced_reject": 0.11875,
+        "voluntary_reject": 0.0,
+        "risk_sum": 38.265408237179535,
+        "by_service": {
+          "telemetry": {
+            "requests": 1435,
+            "success": 1073,
+            "rate": 0.7477351916376307
+          },
+          "command": {
+            "requests": 65,
+            "success": 53,
+            "rate": 0.8153846153846154
+          },
+          "object": {
+            "requests": 100,
+            "success": 51,
+            "rate": 0.51
+          }
+        }
+      },
+      "price": {
+        "episodes": 10,
+        "requests": 1600,
+        "success": 1183,
+        "rate": 0.739375,
+        "utility": 2374.0,
+        "utility_available": 3165.0,
+        "utility_rate": 0.7500789889415482,
+        "admitted": 1418,
+        "admission_rate": 0.88625,
+        "forced_reject": 0.111875,
+        "voluntary_reject": 0.001875,
+        "risk_sum": 39.101980042735086,
+        "by_service": {
+          "telemetry": {
+            "requests": 1435,
+            "success": 1081,
+            "rate": 0.7533101045296168
+          },
+          "command": {
+            "requests": 65,
+            "success": 55,
+            "rate": 0.8461538461538461
+          },
+          "object": {
+            "requests": 100,
+            "success": 47,
+            "rate": 0.47
+          }
+        }
+      },
+      "semantic": {
+        "episodes": 10,
+        "requests": 1600,
+        "success": 1187,
+        "rate": 0.741875,
+        "utility": 2354.0,
+        "utility_available": 3165.0,
+        "utility_rate": 0.7437598736176935,
+        "admitted": 1383,
+        "admission_rate": 0.864375,
+        "forced_reject": 0.126875,
+        "voluntary_reject": 0.00875,
+        "risk_sum": 39.11169125641031,
+        "by_service": {
+          "telemetry": {
+            "requests": 1435,
+            "success": 1063,
+            "rate": 0.7407665505226481
+          },
+          "command": {
+            "requests": 65,
+            "success": 52,
+            "rate": 0.8
+          },
+          "object": {
+            "requests": 100,
+            "success": 72,
+            "rate": 0.72
+          }
+        }
+      }
+    }
+  },
+  "diagnosis": {
+    "native_tier_sensitivity": [
+      {
+        "service": "telemetry",
+        "tier": 0.9,
+        "success": 0,
+        "utility": 0.0,
+        "expected": 348,
+        "on_time": 83,
+        "audited": true
+      },
+      {
+        "service": "telemetry",
+        "tier": 1.1,
+        "success": 1,
+        "utility": 2.0,
+        "expected": 348,
+        "on_time": 348,
+        "audited": true
+      },
+      {
+        "service": "telemetry",
+        "tier": 1.4,
+        "success": 1,
+        "utility": 2.0,
+        "expected": 348,
+        "on_time": 348,
+        "audited": true
+      },
+      {
+        "service": "command",
+        "tier": 0.9,
+        "success": 0,
+        "utility": 0.0,
+        "expected": 24,
+        "on_time": 18,
+        "audited": true
+      },
+      {
+        "service": "command",
+        "tier": 1.1,
+        "success": 1,
+        "utility": 3.0,
+        "expected": 24,
+        "on_time": 24,
+        "audited": true
+      },
+      {
+        "service": "command",
+        "tier": 1.4,
+        "success": 1,
+        "utility": 3.0,
+        "expected": 24,
+        "on_time": 24,
+        "audited": true
+      },
+      {
+        "service": "object",
+        "tier": 0.9,
+        "success": 0,
+        "utility": 0.0,
+        "expected": 16,
+        "on_time": 15,
+        "audited": true
+      },
+      {
+        "service": "object",
+        "tier": 1.1,
+        "success": 1,
+        "utility": 1.0,
+        "expected": 16,
+        "on_time": 16,
+        "audited": true
+      },
+      {
+        "service": "object",
+        "tier": 1.4,
+        "success": 1,
+        "utility": 1.0,
+        "expected": 16,
+        "on_time": 16,
+        "audited": true
+      }
+    ],
+    "action_space": [
+      {
+        "seed": 71001,
+        "variant": "full",
+        "arrivals": 80,
+        "risk_candidates": 609,
+        "tier_candidates": 1056,
+        "only_risk_arrivals": 44,
+        "success": 59,
+        "utility": 110.0,
+        "risk_admissions": 45
+      },
+      {
+        "seed": 71001,
+        "variant": "strict",
+        "arrivals": 80,
+        "risk_candidates": 0,
+        "tier_candidates": 912,
+        "only_risk_arrivals": 0,
+        "success": 61,
+        "utility": 113.0,
+        "risk_admissions": 0
+      },
+      {
+        "seed": 71002,
+        "variant": "full",
+        "arrivals": 80,
+        "risk_candidates": 682,
+        "tier_candidates": 1004,
+        "only_risk_arrivals": 45,
+        "success": 64,
+        "utility": 119.0,
+        "risk_admissions": 49
+      },
+      {
+        "seed": 71002,
+        "variant": "strict",
+        "arrivals": 80,
+        "risk_candidates": 0,
+        "tier_candidates": 835,
+        "only_risk_arrivals": 0,
+        "success": 61,
+        "utility": 113.0,
+        "risk_admissions": 0
+      },
+      {
+        "seed": 71003,
+        "variant": "full",
+        "arrivals": 80,
+        "risk_candidates": 200,
+        "tier_candidates": 938,
+        "only_risk_arrivals": 15,
+        "success": 57,
+        "utility": 104.0,
+        "risk_admissions": 17
+      },
+      {
+        "seed": 71003,
+        "variant": "strict",
+        "arrivals": 80,
+        "risk_candidates": 0,
+        "tier_candidates": 881,
+        "only_risk_arrivals": 0,
+        "success": 56,
+        "utility": 101.0,
+        "risk_admissions": 0
+      },
+      {
+        "seed": 71004,
+        "variant": "full",
+        "arrivals": 80,
+        "risk_candidates": 235,
+        "tier_candidates": 1081,
+        "only_risk_arrivals": 20,
+        "success": 63,
+        "utility": 116.0,
+        "risk_admissions": 20
+      },
+      {
+        "seed": 71004,
+        "variant": "strict",
+        "arrivals": 80,
+        "risk_candidates": 0,
+        "tier_candidates": 1100,
+        "only_risk_arrivals": 0,
+        "success": 64,
+        "utility": 118.0,
+        "risk_admissions": 0
+      }
+    ],
+    "offline_bounds": [
+      {
+        "seed": 71005,
+        "load": 48,
+        "upper_utility": 96.0,
+        "offered_utility": 96.0,
+        "optimal": true,
+        "gap": 0.0,
+        "variables": 246,
+        "relaxation": "free warm cache, no state limits, any mission AP, lowest tier, perfect delivery",
+        "greedy_native_utility": 86.0,
+        "optimistic_gap": 0.10416666666666667
+      },
+      {
+        "seed": 71006,
+        "load": 80,
+        "upper_utility": 144.0,
+        "offered_utility": 146.0,
+        "optimal": true,
+        "gap": 0.0,
+        "variables": 374,
+        "relaxation": "free warm cache, no state limits, any mission AP, lowest tier, perfect delivery",
+        "greedy_native_utility": 132.0,
+        "optimistic_gap": 0.0821917808219178
+      }
+    ],
+    "action_changes_native_delivery": true,
+    "risk_actions_exist": true,
+    "proceed": true,
+    "interpretation": "A wide optimistic MILP gap is not evidence that RL can close it; active rejection need not be nonzero or beneficial. Test constraints and all baselines independently."
+  }
 }

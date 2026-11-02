@@ -1,11 +1,12 @@
 {
   "inputs": {
-    "protocol_sha256": "9d8053417ec66f9014746b53b08ddab684912666d58e4a02cc049ead52b273ec",
+    "protocol_sha256": "2dc5f22b7e570bcd1052888671381bc74c11e5be81c86d3cf65a231cc05ae6a3",
     "sources": {
-      "slice_alloc/tests/test_allocation_algorithms.py": "218179f20696f08301a71fa81064bf8c8bda234ba94158c45f2cf542cbef723a",
+      "slice_alloc/tests/test_allocation_algorithms.py": "095176e8bf4cdf7ab13baca467c79057e664bbbdd622332dafb799ef5dbb43ea",
+      "slice_alloc/tests/test_allocation_cmdp.py": "d91723843d43807ca25df275fbc3fc27b00c87f955b587c54fb75fa21e2a6169",
       "slice_alloc/tests/test_allocation_final.py": "3abf68c7a213ce1d52c3d75249faa22499ce86a4db0da2cdc2d0066a194f58ca",
       "slice_alloc/tests/test_allocation_final_entrypoint.py": "0d708db356b41047d3b71cacc07fa6ab63a81face04dd5f751c3e71cbc686969",
-      "slice_alloc/tests/test_allocation_final_pipeline.py": "e03d1a499da7c6b02c53d270606d407117061e372b406639bd2aa834b779e161",
+      "slice_alloc/tests/test_allocation_final_pipeline.py": "71c4b670ce8acd085b57b65588ea176eabad1a5de6d49b6fb8e7a4bcbb749da6",
       "slice_alloc/tests/test_allocation_study.py": "eb5f5b098365ec97e2ee39dd818a79ce6820985d1e90b9da63c7f20a2d8a38ae",
       "slice_alloc/tests/test_design_contracts.py": "031c1640466e367763cb47fd7d64fde5c99a685197787c76492c6adfcfb3c907",
       "slice_alloc/tests/test_distributional_allocation.py": "3b7f5a6317b1afaf766b50f9986ec60ebd231c0573f73d5aad6c3f61f8672d27",
@@ -24,5 +25,5 @@
       "slice_alloc/tests/test_trimodal.py": "d3c1f9155621af3236453871df62d1f35a5b222648b3ccb4875038a06358c932"
     }
   },
-  "log_sha256": "9b7b08dbb900aa022fd21272db2409846b23bb9f51306143f7578e85ff12edcc"
+  "log_sha256": "94dc99de8da253daa77c0d8168336d766925abf18354559d589109ca7924b384"
 }

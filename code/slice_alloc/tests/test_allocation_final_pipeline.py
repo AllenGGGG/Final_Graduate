@@ -23,6 +23,7 @@ class PipelineRegressionTests(unittest.TestCase):
         self.addCleanup(self.stack.close)
         self.stack.enter_context(patch.object(run, 'OUT', self.out))
         run.freeze()
+        run.write(self.out/'diagnosis.json', {'proceed': True, 'test_fixture': True})
 
     def test_failed_tests_are_retried_and_failure_log_survives(self):
         failure = subprocess.CalledProcessError(1, ['unittest'])

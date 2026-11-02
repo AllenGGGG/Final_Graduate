@@ -1,13 +1,13 @@
-..................SELECTED candidate_ppo {'candidate_ppo': 0.8000000000000002, 'double_qrdqn': 0.6999999999999998, 'double_dqn': 0.6999999999999998, 'candidate_a2c': 0.6999999999999998}
+.......................SELECTED candidate_ppo {'candidate_ppo': 0.8}
 EVALUATED 0
-..SELECTED candidate_ppo {'candidate_ppo': 0.8000000000000002, 'double_qrdqn': 0.6999999999999998, 'double_dqn': 0.6999999999999998, 'candidate_a2c': 0.6999999999999998}
+..SELECTED candidate_ppo {'candidate_ppo': 0.8}
 EVALUATED 0
-.........SELECTED candidate_ppo {'candidate_ppo': 0.8000000000000002, 'double_qrdqn': 0.6999999999999998, 'double_dqn': 0.6999999999999998, 'candidate_a2c': 0.6999999999999998}
+.........SELECTED candidate_ppo {'candidate_ppo': 0.8}
 EVALUATED 0
-.SELECTED candidate_ppo {'candidate_ppo': 0.8000000000000002, 'double_qrdqn': 0.6999999999999998, 'double_dqn': 0.6999999999999998, 'candidate_a2c': 0.6999999999999998}
+.SELECTED candidate_ppo {'candidate_ppo': 0.8}
 EVALUATED 0
 ......................................................................................................................................................
 ----------------------------------------------------------------------
-Ran 180 tests in 14.619s
+Ran 185 tests in 15.873s
 
 OK

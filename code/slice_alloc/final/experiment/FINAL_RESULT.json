@@ -1,40 +1,42 @@
 {
   "title": "面向低空智联的多模态网络切片技术",
   "research": "智能分配",
-  "selected": "double_dqn",
+  "selected": "candidate_ppo",
   "summary": {
-    "rate": 0.79375,
+    "rate": 0.7333854166666667,
     "ci95": [
-      0.7750868055555556,
-      0.8111111111111111
+      0.7046354166666668,
+      0.7616666666666666
     ],
-    "admission_rate": 0.8760416666666667,
-    "admitted_violation_rate": 0.093935790725327,
+    "admission_rate": 0.884375,
+    "admitted_violation_rate": 0.17073027090694934,
     "by_service": {
-      "telemetry": 0.6430722891566265,
-      "command": 0.8786342123056119,
-      "object": 0.8700305810397554
+      "telemetry": 0.5366812227074236,
+      "command": 0.841890440386681,
+      "object": 0.8436482084690554
     },
     "by_init": {
-      "11": 0.784375,
-      "23": 0.7989583333333333,
-      "37": 0.7979166666666667
+      "11": 0.7471354166666667,
+      "23": 0.7526041666666666,
+      "37": 0.7229166666666667,
+      "53": 0.69765625,
+      "71": 0.7466145833333333
     },
-    "init_sample_sd": 0.008135676745736084,
-    "forced_reject": 0.1203125,
-    "voluntary_reject": 0.0036458333333333334,
-    "wire_bytes_per_success": 117145.31485126859,
-    "phy_tx_seconds_per_success": 0.02578071872265981,
-    "normalized_reservation_seconds_per_success": 2.264601785133819,
-    "decision_ms": 0.8506185743117047,
-    "episodes": 180
+    "init_sample_sd": 0.023019566565825527,
+    "forced_reject": 0.115625,
+    "voluntary_reject": 0.0,
+    "wire_bytes_per_success": 132017.90419714508,
+    "phy_tx_seconds_per_success": 0.028089396207655763,
+    "normalized_reservation_seconds_per_success": 2.499312906091506,
+    "decision_ms": 0.8927899457018308,
+    "episodes": 300
   },
   "selected_rule": "greedy",
   "comparison": {
-    "difference": 0.0002604166666666593,
+    "difference": -0.03979166666666667,
     "ci95": [
-      -0.010677083333333101,
-      0.0107660590277779
+      -0.06442708333333336,
+      -0.018489583333333334
     ]
   },
   "protocol": {
@@ -44,6 +46,7 @@
       "__main__.py": "91ae41c7c407532ac41211bad2ec80bfc423d1293df398165af917ec5cb0d3f8",
       "ALLOCATION_FINAL.md": "b4f0ff917e20c0503714703ccce6d622ddf90f612cedf4fc892150bbccd15f7e",
       "allocation_final.py": "eaba91cf1e3db4a484d2cbe98867b39373d422592183a2de72c3fadca775d656",
+      "allocation_cmdp.py": "6e37a0fcd6e64eedd63db66ebe1dd69e20c09cc28da1e82842c9f88c59425598",
       "allocation_final_policy.py": "b439fb6bc6e649a6c22e48290c18d23a45d5942e7be275b2e43a2c8528017fee",
       "allocation_value.py": "e4e2d0b7b6bd0efac7e048050e36a07865d0ca7df9b51203f544d4cfc51caad4",
       "modal_binding.py": "5e3c5ccafd62eeebaab1fe7e5c8d7f9aaf817b5a18a1f9bc18c6c8bc085891a8",
@@ -52,97 +55,114 @@
       "initial_allocation.py": "dc80996d94e5beb3a14b75c1be596429a902726ad42e20a8041193d61890dbb6",
       "distributional_allocation.py": "49e9a810fce9191cc48b12a6682a625717694ec5886d567dccc33877428dc695",
       "execution/allocation_final_scenario.cc": "d252fa17af3596b9f536d3a329b861c14641b855f44e49142543445216ddacac",
-      "tools/allocation_final_run.py": "0a180c8784cca34f1f06328b3f6f3367d6b7ca0c9796b8cee3506377e204199a",
+      "execution/allocation_cmdp_scenario.cc": "09806b5694950e02678732e31c699219c5f7a28731092a7b20caac666a205739",
+      "tools/allocation_final_run.py": "b8aabbbee9b2a4e2a7747b790f7be5dc1d867959cefbd6341bdcae6d73569bb7",
       "tools/modal_binding_run.py": "99b68219217c999538458b21bcb1918c2da24a6863e2281e7e5652f68f23a5e1",
       "tests/test_allocation_final.py": "3abf68c7a213ce1d52c3d75249faa22499ce86a4db0da2cdc2d0066a194f58ca",
-      "tests/test_allocation_final_pipeline.py": "e03d1a499da7c6b02c53d270606d407117061e372b406639bd2aa834b779e161",
-      "tests/test_allocation_algorithms.py": "218179f20696f08301a71fa81064bf8c8bda234ba94158c45f2cf542cbef723a"
+      "tests/test_allocation_final_pipeline.py": "71c4b670ce8acd085b57b65588ea176eabad1a5de6d49b6fb8e7a4bcbb749da6",
+      "tests/test_allocation_algorithms.py": "095176e8bf4cdf7ab13baca467c79057e664bbbdd622332dafb799ef5dbb43ea",
+      "tests/test_allocation_cmdp.py": "d91723843d43807ca25df275fbc3fc27b00c87f955b587c54fb75fa21e2a6169"
     },
-    "binary_sha256": "4713d4f5ed04fb073c3d0256450b59c13f7e103aae3f2f9bd67df98ac0f20ad5",
+    "binary_sha256": "6872416b31d2fad12592b480212b8e0a459a77f0a87d307c3d49d4c742f26f0a",
     "training": [
-      41000000,
-      42000000
+      61000000,
+      62000000
     ],
     "validation": [
-      42000,
-      42001,
-      42002,
-      42003,
-      42004,
-      42005,
-      42006,
-      42007
+      72000,
+      72001,
+      72002,
+      72003,
+      72004,
+      72005,
+      72006,
+      72007,
+      72008,
+      72009,
+      72010,
+      72011,
+      72012,
+      72013,
+      72014,
+      72015,
+      72016,
+      72017,
+      72018,
+      72019,
+      72020,
+      72021,
+      72022,
+      72023,
+      72024,
+      72025,
+      72026,
+      72027,
+      72028,
+      72029
     ],
     "test": [
-      53000,
-      53001,
-      53002,
-      53003,
-      53004,
-      53005,
-      53006,
-      53007,
-      53008,
-      53009,
-      53010,
-      53011,
-      53012,
-      53013,
-      53014,
-      53015,
-      53016,
-      53017,
-      53018,
-      53019,
-      53020,
-      53021,
-      53022,
-      53023,
-      53024,
-      53025,
-      53026,
-      53027,
-      53028,
-      53029
+      73000,
+      73001,
+      73002,
+      73003,
+      73004,
+      73005,
+      73006,
+      73007,
+      73008,
+      73009,
+      73010,
+      73011,
+      73012,
+      73013,
+      73014,
+      73015,
+      73016,
+      73017,
+      73018,
+      73019,
+      73020,
+      73021,
+      73022,
+      73023,
+      73024,
+      73025,
+      73026,
+      73027,
+      73028,
+      73029
     ],
     "control": [
-      54000,
-      54001,
-      54002,
-      54003,
-      54004,
-      54005,
-      54006,
-      54007,
-      54008,
-      54009
+      74000,
+      74001,
+      74002,
+      74003,
+      74004,
+      74005,
+      74006,
+      74007,
+      74008,
+      74009
     ],
     "algorithms": [
-      "candidate_ppo",
-      "double_qrdqn",
-      "double_dqn",
-      "candidate_a2c"
+      "candidate_ppo"
     ],
     "initializations": [
       11,
       23,
-      37
+      37,
+      53,
+      71
     ],
     "loads": [
       48,
       80
     ],
     "checkpoints": [
-      8192,
-      16384,
-      32768
+      8192
     ],
-    "selection": "mean validation success of ALL registered initializations; ties registered algorithm order; checkpoints by validation, tie earliest",
-    "ablations": [
-      "fixed",
-      "no_motion",
-      "no_calendar"
-    ],
+    "selection": "one preregistered hierarchical PPO method; checkpoints by validation utility minus 5 times positive constraint excess, tie earliest; ALL five initializations retained",
+    "ablations": [],
     "ablation_protocol": "retrain selected algorithm with identical budget and initializations",
     "rule_thresholds": [
       1.0,
@@ -165,8 +185,31 @@
       "price",
       "semantic"
     ],
-    "reward": "raw actual SLA successes, gamma=1, no shaping or expert prior",
-    "objective": "successful requests / all arrivals; rejected requests fail",
+    "reward": "(priority-weighted native SLA utility - adaptive Lagrange multipliers dot constraint costs)/3; gamma=1",
+    "weights": {
+      "telemetry": 2.0,
+      "command": 3.0,
+      "object": 1.0
+    },
+    "tiers": [
+      0.9,
+      1.1,
+      1.4
+    ],
+    "overbook": 1.12,
+    "risk_budget": 0.02,
+    "violation_budgets": {
+      "telemetry": 0.15,
+      "object": 0.1,
+      "command": 0.1
+    },
+    "dual_learning_rate": 0.2,
+    "dual_clip": [
+      0.0,
+      20.0
+    ],
+    "execution_model": "per-slice per-endpoint native token-bucket ingress shaping; birth times unchanged; no hard per-hop bandwidth guarantee",
+    "objective": "weighted successful contracts / all offered contract value; also report unweighted success and ALL service/risk constraints",
     "scope": "point 1 only; no demand prediction, proactive migration or hard QoS guarantee",
     "propagation": "LogDistance n=2.5 reference46.6777dB plus 120m finite footprint, TX20dBm, fixed24Mbps",
     "directions": "telemetry uplink IP; command downlink IP/ID; object retrieval IP/NDN",
@@ -244,7 +287,7 @@
       "rms_prop_eps": 1e-05
     },
     "policies": {
-      "candidate_ppo": "slice_alloc.allocation_final_policy.CandidatePPOPolicy",
+      "candidate_ppo": "slice_alloc.allocation_cmdp.HierarchicalPPOPolicy",
       "double_qrdqn": "slice_alloc.distributional_allocation.CandidateQRPolicy",
       "double_dqn": "slice_alloc.distributional_allocation.CandidateQRPolicy",
       "candidate_a2c": "slice_alloc.allocation_final_policy.CandidatePPOPolicy"
@@ -261,37 +304,1085 @@
     }
   },
   "models": {
-    "models/candidate_a2c-full-11.zip": "1ba1d162cd5cfb4e7c3acd9dcd36f4eb69f21d6c08c81fd56bdbe07c6690fab0",
-    "models/candidate_a2c-full-23.zip": "5be6f59d4f42c9a9e831f169209c09f6c69a245658e7f79eb9d5bd4ba1c899ec",
-    "models/candidate_a2c-full-37.zip": "b699548311137b5e65f3664e32f20d066e321d83182ac9460f92d23ae21ef0fe",
-    "models/candidate_ppo-full-11.zip": "d81e9883bd4c8f2bbb758d93ed64638d41fdef08db46d7caffe501971a29f4af",
-    "models/candidate_ppo-full-23.zip": "41f029f78e83807147e3351f3e74ba7687746af67bdfb4ff6f1006dea9a53a05",
-    "models/candidate_ppo-full-37.zip": "5dd09d5b0ca1b9ca261c473667c203e78cb63da56ff2da0b06db22ebcae388b4",
-    "models/double_dqn-fixed-11.zip": "ddf78bcfcf6d9873d2b57538331bf9722b656c4ab663e41af800f194b9195a8b",
-    "models/double_dqn-fixed-23.zip": "ac29df520d7753f4582b1732d7fee6354bec46f95e5edb0b07e99156e5f7a34e",
-    "models/double_dqn-fixed-37.zip": "9dc2779f5e9f384c00dc0fa2adfabe4a319382caeee2ea055e9fc478615dca48",
-    "models/double_dqn-full-11.zip": "fd94638dc475f7edeb06203f9fcf3c8958d7dac427d2005993e7e71b240d0b45",
-    "models/double_dqn-full-23.zip": "ef5498ef0a3b115b98cb4cc7d9c71e5780e206edc7d466a0da9d24fa8078ece4",
-    "models/double_dqn-full-37.zip": "9715d5070efa2a29f3855fce77b70247fa254c6f02f35079fccbeb9d08fdd1e0",
-    "models/double_dqn-no_calendar-11.zip": "91f003d60bbfe840c7d9ddf8e976590cd652c1fec9f6d8cb03ae230288a7867a",
-    "models/double_dqn-no_calendar-23.zip": "a9ba56a0e19390b5378f12e7bf258e47b3fbf179c7b23f39b81cc4cdc16a001c",
-    "models/double_dqn-no_calendar-37.zip": "f25871171bf8ac1bd9b982cc4699e0b3c7a50639040d8ca26a0d718fbfd6d813",
-    "models/double_dqn-no_motion-11.zip": "6076b950b0b610dd6ab8d9be23b6e401242742d8cf3bcd699c7e52d543fbd54b",
-    "models/double_dqn-no_motion-23.zip": "a4fa56c9ef5f23de7e58085998dbef6c367842dba872d4527a9e3ff45491fbe7",
-    "models/double_dqn-no_motion-37.zip": "c7fb1000f17ee6860c26e0976394e5581fcf3433cdeb078985c1a1e6c453e143",
-    "models/double_qrdqn-full-11.zip": "fecabea91417c6969ef41e4bc288af288938a48263daebd7e29475e363811dde",
-    "models/double_qrdqn-full-23.zip": "b1422733d57968a4f00482a06c382cd2333359c4980c538080a1f737d444199d",
-    "models/double_qrdqn-full-37.zip": "d4d2ac5133b2aebe762f442b27a6904980afee02de66d26cdd05de7054462cbf"
+    "models/candidate_ppo-full-11.zip": "9e13a1bd767e32c294b8adc54c75e673f99a74d8ebff828e5995749e72f69424",
+    "models/candidate_ppo-full-23.zip": "31da6f5354898e5952626225b76aaf599eed4aca1db28e48aa813cba75c5bf5e",
+    "models/candidate_ppo-full-37.zip": "0ff3d929751f46b33d959cd504494c8030df69307209f146d28d64091595a553",
+    "models/candidate_ppo-full-53.zip": "c3e2b079efbacfc59886a4bf3cf9a4d0e5f2a7583b3f24f7400885c81197ea54",
+    "models/candidate_ppo-full-71.zip": "5421f3cd9e6c502c36bf3770a0e686dc8448d7632ffc7fbc6e8eb8b11e2f2b35"
   },
   "artifacts": {
-    "protocol.json": "9d8053417ec66f9014746b53b08ddab684912666d58e4a02cc049ead52b273ec",
-    "selection.json": "e0ccb8f4f4d771db70f1ca86aea36dc2a0808a724455a2be85c8e9cced420b8c",
-    "evaluation.json": "f09754ee61bf053fa197e05cd070f6ec5c92b5d5fe2f8d1adf1b860e94e46274",
-    "analysis.json": "d29b1a89daea8b35e3427e5d91450bd47817db13347479d457809f641530e77c",
-    "verification.json": "c4f68bd38783fcb6ac927cef18bb464422f1812916d9bf331e0c67eaf3841536",
-    "report.md": "9b308a5c38f9c10c9593cd37cdd47759acf10e79c87fccdf2c8db84b19202e47"
+    "protocol.json": "2dc5f22b7e570bcd1052888671381bc74c11e5be81c86d3cf65a231cc05ae6a3",
+    "selection.json": "ff0798f6040e175a960f2488c70bc8ca760b158a24a6d26a7cbda1efb565e966",
+    "evaluation.json": "e044c381091bfee75d307a8e19753deae385d15a084bcc0ebe7ed4a5a0eb83c1",
+    "analysis.json": "20d5f256327d68becca2b79ca528f4ff23512310a1a4d3c4f43edd81cd132792",
+    "verification.json": "ffd7f5d3ac4afb9054b8dab45232dfd4c2659054d4e01a0cfc447fbb7ff3a350",
+    "report.md": "bb5ba918ecb871b2c321728fe724100bbacecaac0b8e186cba6662b8fa100ec0"
   },
-  "manifest_sha256": "b35d20adf4165e343b5cec5a94f36afc17acc779b0e527658ed36964d9194602",
-  "audited_episodes": 1920,
-  "replayed_models": 21
+  "manifest_sha256": "d0133030cb5ed05700f3ffc20bcde4bcdf5b9a7edb33a35d9b3d1d5f03a54708",
+  "audited_episodes": 1060,
+  "replayed_models": 5,
+  "final_claim": "The constrained hierarchical PPO did not outperform Greedy on the preregistered test distribution.",
+  "main_actual": {
+    "candidate_ppo": {
+      "episodes": 300,
+      "requests": 19200,
+      "success": 14081,
+      "rate": 0.7333854166666667,
+      "utility": 25606.0,
+      "utility_available": 35380.0,
+      "utility_rate": 0.7237422272470322,
+      "admitted": 16980,
+      "admission_rate": 0.884375,
+      "forced_reject": 0.115625,
+      "voluntary_reject": 0.0,
+      "risk_sum": 1010.1617938361906,
+      "by_service": {
+        "telemetry": {
+          "requests": 6870,
+          "success": 3687,
+          "rate": 0.5366812227074236
+        },
+        "command": {
+          "requests": 4655,
+          "success": 3919,
+          "rate": 0.841890440386681
+        },
+        "object": {
+          "requests": 7675,
+          "success": 6475,
+          "rate": 0.8436482084690554
+        }
+      }
+    },
+    "greedy": {
+      "episodes": 60,
+      "requests": 3840,
+      "success": 2969,
+      "rate": 0.7731770833333333,
+      "utility": 5471.0,
+      "utility_available": 7076.0,
+      "utility_rate": 0.7731769361221029,
+      "admitted": 3572,
+      "admission_rate": 0.9302083333333333,
+      "forced_reject": 0.06979166666666667,
+      "voluntary_reject": 0.0,
+      "risk_sum": 80.83583040000012,
+      "by_service": {
+        "telemetry": {
+          "requests": 1374,
+          "success": 900,
+          "rate": 0.6550218340611353
+        },
+        "command": {
+          "requests": 931,
+          "success": 801,
+          "rate": 0.8603651987110634
+        },
+        "object": {
+          "requests": 1535,
+          "success": 1268,
+          "rate": 0.826058631921824
+        }
+      }
+    },
+    "nearest": {
+      "episodes": 60,
+      "requests": 3840,
+      "success": 2960,
+      "rate": 0.7708333333333334,
+      "utility": 5456.0,
+      "utility_available": 7076.0,
+      "utility_rate": 0.7710570944036179,
+      "admitted": 3568,
+      "admission_rate": 0.9291666666666667,
+      "forced_reject": 0.07083333333333333,
+      "voluntary_reject": 0.0,
+      "risk_sum": 74.34969800000009,
+      "by_service": {
+        "telemetry": {
+          "requests": 1374,
+          "success": 898,
+          "rate": 0.653566229985444
+        },
+        "command": {
+          "requests": 931,
+          "success": 799,
+          "rate": 0.8582169709989259
+        },
+        "object": {
+          "requests": 1535,
+          "success": 1263,
+          "rate": 0.8228013029315961
+        }
+      }
+    },
+    "first_fit": {
+      "episodes": 60,
+      "requests": 3840,
+      "success": 1264,
+      "rate": 0.32916666666666666,
+      "utility": 2212.0,
+      "utility_available": 7076.0,
+      "utility_rate": 0.31260599208592427,
+      "admitted": 3628,
+      "admission_rate": 0.9447916666666667,
+      "forced_reject": 0.05520833333333333,
+      "voluntary_reject": 0.0,
+      "risk_sum": 167.8094708,
+      "by_service": {
+        "telemetry": {
+          "requests": 1374,
+          "success": 0,
+          "rate": 0.0
+        },
+        "command": {
+          "requests": 931,
+          "success": 474,
+          "rate": 0.5091299677765844
+        },
+        "object": {
+          "requests": 1535,
+          "success": 790,
+          "rate": 0.5146579804560261
+        }
+      }
+    },
+    "quota": {
+      "episodes": 60,
+      "requests": 3840,
+      "success": 2358,
+      "rate": 0.6140625,
+      "utility": 4375.0,
+      "utility_available": 7076.0,
+      "utility_rate": 0.6182871678914641,
+      "admitted": 2731,
+      "admission_rate": 0.7111979166666667,
+      "forced_reject": 0.21979166666666666,
+      "voluntary_reject": 0.06901041666666667,
+      "risk_sum": 0.0,
+      "by_service": {
+        "telemetry": {
+          "requests": 1374,
+          "success": 355,
+          "rate": 0.25836972343522563
+        },
+        "command": {
+          "requests": 931,
+          "success": 831,
+          "rate": 0.8925886143931256
+        },
+        "object": {
+          "requests": 1535,
+          "success": 1172,
+          "rate": 0.7635179153094462
+        }
+      }
+    },
+    "price": {
+      "episodes": 60,
+      "requests": 3840,
+      "success": 2873,
+      "rate": 0.7481770833333333,
+      "utility": 5275.0,
+      "utility_available": 7076.0,
+      "utility_rate": 0.7454776710005653,
+      "admitted": 3338,
+      "admission_rate": 0.8692708333333333,
+      "forced_reject": 0.00703125,
+      "voluntary_reject": 0.12369791666666667,
+      "risk_sum": 0.6525600000000029,
+      "by_service": {
+        "telemetry": {
+          "requests": 1374,
+          "success": 794,
+          "rate": 0.5778748180494906
+        },
+        "command": {
+          "requests": 931,
+          "success": 804,
+          "rate": 0.8635875402792696
+        },
+        "object": {
+          "requests": 1535,
+          "success": 1275,
+          "rate": 0.8306188925081434
+        }
+      }
+    },
+    "semantic": {
+      "episodes": 60,
+      "requests": 3840,
+      "success": 2482,
+      "rate": 0.6463541666666667,
+      "utility": 4936.0,
+      "utility_available": 7076.0,
+      "utility_rate": 0.6975692481628039,
+      "admitted": 2713,
+      "admission_rate": 0.7065104166666667,
+      "forced_reject": 0.008333333333333333,
+      "voluntary_reject": 0.28515625,
+      "risk_sum": 0.28159000000000134,
+      "by_service": {
+        "telemetry": {
+          "requests": 1374,
+          "success": 784,
+          "rate": 0.5705967976710334
+        },
+        "command": {
+          "requests": 931,
+          "success": 835,
+          "rate": 0.8968850698174007
+        },
+        "object": {
+          "requests": 1535,
+          "success": 863,
+          "rate": 0.5622149837133551
+        }
+      }
+    }
+  },
+  "sensitivity_actual": {
+    "mobility_stationary": {
+      "candidate_ppo": {
+        "episodes": 50,
+        "requests": 4000,
+        "success": 3357,
+        "rate": 0.83925,
+        "utility": 6258.0,
+        "utility_available": 7490.0,
+        "utility_rate": 0.8355140186915888,
+        "admitted": 3552,
+        "admission_rate": 0.888,
+        "forced_reject": 0.112,
+        "voluntary_reject": 0.0,
+        "risk_sum": 257.7872600914285,
+        "by_service": {
+          "telemetry": {
+            "requests": 1360,
+            "success": 821,
+            "rate": 0.6036764705882353
+          },
+          "command": {
+            "requests": 1065,
+            "success": 1040,
+            "rate": 0.9765258215962441
+          },
+          "object": {
+            "requests": 1575,
+            "success": 1496,
+            "rate": 0.9498412698412698
+          }
+        }
+      },
+      "greedy": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 688,
+        "rate": 0.86,
+        "utility": 1280.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.8544726301735648,
+        "admitted": 734,
+        "admission_rate": 0.9175,
+        "forced_reject": 0.0825,
+        "voluntary_reject": 0.0,
+        "risk_sum": 24.984267600000024,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 176,
+            "rate": 0.6470588235294118
+          },
+          "command": {
+            "requests": 213,
+            "success": 208,
+            "rate": 0.9765258215962441
+          },
+          "object": {
+            "requests": 315,
+            "success": 304,
+            "rate": 0.9650793650793651
+          }
+        }
+      },
+      "price": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 684,
+        "rate": 0.855,
+        "utility": 1269.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.8471295060080107,
+        "admitted": 693,
+        "admission_rate": 0.86625,
+        "forced_reject": 0.0025,
+        "voluntary_reject": 0.13125,
+        "risk_sum": 0.13315000000000077,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 165,
+            "rate": 0.6066176470588235
+          },
+          "command": {
+            "requests": 213,
+            "success": 210,
+            "rate": 0.9859154929577465
+          },
+          "object": {
+            "requests": 315,
+            "success": 309,
+            "rate": 0.9809523809523809
+          }
+        }
+      },
+      "semantic": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 555,
+        "rate": 0.69375,
+        "utility": 1147.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.7656875834445928,
+        "admitted": 557,
+        "admission_rate": 0.69625,
+        "forced_reject": 0.00125,
+        "voluntary_reject": 0.3025,
+        "risk_sum": 0.1738600000000008,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 166,
+            "rate": 0.6102941176470589
+          },
+          "command": {
+            "requests": 213,
+            "success": 213,
+            "rate": 1.0
+          },
+          "object": {
+            "requests": 315,
+            "success": 176,
+            "rate": 0.5587301587301587
+          }
+        }
+      }
+    },
+    "mobility_local": {
+      "candidate_ppo": {
+        "episodes": 50,
+        "requests": 4000,
+        "success": 3361,
+        "rate": 0.84025,
+        "utility": 6270.0,
+        "utility_available": 7490.0,
+        "utility_rate": 0.8371161548731643,
+        "admitted": 3552,
+        "admission_rate": 0.888,
+        "forced_reject": 0.112,
+        "voluntary_reject": 0.0,
+        "risk_sum": 257.65767502476183,
+        "by_service": {
+          "telemetry": {
+            "requests": 1360,
+            "success": 821,
+            "rate": 0.6036764705882353
+          },
+          "command": {
+            "requests": 1065,
+            "success": 1044,
+            "rate": 0.9802816901408451
+          },
+          "object": {
+            "requests": 1575,
+            "success": 1496,
+            "rate": 0.9498412698412698
+          }
+        }
+      },
+      "greedy": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 688,
+        "rate": 0.86,
+        "utility": 1280.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.8544726301735648,
+        "admitted": 734,
+        "admission_rate": 0.9175,
+        "forced_reject": 0.0825,
+        "voluntary_reject": 0.0,
+        "risk_sum": 24.984267600000024,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 176,
+            "rate": 0.6470588235294118
+          },
+          "command": {
+            "requests": 213,
+            "success": 208,
+            "rate": 0.9765258215962441
+          },
+          "object": {
+            "requests": 315,
+            "success": 304,
+            "rate": 0.9650793650793651
+          }
+        }
+      },
+      "price": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 684,
+        "rate": 0.855,
+        "utility": 1269.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.8471295060080107,
+        "admitted": 693,
+        "admission_rate": 0.86625,
+        "forced_reject": 0.0025,
+        "voluntary_reject": 0.13125,
+        "risk_sum": 0.13315000000000077,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 165,
+            "rate": 0.6066176470588235
+          },
+          "command": {
+            "requests": 213,
+            "success": 210,
+            "rate": 0.9859154929577465
+          },
+          "object": {
+            "requests": 315,
+            "success": 309,
+            "rate": 0.9809523809523809
+          }
+        }
+      },
+      "semantic": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 555,
+        "rate": 0.69375,
+        "utility": 1147.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.7656875834445928,
+        "admitted": 557,
+        "admission_rate": 0.69625,
+        "forced_reject": 0.00125,
+        "voluntary_reject": 0.3025,
+        "risk_sum": 0.1738600000000008,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 166,
+            "rate": 0.6102941176470589
+          },
+          "command": {
+            "requests": 213,
+            "success": 213,
+            "rate": 1.0
+          },
+          "object": {
+            "requests": 315,
+            "success": 176,
+            "rate": 0.5587301587301587
+          }
+        }
+      }
+    },
+    "mobility_mixed": {
+      "candidate_ppo": {
+        "episodes": 50,
+        "requests": 4000,
+        "success": 2887,
+        "rate": 0.72175,
+        "utility": 5350.0,
+        "utility_available": 7490.0,
+        "utility_rate": 0.7142857142857143,
+        "admitted": 3506,
+        "admission_rate": 0.8765,
+        "forced_reject": 0.1235,
+        "voluntary_reject": 0.0,
+        "risk_sum": 229.6476905866666,
+        "by_service": {
+          "telemetry": {
+            "requests": 1360,
+            "success": 709,
+            "rate": 0.5213235294117647
+          },
+          "command": {
+            "requests": 1065,
+            "success": 877,
+            "rate": 0.8234741784037559
+          },
+          "object": {
+            "requests": 1575,
+            "success": 1301,
+            "rate": 0.826031746031746
+          }
+        }
+      },
+      "greedy": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 589,
+        "rate": 0.73625,
+        "utility": 1111.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.7416555407209613,
+        "admitted": 734,
+        "admission_rate": 0.9175,
+        "forced_reject": 0.0825,
+        "voluntary_reject": 0.0,
+        "risk_sum": 26.181435200000017,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 154,
+            "rate": 0.5661764705882353
+          },
+          "command": {
+            "requests": 213,
+            "success": 184,
+            "rate": 0.863849765258216
+          },
+          "object": {
+            "requests": 315,
+            "success": 251,
+            "rate": 0.7968253968253968
+          }
+        }
+      },
+      "price": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 592,
+        "rate": 0.74,
+        "utility": 1115.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.7443257676902537,
+        "admitted": 691,
+        "admission_rate": 0.86375,
+        "forced_reject": 0.01,
+        "voluntary_reject": 0.12625,
+        "risk_sum": 0.42608000000000246,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 153,
+            "rate": 0.5625
+          },
+          "command": {
+            "requests": 213,
+            "success": 185,
+            "rate": 0.8685446009389671
+          },
+          "object": {
+            "requests": 315,
+            "success": 254,
+            "rate": 0.8063492063492064
+          }
+        }
+      },
+      "semantic": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 509,
+        "rate": 0.63625,
+        "utility": 1042.0,
+        "utility_available": 1498.0,
+        "utility_rate": 0.6955941255006676,
+        "admitted": 557,
+        "admission_rate": 0.69625,
+        "forced_reject": 0.01,
+        "voluntary_reject": 0.29375,
+        "risk_sum": 0.5354500000000013,
+        "by_service": {
+          "telemetry": {
+            "requests": 272,
+            "success": 149,
+            "rate": 0.5477941176470589
+          },
+          "command": {
+            "requests": 213,
+            "success": 192,
+            "rate": 0.9014084507042254
+          },
+          "object": {
+            "requests": 315,
+            "success": 168,
+            "rate": 0.5333333333333333
+          }
+        }
+      }
+    },
+    "stress_backhaul": {
+      "candidate_ppo": {
+        "episodes": 50,
+        "requests": 4000,
+        "success": 2244,
+        "rate": 0.561,
+        "utility": 4074.0,
+        "utility_available": 7365.0,
+        "utility_rate": 0.5531568228105906,
+        "admitted": 2859,
+        "admission_rate": 0.71475,
+        "forced_reject": 0.28525,
+        "voluntary_reject": 0.0,
+        "risk_sum": 212.45094123851845,
+        "by_service": {
+          "telemetry": {
+            "requests": 1405,
+            "success": 362,
+            "rate": 0.2576512455516014
+          },
+          "command": {
+            "requests": 980,
+            "success": 734,
+            "rate": 0.7489795918367347
+          },
+          "object": {
+            "requests": 1615,
+            "success": 1148,
+            "rate": 0.7108359133126935
+          }
+        }
+      },
+      "greedy": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 440,
+        "rate": 0.55,
+        "utility": 775.0,
+        "utility_available": 1473.0,
+        "utility_rate": 0.5261371350984385,
+        "admitted": 627,
+        "admission_rate": 0.78375,
+        "forced_reject": 0.21625,
+        "voluntary_reject": 0.0,
+        "risk_sum": 12.47402447407414,
+        "by_service": {
+          "telemetry": {
+            "requests": 281,
+            "success": 99,
+            "rate": 0.35231316725978645
+          },
+          "command": {
+            "requests": 196,
+            "success": 118,
+            "rate": 0.6020408163265306
+          },
+          "object": {
+            "requests": 323,
+            "success": 223,
+            "rate": 0.6904024767801857
+          }
+        }
+      },
+      "price": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 449,
+        "rate": 0.56125,
+        "utility": 770.0,
+        "utility_available": 1473.0,
+        "utility_rate": 0.5227427019687713,
+        "admitted": 605,
+        "admission_rate": 0.75625,
+        "forced_reject": 0.0825,
+        "voluntary_reject": 0.16125,
+        "risk_sum": 0.3331650370370396,
+        "by_service": {
+          "telemetry": {
+            "requests": 281,
+            "success": 85,
+            "rate": 0.302491103202847
+          },
+          "command": {
+            "requests": 196,
+            "success": 118,
+            "rate": 0.6020408163265306
+          },
+          "object": {
+            "requests": 323,
+            "success": 246,
+            "rate": 0.7616099071207431
+          }
+        }
+      },
+      "semantic": {
+        "episodes": 10,
+        "requests": 800,
+        "success": 411,
+        "rate": 0.51375,
+        "utility": 826.0,
+        "utility_available": 1473.0,
+        "utility_rate": 0.5607603530210454,
+        "admitted": 456,
+        "admission_rate": 0.57,
+        "forced_reject": 0.07875,
+        "voluntary_reject": 0.35125,
+        "risk_sum": 0.1342222222222229,
+        "by_service": {
+          "telemetry": {
+            "requests": 281,
+            "success": 83,
+            "rate": 0.29537366548042704
+          },
+          "command": {
+            "requests": 196,
+            "success": 166,
+            "rate": 0.8469387755102041
+          },
+          "object": {
+            "requests": 323,
+            "success": 162,
+            "rate": 0.5015479876160991
+          }
+        }
+      }
+    },
+    "stress_airtime": {
+      "candidate_ppo": {
+        "episodes": 50,
+        "requests": 8000,
+        "success": 5177,
+        "rate": 0.647125,
+        "utility": 10276.0,
+        "utility_available": 15825.0,
+        "utility_rate": 0.6493522906793049,
+        "admitted": 6062,
+        "admission_rate": 0.75775,
+        "forced_reject": 0.24225,
+        "voluntary_reject": 0.0,
+        "risk_sum": 388.217118980964,
+        "by_service": {
+          "telemetry": {
+            "requests": 7175,
+            "success": 4557,
+            "rate": 0.6351219512195122
+          },
+          "command": {
+            "requests": 325,
+            "success": 271,
+            "rate": 0.8338461538461538
+          },
+          "object": {
+            "requests": 500,
+            "success": 349,
+            "rate": 0.698
+          }
+        }
+      },
+      "greedy": {
+        "episodes": 10,
+        "requests": 1600,
+        "success": 1177,
+        "rate": 0.735625,
+        "utility": 2356.0,
+        "utility_available": 3165.0,
+        "utility_rate": 0.744391785150079,
+        "admitted": 1410,
+        "admission_rate": 0.88125,
+        "forced_reject": 0.11875,
+        "voluntary_reject": 0.0,
+        "risk_sum": 38.265408237179535,
+        "by_service": {
+          "telemetry": {
+            "requests": 1435,
+            "success": 1073,
+            "rate": 0.7477351916376307
+          },
+          "command": {
+            "requests": 65,
+            "success": 53,
+            "rate": 0.8153846153846154
+          },
+          "object": {
+            "requests": 100,
+            "success": 51,
+            "rate": 0.51
+          }
+        }
+      },
+      "price": {
+        "episodes": 10,
+        "requests": 1600,
+        "success": 1183,
+        "rate": 0.739375,
+        "utility": 2374.0,
+        "utility_available": 3165.0,
+        "utility_rate": 0.7500789889415482,
+        "admitted": 1418,
+        "admission_rate": 0.88625,
+        "forced_reject": 0.111875,
+        "voluntary_reject": 0.001875,
+        "risk_sum": 39.101980042735086,
+        "by_service": {
+          "telemetry": {
+            "requests": 1435,
+            "success": 1081,
+            "rate": 0.7533101045296168
+          },
+          "command": {
+            "requests": 65,
+            "success": 55,
+            "rate": 0.8461538461538461
+          },
+          "object": {
+            "requests": 100,
+            "success": 47,
+            "rate": 0.47
+          }
+        }
+      },
+      "semantic": {
+        "episodes": 10,
+        "requests": 1600,
+        "success": 1187,
+        "rate": 0.741875,
+        "utility": 2354.0,
+        "utility_available": 3165.0,
+        "utility_rate": 0.7437598736176935,
+        "admitted": 1383,
+        "admission_rate": 0.864375,
+        "forced_reject": 0.126875,
+        "voluntary_reject": 0.00875,
+        "risk_sum": 39.11169125641031,
+        "by_service": {
+          "telemetry": {
+            "requests": 1435,
+            "success": 1063,
+            "rate": 0.7407665505226481
+          },
+          "command": {
+            "requests": 65,
+            "success": 52,
+            "rate": 0.8
+          },
+          "object": {
+            "requests": 100,
+            "success": 72,
+            "rate": 0.72
+          }
+        }
+      }
+    }
+  },
+  "diagnosis": {
+    "native_tier_sensitivity": [
+      {
+        "service": "telemetry",
+        "tier": 0.9,
+        "success": 0,
+        "utility": 0.0,
+        "expected": 348,
+        "on_time": 83,
+        "audited": true
+      },
+      {
+        "service": "telemetry",
+        "tier": 1.1,
+        "success": 1,
+        "utility": 2.0,
+        "expected": 348,
+        "on_time": 348,
+        "audited": true
+      },
+      {
+        "service": "telemetry",
+        "tier": 1.4,
+        "success": 1,
+        "utility": 2.0,
+        "expected": 348,
+        "on_time": 348,
+        "audited": true
+      },
+      {
+        "service": "command",
+        "tier": 0.9,
+        "success": 0,
+        "utility": 0.0,
+        "expected": 24,
+        "on_time": 18,
+        "audited": true
+      },
+      {
+        "service": "command",
+        "tier": 1.1,
+        "success": 1,
+        "utility": 3.0,
+        "expected": 24,
+        "on_time": 24,
+        "audited": true
+      },
+      {
+        "service": "command",
+        "tier": 1.4,
+        "success": 1,
+        "utility": 3.0,
+        "expected": 24,
+        "on_time": 24,
+        "audited": true
+      },
+      {
+        "service": "object",
+        "tier": 0.9,
+        "success": 0,
+        "utility": 0.0,
+        "expected": 16,
+        "on_time": 15,
+        "audited": true
+      },
+      {
+        "service": "object",
+        "tier": 1.1,
+        "success": 1,
+        "utility": 1.0,
+        "expected": 16,
+        "on_time": 16,
+        "audited": true
+      },
+      {
+        "service": "object",
+        "tier": 1.4,
+        "success": 1,
+        "utility": 1.0,
+        "expected": 16,
+        "on_time": 16,
+        "audited": true
+      }
+    ],
+    "action_space": [
+      {
+        "seed": 71001,
+        "variant": "full",
+        "arrivals": 80,
+        "risk_candidates": 609,
+        "tier_candidates": 1056,
+        "only_risk_arrivals": 44,
+        "success": 59,
+        "utility": 110.0,
+        "risk_admissions": 45
+      },
+      {
+        "seed": 71001,
+        "variant": "strict",
+        "arrivals": 80,
+        "risk_candidates": 0,
+        "tier_candidates": 912,
+        "only_risk_arrivals": 0,
+        "success": 61,
+        "utility": 113.0,
+        "risk_admissions": 0
+      },
+      {
+        "seed": 71002,
+        "variant": "full",
+        "arrivals": 80,
+        "risk_candidates": 682,
+        "tier_candidates": 1004,
+        "only_risk_arrivals": 45,
+        "success": 64,
+        "utility": 119.0,
+        "risk_admissions": 49
+      },
+      {
+        "seed": 71002,
+        "variant": "strict",
+        "arrivals": 80,
+        "risk_candidates": 0,
+        "tier_candidates": 835,
+        "only_risk_arrivals": 0,
+        "success": 61,
+        "utility": 113.0,
+        "risk_admissions": 0
+      },
+      {
+        "seed": 71003,
+        "variant": "full",
+        "arrivals": 80,
+        "risk_candidates": 200,
+        "tier_candidates": 938,
+        "only_risk_arrivals": 15,
+        "success": 57,
+        "utility": 104.0,
+        "risk_admissions": 17
+      },
+      {
+        "seed": 71003,
+        "variant": "strict",
+        "arrivals": 80,
+        "risk_candidates": 0,
+        "tier_candidates": 881,
+        "only_risk_arrivals": 0,
+        "success": 56,
+        "utility": 101.0,
+        "risk_admissions": 0
+      },
+      {
+        "seed": 71004,
+        "variant": "full",
+        "arrivals": 80,
+        "risk_candidates": 235,
+        "tier_candidates": 1081,
+        "only_risk_arrivals": 20,
+        "success": 63,
+        "utility": 116.0,
+        "risk_admissions": 20
+      },
+      {
+        "seed": 71004,
+        "variant": "strict",
+        "arrivals": 80,
+        "risk_candidates": 0,
+        "tier_candidates": 1100,
+        "only_risk_arrivals": 0,
+        "success": 64,
+        "utility": 118.0,
+        "risk_admissions": 0
+      }
+    ],
+    "offline_bounds": [
+      {
+        "seed": 71005,
+        "load": 48,
+        "upper_utility": 96.0,
+        "offered_utility": 96.0,
+        "optimal": true,
+        "gap": 0.0,
+        "variables": 246,
+        "relaxation": "free warm cache, no state limits, any mission AP, lowest tier, perfect delivery",
+        "greedy_native_utility": 86.0,
+        "optimistic_gap": 0.10416666666666667
+      },
+      {
+        "seed": 71006,
+        "load": 80,
+        "upper_utility": 144.0,
+        "offered_utility": 146.0,
+        "optimal": true,
+        "gap": 0.0,
+        "variables": 374,
+        "relaxation": "free warm cache, no state limits, any mission AP, lowest tier, perfect delivery",
+        "greedy_native_utility": 132.0,
+        "optimistic_gap": 0.0821917808219178
+      }
+    ],
+    "action_changes_native_delivery": true,
+    "risk_actions_exist": true,
+    "proceed": true,
+    "interpretation": "A wide optimistic MILP gap is not evidence that RL can close it; active rejection need not be nonzero or beneficial. Test constraints and all baselines independently."
+  },
+  "formal_counts": {
+    "unit_tests": 185,
+    "main_mobility_stress_episodes": 1060,
+    "exact_model_replays": 5,
+    "training_steps_per_model": 8192,
+    "initializations": 5
+  }
 }

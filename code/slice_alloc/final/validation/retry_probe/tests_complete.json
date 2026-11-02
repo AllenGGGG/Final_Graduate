@@ -1,9 +1,0 @@
-{
-  "inputs": {
-    "protocol_sha256": "50399ba62dd5351955bfb15c0cd4345bc6b3c80216eb47e155cd56f535728f72",
-    "sources": {
-      "slice_alloc/tests/test_probe.py": "0ad288ecf327c5fb65dd53710a7a551635418cf276e3cb4122d34de01167e659"
-    }
-  },
-  "log_sha256": "fb184ea57734512b1f088f9181209901b9cd46df3eb7eaa2500ea9e48dde20b5"
-}

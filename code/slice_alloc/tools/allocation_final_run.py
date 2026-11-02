@@ -18,7 +18,7 @@ import torch
 from stable_baselines3 import A2C, PPO
 from stable_baselines3.common.callbacks import BaseCallback
 
-from slice_alloc import allocation_final as a
+from slice_alloc import allocation_cmdp as a
 from slice_alloc.allocation_final_policy import CandidatePPOPolicy
 from slice_alloc.allocation_value import MaskedDoubleDQN
 from slice_alloc.distributional_allocation import MaskedDoubleQRDQN, CandidateQRPolicy
@@ -26,26 +26,27 @@ from slice_alloc.tools import modal_binding_run as old
 
 ROOT = a.b.p.ROOT
 OUT = Path(os.environ.get('LOWALT_ALLOCATION_OUTPUT', str(ROOT/'slice_alloc/results/final'))).expanduser().resolve()
-INITS = (11, 23, 37)
+INITS = (11, 23, 37, 53, 71)
 LOADS = (48, 80)
-CHECKPOINTS = (8192, 16384, 32768)
-VALIDATION = tuple(range(42000, 42008))
-TEST = tuple(range(53000, 53030))
-CONTROL = tuple(range(54000, 54010))
-ALGORITHMS = ('candidate_ppo', 'double_qrdqn', 'double_dqn', 'candidate_a2c')
+CHECKPOINTS = (8192,)
+VALIDATION = tuple(range(72000, 72030))
+TEST = tuple(range(73000, 73030))
+CONTROL = tuple(range(74000, 74010))
+ALGORITHMS = ('candidate_ppo',)  # method fixed from formulation, no noisy algorithm contest
+ABLATIONS = ()
 MAIN_RULES = ('first_fit', 'nearest', 'greedy', 'quota')
 PRIMARY_RULE = 'greedy'
 CONTROL_RULES = ('greedy', 'semantic', 'price')
 RULES = ('first_fit', 'nearest', 'greedy', 'price', 'semantic', 'quota')
 REGISTRATIONS = ('protocol.json', 'stress_protocol.json', 'auxiliary_sources.json',
-    'deployment.json', 'tests_complete.json', 'selection.json', 'training_complete.json') + tuple(
+    'deployment.json', 'tests_complete.json', 'selection.json', 'training_complete.json', 'diagnosis.json') + tuple(
     f'rules/{method}.json' for method in RULES)
-SOURCES = ('__main__.py', 'ALLOCATION_FINAL.md', 'allocation_final.py', 'allocation_final_policy.py', 'allocation_value.py', 'modal_binding.py',
+SOURCES = ('__main__.py', 'ALLOCATION_FINAL.md', 'allocation_final.py', 'allocation_cmdp.py', 'allocation_final_policy.py', 'allocation_value.py', 'modal_binding.py',
            'modal_binding_rl.py', 'patrol.py', 'initial_allocation.py',
-           'distributional_allocation.py', 'execution/allocation_final_scenario.cc',
+           'distributional_allocation.py', 'execution/allocation_final_scenario.cc', 'execution/allocation_cmdp_scenario.cc',
            'tools/allocation_final_run.py', 'tools/modal_binding_run.py',
            'tests/test_allocation_final.py', 'tests/test_allocation_final_pipeline.py',
-           'tests/test_allocation_algorithms.py')
+           'tests/test_allocation_algorithms.py', 'tests/test_allocation_cmdp.py')
 write, read, sha = old.write, old.read, old.sha
 PPO_HYPER = dict(learning_rate=3e-4, n_steps=512, batch_size=128,
     n_epochs=10, gamma=1., gae_lambda=1., clip_range=.2, ent_coef=.01)
@@ -54,7 +55,7 @@ A2C_HYPER = dict(learning_rate=7e-4, n_steps=128, gamma=1., gae_lambda=1.,
     use_rms_prop=True, rms_prop_eps=1e-5)
 MODEL_CLASSES = dict(candidate_ppo=PPO, double_qrdqn=MaskedDoubleQRDQN,
                      double_dqn=MaskedDoubleDQN, candidate_a2c=A2C)
-POLICIES = dict(candidate_ppo=CandidatePPOPolicy, double_qrdqn=CandidateQRPolicy,
+POLICIES = dict(candidate_ppo=a.HierarchicalPPOPolicy, double_qrdqn=CandidateQRPolicy,
                 double_dqn=CandidateQRPolicy, candidate_a2c=CandidatePPOPolicy)
 
 
@@ -87,18 +88,21 @@ def serialize_parameters(value):
 def freeze():
     protocol = dict(title='面向低空智联的多模态网络切片技术', research='智能分配',
         sources={n: sha(ROOT/'slice_alloc'/n) for n in SOURCES},
-        binary_sha256=sha(a.NS3/'build/scratch/allocation-final-scenario'),
-        training=[41000000, 42000000], validation=VALIDATION, test=TEST, control=CONTROL,
+        binary_sha256=sha(a.p.NS3/'build/scratch/allocation-cmdp-scenario'),
+        training=list(a.TRAIN_RANGE), validation=VALIDATION, test=TEST, control=CONTROL,
         algorithms=ALGORITHMS, initializations=INITS,
         loads=LOADS, checkpoints=CHECKPOINTS,
-        selection='mean validation success of ALL registered initializations; ties registered algorithm order; checkpoints by validation, tie earliest',
-        ablations=['fixed', 'no_motion', 'no_calendar'],
+        selection='one preregistered hierarchical PPO method; checkpoints by validation utility minus 5 times positive constraint excess, tie earliest; ALL five initializations retained',
+        ablations=ABLATIONS,
         ablation_protocol='retrain selected algorithm with identical budget and initializations',
         rule_thresholds=[1., 4., None],
         primary_rule=PRIMARY_RULE, main_rules=MAIN_RULES, control_rules=CONTROL_RULES,
         supplemental_rules=['price', 'semantic'],
-        reward='raw actual SLA successes, gamma=1, no shaping or expert prior',
-        objective='successful requests / all arrivals; rejected requests fail',
+        reward='(priority-weighted native SLA utility - adaptive Lagrange multipliers dot constraint costs)/3; gamma=1',
+        weights=a.WEIGHTS, tiers=a.TIERS, overbook=a.OVERBOOK, risk_budget=a.RISK_BUDGET,
+        violation_budgets=a.VIOLATION_BUDGET, dual_learning_rate=.2, dual_clip=[0.,20.],
+        execution_model='per-slice per-endpoint native token-bucket ingress shaping; birth times unchanged; no hard per-hop bandwidth guarantee',
+        objective='weighted successful contracts / all offered contract value; also report unweighted success and ALL service/risk constraints',
         scope='point 1 only; no demand prediction, proactive migration or hard QoS guarantee',
         propagation='LogDistance n=2.5 reference46.6777dB plus 120m finite footprint, TX20dBm, fixed24Mbps',
         directions='telemetry uplink IP; command downlink IP/ID; object retrieval IP/NDN',
@@ -124,8 +128,10 @@ def freeze():
 
 
 def environment(variant='full', **kwargs):
+    kwargs.setdefault('no_calendar', True)
     return a.AllocationEnv(fixed=variant == 'fixed', no_motion=variant == 'no_motion',
-                           no_calendar=variant == 'no_calendar', quota=variant == 'quota', **kwargs)
+                           standard_only=variant=='standard', strict=variant=='strict',
+                           quota=variant == 'quota', **kwargs)
 
 
 def rule_action(name, env, threshold=None):
@@ -144,8 +150,14 @@ def rule_action(name, env, threshold=None):
                 indices = leased
     if not indices:
         return 0
+    if name.startswith('tier_'):
+        factor=float(name.split('_',1)[1])
+        return next((i+1 for i in indices if abs(env.options[i].rate_factor-factor)<1e-8),0)
     if name == 'first_fit':
         return indices[0]+1
+    adequate = [i for i in indices if a.shaping_adequate(r,getattr(env.options[i],'rate_factor',1.1))]
+    if adequate:
+        indices = adequate
     costs = {i: a.b.exponential_price(env.ledger, env.options[i]) for i in indices}
     if name == 'nearest':
         attached = [env.current['associations'][str(n)]-2 for n in r.members]
@@ -159,6 +171,8 @@ def rule_action(name, env, threshold=None):
 
 def episode(cfg, method, model=None, variant='full', threshold=None, prefix=None):
     env = environment('quota' if method == 'quota' else variant)
+    if model is not None:
+        env.pending_multipliers = np.asarray(getattr(model,'constraint_multipliers',[1.]*4))
     try:
         obs, _ = env.reset(options=dict(scenario=cfg, prefix=prefix, trace=prefix is not None))
         done = False
@@ -172,7 +186,7 @@ def episode(cfg, method, model=None, variant='full', threshold=None, prefix=None
             obs, r, done, _, _ = env.step(action)
             reward += r
         result = env.result()
-        assert reward == result['success']
+        assert abs(reward-result['reward_total']) < 1e-7
         result.update(decision_ms=1000*float(np.mean(decisions)),
             forced_reject=sum(not r['decision']['accept'] and not r['feasible'] for r in result['decisions']),
             voluntary_reject=sum(not r['decision']['accept'] and bool(r['feasible']) for r in result['decisions']),
@@ -218,8 +232,13 @@ def score(model, variant='full'):
     for seed in VALIDATION:
         for load in LOADS:
             r = episode(a.scenario(seed, load), 'learned', model, variant)
-            rows.append(dict(seed=seed, load=load, success=r['success'], requests=r['requests']))
-    return dict(rate=sum(r['success'] for r in rows)/sum(r['requests'] for r in rows), rows=rows)
+            rows.append(dict(seed=seed, load=load, success=r['success'], requests=r['requests'], utility=r['utility'],utility_available=r['utility_available'],
+                             costs=r['cost_sum'],admitted=r['admitted'],risk_sum=r['risk_sum'],
+                             by_service=r['by_service'],service_admitted=r['service_admitted']))
+    rate=sum(r['utility'] for r in rows)/sum(r['utility_available'] for r in rows)
+    excess=a.constraint_excess(rows)
+    return dict(rate=rate,unweighted_rate=sum(r['success'] for r in rows)/sum(r['requests'] for r in rows),
+                constraint_excess=excess,selection_score=rate-5.*sum(excess), rows=rows)
 
 
 def load_model(algorithm, path):
@@ -230,8 +249,13 @@ class Checkpoints(BaseCallback):
     def __init__(self, folder, variant):
         super().__init__()
         self.folder, self.variant, self.records = folder, variant, []
+        self.dual = np.ones(4)
+        self.batch_infos = []
+        self.dual_history = []
 
     def _on_step(self):
+        self.batch_infos.extend(self.locals.get('infos',[]))
+        self.model.constraint_multipliers = self.dual.tolist()
         if self.num_timesteps not in CHECKPOINTS:
             return True
         path = self.folder/f'{self.num_timesteps}.zip'
@@ -241,6 +265,17 @@ class Checkpoints(BaseCallback):
         write(self.folder/'progress.json', self.records)
         print('CHECKPOINT', str(self.folder.relative_to(OUT)), self.num_timesteps, validation['rate'], flush=True)
         return True
+
+    def _on_rollout_end(self):
+        rows=self.batch_infos; self.batch_infos=[]
+        if not rows: return
+        totals=np.sum([r['costs'] for r in rows],axis=0)
+        counts=np.r_[np.sum([r['settled_counts'] for r in rows],axis=0),len(rows)]
+        gradient=totals/np.maximum(1.,counts)
+        self.dual=np.clip(self.dual+.2*gradient,0.,20.)
+        self.training_env.env_method('set_multipliers',self.dual.tolist())
+        self.model.constraint_multipliers=self.dual.tolist()
+        self.dual_history.append(dict(step=self.num_timesteps,multipliers=self.dual.tolist(),gradient=gradient.tolist()))
 
 
 def train(spec):
@@ -265,14 +300,14 @@ def train(spec):
         after = torch.cat([p.detach().flatten() for p in model.policy.parameters()])
         change = float(torch.linalg.vector_norm(after-before))
         assert change > 0.
-        best = max(cb.records, key=lambda r:(r['validation']['rate'], -r['step']))
+        best = max(cb.records, key=lambda r:(r['validation']['selection_score'], -r['step']))
         selected = OUT/'models'/f'{algorithm}-{variant}-{init}.zip'
         selected.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(OUT/best['path'], selected)
         again = load_model(algorithm, selected)
         assert score(again, variant) == best['validation'], 'model reload must reproduce validation'
         result = dict(algorithm=algorithm, variant=variant, init=init, steps=model.num_timesteps,
-            updates=model._n_updates, weight_change=change, seconds=time.perf_counter()-started,
+            updates=model._n_updates, weight_change=change,dual_history=cb.dual_history, seconds=time.perf_counter()-started,
             selected=best, checkpoints=cb.records, model=str(selected.relative_to(OUT)),
             model_sha256=sha(selected), training_seeds=env.episode_specs, protocol_sha256=sha(OUT/'protocol.json'))
         write(folder/'training.json', result)
@@ -286,8 +321,9 @@ def tune_rule(method):
     grid = []
     for threshold in (None,) if method in ('first_fit','nearest','greedy') else (1.,4.,None):
         rows = [episode(a.scenario(s,l), method, threshold=threshold) for s in VALIDATION for l in LOADS]
-        grid.append(dict(threshold=threshold, rate=sum(r['success'] for r in rows)/sum(r['requests'] for r in rows)))
-    chosen = max(grid, key=lambda r:(r['rate'], math.inf if r['threshold'] is None else r['threshold']))
+        grid.append(dict(threshold=threshold, rate=sum(r['utility'] for r in rows)/sum(r['utility_available'] for r in rows),
+            excess=a.constraint_excess(rows)))
+    chosen = max(grid, key=lambda r:(r['rate']-5.*sum(r['excess']), math.inf if r['threshold'] is None else r['threshold']))
     write(OUT/'rules'/f'{method}.json', dict(method=method, chosen=chosen, grid=grid))
     print('RULE', method, chosen, flush=True)
 
@@ -340,7 +376,7 @@ def main():
         else:
             write(OUT/'selection.json', selection)
         print('SELECTED', selected, values, flush=True)
-        pool_map(train, [(selected,v,i) for v in ('fixed','no_motion','no_calendar') for i in INITS], args.workers)
+        pool_map(train, [(selected,v,i) for v in ABLATIONS for i in INITS], args.workers)
         pool_map(tune_rule, RULES, args.workers)
         write(OUT/'training_complete.json', dict(protocol_sha256=sha(OUT/'protocol.json'), selection_sha256=sha(OUT/'selection.json')))
     if args.command in ('evaluate','all'):
@@ -348,7 +384,7 @@ def main():
         prepare_evaluation()
         selected = read(OUT/'selection.json')['selected']
         models = [(m,'full',i) for m in ALGORITHMS for i in INITS]
-        models += [(selected,v,i) for v in ('fixed','no_motion','no_calendar') for i in INITS]
+        models += [(selected,v,i) for v in ABLATIONS for i in INITS]
         methods = models+[(r,'full',0) for r in RULES]
         groups = [(m,v,i,'test',l,TEST,'mixed') for m,v,i in methods for l in LOADS]
         controls = [(selected,'full',i) for i in INITS]+[(r,'full',0) for r in CONTROL_RULES]

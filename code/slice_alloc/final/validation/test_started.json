@@ -1,0 +1,22 @@
+{
+  "time": 1793593554.471329,
+  "protocol_sha256": "2dc5f22b7e570bcd1052888671381bc74c11e5be81c86d3cf65a231cc05ae6a3",
+  "selection_sha256": "ff0798f6040e175a960f2488c70bc8ca760b158a24a6d26a7cbda1efb565e966",
+  "jobs": 46,
+  "preregistration_sha256": {
+    "protocol.json": "2dc5f22b7e570bcd1052888671381bc74c11e5be81c86d3cf65a231cc05ae6a3",
+    "stress_protocol.json": "2a1f2cb4993cf587fc80e6d221bea3139462fe96c7972e124d60ce7fcde9c259",
+    "auxiliary_sources.json": "27c5e4471483580659023a6a368696ded82518c54d941c63f4bccd7784f5e510",
+    "deployment.json": "9512492020ff359d05f856617d0dc13c153a6a542b896cc036b3441a3a6b985b",
+    "tests_complete.json": "cbc085456d819d84ab3e2d26067b632ee7cacb120c805b2f0caf67e5cfecaf26",
+    "selection.json": "ff0798f6040e175a960f2488c70bc8ca760b158a24a6d26a7cbda1efb565e966",
+    "training_complete.json": "5b6d50f7353e2908acb73baf1934a6f6999c2cade76906df9f33a3b3ff9129d9",
+    "diagnosis.json": "a93b19d9c367e25b0cb18915b4d08627cb9037b0f8d04dd5ba28f266e1b50969",
+    "rules/first_fit.json": "96a01361dacf55dec401f3569db51ffdf63397567df5ce59f9c66df687ebfe25",
+    "rules/nearest.json": "8bec35e6d32dcb0c663521b360be5296ad73f50020e0da34a0ac27ee41a00bfe",
+    "rules/greedy.json": "b14b07fef0b2bdfe95f0bccf1414bdf47bc62febe1fd84b3214b1f495be1b9fa",
+    "rules/price.json": "86a15bc64d80f8ff2684d6030a43ed197b264c0bcf7a240e6647f67da2635ec7",
+    "rules/semantic.json": "5bef3816559848293c387e7ee77641216cc476170c499b53ce39b8586f3b0c5b",
+    "rules/quota.json": "2174aea02f6c915fadb4d61307f75a59615d8589382aa33658043db4ac76c6eb"
+  }
+}

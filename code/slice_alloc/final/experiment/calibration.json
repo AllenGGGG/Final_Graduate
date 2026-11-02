@@ -6,12 +6,11 @@
       "success": 25,
       "requests": 32,
       "counters": {
-        "raw_candidates": 152,
-        "infeasible_candidates": 5,
-        "wire:2:1": 3,
-        "no_feasible_requests": 1,
-        "wire:1:0": 1,
-        "wire:1:2": 1
+        "raw_candidates": 280,
+        "infeasible_candidates": 6,
+        "wire:1:2": 4,
+        "wire:2:1": 2,
+        "wire:2:0": 1
       },
       "by_service": {
         "telemetry": {
@@ -31,16 +30,16 @@
     {
       "seed": 39030,
       "load": 48,
-      "success": 44,
+      "success": 42,
       "requests": 48,
       "counters": {
-        "raw_candidates": 222,
-        "infeasible_candidates": 2,
-        "wire:2:0": 1,
+        "raw_candidates": 410,
+        "infeasible_candidates": 9,
+        "wire:2:1": 5,
+        "wire:2:0": 4,
         "wire:1:2": 1,
         "no_feasible_requests": 1,
-        "disconnected_requests": 1,
-        "wire:2:1": 1
+        "disconnected_requests": 1
       },
       "by_service": {
         "telemetry": {
@@ -49,36 +48,36 @@
         },
         "object": {
           "requests": 19,
-          "success": 16
+          "success": 15
         },
         "command": {
           "requests": 14,
-          "success": 13
+          "success": 12
         }
       }
     },
     {
       "seed": 39030,
       "load": 64,
-      "success": 47,
+      "success": 45,
       "requests": 64,
       "counters": {
-        "raw_candidates": 296,
-        "infeasible_candidates": 21,
-        "wire:1:2": 8,
-        "wire:1:0": 5,
-        "wire:2:1": 6,
-        "wire:2:0": 6,
-        "no_feasible_requests": 4
+        "raw_candidates": 552,
+        "infeasible_candidates": 48,
+        "wire:1:2": 3,
+        "wire:1:0": 36,
+        "wire:2:1": 21,
+        "wire:2:0": 30,
+        "no_feasible_requests": 3
       },
       "by_service": {
         "telemetry": {
           "requests": 22,
-          "success": 14
+          "success": 13
         },
         "object": {
           "requests": 21,
-          "success": 14
+          "success": 13
         },
         "command": {
           "requests": 21,
@@ -89,16 +88,16 @@
     {
       "seed": 39030,
       "load": 80,
-      "success": 60,
+      "success": 59,
       "requests": 80,
       "counters": {
-        "raw_candidates": 364,
-        "infeasible_candidates": 25,
-        "wire:1:2": 11,
-        "no_feasible_requests": 8,
-        "wire:1:0": 10,
-        "wire:2:0": 4,
-        "wire:2:1": 7
+        "raw_candidates": 684,
+        "infeasible_candidates": 69,
+        "wire:1:2": 12,
+        "wire:1:0": 46,
+        "no_feasible_requests": 5,
+        "wire:2:0": 36,
+        "wire:2:1": 34
       },
       "by_service": {
         "telemetry": {
@@ -111,33 +110,34 @@
         },
         "command": {
           "requests": 24,
-          "success": 20
+          "success": 19
         }
       }
     },
     {
       "seed": 39030,
       "load": 96,
-      "success": 67,
+      "success": 60,
       "requests": 96,
       "counters": {
-        "raw_candidates": 434,
-        "infeasible_candidates": 91,
-        "wire:1:2": 63,
-        "wire:2:1": 19,
-        "no_feasible_requests": 17,
-        "wire:2:0": 18,
+        "raw_candidates": 814,
+        "infeasible_candidates": 185,
+        "wire:1:2": 59,
+        "wire:1:0": 148,
+        "wire:2:1": 97,
+        "wire:2:0": 130,
+        "no_feasible_requests": 16,
         "disconnected_requests": 1,
-        "wire:1:0": 16
+        "wire:4:2": 4
       },
       "by_service": {
         "telemetry": {
           "requests": 34,
-          "success": 18
+          "success": 15
         },
         "object": {
           "requests": 33,
-          "success": 29
+          "success": 25
         },
         "command": {
           "requests": 29,
@@ -148,21 +148,21 @@
     {
       "seed": 39031,
       "load": 32,
-      "success": 28,
+      "success": 26,
       "requests": 32,
       "counters": {
-        "raw_candidates": 132,
-        "infeasible_candidates": 9,
-        "wire:1:2": 2,
-        "wire:1:0": 1,
-        "wire:2:1": 4,
-        "no_feasible_requests": 1,
-        "wire:2:0": 2
+        "raw_candidates": 260,
+        "infeasible_candidates": 31,
+        "wire:2:1": 15,
+        "wire:1:0": 8,
+        "wire:2:0": 21,
+        "wire:1:2": 3,
+        "no_feasible_requests": 1
       },
       "by_service": {
         "telemetry": {
           "requests": 15,
-          "success": 12
+          "success": 11
         },
         "object": {
           "requests": 9,
@@ -170,32 +170,34 @@
         },
         "command": {
           "requests": 8,
-          "success": 8
+          "success": 7
         }
       }
     },
     {
       "seed": 39031,
       "load": 48,
-      "success": 38,
+      "success": 35,
       "requests": 48,
       "counters": {
-        "raw_candidates": 234,
-        "infeasible_candidates": 19,
-        "wire:2:1": 15,
-        "wire:2:0": 3,
-        "wire:1:2": 2,
-        "no_feasible_requests": 3,
-        "disconnected_requests": 1
+        "raw_candidates": 422,
+        "infeasible_candidates": 23,
+        "wire:2:1": 12,
+        "wire:2:0": 14,
+        "wire:1:2": 1,
+        "no_feasible_requests": 2,
+        "disconnected_requests": 1,
+        "wire:1:0": 4,
+        "wire:4:2": 2
       },
       "by_service": {
         "telemetry": {
           "requests": 12,
-          "success": 7
+          "success": 6
         },
         "object": {
           "requests": 18,
-          "success": 16
+          "success": 14
         },
         "command": {
           "requests": 18,
@@ -206,16 +208,15 @@
     {
       "seed": 39031,
       "load": 64,
-      "success": 56,
+      "success": 53,
       "requests": 64,
       "counters": {
-        "raw_candidates": 320,
-        "infeasible_candidates": 52,
-        "wire:2:1": 24,
-        "wire:2:0": 3,
-        "wire:1:2": 27,
-        "no_feasible_requests": 3,
-        "wire:1:0": 3
+        "raw_candidates": 576,
+        "infeasible_candidates": 49,
+        "wire:1:2": 11,
+        "wire:1:0": 28,
+        "wire:2:1": 15,
+        "wire:2:0": 25
       },
       "by_service": {
         "telemetry": {
@@ -224,32 +225,32 @@
         },
         "object": {
           "requests": 29,
-          "success": 27
+          "success": 26
         },
         "command": {
           "requests": 19,
-          "success": 18
+          "success": 16
         }
       }
     },
     {
       "seed": 39031,
       "load": 80,
-      "success": 67,
+      "success": 65,
       "requests": 80,
       "counters": {
-        "raw_candidates": 384,
-        "infeasible_candidates": 71,
-        "wire:2:1": 15,
-        "wire:1:2": 52,
-        "wire:2:0": 8,
-        "no_feasible_requests": 6,
-        "wire:1:0": 6
+        "raw_candidates": 704,
+        "infeasible_candidates": 73,
+        "wire:1:2": 4,
+        "wire:1:0": 30,
+        "wire:2:1": 25,
+        "wire:2:0": 43,
+        "no_feasible_requests": 5
       },
       "by_service": {
         "telemetry": {
           "requests": 24,
-          "success": 16
+          "success": 14
         },
         "object": {
           "requests": 34,
@@ -267,22 +268,23 @@
       "success": 79,
       "requests": 96,
       "counters": {
-        "raw_candidates": 472,
-        "infeasible_candidates": 161,
-        "wire:1:0": 10,
-        "wire:2:1": 133,
-        "wire:1:2": 54,
-        "no_feasible_requests": 11,
-        "wire:2:0": 10
+        "raw_candidates": 856,
+        "infeasible_candidates": 182,
+        "wire:1:2": 28,
+        "wire:1:0": 142,
+        "wire:2:1": 126,
+        "wire:2:0": 138,
+        "no_feasible_requests": 9,
+        "wire:4:2": 10
       },
       "by_service": {
         "telemetry": {
           "requests": 26,
-          "success": 15
+          "success": 13
         },
         "object": {
           "requests": 39,
-          "success": 36
+          "success": 38
         },
         "command": {
           "requests": 31,
@@ -296,12 +298,12 @@
       "success": 25,
       "requests": 32,
       "counters": {
-        "raw_candidates": 140,
-        "infeasible_candidates": 8,
-        "wire:2:1": 4,
-        "no_feasible_requests": 2,
-        "wire:2:0": 2,
-        "wire:1:2": 4
+        "raw_candidates": 268,
+        "infeasible_candidates": 15,
+        "wire:1:0": 8,
+        "wire:2:1": 2,
+        "wire:2:0": 5,
+        "wire:1:2": 5
       },
       "by_service": {
         "telemetry": {
@@ -324,11 +326,12 @@
       "success": 39,
       "requests": 48,
       "counters": {
-        "raw_candidates": 208,
-        "infeasible_candidates": 29,
-        "wire:1:2": 6,
-        "wire:1:0": 4,
-        "wire:2:1": 22,
+        "raw_candidates": 400,
+        "infeasible_candidates": 35,
+        "wire:1:0": 17,
+        "wire:1:2": 5,
+        "wire:2:1": 10,
+        "wire:2:0": 20,
         "no_feasible_requests": 2
       },
       "by_service": {
@@ -349,25 +352,25 @@
     {
       "seed": 39032,
       "load": 64,
-      "success": 47,
+      "success": 43,
       "requests": 64,
       "counters": {
-        "raw_candidates": 284,
-        "infeasible_candidates": 43,
-        "wire:1:2": 17,
-        "no_feasible_requests": 4,
-        "wire:2:1": 24,
-        "wire:2:0": 5,
-        "wire:1:0": 3
+        "raw_candidates": 540,
+        "infeasible_candidates": 57,
+        "wire:1:0": 25,
+        "wire:1:2": 26,
+        "wire:2:1": 4,
+        "wire:2:0": 24,
+        "no_feasible_requests": 2
       },
       "by_service": {
         "telemetry": {
           "requests": 25,
-          "success": 16
+          "success": 14
         },
         "object": {
           "requests": 27,
-          "success": 20
+          "success": 18
         },
         "command": {
           "requests": 12,
@@ -378,21 +381,21 @@
     {
       "seed": 39032,
       "load": 80,
-      "success": 57,
+      "success": 58,
       "requests": 80,
       "counters": {
-        "raw_candidates": 356,
-        "no_feasible_requests": 12,
-        "infeasible_candidates": 43,
-        "wire:2:1": 19,
-        "wire:1:2": 18,
-        "wire:1:0": 6,
-        "wire:2:0": 8
+        "raw_candidates": 676,
+        "infeasible_candidates": 93,
+        "wire:1:2": 20,
+        "wire:1:0": 43,
+        "wire:2:1": 41,
+        "no_feasible_requests": 6,
+        "wire:2:0": 53
       },
       "by_service": {
         "telemetry": {
           "requests": 31,
-          "success": 17
+          "success": 18
         },
         "object": {
           "requests": 34,
@@ -410,47 +413,47 @@
       "success": 67,
       "requests": 96,
       "counters": {
-        "raw_candidates": 408,
-        "no_feasible_requests": 16,
-        "infeasible_candidates": 48,
-        "wire:2:1": 21,
-        "wire:1:2": 17,
-        "wire:1:0": 14,
-        "wire:2:0": 11,
-        "disconnected_requests": 2
+        "raw_candidates": 800,
+        "infeasible_candidates": 146,
+        "wire:1:2": 35,
+        "wire:1:0": 79,
+        "wire:2:1": 52,
+        "no_feasible_requests": 12,
+        "wire:2:0": 80,
+        "wire:3:1": 2
       },
       "by_service": {
         "telemetry": {
           "requests": 40,
-          "success": 23
+          "success": 21
         },
         "object": {
           "requests": 39,
-          "success": 31
+          "success": 32
         },
         "command": {
           "requests": 17,
-          "success": 13
+          "success": 14
         }
       }
     },
     {
       "seed": 39033,
       "load": 32,
-      "success": 27,
+      "success": 28,
       "requests": 32,
       "counters": {
-        "raw_candidates": 132,
-        "infeasible_candidates": 11,
-        "wire:2:1": 6,
-        "wire:1:2": 5,
-        "no_feasible_requests": 1,
-        "wire:1:0": 1
+        "raw_candidates": 260,
+        "infeasible_candidates": 6,
+        "wire:1:2": 2,
+        "wire:1:0": 2,
+        "wire:2:1": 2,
+        "wire:2:0": 2
       },
       "by_service": {
         "telemetry": {
           "requests": 15,
-          "success": 12
+          "success": 13
         },
         "object": {
           "requests": 11,
@@ -465,16 +468,17 @@
     {
       "seed": 39033,
       "load": 48,
-      "success": 40,
+      "success": 38,
       "requests": 48,
       "counters": {
-        "raw_candidates": 214,
-        "infeasible_candidates": 13,
-        "wire:2:1": 4,
-        "no_feasible_requests": 5,
-        "wire:1:2": 7,
+        "raw_candidates": 402,
+        "infeasible_candidates": 44,
+        "wire:1:2": 26,
+        "wire:1:0": 28,
+        "wire:2:0": 14,
+        "no_feasible_requests": 3,
         "disconnected_requests": 1,
-        "wire:1:0": 3
+        "wire:2:1": 1
       },
       "by_service": {
         "telemetry": {
@@ -483,7 +487,7 @@
         },
         "object": {
           "requests": 19,
-          "success": 18
+          "success": 16
         },
         "command": {
           "requests": 12,
@@ -494,20 +498,20 @@
     {
       "seed": 39033,
       "load": 64,
-      "success": 46,
+      "success": 45,
       "requests": 64,
       "counters": {
-        "raw_candidates": 296,
-        "infeasible_candidates": 14,
-        "wire:1:2": 10,
-        "no_feasible_requests": 4,
-        "wire:1:0": 2,
-        "wire:2:1": 3
+        "raw_candidates": 552,
+        "infeasible_candidates": 32,
+        "wire:1:2": 21,
+        "wire:1:0": 14,
+        "no_feasible_requests": 2,
+        "wire:2:0": 10
       },
       "by_service": {
         "telemetry": {
           "requests": 22,
-          "success": 16
+          "success": 17
         },
         "object": {
           "requests": 25,
@@ -515,32 +519,33 @@
         },
         "command": {
           "requests": 17,
-          "success": 15
+          "success": 13
         }
       }
     },
     {
       "seed": 39033,
       "load": 80,
-      "success": 59,
+      "success": 55,
       "requests": 80,
       "counters": {
-        "raw_candidates": 392,
-        "infeasible_candidates": 79,
-        "wire:1:2": 61,
-        "wire:2:0": 9,
-        "no_feasible_requests": 7,
-        "wire:2:1": 16,
-        "wire:1:0": 2
+        "raw_candidates": 712,
+        "infeasible_candidates": 82,
+        "wire:2:0": 27,
+        "wire:1:2": 17,
+        "wire:1:0": 35,
+        "no_feasible_requests": 3,
+        "wire:3:1": 4,
+        "wire:2:1": 30
       },
       "by_service": {
         "telemetry": {
           "requests": 22,
-          "success": 15
+          "success": 13
         },
         "object": {
           "requests": 37,
-          "success": 26
+          "success": 24
         },
         "command": {
           "requests": 21,
@@ -554,26 +559,27 @@
       "success": 72,
       "requests": 96,
       "counters": {
-        "raw_candidates": 472,
-        "infeasible_candidates": 148,
-        "wire:1:2": 109,
-        "no_feasible_requests": 10,
-        "wire:2:1": 45,
-        "wire:2:0": 6,
-        "wire:1:0": 3
+        "raw_candidates": 856,
+        "infeasible_candidates": 96,
+        "wire:1:2": 54,
+        "wire:1:0": 36,
+        "wire:2:0": 51,
+        "no_feasible_requests": 4,
+        "wire:3:1": 4,
+        "wire:2:1": 34
       },
       "by_service": {
         "telemetry": {
           "requests": 26,
-          "success": 17
+          "success": 20
         },
         "object": {
           "requests": 45,
-          "success": 32
+          "success": 35
         },
         "command": {
           "requests": 25,
-          "success": 23
+          "success": 17
         }
       }
     }
@@ -582,12 +588,12 @@
     {
       "x": 20,
       "distance_loss": false,
-      "success": 1,
+      "success": 0,
       "admitted": 1,
-      "on_time": 198,
+      "on_time": 83,
       "expected": 198,
-      "mean_delay": 0.01691703838383838,
-      "phy_tx_seconds": 0.14546400000000098,
+      "mean_delay": 0.11695290768131869,
+      "phy_tx_seconds": 0.10142800000000246,
       "associations": {
         "associate": 12
       }
@@ -595,12 +601,12 @@
     {
       "x": 55,
       "distance_loss": false,
-      "success": 1,
+      "success": 0,
       "admitted": 1,
-      "on_time": 198,
+      "on_time": 83,
       "expected": 198,
-      "mean_delay": 0.016917092929292925,
-      "phy_tx_seconds": 0.14546400000000098,
+      "mean_delay": 0.11695296286813188,
+      "phy_tx_seconds": 0.10142800000000246,
       "associations": {
         "associate": 12
       }
@@ -608,12 +614,12 @@
     {
       "x": 80,
       "distance_loss": false,
-      "success": 1,
+      "success": 0,
       "admitted": 1,
-      "on_time": 198,
+      "on_time": 83,
       "expected": 198,
-      "mean_delay": 0.01691715151515152,
-      "phy_tx_seconds": 0.14546400000000098,
+      "mean_delay": 0.11695302214285715,
+      "phy_tx_seconds": 0.10142800000000246,
       "associations": {
         "associate": 12
       }
@@ -621,12 +627,12 @@
     {
       "x": 95,
       "distance_loss": false,
-      "success": 1,
+      "success": 0,
       "admitted": 1,
-      "on_time": 198,
+      "on_time": 83,
       "expected": 198,
-      "mean_delay": 0.01691719090909091,
-      "phy_tx_seconds": 0.14546400000000098,
+      "mean_delay": 0.11695306200000001,
+      "phy_tx_seconds": 0.10142800000000246,
       "associations": {
         "associate": 12
       }
@@ -634,12 +640,12 @@
     {
       "x": 110,
       "distance_loss": false,
-      "success": 1,
+      "success": 0,
       "admitted": 1,
-      "on_time": 198,
+      "on_time": 75,
       "expected": 198,
-      "mean_delay": 0.03555371887878787,
-      "phy_tx_seconds": 0.14508400000000102,
+      "mean_delay": 0.13558509157142856,
+      "phy_tx_seconds": 0.10142800000000246,
       "associations": {
         "associate": 12
       }
@@ -647,12 +653,12 @@
     {
       "x": 145,
       "distance_loss": false,
-      "success": 1,
+      "success": 0,
       "admitted": 1,
-      "on_time": 198,
+      "on_time": 75,
       "expected": 198,
-      "mean_delay": 0.035553683171717164,
-      "phy_tx_seconds": 0.14508400000000102,
+      "mean_delay": 0.13558505503296706,
+      "phy_tx_seconds": 0.10142800000000246,
       "associations": {
         "associate": 12
       }
@@ -660,12 +666,12 @@
     {
       "x": 20,
       "distance_loss": true,
-      "success": 1,
+      "success": 0,
       "admitted": 1,
-      "on_time": 198,
+      "on_time": 83,
       "expected": 198,
-      "mean_delay": 0.01691703838383838,
-      "phy_tx_seconds": 0.14546400000000098,
+      "mean_delay": 0.11695290768131869,
+      "phy_tx_seconds": 0.10142800000000246,
       "associations": {
         "associate": 12
       }
@@ -673,12 +679,12 @@
     {
       "x": 55,
       "distance_loss": true,
-      "success": 1,
+      "success": 0,
       "admitted": 1,
-      "on_time": 198,
+      "on_time": 83,
       "expected": 198,
-      "mean_delay": 0.016917092929292925,
-      "phy_tx_seconds": 0.14546400000000098,
+      "mean_delay": 0.11695296286813188,
+      "phy_tx_seconds": 0.10142800000000246,
       "associations": {
         "associate": 12
       }
@@ -686,12 +692,12 @@
     {
       "x": 80,
       "distance_loss": true,
-      "success": 1,
+      "success": 0,
       "admitted": 1,
-      "on_time": 198,
+      "on_time": 75,
       "expected": 198,
-      "mean_delay": 0.03555378111111113,
-      "phy_tx_seconds": 0.14508400000000102,
+      "mean_delay": 0.13558515525274725,
+      "phy_tx_seconds": 0.10142800000000246,
       "associations": {
         "associate": 12
       }
@@ -699,12 +705,12 @@
     {
       "x": 95,
       "distance_loss": true,
-      "success": 1,
+      "success": 0,
       "admitted": 1,
-      "on_time": 198,
+      "on_time": 75,
       "expected": 198,
-      "mean_delay": 0.03555374744444444,
-      "phy_tx_seconds": 0.14508400000000102,
+      "mean_delay": 0.1355851208021978,
+      "phy_tx_seconds": 0.10142800000000246,
       "associations": {
         "associate": 12
       }
@@ -712,12 +718,12 @@
     {
       "x": 110,
       "distance_loss": true,
-      "success": 1,
+      "success": 0,
       "admitted": 1,
-      "on_time": 198,
+      "on_time": 75,
       "expected": 198,
-      "mean_delay": 0.03555371887878787,
-      "phy_tx_seconds": 0.14508400000000102,
+      "mean_delay": 0.13558509157142856,
+      "phy_tx_seconds": 0.10142800000000246,
       "associations": {
         "associate": 12
       }
@@ -725,12 +731,12 @@
     {
       "x": 145,
       "distance_loss": true,
-      "success": 1,
+      "success": 0,
       "admitted": 1,
-      "on_time": 198,
+      "on_time": 75,
       "expected": 198,
-      "mean_delay": 0.035553683171717164,
-      "phy_tx_seconds": 0.14508400000000102,
+      "mean_delay": 0.13558505503296706,
+      "phy_tx_seconds": 0.10142800000000246,
       "associations": {
         "associate": 12
       }

@@ -12,7 +12,7 @@ from slice_alloc.tools import allocation_final_run as run
 from slice_alloc.tools import allocation_final_stress as stress
 
 AUXILIARY=('allocation_final_pipeline.py','allocation_final_report.py',
-           'allocation_final_calibrate.py','allocation_final_stress.py','allocation_final_allocate.py')
+           'allocation_final_calibrate.py','allocation_final_stress.py','allocation_final_allocate.py','allocation_cmdp_diagnose.py')
 
 
 def freeze_auxiliary():
@@ -28,7 +28,7 @@ def freeze_auxiliary():
 def provenance():
     packages={p:importlib.metadata.version(p) for p in
         ('numpy','torch','stable-baselines3','sb3-contrib','gymnasium','matplotlib')}
-    listing=subprocess.check_output(['ldd',str(run.a.NS3/'build/scratch/allocation-final-scenario')],text=True,
+    listing=subprocess.check_output(['ldd',str(run.a.NS3/'build/scratch/allocation-cmdp-scenario')],text=True,
         env=dict(os.environ,LD_LIBRARY_PATH=str(run.a.NS3/'build/lib')))
     libraries={}
     for line in listing.splitlines():
@@ -75,6 +75,7 @@ def prepare_evaluation():
     ensure_tests()
     stress.freeze()
     freeze_auxiliary()
+    assert (run.OUT/'diagnosis.json').exists(), 'Complete decision-space diagnosis before formal evaluation'
     deployment = dict(algorithm=run.read(run.OUT/'selection.json')['selected'],initialization=11,
         selection='lowest preregistered initialization chosen before formal test, never best-test initialization',
         policy='single learned model, no ensemble or rule fallback')
@@ -98,6 +99,8 @@ def main():
     ensure_tests()
     if not (run.OUT/'calibration.json').exists():
         command('slice_alloc.tools.allocation_final_calibrate')
+    if not (run.OUT/'diagnosis.json').exists():
+        command('slice_alloc.tools.allocation_cmdp_diagnose')
     if not (run.OUT/'training_complete.json').exists():
         command('slice_alloc.tools.allocation_final_run','train','--workers',str(args.workers))
     prepare_evaluation()
