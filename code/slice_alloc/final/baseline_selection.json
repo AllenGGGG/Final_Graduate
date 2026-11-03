@@ -1,0 +1,7455 @@
+{
+  "selected": {
+    "parameters": [
+      0.5,
+      1.0,
+      0.0
+    ],
+    "rate": 0.8713107638888888,
+    "rows": [
+      {
+        "success": 32,
+        "requests": 32
+      },
+      {
+        "success": 59,
+        "requests": 64
+      },
+      {
+        "success": 83,
+        "requests": 96
+      },
+      {
+        "success": 30,
+        "requests": 32
+      },
+      {
+        "success": 61,
+        "requests": 64
+      },
+      {
+        "success": 87,
+        "requests": 96
+      },
+      {
+        "success": 30,
+        "requests": 32
+      },
+      {
+        "success": 52,
+        "requests": 64
+      },
+      {
+        "success": 72,
+        "requests": 96
+      },
+      {
+        "success": 32,
+        "requests": 32
+      },
+      {
+        "success": 58,
+        "requests": 64
+      },
+      {
+        "success": 78,
+        "requests": 96
+      },
+      {
+        "success": 31,
+        "requests": 32
+      },
+      {
+        "success": 60,
+        "requests": 64
+      },
+      {
+        "success": 88,
+        "requests": 96
+      },
+      {
+        "success": 25,
+        "requests": 32
+      },
+      {
+        "success": 55,
+        "requests": 64
+      },
+      {
+        "success": 78,
+        "requests": 96
+      },
+      {
+        "success": 30,
+        "requests": 32
+      },
+      {
+        "success": 59,
+        "requests": 64
+      },
+      {
+        "success": 86,
+        "requests": 96
+      },
+      {
+        "success": 32,
+        "requests": 32
+      },
+      {
+        "success": 59,
+        "requests": 64
+      },
+      {
+        "success": 84,
+        "requests": 96
+      },
+      {
+        "success": 27,
+        "requests": 32
+      },
+      {
+        "success": 54,
+        "requests": 64
+      },
+      {
+        "success": 73,
+        "requests": 96
+      },
+      {
+        "success": 29,
+        "requests": 32
+      },
+      {
+        "success": 59,
+        "requests": 64
+      },
+      {
+        "success": 86,
+        "requests": 96
+      },
+      {
+        "success": 32,
+        "requests": 32
+      },
+      {
+        "success": 52,
+        "requests": 64
+      },
+      {
+        "success": 83,
+        "requests": 96
+      },
+      {
+        "success": 26,
+        "requests": 32
+      },
+      {
+        "success": 50,
+        "requests": 64
+      },
+      {
+        "success": 78,
+        "requests": 96
+      },
+      {
+        "success": 32,
+        "requests": 32
+      },
+      {
+        "success": 53,
+        "requests": 64
+      },
+      {
+        "success": 85,
+        "requests": 96
+      },
+      {
+        "success": 32,
+        "requests": 32
+      },
+      {
+        "success": 57,
+        "requests": 64
+      },
+      {
+        "success": 87,
+        "requests": 96
+      },
+      {
+        "success": 28,
+        "requests": 32
+      },
+      {
+        "success": 48,
+        "requests": 64
+      },
+      {
+        "success": 80,
+        "requests": 96
+      },
+      {
+        "success": 30,
+        "requests": 32
+      },
+      {
+        "success": 53,
+        "requests": 64
+      },
+      {
+        "success": 70,
+        "requests": 96
+      },
+      {
+        "success": 31,
+        "requests": 32
+      },
+      {
+        "success": 60,
+        "requests": 64
+      },
+      {
+        "success": 89,
+        "requests": 96
+      },
+      {
+        "success": 27,
+        "requests": 32
+      },
+      {
+        "success": 54,
+        "requests": 64
+      },
+      {
+        "success": 76,
+        "requests": 96
+      },
+      {
+        "success": 32,
+        "requests": 32
+      },
+      {
+        "success": 59,
+        "requests": 64
+      },
+      {
+        "success": 85,
+        "requests": 96
+      },
+      {
+        "success": 32,
+        "requests": 32
+      },
+      {
+        "success": 59,
+        "requests": 64
+      },
+      {
+        "success": 82,
+        "requests": 96
+      },
+      {
+        "success": 27,
+        "requests": 32
+      },
+      {
+        "success": 51,
+        "requests": 64
+      },
+      {
+        "success": 79,
+        "requests": 96
+      },
+      {
+        "success": 31,
+        "requests": 32
+      },
+      {
+        "success": 58,
+        "requests": 64
+      },
+      {
+        "success": 79,
+        "requests": 96
+      },
+      {
+        "success": 32,
+        "requests": 32
+      },
+      {
+        "success": 64,
+        "requests": 64
+      },
+      {
+        "success": 94,
+        "requests": 96
+      },
+      {
+        "success": 21,
+        "requests": 32
+      },
+      {
+        "success": 55,
+        "requests": 64
+      },
+      {
+        "success": 73,
+        "requests": 96
+      }
+    ]
+  },
+  "all_trials": [
+    {
+      "parameters": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rate": 0.8639322916666666,
+      "rows": [
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 71,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 23,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 74,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 74,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 25,
+          "requests": 32
+        },
+        {
+          "success": 49,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 46,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 94,
+          "requests": 96
+        },
+        {
+          "success": 22,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "rate": 0.8615451388888888,
+      "rows": [
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 81,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 46,
+          "requests": 64
+        },
+        {
+          "success": 80,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 69,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 81,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 93,
+          "requests": 96
+        },
+        {
+          "success": 21,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        0.0,
+        0.5,
+        0.0
+      ],
+      "rate": 0.8678385416666666,
+      "rows": [
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 71,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 25,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 48,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 94,
+          "requests": 96
+        },
+        {
+          "success": 23,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "rate": 0.8624131944444444,
+      "rows": [
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 81,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 47,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 69,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 81,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 80,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 93,
+          "requests": 96
+        },
+        {
+          "success": 22,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "rate": 0.87109375,
+      "rows": [
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 25,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 48,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 94,
+          "requests": 96
+        },
+        {
+          "success": 21,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        0.0,
+        1.0,
+        1.0
+      ],
+      "rate": 0.8624131944444444,
+      "rows": [
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 81,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 74,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 48,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 46,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 69,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 81,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 80,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 93,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "rate": 0.8634982638888888,
+      "rows": [
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 71,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 23,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 74,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 74,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 25,
+          "requests": 32
+        },
+        {
+          "success": 49,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 85,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 46,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 70,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 85,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 81,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 94,
+          "requests": 96
+        },
+        {
+          "success": 22,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        0.5,
+        0.0,
+        1.0
+      ],
+      "rate": 0.8615451388888888,
+      "rows": [
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 74,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 47,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 69,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 81,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 93,
+          "requests": 96
+        },
+        {
+          "success": 21,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 74,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "rate": 0.8678385416666666,
+      "rows": [
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 71,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 25,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 85,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 47,
+          "requests": 64
+        },
+        {
+          "success": 80,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 70,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 85,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 81,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 94,
+          "requests": 96
+        },
+        {
+          "success": 23,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "rate": 0.8619791666666666,
+      "rows": [
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 74,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 46,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 69,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 81,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 80,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 93,
+          "requests": 96
+        },
+        {
+          "success": 22,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 74,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        0.5,
+        1.0,
+        0.0
+      ],
+      "rate": 0.8713107638888888,
+      "rows": [
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 25,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 85,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 48,
+          "requests": 64
+        },
+        {
+          "success": 80,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 70,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 85,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 94,
+          "requests": 96
+        },
+        {
+          "success": 21,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        0.5,
+        1.0,
+        1.0
+      ],
+      "rate": 0.861328125,
+      "rows": [
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 48,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 46,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 69,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 81,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "rate": 0.8626302083333334,
+      "rows": [
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 70,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 23,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 74,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 74,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 25,
+          "requests": 32
+        },
+        {
+          "success": 49,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 46,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 70,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 85,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 81,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 94,
+          "requests": 96
+        },
+        {
+          "success": 22,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 71,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "rate": 0.8621961805555556,
+      "rows": [
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 47,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 69,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 93,
+          "requests": 96
+        },
+        {
+          "success": 21,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        1.0,
+        0.5,
+        0.0
+      ],
+      "rate": 0.8674045138888888,
+      "rows": [
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 70,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 25,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 47,
+          "requests": 64
+        },
+        {
+          "success": 80,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 70,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 74,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 85,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 81,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 94,
+          "requests": 96
+        },
+        {
+          "success": 23,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 71,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        1.0,
+        0.5,
+        1.0
+      ],
+      "rate": 0.8626302083333334,
+      "rows": [
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 46,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 69,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 80,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 93,
+          "requests": 96
+        },
+        {
+          "success": 22,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "rate": 0.8702256944444444,
+      "rows": [
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 71,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 25,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 48,
+          "requests": 64
+        },
+        {
+          "success": 80,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 70,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 85,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 94,
+          "requests": 96
+        },
+        {
+          "success": 21,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rate": 0.8619791666666666,
+      "rows": [
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 48,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 46,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 69,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 80,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "rate": 0.8624131944444444,
+      "rows": [
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 86,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 70,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 23,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 74,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 74,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 85,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 25,
+          "requests": 32
+        },
+        {
+          "success": 49,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 46,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 70,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 85,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 81,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 94,
+          "requests": 96
+        },
+        {
+          "success": 22,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 71,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        2.0,
+        0.0,
+        1.0
+      ],
+      "rate": 0.8621961805555556,
+      "rows": [
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 47,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 69,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 94,
+          "requests": 96
+        },
+        {
+          "success": 21,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        2.0,
+        0.5,
+        0.0
+      ],
+      "rate": 0.8663194444444444,
+      "rows": [
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 70,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 85,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 25,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 47,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 70,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 74,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 85,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 81,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 94,
+          "requests": 96
+        },
+        {
+          "success": 23,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 71,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        2.0,
+        0.5,
+        1.0
+      ],
+      "rate": 0.8630642361111112,
+      "rows": [
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 47,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 69,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 93,
+          "requests": 96
+        },
+        {
+          "success": 22,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        2.0,
+        1.0,
+        0.0
+      ],
+      "rate": 0.8689236111111112,
+      "rows": [
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 70,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 25,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 85,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 50,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 48,
+          "requests": 64
+        },
+        {
+          "success": 80,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 70,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 85,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 94,
+          "requests": 96
+        },
+        {
+          "success": 21,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        }
+      ]
+    },
+    {
+      "parameters": [
+        2.0,
+        1.0,
+        1.0
+      ],
+      "rate": 0.8639322916666666,
+      "rows": [
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 61,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 29,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 88,
+          "requests": 96
+        },
+        {
+          "success": 24,
+          "requests": 32
+        },
+        {
+          "success": 52,
+          "requests": 64
+        },
+        {
+          "success": 76,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 75,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 84,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 51,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 26,
+          "requests": 32
+        },
+        {
+          "success": 48,
+          "requests": 64
+        },
+        {
+          "success": 73,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 56,
+          "requests": 64
+        },
+        {
+          "success": 78,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 87,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 47,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 53,
+          "requests": 64
+        },
+        {
+          "success": 69,
+          "requests": 96
+        },
+        {
+          "success": 31,
+          "requests": 32
+        },
+        {
+          "success": 60,
+          "requests": 64
+        },
+        {
+          "success": 89,
+          "requests": 96
+        },
+        {
+          "success": 27,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 77,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 58,
+          "requests": 64
+        },
+        {
+          "success": 83,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 59,
+          "requests": 64
+        },
+        {
+          "success": 82,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 54,
+          "requests": 64
+        },
+        {
+          "success": 80,
+          "requests": 96
+        },
+        {
+          "success": 30,
+          "requests": 32
+        },
+        {
+          "success": 57,
+          "requests": 64
+        },
+        {
+          "success": 79,
+          "requests": 96
+        },
+        {
+          "success": 32,
+          "requests": 32
+        },
+        {
+          "success": 64,
+          "requests": 64
+        },
+        {
+          "success": 91,
+          "requests": 96
+        },
+        {
+          "success": 28,
+          "requests": 32
+        },
+        {
+          "success": 55,
+          "requests": 64
+        },
+        {
+          "success": 72,
+          "requests": 96
+        }
+      ]
+    }
+  ],
+  "trial_count": 24
+}

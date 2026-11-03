@@ -1,0 +1,12 @@
+diff --git a/ndn-cxx/util/scheduler.hpp b/ndn-cxx/util/scheduler.hpp
+index f710264..7e3fae8 100644
+--- a/ndn-cxx/util/scheduler.hpp
++++ b/ndn-cxx/util/scheduler.hpp
+@@ -29,6 +29,7 @@
+ #include "ns3/simulator.h"
+ 
+ #include <set>
++#include <optional>
+ 
+ namespace ndn {
+ 

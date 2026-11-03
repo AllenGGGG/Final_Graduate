@@ -17,22 +17,6 @@ from sb3_contrib.qrdqn.policies import QRDQNPolicy, QuantileNetwork
 from stable_baselines3.common.buffers import DictReplayBuffer
 
 
-class RuleFreeObservation(gym.ObservationWrapper):
-    """Discard the external rule's scalar before collection, replay or inference."""
-    def __init__(self, env):
-        super().__init__(env)
-        from slice_alloc.initial_allocation import PRICE_INDEX
-        self.price_index = PRICE_INDEX
-        original = env.observation_space.spaces
-        candidate = original['candidates']
-        self.observation_space = spaces.Dict({**original, 'candidates': spaces.Box(
-            np.delete(candidate.low, PRICE_INDEX, axis=-1),
-            np.delete(candidate.high, PRICE_INDEX, axis=-1), dtype=np.float32)})
-
-    def observation(self, observation):
-        return {**observation, 'candidates': np.delete(observation['candidates'], self.price_index, axis=-1)}
-
-
 class NStepDictReplay(DictReplayBuffer):
     """N-step returns for one dictionary-observation environment, with terminal flush."""
     def __init__(self, *args, horizon=3, discount=1., **kwargs):

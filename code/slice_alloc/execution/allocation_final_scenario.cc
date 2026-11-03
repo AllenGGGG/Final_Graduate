@@ -72,6 +72,25 @@ public:uint8_t type=0;uint32_t sid=0,eid=0,seq=0,version=0,locator=0,txn=0;
  void Print(std::ostream&o)const override{o<<unsigned(type)<<":"<<sid<<":"<<eid;}
 };
 NS_OBJECT_ENSURE_REGISTERED(Message);
+#include "slice_queue.hpp"
+std::vector<Ptr<SliceQueue>> sliceQueues;
+std::deque<Json> loadHistory;
+std::ofstream telemetry;
+std::vector<uint64_t> lastInput;
+std::array<double,10> forecast90{};
+double forecastAt=-10.;
+void SampleQueues(){
+ Json load=Json::array(),queue=Json::array();
+ for(size_t i=0;i<sliceQueues.size();++i){auto q=sliceQueues[i];
+  load.push_back((q->input-lastInput[i])/(q->capacity*.1));lastInput[i]=q->input;
+  queue.push_back(q->GetNBytes()/q->capacity);
+  q->Update(scenario["public"].value("qos",std::string("none")),Now()-forecastAt<=1.?forecast90[i]:0.);
+ }
+ Json row={{"time",Now()},{"load",load},{"queue",queue}};loadHistory.push_back(row);if(loadHistory.size()>30)loadHistory.pop_front();
+ if(trace)telemetry<<row.dump()<<"\n";
+ if(Now()+.1<finish)Simulator::Schedule(Seconds(.1),&SampleQueues);
+}
+
 std::map<std::pair<uint32_t,uint8_t>,uint32_t> sentCount;
 std::map<std::tuple<uint32_t,uint32_t,uint8_t>,uint32_t> packetAttempts;
 void Send(uint32_t from,Ipv4Address to,Message h,uint32_t payload=0){
@@ -208,6 +227,13 @@ void Association(uint32_t n,Mac48Address bssid){uint32_t ap=0;for(uint32_t p:{3,
  for(auto&t:tasks)if(t.second.accepted&&t.second.mode=="id"&&t.second.members.at(0)==n&&Now()>=t.second.start&&Now()<t.second.drain)Register(t.first,versions[n],0);
 }
 void Deassociation(uint32_t n,Mac48Address){attached[n]=0;Log(n,"deassociate",0,versions[n]);}
+void PatrolWaypoint(uint32_t n,double speed,uint32_t index){
+ auto m=nodes.Get(n)->GetObject<ConstantVelocityMobilityModel>();auto p=m->GetPosition();
+ const auto points=scenario["private"]["waypoints"][std::to_string(n)];auto goal=points.at(index%points.size());
+ Vector delta(goal[0].get<double>()-p.x,goal[1].get<double>()-p.y,goal[2].get<double>()-p.z);double distance=std::sqrt(delta.x*delta.x+delta.y*delta.y+delta.z*delta.z);
+ if(distance<1e-7){Simulator::Schedule(Seconds(.001),&PatrolWaypoint,n,speed,index+1);return;}
+ m->SetVelocity(Vector(delta.x*speed/distance,delta.y*speed/distance,delta.z*speed/distance));Simulator::Schedule(Seconds(distance/speed),&PatrolWaypoint,n,speed,index+1);
+}
 void Motion(uint32_t n,double speed,bool right){
  auto m=nodes.Get(n)->GetObject<ConstantVelocityMobilityModel>();auto p=m->GetPosition();double boundary=right?scenario["public"].value("motion_right",150.):scenario["public"].value("motion_left",30.);
  double distance=std::abs(boundary-p.x);if(distance<1e-7){right=!right;boundary=right?scenario["public"].value("motion_right",150.):scenario["public"].value("motion_left",30.);distance=std::abs(boundary-p.x);}
@@ -246,11 +272,13 @@ Json Observe(uint32_t sid,bool done=false){Json a=Json::object(),p=Json::object(
   for(const auto& packet:delivered)if(packet.first==t.id)++received;
   active.push_back({{"id",t.id},{"generated",generated},{"matured",matured},{"received",received},{"on_time",t.onTime}});
  }
- Json out={{"active",active},{"schema",contract::PROTOCOL},{"kind",done?"done":"observation"},{"time",Now()},{"request_id",sid},{"associations",a},{"positions",p},{"cached",CacheSnapshot()},{"settled",settled}};settled=Json::array();return out;
+ Json history=Json::array();for(const auto& row:loadHistory)history.push_back(row);
+ Json out={{"load_history",history},{"active",active},{"schema",contract::PROTOCOL},{"kind",done?"done":"observation"},{"time",Now()},{"request_id",sid},{"associations",a},{"positions",p},{"cached",CacheSnapshot()},{"settled",settled}};settled=Json::array();return out;
 }
 void Decision(uint32_t sid){auto&t=tasks.at(sid);std::cout<<Observe(sid).dump()<<std::endl;std::string line;
  NS_ABORT_MSG_IF(!std::getline(std::cin,line),"controller disconnected");auto d=Json::parse(line);
  NS_ABORT_MSG_IF(d.at(contract::SCHEMA)!=contract::PROTOCOL||d.at(contract::REQUEST_ID)!=sid,"wrong decision instance");
+ if(d.contains("forecast90")){auto a=d["forecast90"].get<std::vector<double>>();NS_ABORT_MSG_IF(a.size()!=10,"invalid forecast");for(size_t i=0;i<10;++i)forecast90[i]=std::max(0.,a[i]);forecastAt=Now();}
  if(!d.at("accept").get<bool>()){Log(0,"reject",sid);return;}
  t.mode=d.at("mode").get<std::string>();
  NS_ABORT_MSG_IF(t.mode!="ip"&&t.mode!="id"&&t.mode!="ndn","invalid binding");
@@ -278,7 +306,12 @@ void PhyState(uint32_t n,Time,Time duration,WifiPhyState state){if(state==WifiPh
 void PhyBegin(uint32_t n,Ptr<const Packet>p,double){Log(n,"phy_begin",0,p->GetUid(),p->GetSize());}
 void PhyEnd(uint32_t n,Ptr<const Packet>p){Log(n,"phy_end",0,p->GetUid(),p->GetSize());}
 }
-int main(int argc,char**argv){std::string config,output="patrol";CommandLine cmd;cmd.AddValue("config","private native scenario",config);cmd.AddValue("output","trace prefix",output);cmd.AddValue("trace","retain packet traces",trace);cmd.Parse(argc,argv);
+int main(int argc,char**argv){std::string config,output="patrol";CommandLine cmd;cmd.AddValue("config","private native scenario",config);cmd.AddValue("output","trace prefix",output);cmd.AddValue("trace","retain packet traces",trace);uint32_t queueProbe=0;cmd.AddValue("queueProbe","DRR isolation probe: weight of slice 1",queueProbe);cmd.Parse(argc,argv);
+ if(queueProbe){trace=false;auto q=CreateObject<SliceQueue>();q->weight[1]=queueProbe;q->weight[2]=1;
+  for(uint32_t id:{1,2}){Task t{};t.id=id;tasks[id]=t;for(uint32_t k=0;k<40;++k){auto p=Create<Packet>(900);Message h;h.type=5;h.sid=id;p->AddHeader(h);UdpHeader udp;udp.SetDestinationPort(4341);p->AddHeader(udp);Ipv4Header ip;ip.SetProtocol(17);ip.SetPayloadSize(p->GetSize());p->AddHeader(ip);PppHeader ppp;ppp.SetProtocol(0x21);p->AddHeader(ppp);q->Enqueue(p);}}
+  std::map<uint32_t,uint32_t> count;for(uint32_t k=0;k<25;++k){auto p=q->Dequeue();++count[ClassifySlice(p)];}
+  std::cout<<Json({{"slice1",count[1]},{"slice2",count[2]},{"remaining",q->GetNPackets()}}).dump()<<std::endl;Simulator::Destroy();return 0;}
+
  std::ifstream input(config);NS_ABORT_MSG_IF(!input,"missing scenario");input>>scenario;NS_ABORT_MSG_IF(scenario.at("schema")!=contract::PROTOCOL,"schema mismatch");
  auto pub=scenario.at("public");uavs=pub.at("uavs").get<uint32_t>();RngSeedManager::SetSeed(scenario.at("radio_seed").get<uint32_t>());RngSeedManager::SetRun(1);
  if(trace){events.open(output+"-events.csv");events<<"time,node,event,slice,seq,bytes,detail,name\n";}
@@ -290,10 +323,12 @@ int main(int argc,char**argv){std::string config,output="patrol";CommandLine cmd
  std::vector<Vector>positions={Vector(75,-30,0),Vector(0,-10,0),Vector(150,-10,0),Vector(0,0,10),Vector(150,0,10)};
  for(uint32_t n=5;n<nodes.GetN();++n){auto p=scenario.at("private").at("initial_positions").at(std::to_string(n));positions.push_back(Vector(p[0],p[1],p[2]));}
  for(uint32_t n=0;n<nodes.GetN();++n)nodes.Get(n)->GetObject<MobilityModel>()->SetPosition(positions[n]);
- for(auto&m:scenario.at("private").at("motions")){uint32_t n=m.at("node");double speed=m.at("speed"),at=m.value("start",0.);bool right=m.value("right",true);Simulator::Schedule(Seconds(at),&Motion,n,speed,right);}
+ for(auto&m:scenario.at("private").at("motions")){uint32_t n=m.at("node");double speed=m.at("speed"),at=m.value("start",0.);bool right=m.value("right",true);if(scenario["private"].contains("waypoints"))Simulator::Schedule(Seconds(at),&PatrolWaypoint,n,speed,0);else Simulator::Schedule(Seconds(at),&Motion,n,speed,right);}
  InternetStackHelper internet;internet.Install(nodes);Ipv4StaticRoutingHelper rh;uint32_t subnet=0;
  for(auto ab:std::vector<std::pair<uint32_t,uint32_t>>{{0,1},{0,2},{1,2},{1,3},{2,4}}){PointToPointHelper p2p;double mbps=(ab.first==0?pub.at("backhaul_mbps").get<double>():(ab.first==1&&ab.second==2?pub.at("cross_mbps").get<double>():pub.at("access_mbps").get<double>()));
- p2p.SetDeviceAttribute("DataRate",DataRateValue(DataRate(uint64_t(mbps*1e6))));p2p.SetChannelAttribute("Delay",StringValue("2ms"));auto d=p2p.Install(nodes.Get(ab.first),nodes.Get(ab.second));Ipv4AddressHelper ah;std::string net="10.0."+std::to_string(subnet++)+".0";ah.SetBase(net.c_str(),"255.255.255.0");auto a=ah.Assign(d);
+ p2p.SetDeviceAttribute("DataRate",DataRateValue(DataRate(uint64_t(mbps*1e6))));p2p.SetChannelAttribute("Delay",StringValue("2ms"));p2p.SetQueue("ns3::SliceQueue");auto d=p2p.Install(nodes.Get(ab.first),nodes.Get(ab.second));
+ for(uint32_t k=0;k<2;++k){auto dev=DynamicCast<PointToPointNetDevice>(d.Get(k));auto q=DynamicCast<SliceQueue>(dev->GetQueue());q->node=k?ab.second:ab.first;q->peer=k?ab.first:ab.second;q->capacity=mbps*1e6/8;sliceQueues.push_back(q);lastInput.push_back(0);}
+ Ipv4AddressHelper ah;std::string net="10.0."+std::to_string(subnet++)+".0";ah.SetBase(net.c_str(),"255.255.255.0");auto a=ah.Assign(d);
  hops[ab]={d.Get(0),a.GetAddress(1)};hops[{ab.second,ab.first}]={d.Get(1),a.GetAddress(0)};if(ab.first==0){edgeAddress[ab.second]=a.GetAddress(1);if(ab.second==1)platformAddress=a.GetAddress(0);}}
  YansWifiChannelHelper channel;channel.SetPropagationDelay("ns3::ConstantSpeedPropagationDelayModel");
  if(pub.value("distance_loss",true))channel.AddPropagationLoss("ns3::LogDistancePropagationLossModel","Exponent",DoubleValue(pub.value("loss_exponent",2.5)),"ReferenceLoss",DoubleValue(46.6777));
@@ -320,10 +355,14 @@ int main(int argc,char**argv){std::string config,output="patrol";CommandLine cmd
  for(uint32_t edge:{1,2}){auto f=ns3::ndn::L3Protocol::getL3Protocol(nodes.Get(edge))->getForwarder();f->getNetworkRegionTable().insert(::ndn::Name("/edge/"+std::to_string(edge)));Fib(edge,0,"/mission");Fib(3-edge,edge,"/edge/"+std::to_string(edge));Fib(3,1,"/edge/"+std::to_string(edge));Fib(4,2,"/edge/"+std::to_string(edge));}
  ns3::ndn::StrategyChoiceHelper::InstallAll("/","/localhost/nfd/strategy/best-route");
  std::set<std::string>producers;for(auto&t:tasks)if(producers.insert(t.second.prefix).second){ns3::ndn::AppHelper producer("ns3::ndn::Producer");producer.SetPrefix(t.second.prefix);producer.SetAttribute("PayloadSize",UintegerValue(t.second.payload));producer.SetAttribute("Freshness",TimeValue(Seconds(60)));producer.Install(nodes.Get(0));}
+ if(trace)telemetry.open(output+"-telemetry.jsonl");
+ Simulator::Schedule(Seconds(.1),&SampleQueues);
  for(auto&t:tasks)Simulator::Schedule(Seconds(t.second.start),&Decision,t.first);
  for(auto& f:faces)Log(f.first.first,"face_map",0,f.second->getId(),f.first.second);
  Simulator::Stop(Seconds(finish));Simulator::Run();std::cout<<Observe(0,true).dump()<<std::endl;
  size_t waiting=0;for(auto&c:consumers)waiting+=c.second->PendingCount();size_t cs=0;for(uint32_t n:{1,2})cs+=ns3::ndn::L3Protocol::getL3Protocol(nodes.Get(n))->getForwarder()->getCs().size();
  Json summary={{"schema",contract::PROTOCOL},{"generated",born.size()},{"delivered",delivered.size()},{"ndn_source_payload_bytes",sourceBytes},{"ip_uplink_payload_bytes",ipUplinkBytes},{"id_decapsulated",idDecapsulated},{"remaining_mapping",mappings.size()},{"remaining_mapcache",caches.size()},{"remaining_pending",pending.size()},{"remaining_application",waiting},{"remaining_cache_entries",cs},{"budget_drops",budgetDrops}};
+ Json queueSummary=Json::array();for(auto q:sliceQueues)queueSummary.push_back({{"node",q->node},{"peer",q->peer},{"input",q->input},{"served",q->served},{"dropped",q->dropped},{"remaining",q->GetNBytes()},{"unclassified",q->unclassified},{"weight_changes",q->changes}});
+ summary["queues"]=queueSummary;
  if(trace){std::ofstream f(output+"-summary.json");f<<summary.dump(2)<<"\n";}Simulator::Destroy();return 0;
 }

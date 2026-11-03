@@ -1,0 +1,22 @@
+{
+  "ns3": {
+    "commit": "1b3bab9b6dba5f1e616c0b286eb889e9ce3d5d59",
+    "remote": "https://github.com/named-data-ndnSIM/ns-3-dev.git"
+  },
+  "ndnsim": {
+    "commit": "90d50396654dabad54b6979f2dc8fa929ade544c",
+    "remote": "https://github.com/named-data-ndnSIM/ndnSIM.git"
+  },
+  "nfd": {
+    "commit": "361b381b9b552ff3341aa160858bea1d470d2122",
+    "remote": "https://github.com/named-data-ndnSIM/NFD",
+    "patch_sha256": "5e785f973a177b557b6cf9307cb8b8d0650c96af372cfa30aad4adace5232d9c"
+  },
+  "ndncxx": {
+    "commit": "2b51e5796415b5d41fe268b35250b9453f16d3d6",
+    "remote": "https://github.com/named-data-ndnSIM/ndn-cxx",
+    "patch_sha256": "e6027d4e629e92ffe759a7b2811a33d82609e29f0fdd153fbe36786f7d87e952"
+  },
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+  "configure": "./waf configure --build-profile=optimized --disable-python --enable-modules=ndnSIM,wifi,internet,applications,mobility,point-to-point,flow-monitor --cxx-standard=-std=c++17"
+}

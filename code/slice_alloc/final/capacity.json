@@ -1,0 +1,507 @@
+{
+  "scale": 1.0,
+  "attempts": [
+    {
+      "scale": 1.0,
+      "rates": {
+        "32": 0.9079861111111112,
+        "64": 0.8732638888888888,
+        "96": 0.8489583333333334
+      },
+      "forced": {
+        "32": 0.04513888888888889,
+        "64": 0.08940972222222222,
+        "96": 0.10706018518518519
+      },
+      "passed": true,
+      "rows": [
+        {
+          "seed": 111000,
+          "load": 32,
+          "mobility": "stationary",
+          "success": 29,
+          "requests": 32,
+          "forced": 3,
+          "seconds": 0.6007468440002413
+        },
+        {
+          "seed": 111000,
+          "load": 32,
+          "mobility": "local",
+          "success": 29,
+          "requests": 32,
+          "forced": 3,
+          "seconds": 0.5041042269986065
+        },
+        {
+          "seed": 111000,
+          "load": 32,
+          "mobility": "cross",
+          "success": 27,
+          "requests": 32,
+          "forced": 3,
+          "seconds": 0.7407582140003797
+        },
+        {
+          "seed": 111000,
+          "load": 64,
+          "mobility": "stationary",
+          "success": 62,
+          "requests": 64,
+          "forced": 1,
+          "seconds": 1.0772005340004398
+        },
+        {
+          "seed": 111000,
+          "load": 64,
+          "mobility": "local",
+          "success": 61,
+          "requests": 64,
+          "forced": 2,
+          "seconds": 1.3966117730014957
+        },
+        {
+          "seed": 111000,
+          "load": 64,
+          "mobility": "cross",
+          "success": 55,
+          "requests": 64,
+          "forced": 1,
+          "seconds": 0.9936438000004273
+        },
+        {
+          "seed": 111000,
+          "load": 96,
+          "mobility": "stationary",
+          "success": 86,
+          "requests": 96,
+          "forced": 9,
+          "seconds": 1.4196184239990544
+        },
+        {
+          "seed": 111000,
+          "load": 96,
+          "mobility": "local",
+          "success": 88,
+          "requests": 96,
+          "forced": 6,
+          "seconds": 1.7547156210021058
+        },
+        {
+          "seed": 111000,
+          "load": 96,
+          "mobility": "cross",
+          "success": 73,
+          "requests": 96,
+          "forced": 9,
+          "seconds": 1.372023141997488
+        },
+        {
+          "seed": 111001,
+          "load": 32,
+          "mobility": "stationary",
+          "success": 31,
+          "requests": 32,
+          "forced": 1,
+          "seconds": 0.7210960449992854
+        },
+        {
+          "seed": 111001,
+          "load": 32,
+          "mobility": "local",
+          "success": 32,
+          "requests": 32,
+          "forced": 0,
+          "seconds": 0.7799610459987889
+        },
+        {
+          "seed": 111001,
+          "load": 32,
+          "mobility": "cross",
+          "success": 29,
+          "requests": 32,
+          "forced": 1,
+          "seconds": 0.515426870999363
+        },
+        {
+          "seed": 111001,
+          "load": 64,
+          "mobility": "stationary",
+          "success": 55,
+          "requests": 64,
+          "forced": 8,
+          "seconds": 0.975411935000011
+        },
+        {
+          "seed": 111001,
+          "load": 64,
+          "mobility": "local",
+          "success": 57,
+          "requests": 64,
+          "forced": 7,
+          "seconds": 0.8846195890000672
+        },
+        {
+          "seed": 111001,
+          "load": 64,
+          "mobility": "cross",
+          "success": 50,
+          "requests": 64,
+          "forced": 8,
+          "seconds": 0.9723271170005319
+        },
+        {
+          "seed": 111001,
+          "load": 96,
+          "mobility": "stationary",
+          "success": 80,
+          "requests": 96,
+          "forced": 16,
+          "seconds": 1.5676734799999394
+        },
+        {
+          "seed": 111001,
+          "load": 96,
+          "mobility": "local",
+          "success": 80,
+          "requests": 96,
+          "forced": 16,
+          "seconds": 1.6258330609998666
+        },
+        {
+          "seed": 111001,
+          "load": 96,
+          "mobility": "cross",
+          "success": 76,
+          "requests": 96,
+          "forced": 16,
+          "seconds": 1.4094586270002765
+        },
+        {
+          "seed": 111002,
+          "load": 32,
+          "mobility": "stationary",
+          "success": 32,
+          "requests": 32,
+          "forced": 0,
+          "seconds": 0.5506509309998364
+        },
+        {
+          "seed": 111002,
+          "load": 32,
+          "mobility": "local",
+          "success": 32,
+          "requests": 32,
+          "forced": 0,
+          "seconds": 0.5335274509998271
+        },
+        {
+          "seed": 111002,
+          "load": 32,
+          "mobility": "cross",
+          "success": 29,
+          "requests": 32,
+          "forced": 0,
+          "seconds": 1.07729015500081
+        },
+        {
+          "seed": 111002,
+          "load": 64,
+          "mobility": "stationary",
+          "success": 59,
+          "requests": 64,
+          "forced": 5,
+          "seconds": 1.2885763669983135
+        },
+        {
+          "seed": 111002,
+          "load": 64,
+          "mobility": "local",
+          "success": 60,
+          "requests": 64,
+          "forced": 4,
+          "seconds": 0.8953155929993954
+        },
+        {
+          "seed": 111002,
+          "load": 64,
+          "mobility": "cross",
+          "success": 53,
+          "requests": 64,
+          "forced": 5,
+          "seconds": 1.057740662003198
+        },
+        {
+          "seed": 111002,
+          "load": 96,
+          "mobility": "stationary",
+          "success": 87,
+          "requests": 96,
+          "forced": 9,
+          "seconds": 1.7682075009979599
+        },
+        {
+          "seed": 111002,
+          "load": 96,
+          "mobility": "local",
+          "success": 88,
+          "requests": 96,
+          "forced": 8,
+          "seconds": 1.9061699119993136
+        },
+        {
+          "seed": 111002,
+          "load": 96,
+          "mobility": "cross",
+          "success": 80,
+          "requests": 96,
+          "forced": 9,
+          "seconds": 1.3294244749995414
+        },
+        {
+          "seed": 111003,
+          "load": 32,
+          "mobility": "stationary",
+          "success": 31,
+          "requests": 32,
+          "forced": 1,
+          "seconds": 0.5313505129997793
+        },
+        {
+          "seed": 111003,
+          "load": 32,
+          "mobility": "local",
+          "success": 31,
+          "requests": 32,
+          "forced": 1,
+          "seconds": 0.6948719539977901
+        },
+        {
+          "seed": 111003,
+          "load": 32,
+          "mobility": "cross",
+          "success": 26,
+          "requests": 32,
+          "forced": 1,
+          "seconds": 0.7164638260001084
+        },
+        {
+          "seed": 111003,
+          "load": 64,
+          "mobility": "stationary",
+          "success": 61,
+          "requests": 64,
+          "forced": 3,
+          "seconds": 1.0557294960017316
+        },
+        {
+          "seed": 111003,
+          "load": 64,
+          "mobility": "local",
+          "success": 59,
+          "requests": 64,
+          "forced": 4,
+          "seconds": 1.0441058989999874
+        },
+        {
+          "seed": 111003,
+          "load": 64,
+          "mobility": "cross",
+          "success": 56,
+          "requests": 64,
+          "forced": 3,
+          "seconds": 1.4078760010015685
+        },
+        {
+          "seed": 111003,
+          "load": 96,
+          "mobility": "stationary",
+          "success": 89,
+          "requests": 96,
+          "forced": 7,
+          "seconds": 1.4679604240009212
+        },
+        {
+          "seed": 111003,
+          "load": 96,
+          "mobility": "local",
+          "success": 88,
+          "requests": 96,
+          "forced": 6,
+          "seconds": 1.45235274299921
+        },
+        {
+          "seed": 111003,
+          "load": 96,
+          "mobility": "cross",
+          "success": 75,
+          "requests": 96,
+          "forced": 7,
+          "seconds": 1.7982151949981926
+        },
+        {
+          "seed": 111004,
+          "load": 32,
+          "mobility": "stationary",
+          "success": 32,
+          "requests": 32,
+          "forced": 0,
+          "seconds": 0.5901202020031633
+        },
+        {
+          "seed": 111004,
+          "load": 32,
+          "mobility": "local",
+          "success": 32,
+          "requests": 32,
+          "forced": 0,
+          "seconds": 0.5410528540014639
+        },
+        {
+          "seed": 111004,
+          "load": 32,
+          "mobility": "cross",
+          "success": 24,
+          "requests": 32,
+          "forced": 0,
+          "seconds": 0.5205472329980694
+        },
+        {
+          "seed": 111004,
+          "load": 64,
+          "mobility": "stationary",
+          "success": 59,
+          "requests": 64,
+          "forced": 5,
+          "seconds": 1.0749803639992024
+        },
+        {
+          "seed": 111004,
+          "load": 64,
+          "mobility": "local",
+          "success": 59,
+          "requests": 64,
+          "forced": 5,
+          "seconds": 1.2753327079990413
+        },
+        {
+          "seed": 111004,
+          "load": 64,
+          "mobility": "cross",
+          "success": 50,
+          "requests": 64,
+          "forced": 6,
+          "seconds": 1.2513159700029064
+        },
+        {
+          "seed": 111004,
+          "load": 96,
+          "mobility": "stationary",
+          "success": 81,
+          "requests": 96,
+          "forced": 15,
+          "seconds": 1.3334213400012231
+        },
+        {
+          "seed": 111004,
+          "load": 96,
+          "mobility": "local",
+          "success": 83,
+          "requests": 96,
+          "forced": 11,
+          "seconds": 1.9098322530007863
+        },
+        {
+          "seed": 111004,
+          "load": 96,
+          "mobility": "cross",
+          "success": 68,
+          "requests": 96,
+          "forced": 15,
+          "seconds": 1.0477406089994474
+        },
+        {
+          "seed": 111005,
+          "load": 32,
+          "mobility": "stationary",
+          "success": 28,
+          "requests": 32,
+          "forced": 4,
+          "seconds": 0.43562979100170196
+        },
+        {
+          "seed": 111005,
+          "load": 32,
+          "mobility": "local",
+          "success": 28,
+          "requests": 32,
+          "forced": 3,
+          "seconds": 0.5058111250000366
+        },
+        {
+          "seed": 111005,
+          "load": 32,
+          "mobility": "cross",
+          "success": 21,
+          "requests": 32,
+          "forced": 5,
+          "seconds": 0.5003783369975281
+        },
+        {
+          "seed": 111005,
+          "load": 64,
+          "mobility": "stationary",
+          "success": 51,
+          "requests": 64,
+          "forced": 13,
+          "seconds": 1.1589953869988676
+        },
+        {
+          "seed": 111005,
+          "load": 64,
+          "mobility": "local",
+          "success": 54,
+          "requests": 64,
+          "forced": 10,
+          "seconds": 1.1356379380013095
+        },
+        {
+          "seed": 111005,
+          "load": 64,
+          "mobility": "cross",
+          "success": 45,
+          "requests": 64,
+          "forced": 13,
+          "seconds": 0.9063534320011968
+        },
+        {
+          "seed": 111005,
+          "load": 96,
+          "mobility": "stationary",
+          "success": 87,
+          "requests": 96,
+          "forced": 8,
+          "seconds": 1.2885440969985211
+        },
+        {
+          "seed": 111005,
+          "load": 96,
+          "mobility": "local",
+          "success": 83,
+          "requests": 96,
+          "forced": 8,
+          "seconds": 1.274017277002713
+        },
+        {
+          "seed": 111005,
+          "load": 96,
+          "mobility": "cross",
+          "success": 75,
+          "requests": 96,
+          "forced": 10,
+          "seconds": 1.2247987969967653
+        }
+      ]
+    }
+  ]
+}

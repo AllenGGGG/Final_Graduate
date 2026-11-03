@@ -1,0 +1,21 @@
+diff --git a/daemon/fw/strategy.cpp b/daemon/fw/strategy.cpp
+index a0df5eb..cdd103f 100644
+--- a/daemon/fw/strategy.cpp
++++ b/daemon/fw/strategy.cpp
+@@ -264,7 +264,7 @@ Strategy::sendData(const Data& data, Face& egress, const shared_ptr<pit::Entry>&
+     data2.setTag(pitToken);
+     return m_forwarder.onOutgoingData(data2, egress);
+   }
+-  m_forwarder.onOutgoingData(data, egress);
++  bool sent = m_forwarder.onOutgoingData(data, egress);
+ 
+   if (pitEntry->getInRecords().empty()) { // if nothing left, "closing down" the entry
+     // set PIT expiry timer to now
+@@ -273,6 +273,7 @@ Strategy::sendData(const Data& data, Face& egress, const shared_ptr<pit::Entry>&
+     // mark PIT satisfied
+     pitEntry->isSatisfied = true;
+   }
++  return sent;
+ }
+ 
+ void
