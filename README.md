@@ -1,5 +1,7 @@
 # 面向低空智联的多模态网络切片技术
 
-最终研究链路：低空背景 → IP/EID-RLOC/NDN 多模态网络 → 网络切片智能分配。
+低空背景 → IP / EID-RLOC / NDN多模态网络 → Masked Double-DQN切片智能分配。
 
-最终结果入口：[code/slice_alloc/final/README.md](code/slice_alloc/final/README.md)。本轮分层 PPO 为 73.34%，Greedy 为 77.32%，RL 未优于 Greedy。
+唯一最终入口：[最终设计、结果及复现说明](code/slice_alloc/final/README.md)。RL成功率79.29%，Greedy为78.07%；1560回合审计通过。
+
+在code目录执行 `python -m slice_alloc verify --workers 5` 复核本地结果。旧版结果及未使用脚本已清理。
