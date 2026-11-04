@@ -1,0 +1,454 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lowalt:patrol-v2",
+  "title": "Patrol v2 native controller boundary",
+  "description": "One synchronous observation per request arrival; decisions contain only placements. Private mobility is never part of observations. Current association 0 means disconnected. Allowed APs describe a public mission envelope, not simultaneous connectivity.",
+  "$defs": {
+    "request": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "tenant",
+        "mode",
+        "members",
+        "start",
+        "stop",
+        "period",
+        "deadline",
+        "payload",
+        "chunks",
+        "content",
+        "version",
+        "minimum_ratio"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "tenant": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "mode": {
+          "enum": [
+            "ip",
+            "id",
+            "ndn"
+          ]
+        },
+        "members": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "integer",
+            "minimum": 5
+          }
+        },
+        "start": {
+          "type": "number",
+          "minimum": 1
+        },
+        "stop": {
+          "type": "number",
+          "exclusiveMinimum": 1
+        },
+        "period": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "deadline": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "payload": {
+          "type": "integer",
+          "minimum": 64,
+          "maximum": 1000
+        },
+        "chunks": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 32
+        },
+        "content": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "minimum_ratio": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema",
+        "request_id",
+        "accept",
+        "edge",
+        "server",
+        "cache"
+      ],
+      "properties": {
+        "schema": {
+          "const": "patrol-v2"
+        },
+        "request_id": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "accept": {
+          "type": "boolean"
+        },
+        "edge": {
+          "enum": [
+            0,
+            1,
+            2
+          ]
+        },
+        "server": {
+          "enum": [
+            0,
+            1,
+            2
+          ]
+        },
+        "cache": {
+          "enum": [
+            0,
+            1,
+            2
+          ]
+        }
+      }
+    },
+    "observation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema",
+        "kind",
+        "time",
+        "request_id",
+        "associations",
+        "positions",
+        "cached",
+        "settled"
+      ],
+      "properties": {
+        "schema": {
+          "const": "patrol-v2"
+        },
+        "kind": {
+          "enum": [
+            "observation",
+            "done"
+          ]
+        },
+        "time": {
+          "type": "number",
+          "minimum": 0
+        },
+        "request_id": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "associations": {
+          "type": "object",
+          "additionalProperties": {
+            "enum": [
+              0,
+              3,
+              4
+            ]
+          }
+        },
+        "positions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "number"
+            }
+          }
+        },
+        "cached": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "node",
+              "tenant",
+              "content",
+              "version",
+              "bytes"
+            ],
+            "properties": {
+              "node": {
+                "enum": [
+                  1,
+                  2
+                ]
+              },
+              "tenant": {
+                "type": "integer"
+              },
+              "content": {
+                "type": "integer"
+              },
+              "version": {
+                "type": "integer"
+              },
+              "bytes": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          }
+        },
+        "settled": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "expected",
+              "on_time",
+              "success"
+            ],
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "expected": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "on_time": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "success": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
+    },
+    "public": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "uavs",
+        "mapping_entries",
+        "mapcache_entries",
+        "cache_bytes",
+        "backhaul_mbps",
+        "cross_mbps",
+        "access_mbps",
+        "profile",
+        "allowed_aps",
+        "missions",
+        "max_handover",
+        "mapping_ttl",
+        "airtime_budget"
+      ],
+      "properties": {
+        "uavs": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 64
+        },
+        "mapping_entries": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "mapcache_entries": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "cache_bytes": {
+          "type": "integer",
+          "minimum": 0,
+          "multipleOf": 1000
+        },
+        "backhaul_mbps": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "cross_mbps": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "access_mbps": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "mapping_ttl": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "profile": {
+          "enum": [
+            "mixed",
+            "bandwidth",
+            "mapping",
+            "cache"
+          ]
+        },
+        "allowed_aps": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                3,
+                4
+              ]
+            }
+          }
+        },
+        "missions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "role",
+              "x_min",
+              "x_max",
+              "altitude"
+            ],
+            "properties": {
+              "role": {
+                "enum": [
+                  "patrol",
+                  "hover"
+                ]
+              },
+              "x_min": {
+                "type": "number"
+              },
+              "x_max": {
+                "type": "number"
+              },
+              "altitude": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "max_handover": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "airtime_budget": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "private": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "initial_positions",
+        "motions"
+      ],
+      "properties": {
+        "initial_positions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "number"
+            }
+          }
+        },
+        "motions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "node",
+              "speed",
+              "right"
+            ],
+            "properties": {
+              "node": {
+                "type": "integer",
+                "minimum": 5
+              },
+              "speed": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "right": {
+                "type": "boolean"
+              },
+              "start": {
+                "type": "number",
+                "minimum": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "scenario": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema",
+        "radio_seed",
+        "public",
+        "private",
+        "requests"
+      ],
+      "properties": {
+        "schema": {
+          "const": "patrol-v2"
+        },
+        "radio_seed": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "public": {
+          "$ref": "#/$defs/public"
+        },
+        "private": {
+          "$ref": "#/$defs/private"
+        },
+        "requests": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/request"
+          }
+        }
+      }
+    }
+  }
+}

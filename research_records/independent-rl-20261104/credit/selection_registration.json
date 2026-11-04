@@ -1,0 +1,9 @@
+{
+  "declared_before_pilot": true,
+  "formal_test_opened": false,
+  "primary": "independent learned Double-DQN versus Greedy; native business rule also reported",
+  "family_selection": "full2init pilot mean selected validation minus matching already-trained RL initial checkpoint >=.002; select maximum, ties no-potential then short horizon; expand selected family to5",
+  "fallback": "if no candidate clears improvement threshold, preserve the independently trained original RL; do not claim a new training improvement",
+  "no_price_or_rule_policy_prior": true,
+  "no_test_tuning": true
+}

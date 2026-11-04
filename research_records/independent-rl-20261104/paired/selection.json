@@ -1,0 +1,43 @@
+{
+  "selected_family": "paired_contrast",
+  "initializations": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "pilot_mean_validation": 0.7834635416666667,
+  "matching_initial_rl_mean": 0.7810329861111112,
+  "gain_over_matching_rl": 0.002430555555555547,
+  "threshold": 0.002,
+  "candidates": [
+    {
+      "family": "paired_contrast",
+      "mean": 0.7834635416666667,
+      "gain": 0.002430555555555547
+    },
+    {
+      "family": "paired_uniform",
+      "mean": 0.7813802083333333,
+      "gain": 0.0003472222222221655
+    }
+  ],
+  "decision": "paired contrast selected before any formal test because pilot mean clears the predeclared 0.2 percentage-point gain over matching independently trained RL; expand only this family to all five initializations; no heuristic policy prior",
+  "all5_selected_steps": {
+    "11": 0,
+    "23": 32768,
+    "37": 0,
+    "53": 0,
+    "71": 0
+  },
+  "all5_selected_validation": {
+    "11": 0.7848958333333333,
+    "23": 0.78203125,
+    "37": 0.7861979166666667,
+    "53": 0.8050347222222223,
+    "71": 0.79453125
+  },
+  "all5_mean_validation": 0.7905381944444444,
+  "all5_mean_gain_over_initial_rl": 0.0009722222222221522
+}

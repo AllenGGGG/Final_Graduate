@@ -1,0 +1,13 @@
+{
+  "declared_before_first_checkpoint": true,
+  "formal_test_opened": false,
+  "basis": "63actual development single-action counterfactuals:7better20worse36equal,maxgain4; original delayed-reward changes did not reliably improve first16k validation",
+  "families": [
+    "original2x2continuations",
+    "paired_uniform",
+    "paired_contrast"
+  ],
+  "selection": "Only one family, full2init pilot mean selected validation gain >=.002 over matching independently trained RL; choose maximum mean, tie simpler. Expand selected family to all5; never drop an initialization or mix families.",
+  "global_selection": "all candidates and negative development results retained; no formal test opened until family and all5 checkpoints frozen",
+  "inference": "single scalar-Q network only; no simulation branching or future trajectory used at deployment"
+}

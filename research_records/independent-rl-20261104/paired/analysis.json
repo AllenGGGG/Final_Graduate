@@ -1,0 +1,1177 @@
+{
+  "methods": {
+    "double_dqn": {
+      "requests": 57600,
+      "success": 45187,
+      "admitted": 49698,
+      "forced_reject": 7398,
+      "voluntary_reject": 504,
+      "admitted_violations": 4511,
+      "success_rate": 0.7844965277777778,
+      "admission_rate": 0.8628125,
+      "forced_reject_rate": 0.1284375,
+      "voluntary_reject_rate": 0.00875,
+      "violation_rate_all": 0.07831597222222222,
+      "by_service": {
+        "telemetry": {
+          "requests": 20390,
+          "success": 12673
+        },
+        "object": {
+          "requests": 22875,
+          "success": 20083
+        },
+        "command": {
+          "requests": 14335,
+          "success": 12431
+        }
+      },
+      "modes": {
+        "ip": 24995,
+        "id": 8166,
+        "ndn": 16537
+      },
+      "violation_rate_admitted": 0.0907682401706306,
+      "ci95": [
+        0.7720659722222223,
+        0.7971354166666667
+      ],
+      "minimum_service_success": 0.6215301618440412
+    },
+    "initial_rl": {
+      "requests": 57600,
+      "success": 45159,
+      "admitted": 49987,
+      "forced_reject": 7164,
+      "voluntary_reject": 449,
+      "admitted_violations": 4828,
+      "success_rate": 0.7840104166666667,
+      "admission_rate": 0.8678298611111112,
+      "forced_reject_rate": 0.124375,
+      "voluntary_reject_rate": 0.007795138888888889,
+      "violation_rate_all": 0.08381944444444445,
+      "by_service": {
+        "telemetry": {
+          "requests": 20390,
+          "success": 12720
+        },
+        "object": {
+          "requests": 22875,
+          "success": 19975
+        },
+        "command": {
+          "requests": 14335,
+          "success": 12464
+        }
+      },
+      "modes": {
+        "ip": 28869,
+        "id": 7258,
+        "ndn": 13860
+      },
+      "violation_rate_admitted": 0.09658511212915358,
+      "ci95": [
+        0.7710416666666666,
+        0.7968923611111111
+      ],
+      "minimum_service_success": 0.6238352133398725
+    },
+    "greedy": {
+      "requests": 11520,
+      "success": 8968,
+      "admitted": 10289,
+      "forced_reject": 1231,
+      "voluntary_reject": 0,
+      "admitted_violations": 1321,
+      "success_rate": 0.7784722222222222,
+      "admission_rate": 0.8931423611111111,
+      "forced_reject_rate": 0.10685763888888888,
+      "voluntary_reject_rate": 0.0,
+      "violation_rate_all": 0.11467013888888888,
+      "by_service": {
+        "telemetry": {
+          "requests": 4078,
+          "success": 2683
+        },
+        "object": {
+          "requests": 4575,
+          "success": 3787
+        },
+        "command": {
+          "requests": 2867,
+          "success": 2498
+        }
+      },
+      "modes": {
+        "ip": 10289
+      },
+      "violation_rate_admitted": 0.12838954222956556,
+      "ci95": [
+        0.7666666666666667,
+        0.7904513888888889
+      ],
+      "minimum_service_success": 0.6579205492888671
+    },
+    "nearest": {
+      "requests": 11520,
+      "success": 8983,
+      "admitted": 10292,
+      "forced_reject": 1228,
+      "voluntary_reject": 0,
+      "admitted_violations": 1309,
+      "success_rate": 0.7797743055555556,
+      "admission_rate": 0.8934027777777778,
+      "forced_reject_rate": 0.10659722222222222,
+      "voluntary_reject_rate": 0.0,
+      "violation_rate_all": 0.11362847222222222,
+      "by_service": {
+        "telemetry": {
+          "requests": 4078,
+          "success": 2699
+        },
+        "object": {
+          "requests": 4575,
+          "success": 3795
+        },
+        "command": {
+          "requests": 2867,
+          "success": 2489
+        }
+      },
+      "modes": {
+        "ip": 10292
+      },
+      "violation_rate_admitted": 0.12718616401088223,
+      "ci95": [
+        0.7679687499999999,
+        0.7916666666666666
+      ],
+      "minimum_service_success": 0.6618440411966651
+    },
+    "first_fit": {
+      "requests": 11520,
+      "success": 8807,
+      "admitted": 10094,
+      "forced_reject": 1426,
+      "voluntary_reject": 0,
+      "admitted_violations": 1287,
+      "success_rate": 0.7644965277777778,
+      "admission_rate": 0.8762152777777777,
+      "forced_reject_rate": 0.12378472222222223,
+      "voluntary_reject_rate": 0.0,
+      "violation_rate_all": 0.11171875,
+      "by_service": {
+        "telemetry": {
+          "requests": 4078,
+          "success": 2547
+        },
+        "object": {
+          "requests": 4575,
+          "success": 3774
+        },
+        "command": {
+          "requests": 2867,
+          "success": 2486
+        }
+      },
+      "modes": {
+        "ip": 10094
+      },
+      "violation_rate_admitted": 0.12750148603130573,
+      "ci95": [
+        0.7523437500000001,
+        0.7767361111111111
+      ],
+      "minimum_service_success": 0.6245708680725846
+    },
+    "native": {
+      "requests": 11520,
+      "success": 8917,
+      "admitted": 9600,
+      "forced_reject": 1420,
+      "voluntary_reject": 500,
+      "admitted_violations": 683,
+      "success_rate": 0.7740451388888889,
+      "admission_rate": 0.8333333333333334,
+      "forced_reject_rate": 0.1232638888888889,
+      "voluntary_reject_rate": 0.043402777777777776,
+      "violation_rate_all": 0.05928819444444444,
+      "by_service": {
+        "telemetry": {
+          "requests": 4078,
+          "success": 2588
+        },
+        "object": {
+          "requests": 4575,
+          "success": 3913
+        },
+        "command": {
+          "requests": 2867,
+          "success": 2416
+        }
+      },
+      "modes": {
+        "ip": 2826,
+        "id": 2683,
+        "ndn": 4091
+      },
+      "violation_rate_admitted": 0.07114583333333334,
+      "ci95": [
+        0.7623263888888888,
+        0.7856770833333333
+      ],
+      "minimum_service_success": 0.6346248160863168
+    }
+  },
+  "comparisons": {
+    "rl-initial_rl": {
+      "difference": 0.0004861111111110761,
+      "ci95": [
+        -0.0010416666666667185,
+        0.0031249999999999334
+      ],
+      "centered_bootstrap_p": 0.7214139293035349,
+      "holm_adjusted_p": 0.7214139293035349
+    },
+    "rl-greedy": {
+      "difference": 0.006024305555555554,
+      "ci95": [
+        -0.0023263888888889195,
+        0.014583767361111237
+      ],
+      "centered_bootstrap_p": 0.1641917904104795
+    },
+    "rl-nearest": {
+      "difference": 0.004722222222222183,
+      "ci95": [
+        -0.0036111111111112315,
+        0.013263888888888853
+      ],
+      "centered_bootstrap_p": 0.26993650317484125,
+      "holm_adjusted_p": 0.5398730063496825
+    },
+    "rl-first_fit": {
+      "difference": 0.020000000000000018,
+      "ci95": [
+        0.01142361111111112,
+        0.02857638888888903
+      ],
+      "centered_bootstrap_p": 9.99950002499875e-05,
+      "holm_adjusted_p": 0.00039998000099995
+    },
+    "rl-native": {
+      "difference": 0.010451388888888857,
+      "ci95": [
+        0.0015967881944443656,
+        0.019444444444444268
+      ],
+      "centered_bootstrap_p": 0.02214889255537223,
+      "holm_adjusted_p": 0.0664466776661167
+    }
+  },
+  "per_initialization": {
+    "double_dqn": {
+      "11": {
+        "requests": 11520,
+        "success": 8956,
+        "admitted": 10095,
+        "forced_reject": 1358,
+        "voluntary_reject": 67,
+        "admitted_violations": 1139,
+        "success_rate": 0.7774305555555555,
+        "admission_rate": 0.8763020833333334,
+        "forced_reject_rate": 0.11788194444444444,
+        "voluntary_reject_rate": 0.005815972222222222,
+        "violation_rate_all": 0.09887152777777777,
+        "by_service": {
+          "telemetry": {
+            "requests": 4078,
+            "success": 2582
+          },
+          "object": {
+            "requests": 4575,
+            "success": 3908
+          },
+          "command": {
+            "requests": 2867,
+            "success": 2466
+          }
+        },
+        "modes": {
+          "ip": 6423,
+          "id": 2377,
+          "ndn": 1295
+        }
+      },
+      "23": {
+        "requests": 11520,
+        "success": 8929,
+        "admitted": 9837,
+        "forced_reject": 1565,
+        "voluntary_reject": 118,
+        "admitted_violations": 908,
+        "success_rate": 0.7750868055555555,
+        "admission_rate": 0.85390625,
+        "forced_reject_rate": 0.13585069444444445,
+        "voluntary_reject_rate": 0.010243055555555556,
+        "violation_rate_all": 0.07881944444444444,
+        "by_service": {
+          "telemetry": {
+            "requests": 4078,
+            "success": 2537
+          },
+          "object": {
+            "requests": 4575,
+            "success": 3924
+          },
+          "command": {
+            "requests": 2867,
+            "success": 2468
+          }
+        },
+        "modes": {
+          "ip": 5189,
+          "id": 1082,
+          "ndn": 3566
+        }
+      },
+      "37": {
+        "requests": 11520,
+        "success": 9034,
+        "admitted": 9862,
+        "forced_reject": 1610,
+        "voluntary_reject": 48,
+        "admitted_violations": 828,
+        "success_rate": 0.7842013888888889,
+        "admission_rate": 0.8560763888888889,
+        "forced_reject_rate": 0.13975694444444445,
+        "voluntary_reject_rate": 0.004166666666666667,
+        "violation_rate_all": 0.071875,
+        "by_service": {
+          "telemetry": {
+            "requests": 4078,
+            "success": 2511
+          },
+          "object": {
+            "requests": 4575,
+            "success": 4022
+          },
+          "command": {
+            "requests": 2867,
+            "success": 2501
+          }
+        },
+        "modes": {
+          "ip": 3539,
+          "id": 2475,
+          "ndn": 3848
+        }
+      },
+      "53": {
+        "requests": 11520,
+        "success": 9151,
+        "admitted": 10015,
+        "forced_reject": 1495,
+        "voluntary_reject": 10,
+        "admitted_violations": 864,
+        "success_rate": 0.7943576388888889,
+        "admission_rate": 0.8693576388888888,
+        "forced_reject_rate": 0.12977430555555555,
+        "voluntary_reject_rate": 0.0008680555555555555,
+        "violation_rate_all": 0.075,
+        "by_service": {
+          "telemetry": {
+            "requests": 4078,
+            "success": 2589
+          },
+          "object": {
+            "requests": 4575,
+            "success": 4088
+          },
+          "command": {
+            "requests": 2867,
+            "success": 2474
+          }
+        },
+        "modes": {
+          "ip": 5957,
+          "ndn": 4058
+        }
+      },
+      "71": {
+        "requests": 11520,
+        "success": 9117,
+        "admitted": 9889,
+        "forced_reject": 1370,
+        "voluntary_reject": 261,
+        "admitted_violations": 772,
+        "success_rate": 0.79140625,
+        "admission_rate": 0.8584201388888889,
+        "forced_reject_rate": 0.1189236111111111,
+        "voluntary_reject_rate": 0.02265625,
+        "violation_rate_all": 0.06701388888888889,
+        "by_service": {
+          "telemetry": {
+            "requests": 4078,
+            "success": 2454
+          },
+          "object": {
+            "requests": 4575,
+            "success": 4141
+          },
+          "command": {
+            "requests": 2867,
+            "success": 2522
+          }
+        },
+        "modes": {
+          "ip": 3887,
+          "id": 2232,
+          "ndn": 3770
+        }
+      }
+    },
+    "initial_rl": {
+      "11": {
+        "requests": 11520,
+        "success": 8956,
+        "admitted": 10095,
+        "forced_reject": 1358,
+        "voluntary_reject": 67,
+        "admitted_violations": 1139,
+        "success_rate": 0.7774305555555555,
+        "admission_rate": 0.8763020833333334,
+        "forced_reject_rate": 0.11788194444444444,
+        "voluntary_reject_rate": 0.005815972222222222,
+        "violation_rate_all": 0.09887152777777777,
+        "by_service": {
+          "telemetry": {
+            "requests": 4078,
+            "success": 2582
+          },
+          "object": {
+            "requests": 4575,
+            "success": 3908
+          },
+          "command": {
+            "requests": 2867,
+            "success": 2466
+          }
+        },
+        "modes": {
+          "ip": 6423,
+          "id": 2377,
+          "ndn": 1295
+        }
+      },
+      "23": {
+        "requests": 11520,
+        "success": 8901,
+        "admitted": 10126,
+        "forced_reject": 1331,
+        "voluntary_reject": 63,
+        "admitted_violations": 1225,
+        "success_rate": 0.77265625,
+        "admission_rate": 0.8789930555555555,
+        "forced_reject_rate": 0.11553819444444445,
+        "voluntary_reject_rate": 0.00546875,
+        "violation_rate_all": 0.10633680555555555,
+        "by_service": {
+          "telemetry": {
+            "requests": 4078,
+            "success": 2584
+          },
+          "object": {
+            "requests": 4575,
+            "success": 3816
+          },
+          "command": {
+            "requests": 2867,
+            "success": 2501
+          }
+        },
+        "modes": {
+          "ip": 9063,
+          "ndn": 889,
+          "id": 174
+        }
+      },
+      "37": {
+        "requests": 11520,
+        "success": 9034,
+        "admitted": 9862,
+        "forced_reject": 1610,
+        "voluntary_reject": 48,
+        "admitted_violations": 828,
+        "success_rate": 0.7842013888888889,
+        "admission_rate": 0.8560763888888889,
+        "forced_reject_rate": 0.13975694444444445,
+        "voluntary_reject_rate": 0.004166666666666667,
+        "violation_rate_all": 0.071875,
+        "by_service": {
+          "telemetry": {
+            "requests": 4078,
+            "success": 2511
+          },
+          "object": {
+            "requests": 4575,
+            "success": 4022
+          },
+          "command": {
+            "requests": 2867,
+            "success": 2501
+          }
+        },
+        "modes": {
+          "ip": 3539,
+          "id": 2475,
+          "ndn": 3848
+        }
+      },
+      "53": {
+        "requests": 11520,
+        "success": 9151,
+        "admitted": 10015,
+        "forced_reject": 1495,
+        "voluntary_reject": 10,
+        "admitted_violations": 864,
+        "success_rate": 0.7943576388888889,
+        "admission_rate": 0.8693576388888888,
+        "forced_reject_rate": 0.12977430555555555,
+        "voluntary_reject_rate": 0.0008680555555555555,
+        "violation_rate_all": 0.075,
+        "by_service": {
+          "telemetry": {
+            "requests": 4078,
+            "success": 2589
+          },
+          "object": {
+            "requests": 4575,
+            "success": 4088
+          },
+          "command": {
+            "requests": 2867,
+            "success": 2474
+          }
+        },
+        "modes": {
+          "ip": 5957,
+          "ndn": 4058
+        }
+      },
+      "71": {
+        "requests": 11520,
+        "success": 9117,
+        "admitted": 9889,
+        "forced_reject": 1370,
+        "voluntary_reject": 261,
+        "admitted_violations": 772,
+        "success_rate": 0.79140625,
+        "admission_rate": 0.8584201388888889,
+        "forced_reject_rate": 0.1189236111111111,
+        "voluntary_reject_rate": 0.02265625,
+        "violation_rate_all": 0.06701388888888889,
+        "by_service": {
+          "telemetry": {
+            "requests": 4078,
+            "success": 2454
+          },
+          "object": {
+            "requests": 4575,
+            "success": 4141
+          },
+          "command": {
+            "requests": 2867,
+            "success": 2522
+          }
+        },
+        "modes": {
+          "ip": 3887,
+          "id": 2232,
+          "ndn": 3770
+        }
+      }
+    }
+  },
+  "per_load": {
+    "double_dqn": {
+      "32": {
+        "requests": 9600,
+        "success": 8263,
+        "admitted": 8978,
+        "forced_reject": 475,
+        "voluntary_reject": 147,
+        "admitted_violations": 715,
+        "success_rate": 0.8607291666666667,
+        "admission_rate": 0.9352083333333333,
+        "forced_reject_rate": 0.049479166666666664,
+        "voluntary_reject_rate": 0.0153125,
+        "violation_rate_all": 0.07447916666666667,
+        "by_service": {
+          "telemetry": {
+            "requests": 3550,
+            "success": 2743
+          },
+          "object": {
+            "requests": 3785,
+            "success": 3553
+          },
+          "command": {
+            "requests": 2265,
+            "success": 1967
+          }
+        },
+        "modes": {
+          "ip": 4308,
+          "id": 1435,
+          "ndn": 3235
+        }
+      },
+      "64": {
+        "requests": 19200,
+        "success": 15245,
+        "admitted": 16775,
+        "forced_reject": 2268,
+        "voluntary_reject": 157,
+        "admitted_violations": 1530,
+        "success_rate": 0.7940104166666667,
+        "admission_rate": 0.8736979166666666,
+        "forced_reject_rate": 0.118125,
+        "voluntary_reject_rate": 0.008177083333333333,
+        "violation_rate_all": 0.0796875,
+        "by_service": {
+          "telemetry": {
+            "requests": 6840,
+            "success": 4308
+          },
+          "object": {
+            "requests": 7555,
+            "success": 6760
+          },
+          "command": {
+            "requests": 4805,
+            "success": 4177
+          }
+        },
+        "modes": {
+          "id": 2863,
+          "ndn": 5631,
+          "ip": 8281
+        }
+      },
+      "96": {
+        "requests": 28800,
+        "success": 21679,
+        "admitted": 23945,
+        "forced_reject": 4655,
+        "voluntary_reject": 200,
+        "admitted_violations": 2266,
+        "success_rate": 0.7527430555555555,
+        "admission_rate": 0.8314236111111111,
+        "forced_reject_rate": 0.16163194444444445,
+        "voluntary_reject_rate": 0.006944444444444444,
+        "violation_rate_all": 0.07868055555555556,
+        "by_service": {
+          "telemetry": {
+            "requests": 10000,
+            "success": 5622
+          },
+          "object": {
+            "requests": 11535,
+            "success": 9770
+          },
+          "command": {
+            "requests": 7265,
+            "success": 6287
+          }
+        },
+        "modes": {
+          "ip": 12406,
+          "id": 3868,
+          "ndn": 7671
+        }
+      }
+    },
+    "initial_rl": {
+      "32": {
+        "requests": 9600,
+        "success": 8203,
+        "admitted": 8971,
+        "forced_reject": 448,
+        "voluntary_reject": 181,
+        "admitted_violations": 768,
+        "success_rate": 0.8544791666666667,
+        "admission_rate": 0.9344791666666666,
+        "forced_reject_rate": 0.04666666666666667,
+        "voluntary_reject_rate": 0.01885416666666667,
+        "violation_rate_all": 0.08,
+        "by_service": {
+          "telemetry": {
+            "requests": 3550,
+            "success": 2736
+          },
+          "object": {
+            "requests": 3785,
+            "success": 3501
+          },
+          "command": {
+            "requests": 2265,
+            "success": 1966
+          }
+        },
+        "modes": {
+          "ip": 4862,
+          "id": 1335,
+          "ndn": 2774
+        }
+      },
+      "64": {
+        "requests": 19200,
+        "success": 15229,
+        "admitted": 16853,
+        "forced_reject": 2197,
+        "voluntary_reject": 150,
+        "admitted_violations": 1624,
+        "success_rate": 0.7931770833333334,
+        "admission_rate": 0.8777604166666667,
+        "forced_reject_rate": 0.11442708333333333,
+        "voluntary_reject_rate": 0.0078125,
+        "violation_rate_all": 0.08458333333333333,
+        "by_service": {
+          "telemetry": {
+            "requests": 6840,
+            "success": 4335
+          },
+          "object": {
+            "requests": 7555,
+            "success": 6709
+          },
+          "command": {
+            "requests": 4805,
+            "success": 4185
+          }
+        },
+        "modes": {
+          "id": 2562,
+          "ndn": 4736,
+          "ip": 9555
+        }
+      },
+      "96": {
+        "requests": 28800,
+        "success": 21727,
+        "admitted": 24163,
+        "forced_reject": 4519,
+        "voluntary_reject": 118,
+        "admitted_violations": 2436,
+        "success_rate": 0.7544097222222222,
+        "admission_rate": 0.8389930555555556,
+        "forced_reject_rate": 0.15690972222222221,
+        "voluntary_reject_rate": 0.004097222222222223,
+        "violation_rate_all": 0.08458333333333333,
+        "by_service": {
+          "telemetry": {
+            "requests": 10000,
+            "success": 5649
+          },
+          "object": {
+            "requests": 11535,
+            "success": 9765
+          },
+          "command": {
+            "requests": 7265,
+            "success": 6313
+          }
+        },
+        "modes": {
+          "ip": 14452,
+          "id": 3361,
+          "ndn": 6350
+        }
+      }
+    },
+    "greedy": {
+      "32": {
+        "requests": 1920,
+        "success": 1623,
+        "admitted": 1847,
+        "forced_reject": 73,
+        "voluntary_reject": 0,
+        "admitted_violations": 224,
+        "success_rate": 0.8453125,
+        "admission_rate": 0.9619791666666667,
+        "forced_reject_rate": 0.03802083333333333,
+        "voluntary_reject_rate": 0.0,
+        "violation_rate_all": 0.11666666666666667,
+        "by_service": {
+          "telemetry": {
+            "requests": 710,
+            "success": 585
+          },
+          "object": {
+            "requests": 757,
+            "success": 647
+          },
+          "command": {
+            "requests": 453,
+            "success": 391
+          }
+        },
+        "modes": {
+          "ip": 1847
+        }
+      },
+      "64": {
+        "requests": 3840,
+        "success": 2993,
+        "admitted": 3460,
+        "forced_reject": 380,
+        "voluntary_reject": 0,
+        "admitted_violations": 467,
+        "success_rate": 0.7794270833333333,
+        "admission_rate": 0.9010416666666666,
+        "forced_reject_rate": 0.09895833333333333,
+        "voluntary_reject_rate": 0.0,
+        "violation_rate_all": 0.12161458333333333,
+        "by_service": {
+          "telemetry": {
+            "requests": 1368,
+            "success": 910
+          },
+          "object": {
+            "requests": 1511,
+            "success": 1246
+          },
+          "command": {
+            "requests": 961,
+            "success": 837
+          }
+        },
+        "modes": {
+          "ip": 3460
+        }
+      },
+      "96": {
+        "requests": 5760,
+        "success": 4352,
+        "admitted": 4982,
+        "forced_reject": 778,
+        "voluntary_reject": 0,
+        "admitted_violations": 630,
+        "success_rate": 0.7555555555555555,
+        "admission_rate": 0.8649305555555555,
+        "forced_reject_rate": 0.13506944444444444,
+        "voluntary_reject_rate": 0.0,
+        "violation_rate_all": 0.109375,
+        "by_service": {
+          "telemetry": {
+            "requests": 2000,
+            "success": 1188
+          },
+          "object": {
+            "requests": 2307,
+            "success": 1894
+          },
+          "command": {
+            "requests": 1453,
+            "success": 1270
+          }
+        },
+        "modes": {
+          "ip": 4982
+        }
+      }
+    },
+    "nearest": {
+      "32": {
+        "requests": 1920,
+        "success": 1622,
+        "admitted": 1847,
+        "forced_reject": 73,
+        "voluntary_reject": 0,
+        "admitted_violations": 225,
+        "success_rate": 0.8447916666666667,
+        "admission_rate": 0.9619791666666667,
+        "forced_reject_rate": 0.03802083333333333,
+        "voluntary_reject_rate": 0.0,
+        "violation_rate_all": 0.1171875,
+        "by_service": {
+          "telemetry": {
+            "requests": 710,
+            "success": 587
+          },
+          "object": {
+            "requests": 757,
+            "success": 647
+          },
+          "command": {
+            "requests": 453,
+            "success": 388
+          }
+        },
+        "modes": {
+          "ip": 1847
+        }
+      },
+      "64": {
+        "requests": 3840,
+        "success": 2994,
+        "admitted": 3452,
+        "forced_reject": 388,
+        "voluntary_reject": 0,
+        "admitted_violations": 458,
+        "success_rate": 0.7796875,
+        "admission_rate": 0.8989583333333333,
+        "forced_reject_rate": 0.10104166666666667,
+        "voluntary_reject_rate": 0.0,
+        "violation_rate_all": 0.11927083333333334,
+        "by_service": {
+          "telemetry": {
+            "requests": 1368,
+            "success": 911
+          },
+          "object": {
+            "requests": 1511,
+            "success": 1247
+          },
+          "command": {
+            "requests": 961,
+            "success": 836
+          }
+        },
+        "modes": {
+          "ip": 3452
+        }
+      },
+      "96": {
+        "requests": 5760,
+        "success": 4367,
+        "admitted": 4993,
+        "forced_reject": 767,
+        "voluntary_reject": 0,
+        "admitted_violations": 626,
+        "success_rate": 0.7581597222222223,
+        "admission_rate": 0.8668402777777777,
+        "forced_reject_rate": 0.13315972222222222,
+        "voluntary_reject_rate": 0.0,
+        "violation_rate_all": 0.10868055555555556,
+        "by_service": {
+          "telemetry": {
+            "requests": 2000,
+            "success": 1201
+          },
+          "object": {
+            "requests": 2307,
+            "success": 1901
+          },
+          "command": {
+            "requests": 1453,
+            "success": 1265
+          }
+        },
+        "modes": {
+          "ip": 4993
+        }
+      }
+    },
+    "first_fit": {
+      "32": {
+        "requests": 1920,
+        "success": 1609,
+        "admitted": 1824,
+        "forced_reject": 96,
+        "voluntary_reject": 0,
+        "admitted_violations": 215,
+        "success_rate": 0.8380208333333333,
+        "admission_rate": 0.95,
+        "forced_reject_rate": 0.05,
+        "voluntary_reject_rate": 0.0,
+        "violation_rate_all": 0.11197916666666667,
+        "by_service": {
+          "telemetry": {
+            "requests": 710,
+            "success": 568
+          },
+          "object": {
+            "requests": 757,
+            "success": 649
+          },
+          "command": {
+            "requests": 453,
+            "success": 392
+          }
+        },
+        "modes": {
+          "ip": 1824
+        }
+      },
+      "64": {
+        "requests": 3840,
+        "success": 2940,
+        "admitted": 3380,
+        "forced_reject": 460,
+        "voluntary_reject": 0,
+        "admitted_violations": 440,
+        "success_rate": 0.765625,
+        "admission_rate": 0.8802083333333334,
+        "forced_reject_rate": 0.11979166666666667,
+        "voluntary_reject_rate": 0.0,
+        "violation_rate_all": 0.11458333333333333,
+        "by_service": {
+          "telemetry": {
+            "requests": 1368,
+            "success": 855
+          },
+          "object": {
+            "requests": 1511,
+            "success": 1251
+          },
+          "command": {
+            "requests": 961,
+            "success": 834
+          }
+        },
+        "modes": {
+          "ip": 3380
+        }
+      },
+      "96": {
+        "requests": 5760,
+        "success": 4258,
+        "admitted": 4890,
+        "forced_reject": 870,
+        "voluntary_reject": 0,
+        "admitted_violations": 632,
+        "success_rate": 0.7392361111111111,
+        "admission_rate": 0.8489583333333334,
+        "forced_reject_rate": 0.15104166666666666,
+        "voluntary_reject_rate": 0.0,
+        "violation_rate_all": 0.10972222222222222,
+        "by_service": {
+          "telemetry": {
+            "requests": 2000,
+            "success": 1124
+          },
+          "object": {
+            "requests": 2307,
+            "success": 1874
+          },
+          "command": {
+            "requests": 1453,
+            "success": 1260
+          }
+        },
+        "modes": {
+          "ip": 4890
+        }
+      }
+    },
+    "native": {
+      "32": {
+        "requests": 1920,
+        "success": 1684,
+        "admitted": 1814,
+        "forced_reject": 92,
+        "voluntary_reject": 14,
+        "admitted_violations": 130,
+        "success_rate": 0.8770833333333333,
+        "admission_rate": 0.9447916666666667,
+        "forced_reject_rate": 0.04791666666666667,
+        "voluntary_reject_rate": 0.007291666666666667,
+        "violation_rate_all": 0.06770833333333333,
+        "by_service": {
+          "telemetry": {
+            "requests": 710,
+            "success": 574
+          },
+          "object": {
+            "requests": 757,
+            "success": 715
+          },
+          "command": {
+            "requests": 453,
+            "success": 395
+          }
+        },
+        "modes": {
+          "ip": 630,
+          "id": 446,
+          "ndn": 738
+        }
+      },
+      "64": {
+        "requests": 3840,
+        "success": 3019,
+        "admitted": 3263,
+        "forced_reject": 444,
+        "voluntary_reject": 133,
+        "admitted_violations": 244,
+        "success_rate": 0.7861979166666667,
+        "admission_rate": 0.8497395833333333,
+        "forced_reject_rate": 0.115625,
+        "voluntary_reject_rate": 0.03463541666666667,
+        "violation_rate_all": 0.06354166666666666,
+        "by_service": {
+          "telemetry": {
+            "requests": 1368,
+            "success": 880
+          },
+          "object": {
+            "requests": 1511,
+            "success": 1328
+          },
+          "command": {
+            "requests": 961,
+            "success": 811
+          }
+        },
+        "modes": {
+          "id": 901,
+          "ndn": 1389,
+          "ip": 973
+        }
+      },
+      "96": {
+        "requests": 5760,
+        "success": 4214,
+        "admitted": 4523,
+        "forced_reject": 884,
+        "voluntary_reject": 353,
+        "admitted_violations": 309,
+        "success_rate": 0.7315972222222222,
+        "admission_rate": 0.7852430555555555,
+        "forced_reject_rate": 0.15347222222222223,
+        "voluntary_reject_rate": 0.06128472222222222,
+        "violation_rate_all": 0.05364583333333333,
+        "by_service": {
+          "telemetry": {
+            "requests": 2000,
+            "success": 1134
+          },
+          "object": {
+            "requests": 2307,
+            "success": 1870
+          },
+          "command": {
+            "requests": 1453,
+            "success": 1210
+          }
+        },
+        "modes": {
+          "ip": 1223,
+          "id": 1336,
+          "ndn": 1964
+        }
+      }
+    }
+  },
+  "publication_gates": {
+    "greedy_ci_positive": false,
+    "nearest_ci_positive": false,
+    "first_fit_ci_positive": true,
+    "native_ci_positive": true,
+    "violation_all_not_worse": true,
+    "violation_admitted_not_worse": true
+  },
+  "promoted": false
+}

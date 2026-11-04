@@ -1,0 +1,37 @@
+test_long_replay_flushes_real_delayed_rewards_at_terminal (test_allocation_credit.CreditTests) ... ok
+test_native_progress_is_causal_and_conserves_success_return (test_allocation_credit.CreditTests) ... ok
+test_terminal_return_to_go_flushes_all_transitions (test_allocation_mc.MonteCarloTests) ... ok
+test_native_replay_prefix_and_real_chosen_actions (test_allocation_pairing.PairingTests) ... ok
+test_paired_slots_remain_valid_after_ring_overwrites (test_allocation_pairing.PairingTests) ... ok
+test_resume_fills_new_replay_before_updates_and_keeps_counter (test_allocation_refine.ContinuationTests) ... /home/allen/.local/lib/python3.10/site-packages/stable_baselines3/common/utils.py:168: UserWarning: get_schedule_fn() is deprecated, please use FloatSchedule() instead
+  warnings.warn("get_schedule_fn() is deprecated, please use FloatSchedule() instead")
+/home/allen/.local/lib/python3.10/site-packages/stable_baselines3/common/utils.py:214: UserWarning: constant_fn() is deprecated, please use ConstantSchedule() instead
+  warnings.warn("constant_fn() is deprecated, please use ConstantSchedule() instead")
+ok
+test_selection_is_validation_only_and_falls_back_to_reference (test_allocation_refine.ContinuationTests) ... ok
+test_freeze_detects_actual_training_parameter_changes (test_allocation_simple.SimpleAllocationTests) ... ok
+test_native_double_dqn_training_and_reload (test_allocation_simple.SimpleAllocationTests) ... ok
+test_native_sla_reward_and_audit_for_every_rule (test_allocation_simple.SimpleAllocationTests) ... ok
+test_physical_mask_and_business_compatibility (test_allocation_simple.SimpleAllocationTests) ... ok
+test_candidate_order_does_not_change_action_values (test_allocation_value.ScalarTests) ... ok
+test_nstep_terminal_flush_keeps_episodes_separate (test_allocation_value.ScalarTests) ... ok
+test_scalar_double_target_masks_online_choice_and_evaluates_target (test_allocation_value.ScalarTests) ... ok
+test_scalar_exploration_and_greedy_respect_mask (test_allocation_value.ScalarTests) ... ok
+test_scalar_network_rejects_multiple_outputs (test_allocation_value.ScalarTests) ... ok
+test_scalar_real_update_and_exact_model_roundtrip (test_allocation_value.ScalarTests) ... ok
+test_verify_retains_recovery_and_denominators (test_final_provenance.FinalProvenanceTests) ... ok
+test_actual_association_required (test_patrol.PatrolContracts) ... ok
+test_bad_observation_fails_boundary (test_patrol.PatrolContracts) ... ok
+test_edge_path_is_real_cost (test_patrol.PatrolContracts) ... ok
+test_generated_native_boundary (test_patrol.PatrolContracts) ... ok
+test_load_changes_count_not_horizon (test_patrol.PatrolContracts) ... ok
+test_mapping_quota_is_enforced (test_patrol.PatrolContracts) ... ok
+test_modality_semantics_and_name_shared (test_patrol.PatrolContracts) ... ok
+test_no_future_cache_discount (test_patrol.PatrolContracts) ... ok
+test_private_future_does_not_change_candidates (test_patrol.PatrolContracts) ... ok
+test_shared_cache_accounting_and_release (test_patrol.PatrolContracts) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 8.563s
+
+OK

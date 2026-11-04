@@ -1,0 +1,37 @@
+{
+  "verified_native_episodes": 1440,
+  "inference_probes": 12,
+  "actual_models": [
+    {
+      "init": 11,
+      "additional_selected_steps": 16384,
+      "pretrained_steps": 32768,
+      "actual_model_steps": 16384,
+      "horizon": 8,
+      "sha256": "e511220d16142401c9ef5231a93d43df97b7b3316da7635e0501f7089a92c9d5"
+    },
+    {
+      "init": 23,
+      "additional_selected_steps": 32768,
+      "pretrained_steps": 49152,
+      "actual_model_steps": 32768,
+      "horizon": 8,
+      "sha256": "c70e4cb7e6ed680751cc1774386bee1444416d44380a8470b64811058919b8b5"
+    }
+  ],
+  "all_packet_audits_pass": true,
+  "all_direction_audits_pass": true,
+  "all_reservation_replays_pass": true,
+  "all_methods_share_scenarios": true,
+  "all_initializations_reported": true,
+  "new_independent_test": true,
+  "passed_tests": 28,
+  "publication_gates": {
+    "greedy_ci_positive": true,
+    "nearest_ci_positive": false,
+    "first_fit_ci_positive": true,
+    "native_ci_positive": true,
+    "violation_all_not_worse": true,
+    "violation_admitted_not_worse": true
+  }
+}

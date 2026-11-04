@@ -1,0 +1,61 @@
+{
+  "verified_native_episodes": 2520,
+  "inference_probes": 30,
+  "actual_models": [
+    {
+      "init": 11,
+      "additional_selected_steps": 0,
+      "pretrained_steps": 32768,
+      "actual_model_steps": 32768,
+      "horizon": 32,
+      "sha256": "1048cd41b05fde26dee4586942a6460ea8a8d318fa931db388ad88a622fd4b25"
+    },
+    {
+      "init": 23,
+      "additional_selected_steps": 32768,
+      "pretrained_steps": 49152,
+      "actual_model_steps": 32768,
+      "horizon": 32,
+      "sha256": "41f9392a5a7aad3050a85158359801c45b4f5739210afa65d60d1c695253c4e2"
+    },
+    {
+      "init": 37,
+      "additional_selected_steps": 0,
+      "pretrained_steps": 16384,
+      "actual_model_steps": 16384,
+      "horizon": 32,
+      "sha256": "2fc4f63b34be909c10da55ee92214984d4d0631239f476beb17d066032608440"
+    },
+    {
+      "init": 53,
+      "additional_selected_steps": 0,
+      "pretrained_steps": 65536,
+      "actual_model_steps": 65536,
+      "horizon": 32,
+      "sha256": "4425d38da15d3a669f107c260435e1b819ecdd6b4be97695377886f29d200121"
+    },
+    {
+      "init": 71,
+      "additional_selected_steps": 0,
+      "pretrained_steps": 65536,
+      "actual_model_steps": 65536,
+      "horizon": 32,
+      "sha256": "79ee97089781211ae0925ae9c61c024bec2f714148f43c57df95f2722aa80171"
+    }
+  ],
+  "all_packet_audits_pass": true,
+  "all_direction_audits_pass": true,
+  "all_reservation_replays_pass": true,
+  "all_methods_share_scenarios": true,
+  "all_initializations_reported": true,
+  "new_independent_test": true,
+  "passed_tests": 27,
+  "publication_gates": {
+    "greedy_ci_positive": false,
+    "nearest_ci_positive": false,
+    "first_fit_ci_positive": true,
+    "native_ci_positive": true,
+    "violation_all_not_worse": true,
+    "violation_admitted_not_worse": true
+  }
+}

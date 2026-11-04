@@ -1,0 +1,9 @@
+{
+  "protocol.json": "8e23083d41154020172e54fb8f4f11eb7290d6ac4dc1ff89e39bd7dfea32bf09",
+  "selection_registration.json": "4e7b4363d9f42c3af9c4940c72008eb8206fdeab63ee2a19cd09d3ba2dcbbdeb",
+  "selection.json": "407d82029d6e5d2d22eb697db17892f0be7e9c61f8044e2f3966d5e1e04e4267",
+  "training_complete.json": "60c6a2a4284d0c686eaa638c7113878ce2a213e70d04975202c7a459d6ed3acb",
+  "baseline_validation.json": "b3540062cb7b0a083adb7801430260e5eaec630126f9d749d9c7ca67a8ad5277",
+  "evaluation_registration.json": "a2dddea125bcfa8f6cf56d46dd6af09c5691b85ead3454008d608c181fd828e1",
+  "full-tests.log": "90c02f6240c13c700e343029d33df0696b6bf3eb960763d92566c5370eea38f6"
+}

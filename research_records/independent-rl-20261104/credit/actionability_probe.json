@@ -1,0 +1,653 @@
+{
+  "description": "development counterfactual replay, same native seed and learned continuation; feasible lower bounds only, never an optimality upper bound",
+  "rows": [
+    {
+      "seed": 441000,
+      "baseline": 53,
+      "probes": [
+        {
+          "request": 1,
+          "alternative": 0,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 53,
+          "delta": 0
+        },
+        {
+          "request": 1,
+          "alternative": 1,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 53,
+          "delta": 0
+        },
+        {
+          "request": 1,
+          "alternative": 6,
+          "baseline_action": 6,
+          "unchanged": true,
+          "success": 53,
+          "delta": 0
+        },
+        {
+          "request": 4,
+          "alternative": 0,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 52,
+          "delta": -1
+        },
+        {
+          "request": 4,
+          "alternative": 1,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 53,
+          "delta": 0
+        },
+        {
+          "request": 4,
+          "alternative": 6,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 53,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "seed": 441001,
+      "baseline": 51,
+      "probes": [
+        {
+          "request": 1,
+          "alternative": 0,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 50,
+          "delta": -1
+        },
+        {
+          "request": 1,
+          "alternative": 1,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 51,
+          "delta": 0
+        },
+        {
+          "request": 1,
+          "alternative": 6,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 51,
+          "delta": 0
+        },
+        {
+          "request": 2,
+          "alternative": 0,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 50,
+          "delta": -1
+        },
+        {
+          "request": 2,
+          "alternative": 1,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 51,
+          "delta": 0
+        },
+        {
+          "request": 2,
+          "alternative": 6,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 51,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "seed": 441002,
+      "baseline": 51,
+      "probes": [
+        {
+          "request": 3,
+          "alternative": 0,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 50,
+          "delta": -1
+        },
+        {
+          "request": 3,
+          "alternative": 1,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 51,
+          "delta": 0
+        },
+        {
+          "request": 3,
+          "alternative": 6,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 51,
+          "delta": 0
+        },
+        {
+          "request": 6,
+          "alternative": 0,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 50,
+          "delta": -1
+        },
+        {
+          "request": 6,
+          "alternative": 1,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 50,
+          "delta": -1
+        },
+        {
+          "request": 6,
+          "alternative": 6,
+          "baseline_action": 6,
+          "unchanged": true,
+          "success": 51,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "seed": 441003,
+      "baseline": 48,
+      "probes": [
+        {
+          "request": 1,
+          "alternative": 0,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 47,
+          "delta": -1
+        },
+        {
+          "request": 1,
+          "alternative": 1,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 48,
+          "delta": 0
+        },
+        {
+          "request": 1,
+          "alternative": 6,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 48,
+          "delta": 0
+        },
+        {
+          "request": 3,
+          "alternative": 0,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 47,
+          "delta": -1
+        },
+        {
+          "request": 3,
+          "alternative": 1,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 48,
+          "delta": 0
+        },
+        {
+          "request": 3,
+          "alternative": 6,
+          "baseline_action": 6,
+          "unchanged": true,
+          "success": 48,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "seed": 441004,
+      "baseline": 49,
+      "probes": [
+        {
+          "request": 1,
+          "alternative": 0,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 48,
+          "delta": -1
+        },
+        {
+          "request": 1,
+          "alternative": 1,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 49,
+          "delta": 0
+        },
+        {
+          "request": 1,
+          "alternative": 6,
+          "baseline_action": 6,
+          "unchanged": true,
+          "success": 49,
+          "delta": 0
+        },
+        {
+          "request": 4,
+          "alternative": 0,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 48,
+          "delta": -1
+        },
+        {
+          "request": 4,
+          "alternative": 1,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 49,
+          "delta": 0
+        },
+        {
+          "request": 4,
+          "alternative": 6,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 49,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "seed": 441005,
+      "baseline": 54,
+      "probes": [
+        {
+          "request": 2,
+          "alternative": 0,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 53,
+          "delta": -1
+        },
+        {
+          "request": 2,
+          "alternative": 1,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 54,
+          "delta": 0
+        },
+        {
+          "request": 2,
+          "alternative": 6,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 53,
+          "delta": -1
+        },
+        {
+          "request": 5,
+          "alternative": 0,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 54,
+          "delta": 0
+        },
+        {
+          "request": 5,
+          "alternative": 1,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 54,
+          "delta": 0
+        },
+        {
+          "request": 5,
+          "alternative": 6,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 55,
+          "delta": 1
+        }
+      ]
+    },
+    {
+      "seed": 441006,
+      "baseline": 46,
+      "probes": [
+        {
+          "request": 1,
+          "alternative": 0,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 47,
+          "delta": 1
+        },
+        {
+          "request": 1,
+          "alternative": 1,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 48,
+          "delta": 2
+        },
+        {
+          "request": 1,
+          "alternative": 6,
+          "baseline_action": 6,
+          "unchanged": true,
+          "success": 46,
+          "delta": 0
+        },
+        {
+          "request": 2,
+          "alternative": 0,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 46,
+          "delta": 0
+        },
+        {
+          "request": 2,
+          "alternative": 1,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 46,
+          "delta": 0
+        },
+        {
+          "request": 2,
+          "alternative": 6,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 46,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "seed": 441007,
+      "baseline": 50,
+      "probes": [
+        {
+          "request": 4,
+          "alternative": 0,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 50,
+          "delta": 0
+        },
+        {
+          "request": 4,
+          "alternative": 1,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 51,
+          "delta": 1
+        },
+        {
+          "request": 4,
+          "alternative": 6,
+          "baseline_action": 6,
+          "unchanged": true,
+          "success": 50,
+          "delta": 0
+        },
+        {
+          "request": 5,
+          "alternative": 0,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 49,
+          "delta": -1
+        },
+        {
+          "request": 5,
+          "alternative": 1,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 50,
+          "delta": 0
+        },
+        {
+          "request": 5,
+          "alternative": 6,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 50,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "seed": 441008,
+      "baseline": 48,
+      "probes": [
+        {
+          "request": 1,
+          "alternative": 0,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 46,
+          "delta": -2
+        },
+        {
+          "request": 1,
+          "alternative": 1,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 47,
+          "delta": -1
+        },
+        {
+          "request": 1,
+          "alternative": 6,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 47,
+          "delta": -1
+        },
+        {
+          "request": 2,
+          "alternative": 0,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 47,
+          "delta": -1
+        },
+        {
+          "request": 2,
+          "alternative": 1,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 48,
+          "delta": 0
+        },
+        {
+          "request": 2,
+          "alternative": 6,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 48,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "seed": 441009,
+      "baseline": 51,
+      "probes": [
+        {
+          "request": 1,
+          "alternative": 0,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 50,
+          "delta": -1
+        },
+        {
+          "request": 1,
+          "alternative": 1,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 51,
+          "delta": 0
+        },
+        {
+          "request": 1,
+          "alternative": 6,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 51,
+          "delta": 0
+        },
+        {
+          "request": 2,
+          "alternative": 0,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 50,
+          "delta": -1
+        },
+        {
+          "request": 2,
+          "alternative": 1,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 51,
+          "delta": 0
+        },
+        {
+          "request": 2,
+          "alternative": 6,
+          "baseline_action": 6,
+          "unchanged": true,
+          "success": 51,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "seed": 441010,
+      "baseline": 47,
+      "probes": [
+        {
+          "request": 2,
+          "alternative": 0,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 45,
+          "delta": -2
+        },
+        {
+          "request": 2,
+          "alternative": 1,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 47,
+          "delta": 0
+        },
+        {
+          "request": 2,
+          "alternative": 6,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 48,
+          "delta": 1
+        },
+        {
+          "request": 3,
+          "alternative": 0,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 50,
+          "delta": 3
+        },
+        {
+          "request": 3,
+          "alternative": 1,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 51,
+          "delta": 4
+        },
+        {
+          "request": 3,
+          "alternative": 6,
+          "baseline_action": 6,
+          "unchanged": true,
+          "success": 47,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "seed": 441011,
+      "baseline": 47,
+      "probes": [
+        {
+          "request": 2,
+          "alternative": 0,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 47,
+          "delta": 0
+        },
+        {
+          "request": 2,
+          "alternative": 1,
+          "baseline_action": 6,
+          "unchanged": false,
+          "success": 47,
+          "delta": 0
+        },
+        {
+          "request": 2,
+          "alternative": 6,
+          "baseline_action": 6,
+          "unchanged": true,
+          "success": 47,
+          "delta": 0
+        },
+        {
+          "request": 3,
+          "alternative": 0,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 47,
+          "delta": 0
+        },
+        {
+          "request": 3,
+          "alternative": 1,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 47,
+          "delta": 0
+        },
+        {
+          "request": 3,
+          "alternative": 6,
+          "baseline_action": 2,
+          "unchanged": false,
+          "success": 47,
+          "delta": 0
+        }
+      ]
+    }
+  ]
+}
