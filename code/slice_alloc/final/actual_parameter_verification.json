@@ -1,0 +1,92 @@
+[
+  {
+    "init": 11,
+    "kind": "model",
+    "path": "models/double_dqn-11.zip",
+    "sha256": "4a8202161f194306a981326e6c8e1f1682f614ec0d3d77561ce3c79945b86c5b",
+    "steps": 32768,
+    "learning_rate": 0.0001,
+    "n_quantiles": 1
+  },
+  {
+    "init": 11,
+    "kind": "reference_model",
+    "path": "models/reference_dqn-11.zip",
+    "sha256": "4a8202161f194306a981326e6c8e1f1682f614ec0d3d77561ce3c79945b86c5b",
+    "steps": 32768,
+    "learning_rate": 0.0001,
+    "n_quantiles": 1
+  },
+  {
+    "init": 23,
+    "kind": "model",
+    "path": "models/double_dqn-23.zip",
+    "sha256": "b21fc802ba32fdc8c616b4642f6625018c904ecb65d53367cddf93341e025ead",
+    "steps": 49152,
+    "learning_rate": 5e-05,
+    "n_quantiles": 1
+  },
+  {
+    "init": 23,
+    "kind": "reference_model",
+    "path": "models/reference_dqn-23.zip",
+    "sha256": "30dd579d92808fef0bfe6a3d4165740e34d08d341338bf3189597247aa2cdce2",
+    "steps": 32768,
+    "learning_rate": 0.0001,
+    "n_quantiles": 1
+  },
+  {
+    "init": 37,
+    "kind": "model",
+    "path": "models/double_dqn-37.zip",
+    "sha256": "d72ecb9f26c4056c8abff5d12bc5580ed1e342a73c5bd140036038352ec49c76",
+    "steps": 16384,
+    "learning_rate": 0.0001,
+    "n_quantiles": 1
+  },
+  {
+    "init": 37,
+    "kind": "reference_model",
+    "path": "models/reference_dqn-37.zip",
+    "sha256": "d72ecb9f26c4056c8abff5d12bc5580ed1e342a73c5bd140036038352ec49c76",
+    "steps": 16384,
+    "learning_rate": 0.0001,
+    "n_quantiles": 1
+  },
+  {
+    "init": 53,
+    "kind": "model",
+    "path": "models/double_dqn-53.zip",
+    "sha256": "bc43cee4287f62dc1ebb4757cf11af970eca7696700cda4e780afa3a2cf5e189",
+    "steps": 65536,
+    "learning_rate": 5e-05,
+    "n_quantiles": 1
+  },
+  {
+    "init": 53,
+    "kind": "reference_model",
+    "path": "models/reference_dqn-53.zip",
+    "sha256": "58002ad6f4a0f99d14614bc3b2386cae8ea7d56fa600cac1c1436dc22c4e38dd",
+    "steps": 32768,
+    "learning_rate": 0.0001,
+    "n_quantiles": 1
+  },
+  {
+    "init": 71,
+    "kind": "model",
+    "path": "models/double_dqn-71.zip",
+    "sha256": "4e7d9973b8ab6136cde351242c9a4658ed325678250b2fd295af99facc240d36",
+    "steps": 65536,
+    "learning_rate": 5e-05,
+    "n_quantiles": 1
+  },
+  {
+    "init": 71,
+    "kind": "reference_model",
+    "path": "models/reference_dqn-71.zip",
+    "sha256": "46eb8509272657cb2f1856175a8ca6589cf46244229208cc7c856071fc70d91f",
+    "steps": 32768,
+    "learning_rate": 0.0001,
+    "n_quantiles": 1
+  }
+]
