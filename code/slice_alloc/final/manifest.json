@@ -1,11 +1,12 @@
 {
   "ACCEPTANCE.md": "e7abcccca821fc8386acf14cc19b1706bc010d16b117433258be5e09d8b0b1cf",
+  "ADDITIONAL_VALIDATION.md": "15c178af087827e157feb7f43e22f70efbab226e2aba75d9c66a9c22932d4b79",
   "acceptance.json": "dbf07e0bab06014cbdd40cf84f4fb422a58629a6eae74c064932ad0b9d604626",
   "actual_parameter_verification.json": "d8d458c0d6a8f41bd211f3ad1f9a49cafe2b67b459f4629b33b173dc9657fb6a",
   "analysis.json": "a893d6b409b0c6f3b441f5532b966ebd5317e86b0fbed34995b52edd18dda7ff",
   "analysis_dependencies.json": "ea72b61dd8e25c3fc8be376e328d1c2c5c852b4ee74e47b05b8eb84af696cc03",
   "archive_location.json": "5a8c95d5f36055a4a1f856516d7fe6d76435b40cf4ecfb386d194025553b6edb",
-  "code_manifest.json": "9d20e506a69004bf948d7b423aa23fc576a09b22f87381276ce1d2278c10fdfc",
+  "code_manifest.json": "3b2e0bbb0b3f0ed7d1420e3c4a2f5fa4e5e30150fa09d13f69accd7e4741545f",
   "environment.json": "99dc54e4924f247edabe70c3f832fa1c2c2854c62dca3891f231003630b26ee8",
   "evaluation.json": "dc4d13ae2e525050f8176e5fb0974707e254d244e1d70a166cf7bd52319ac10e",
   "frozen/REFINE_PROTOCOL.md": "adb6ef4f7193393909f6abced30e809cdfbedfcb705fa851f1cc8c53349027b8",
@@ -9397,7 +9398,7 @@
   "native/reference_dqn-71/80-96059-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "native/reference_dqn-71/80-96059-summary.json": "9bbd3b15fe2a1f41bd899d98a300b269c02778486f36a596109bf66a24a4dc1d",
   "pipeline.log": "b81e61fbb44c4b537e4c1f7f5b75e8a0af8cef3e58356f57b03c0a926fdcda62",
-  "post-cleanup-tests.log": "4a8eeda7fd1b358b276a8f3915255d9a73e4b0a3c6aeb50c0d19115d177ba05f",
+  "post-cleanup-tests.log": "ec9bae0b4d93deb9969b9d5b5a9976e1f494a8fcee212c12cbcfd36c5e5f1d1f",
   "pretraining/analysis.json": "d95b5d0f0ad29beeafa72a6c17e16bc6dc9021f727ef34e99434f8b33d33d113",
   "pretraining/analysis_registration.json": "1198c9fcfe423ffa5aabdd140afa4a3740ab0c7da0c2946cabe3057a769a2c8c",
   "pretraining/evaluation.json": "571cdf95e7a66f104bde4d27e64d7276862d218d2a43146d936bceaa2f674e1c",
@@ -12336,7 +12337,10 @@
   "recovery_audit.py": "0ed1c068a5dd4ee3f24790fe16ab07e2d73cc28a4fcf333383a03db17d62afcc",
   "recovery_registration.json": "5d74284fe6470ab846717acb93539b52c78836062be8523162f0cd179ace8c96",
   "recovery_verification.json": "e3e08bf950cc7b12b169eeab85eb228c29230acc9764f70aad2132bda480c066",
-  "report.md": "5bfe85c29cbe11b45449a832b8faf9306718fd0f4bdc5058d4f28c86ec69a780",
+  "report.md": "556fc9dd9f3d0d8cb79f2f534de75c7a0baed3f0b518ef0ffd0dfc72b1da2bf4",
+  "strong_baseline_analysis.json": "9353920cf5c18dd03a57e0c590425d4c1dc61afc59bb19e7d5d823974ae050f8",
+  "strong_baseline_audit_amendment.json": "ed078853c7c7e1ce9962d16ea15254cc12fd4f6167d8a2f9cb077bc8f69e15fd",
+  "strong_baseline_verification.json": "425a4b1b4b264487b3741badc78088f29d29ad103b8fed7bf60e1814ca89530b",
   "test_started.json": "b1782579b41ef4c7dccfb1f39d19d24f1765ea8fa740fc1cfdf53d2ae5080341",
   "tests_complete.json": "c32d4c05d8fd5f67c933cfeb44de4f664ef7124bc488f3a42537eb8a405ec84c",
   "training/11/49152.zip": "f7eb71be9cc3137f09bb9548b6a5607a7094b748cfb9ccde5d4afc35fec21f0f",
@@ -12360,5 +12364,5 @@
   "training/71/progress.json": "c64b87e0e7465f2a60c887e220a5bb2043b716facbde40662290a91c431b1545",
   "training/71/training.json": "ed3ba91210cc2f125e377742453ce4e664995a06a9c2358c9b36bfaa204fd3d8",
   "training_complete.json": "bd4626b0e00dfe69d9843cd3b65151215b8bb4d7015b340dd6279416569e8f58",
-  "verification.json": "bc8b5eb6d45e35d1f45d56f7abb844cd324a1876d00ac834871c5a176162b8d4"
+  "verification.json": "99f477edd5bfde4650205ccfb0eddc0852ab692cd5f33d2b3f0d950e1cbd5c20"
 }

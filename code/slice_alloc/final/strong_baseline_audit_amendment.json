@@ -1,0 +1,9 @@
+{
+  "original_registration_sha256": "086e4742c32b79d14aa5ae0b405aa077cb7585ac54ba90be03752edc9e9f7a8d",
+  "original_source_sha256": "6b09dd0991674f4585288302a5b5414091d3473049889b856d0f9ebb3445476e",
+  "repaired_source_sha256": "dc0fc2261ba74edc9d8d125206fb6b7fc2a4465bd15f333a3de0a276db938c01",
+  "audit_adapter_sha256": "b976a7db5547144efd4dc281aecccc681c553008e628ded578e22afd278075e6",
+  "reason": "Native packet auditor indexed requests by ID minus one although arrival-sorted scenario retains original IDs. Only the audit uses an ID-ordered copy after verifying the original raw scenario hash. Models, decisions, contracts and seeds are unchanged.",
+  "previous_raw_episodes": 17,
+  "test_results_not_used_for_selection": true
+}

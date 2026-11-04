@@ -58,6 +58,8 @@ def finalize_output(output):
                 conditional=row['admitted_violations']/row['admitted'] if row['admitted'] else 0.
                 text+=f"| {method} | {row['success_rate']:.2%} | {row['violation_rate_all']:.2%} | {conditional:.2%} |\n"
             text+='\n小幅优势限定于本协议所列规则，不外推为优于所有传统方法。扩展版负面结果保留于archive/expanded-study-ee8f44d。\n'
+    if (package/'final/ADDITIONAL_VALIDATION.md').exists() and '## 强规则补充验证' not in text:
+        text+='\n## 强规则补充验证\n\n新的任务阶段独立研究已完成2700回合及48次模型重载重放，见[补充报告](ADDITIONAL_VALIDATION.md)。规则引导PPO未证明超过价格规则及自身规则起点，因此未替换本历史主线；不同负载的成绩不直接相减。不能将本报告对三条普通规则的优势外推为RL普遍领先。\n'
     report.write_text(text)
     source_manifest={str(f.relative_to(package)):digest(f) for f in sorted(package.rglob('*'))
         if f.is_file() and f.relative_to(package).parts[0] not in ('results','final')
