@@ -1,0 +1,26 @@
+{
+  "method": "first_fit",
+  "init": 0,
+  "seed": 323000,
+  "load": 48,
+  "profile": "upload_first",
+  "scenario_sha256": "9ce385a1686b78b404477928efc9e6441cf1db160ca1b995b4af1cbb66a804e8",
+  "action_sha256": "06ec22af7174aa2ac936ca0ac9cf853708822845f64028c43f5f3e0acdd2da7e",
+  "requests": 48,
+  "success": 33,
+  "admitted": 37,
+  "by_service": {
+    "telemetry": {
+      "requests": 21,
+      "success": 9
+    },
+    "object": {
+      "requests": 19,
+      "success": 16
+    },
+    "command": {
+      "requests": 8,
+      "success": 8
+    }
+  }
+}

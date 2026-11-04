@@ -1,0 +1,26 @@
+{
+  "method": "ppo",
+  "init": 89,
+  "seed": 323000,
+  "load": 80,
+  "profile": "upload_first",
+  "scenario_sha256": "ecd9a2713acc15d25c39688450d96731837d36ca321319683c60edc19d1e43b4",
+  "action_sha256": "a02987b7ec6e6bb486c02d68f9fe746afe902fe46842ab8deb9215d7dc00f6f4",
+  "requests": 80,
+  "success": 63,
+  "admitted": 66,
+  "by_service": {
+    "telemetry": {
+      "requests": 30,
+      "success": 15
+    },
+    "object": {
+      "requests": 33,
+      "success": 32
+    },
+    "command": {
+      "requests": 17,
+      "success": 16
+    }
+  }
+}

@@ -1,0 +1,9231 @@
+{
+  "requests": 48,
+  "success": 36,
+  "admitted": 38,
+  "resource_time": [
+    2.526579200000001,
+    5.662450000000001,
+    3.0855968000000007,
+    4.535119999999999,
+    6.689244800000001,
+    5.917992000000001,
+    2.1791776000000005,
+    4.005965,
+    1.7805760000000006,
+    2.4842400000000002,
+    1.6571673589743594,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    5.43035972626982,
+    3.925
+  ],
+  "resource_per_success": 1.3855407912567828,
+  "by_service": {
+    "telemetry": {
+      "requests": 21,
+      "success": 10
+    },
+    "object": {
+      "requests": 19,
+      "success": 18
+    },
+    "command": {
+      "requests": 8,
+      "success": 8
+    }
+  },
+  "modes": {
+    "ip": 28,
+    "ndn": 10
+  },
+  "decisions": [
+    {
+      "request": 29,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 29,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 2
+    },
+    {
+      "request": 10,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 10,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 2
+    },
+    {
+      "request": 19,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 19,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 2
+    },
+    {
+      "request": 11,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 11,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 2
+    },
+    {
+      "request": 14,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 14,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 2
+    },
+    {
+      "request": 38,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 38,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 2
+    },
+    {
+      "request": 27,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 27,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 1
+    },
+    {
+      "request": 8,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 8,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 0
+    },
+    {
+      "request": 25,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 25,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 1
+    },
+    {
+      "request": 35,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 35,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 0
+    },
+    {
+      "request": 43,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 43,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 2
+    },
+    {
+      "request": 9,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 9,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 0
+    },
+    {
+      "request": 33,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 33,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 1
+    },
+    {
+      "request": 17,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 17,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 0
+    },
+    {
+      "request": 32,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 32,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 0
+    },
+    {
+      "request": 4,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 4,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 0
+    },
+    {
+      "request": 1,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 1,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 0
+    },
+    {
+      "request": 45,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 45,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 0
+    },
+    {
+      "request": 2,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 2,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 0
+    },
+    {
+      "request": 23,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 23,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ndn"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 21,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 21,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 2,
+        "mode": "ndn"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 20,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 20,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 0
+    },
+    {
+      "request": 42,
+      "service": "telemetry",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 42,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 2
+    },
+    {
+      "request": 34,
+      "service": "command",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 34,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 28,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 28,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 39,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 39,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 2,
+        "mode": "ndn"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 3,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 3,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 1,
+        "mode": "ndn"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 41,
+      "service": "command",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 41,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 18,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 18,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 22,
+      "service": "command",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 22,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 7,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 7,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 1,
+        "mode": "ndn"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 12,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 12,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 44,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 44,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 46,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 46,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 15,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 15,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 16,
+      "service": "command",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 16,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 30,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 30,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 1,
+        "mode": "ndn"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 36,
+      "service": "command",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 36,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 6,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 6,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 48,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 48,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 2,
+        "mode": "ndn"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 5,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 5,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 1,
+        "mode": "ndn"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 40,
+      "service": "command",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 40,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 37,
+      "service": "command",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 37,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 24,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 24,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 26,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 26,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 1,
+        "mode": "ndn"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 47,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 47,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 5
+    },
+    {
+      "request": 31,
+      "service": "command",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 31,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      },
+      "feasible": 6
+    },
+    {
+      "request": 13,
+      "service": "object",
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 13,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ndn"
+      },
+      "feasible": 6
+    }
+  ],
+  "settled": [
+    {
+      "expected": 37,
+      "id": 29,
+      "on_time": 37,
+      "success": true
+    },
+    {
+      "expected": 37,
+      "id": 19,
+      "on_time": 37,
+      "success": true
+    },
+    {
+      "expected": 37,
+      "id": 38,
+      "on_time": 37,
+      "success": true
+    },
+    {
+      "expected": 74,
+      "id": 27,
+      "on_time": 74,
+      "success": true
+    },
+    {
+      "expected": 37,
+      "id": 33,
+      "on_time": 37,
+      "success": true
+    },
+    {
+      "expected": 124,
+      "id": 10,
+      "on_time": 124,
+      "success": true
+    },
+    {
+      "expected": 16,
+      "id": 21,
+      "on_time": 16,
+      "success": true
+    },
+    {
+      "expected": 87,
+      "id": 11,
+      "on_time": 87,
+      "success": true
+    },
+    {
+      "expected": 10,
+      "id": 34,
+      "on_time": 10,
+      "success": true
+    },
+    {
+      "expected": 348,
+      "id": 14,
+      "on_time": 348,
+      "success": true
+    },
+    {
+      "expected": 174,
+      "id": 25,
+      "on_time": 162,
+      "success": false
+    },
+    {
+      "expected": 87,
+      "id": 43,
+      "on_time": 87,
+      "success": true
+    },
+    {
+      "expected": 16,
+      "id": 39,
+      "on_time": 16,
+      "success": true
+    },
+    {
+      "expected": 24,
+      "id": 23,
+      "on_time": 24,
+      "success": true
+    },
+    {
+      "expected": 16,
+      "id": 3,
+      "on_time": 16,
+      "success": true
+    },
+    {
+      "expected": 32,
+      "id": 18,
+      "on_time": 24,
+      "success": false
+    },
+    {
+      "expected": 10,
+      "id": 22,
+      "on_time": 10,
+      "success": true
+    },
+    {
+      "expected": 87,
+      "id": 42,
+      "on_time": 87,
+      "success": true
+    },
+    {
+      "expected": 64,
+      "id": 28,
+      "on_time": 64,
+      "success": true
+    },
+    {
+      "expected": 32,
+      "id": 12,
+      "on_time": 32,
+      "success": true
+    },
+    {
+      "expected": 16,
+      "id": 44,
+      "on_time": 16,
+      "success": true
+    },
+    {
+      "expected": 16,
+      "id": 46,
+      "on_time": 16,
+      "success": true
+    },
+    {
+      "expected": 12,
+      "id": 7,
+      "on_time": 12,
+      "success": true
+    },
+    {
+      "expected": 24,
+      "id": 41,
+      "on_time": 24,
+      "success": true
+    },
+    {
+      "expected": 32,
+      "id": 15,
+      "on_time": 32,
+      "success": true
+    },
+    {
+      "expected": 10,
+      "id": 16,
+      "on_time": 10,
+      "success": true
+    },
+    {
+      "expected": 16,
+      "id": 30,
+      "on_time": 16,
+      "success": true
+    },
+    {
+      "expected": 10,
+      "id": 36,
+      "on_time": 10,
+      "success": true
+    },
+    {
+      "expected": 32,
+      "id": 6,
+      "on_time": 32,
+      "success": true
+    },
+    {
+      "expected": 12,
+      "id": 5,
+      "on_time": 12,
+      "success": true
+    },
+    {
+      "expected": 32,
+      "id": 47,
+      "on_time": 32,
+      "success": true
+    },
+    {
+      "expected": 32,
+      "id": 48,
+      "on_time": 32,
+      "success": true
+    },
+    {
+      "expected": 16,
+      "id": 13,
+      "on_time": 16,
+      "success": true
+    },
+    {
+      "expected": 24,
+      "id": 24,
+      "on_time": 24,
+      "success": true
+    },
+    {
+      "expected": 12,
+      "id": 26,
+      "on_time": 12,
+      "success": true
+    },
+    {
+      "expected": 24,
+      "id": 40,
+      "on_time": 24,
+      "success": true
+    },
+    {
+      "expected": 24,
+      "id": 37,
+      "on_time": 24,
+      "success": true
+    },
+    {
+      "expected": 24,
+      "id": 31,
+      "on_time": 24,
+      "success": true
+    }
+  ],
+  "observations": [
+    {
+      "observation": {
+        "active": [],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            67.55625428158349,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            51.794575628299974,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            47.37818342645999,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            40.35597214326658,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 29,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 2.027301387
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 29,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 0,
+            "id": 29,
+            "matured": 0,
+            "on_time": 0,
+            "received": 0
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            67.7317312975835,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            51.904248763299975,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            47.55366044245999,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            40.46564527826658,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 10,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 2.049236014
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 10,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 0,
+            "id": 10,
+            "matured": 0,
+            "on_time": 0,
+            "received": 0
+          },
+          {
+            "generated": 1,
+            "id": 29,
+            "matured": 0,
+            "on_time": 0,
+            "received": 0
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            68.03069236958348,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            52.091099433299966,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            47.85262151445999,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            40.65249594826657,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 19,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 2.086606148
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 19,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 2,
+            "id": 10,
+            "matured": 0,
+            "on_time": 2,
+            "received": 2
+          },
+          {
+            "generated": 1,
+            "id": 19,
+            "matured": 0,
+            "on_time": 0,
+            "received": 0
+          },
+          {
+            "generated": 1,
+            "id": 29,
+            "matured": 0,
+            "on_time": 1,
+            "received": 1
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            68.52485219358348,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            52.39994932329997,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            48.34678133845997,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            40.961345838266574,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 11,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 2.148376126
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 11,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 5,
+            "id": 10,
+            "matured": 0,
+            "on_time": 4,
+            "received": 4
+          },
+          {
+            "generated": 1,
+            "id": 11,
+            "matured": 0,
+            "on_time": 1,
+            "received": 1
+          },
+          {
+            "generated": 2,
+            "id": 19,
+            "matured": 0,
+            "on_time": 2,
+            "received": 2
+          },
+          {
+            "generated": 3,
+            "id": 29,
+            "matured": 0,
+            "on_time": 3,
+            "received": 3
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            69.45603108958353,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            52.98193613329996,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            49.27796023445996,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            41.54333264826656,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 14,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 2.264773488
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 14,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 6,
+            "id": 10,
+            "matured": 1,
+            "on_time": 6,
+            "received": 6
+          },
+          {
+            "generated": 2,
+            "id": 11,
+            "matured": 0,
+            "on_time": 2,
+            "received": 2
+          },
+          {
+            "generated": 1,
+            "id": 14,
+            "matured": 0,
+            "on_time": 0,
+            "received": 0
+          },
+          {
+            "generated": 3,
+            "id": 19,
+            "matured": 0,
+            "on_time": 2,
+            "received": 2
+          },
+          {
+            "generated": 3,
+            "id": 29,
+            "matured": 1,
+            "on_time": 3,
+            "received": 3
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            69.82214776158357,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            53.21075905329997,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            49.64407690645996,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            41.77215556826657,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 38,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 2.310538072
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 38,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 9,
+            "id": 10,
+            "matured": 4,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 3,
+            "id": 11,
+            "matured": 1,
+            "on_time": 3,
+            "received": 3
+          },
+          {
+            "generated": 7,
+            "id": 14,
+            "matured": 0,
+            "on_time": 6,
+            "received": 6
+          },
+          {
+            "generated": 4,
+            "id": 19,
+            "matured": 2,
+            "on_time": 4,
+            "received": 4
+          },
+          {
+            "generated": 5,
+            "id": 29,
+            "matured": 2,
+            "on_time": 5,
+            "received": 5
+          },
+          {
+            "generated": 1,
+            "id": 38,
+            "matured": 0,
+            "on_time": 1,
+            "received": 1
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            70.78947740158361,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            53.815340078299975,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            50.611406546459946,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            42.37673659326658,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 27,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 2.431454277
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 27,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 10,
+            "id": 10,
+            "matured": 5,
+            "on_time": 10,
+            "received": 10
+          },
+          {
+            "generated": 4,
+            "id": 11,
+            "matured": 2,
+            "on_time": 4,
+            "received": 4
+          },
+          {
+            "generated": 9,
+            "id": 14,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 5,
+            "id": 19,
+            "matured": 2,
+            "on_time": 4,
+            "received": 4
+          },
+          {
+            "generated": 0,
+            "id": 27,
+            "matured": 0,
+            "on_time": 0,
+            "received": 0
+          },
+          {
+            "generated": 5,
+            "id": 29,
+            "matured": 3,
+            "on_time": 5,
+            "received": 5
+          },
+          {
+            "generated": 2,
+            "id": 38,
+            "matured": 0,
+            "on_time": 2,
+            "received": 2
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            71.17816845758365,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            54.05827198829998,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            51.00009760245994,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            42.61966850326658,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 8,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 2.480040659
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 8,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 17,
+            "id": 10,
+            "matured": 12,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 7,
+            "id": 11,
+            "matured": 5,
+            "on_time": 7,
+            "received": 7
+          },
+          {
+            "generated": 22,
+            "id": 14,
+            "matured": 12,
+            "on_time": 21,
+            "received": 21
+          },
+          {
+            "generated": 8,
+            "id": 19,
+            "matured": 6,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 7,
+            "id": 27,
+            "matured": 2,
+            "on_time": 6,
+            "received": 6
+          },
+          {
+            "generated": 9,
+            "id": 29,
+            "matured": 6,
+            "on_time": 9,
+            "received": 9
+          },
+          {
+            "generated": 5,
+            "id": 38,
+            "matured": 3,
+            "on_time": 5,
+            "received": 5
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            73.27939139358388,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            55.37153632330001,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            53.10132053845991,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            43.932932838266616,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 25,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 2.742693526
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 25,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 18,
+            "id": 10,
+            "matured": 13,
+            "on_time": 17,
+            "received": 17
+          },
+          {
+            "generated": 8,
+            "id": 11,
+            "matured": 5,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 25,
+            "id": 14,
+            "matured": 15,
+            "on_time": 24,
+            "received": 24
+          },
+          {
+            "generated": 9,
+            "id": 19,
+            "matured": 6,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 0,
+            "id": 25,
+            "matured": 0,
+            "on_time": 0,
+            "received": 0
+          },
+          {
+            "generated": 8,
+            "id": 27,
+            "matured": 3,
+            "on_time": 7,
+            "received": 7
+          },
+          {
+            "generated": 9,
+            "id": 29,
+            "matured": 7,
+            "on_time": 9,
+            "received": 9
+          },
+          {
+            "generated": 6,
+            "id": 38,
+            "matured": 3,
+            "on_time": 6,
+            "received": 6
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            73.65503248958395,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            55.60631200830002,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            53.4769616344599,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            44.167708523266626,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 35,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 2.789648663
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 35,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 31,
+            "id": 10,
+            "matured": 26,
+            "on_time": 30,
+            "received": 30
+          },
+          {
+            "generated": 14,
+            "id": 11,
+            "matured": 12,
+            "on_time": 14,
+            "received": 14
+          },
+          {
+            "generated": 50,
+            "id": 14,
+            "matured": 40,
+            "on_time": 48,
+            "received": 48
+          },
+          {
+            "generated": 15,
+            "id": 19,
+            "matured": 13,
+            "on_time": 15,
+            "received": 15
+          },
+          {
+            "generated": 13,
+            "id": 25,
+            "matured": 8,
+            "on_time": 12,
+            "received": 12
+          },
+          {
+            "generated": 21,
+            "id": 27,
+            "matured": 16,
+            "on_time": 20,
+            "received": 20
+          },
+          {
+            "generated": 16,
+            "id": 29,
+            "matured": 13,
+            "on_time": 15,
+            "received": 15
+          },
+          {
+            "generated": 12,
+            "id": 38,
+            "matured": 10,
+            "on_time": 12,
+            "received": 12
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            77.68440428958444,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            58.12466938330009,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            57.5063334344599,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            46.68606589826669,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 43,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 3.293320138
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 43,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 33,
+            "id": 10,
+            "matured": 28,
+            "on_time": 32,
+            "received": 32
+          },
+          {
+            "generated": 15,
+            "id": 11,
+            "matured": 13,
+            "on_time": 15,
+            "received": 15
+          },
+          {
+            "generated": 54,
+            "id": 14,
+            "matured": 44,
+            "on_time": 53,
+            "received": 53
+          },
+          {
+            "generated": 16,
+            "id": 19,
+            "matured": 14,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 15,
+            "id": 25,
+            "matured": 10,
+            "on_time": 14,
+            "received": 14
+          },
+          {
+            "generated": 23,
+            "id": 27,
+            "matured": 18,
+            "on_time": 22,
+            "received": 22
+          },
+          {
+            "generated": 17,
+            "id": 29,
+            "matured": 14,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 13,
+            "id": 38,
+            "matured": 11,
+            "on_time": 13,
+            "received": 13
+          },
+          {
+            "generated": 1,
+            "id": 43,
+            "matured": 0,
+            "on_time": 1,
+            "received": 1
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            78.36365276958452,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            58.54919968330009,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            58.18558191445988,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            47.11059619826669,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 9,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 3.378226198
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 9,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 38,
+            "id": 10,
+            "matured": 33,
+            "on_time": 37,
+            "received": 37
+          },
+          {
+            "generated": 18,
+            "id": 11,
+            "matured": 15,
+            "on_time": 18,
+            "received": 18
+          },
+          {
+            "generated": 64,
+            "id": 14,
+            "matured": 54,
+            "on_time": 63,
+            "received": 63
+          },
+          {
+            "generated": 19,
+            "id": 19,
+            "matured": 16,
+            "on_time": 18,
+            "received": 18
+          },
+          {
+            "generated": 20,
+            "id": 25,
+            "matured": 15,
+            "on_time": 19,
+            "received": 19
+          },
+          {
+            "generated": 28,
+            "id": 27,
+            "matured": 23,
+            "on_time": 27,
+            "received": 27
+          },
+          {
+            "generated": 19,
+            "id": 29,
+            "matured": 17,
+            "on_time": 19,
+            "received": 19
+          },
+          {
+            "generated": 16,
+            "id": 38,
+            "matured": 13,
+            "on_time": 15,
+            "received": 15
+          },
+          {
+            "generated": 4,
+            "id": 43,
+            "matured": 1,
+            "on_time": 3,
+            "received": 3
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            80.01031244158467,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            59.578361978300116,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            59.83224158645989,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            48.13975849326672,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 33,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 3.584058657
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 33,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 41,
+            "id": 10,
+            "matured": 36,
+            "on_time": 41,
+            "received": 41
+          },
+          {
+            "generated": 20,
+            "id": 11,
+            "matured": 17,
+            "on_time": 19,
+            "received": 19
+          },
+          {
+            "generated": 71,
+            "id": 14,
+            "matured": 61,
+            "on_time": 71,
+            "received": 71
+          },
+          {
+            "generated": 20,
+            "id": 19,
+            "matured": 18,
+            "on_time": 20,
+            "received": 20
+          },
+          {
+            "generated": 24,
+            "id": 25,
+            "matured": 19,
+            "on_time": 23,
+            "received": 23
+          },
+          {
+            "generated": 32,
+            "id": 27,
+            "matured": 27,
+            "on_time": 31,
+            "received": 31
+          },
+          {
+            "generated": 21,
+            "id": 29,
+            "matured": 19,
+            "on_time": 21,
+            "received": 21
+          },
+          {
+            "generated": 2,
+            "id": 33,
+            "matured": 0,
+            "on_time": 1,
+            "received": 1
+          },
+          {
+            "generated": 17,
+            "id": 38,
+            "matured": 15,
+            "on_time": 17,
+            "received": 17
+          },
+          {
+            "generated": 5,
+            "id": 43,
+            "matured": 3,
+            "on_time": 5,
+            "received": 5
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            81.16631931358476,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            60.30086627330014,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            60.98824845845987,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            48.86226278826674,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 17,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 3.728559516
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 17,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 46,
+            "id": 10,
+            "matured": 41,
+            "on_time": 45,
+            "received": 45
+          },
+          {
+            "generated": 22,
+            "id": 11,
+            "matured": 19,
+            "on_time": 21,
+            "received": 21
+          },
+          {
+            "generated": 80,
+            "id": 14,
+            "matured": 70,
+            "on_time": 79,
+            "received": 79
+          },
+          {
+            "generated": 23,
+            "id": 19,
+            "matured": 20,
+            "on_time": 22,
+            "received": 22
+          },
+          {
+            "generated": 28,
+            "id": 25,
+            "matured": 23,
+            "on_time": 27,
+            "received": 27
+          },
+          {
+            "generated": 36,
+            "id": 27,
+            "matured": 31,
+            "on_time": 35,
+            "received": 35
+          },
+          {
+            "generated": 23,
+            "id": 29,
+            "matured": 21,
+            "on_time": 23,
+            "received": 23
+          },
+          {
+            "generated": 4,
+            "id": 33,
+            "matured": 1,
+            "on_time": 3,
+            "received": 3
+          },
+          {
+            "generated": 20,
+            "id": 38,
+            "matured": 17,
+            "on_time": 19,
+            "received": 19
+          },
+          {
+            "generated": 7,
+            "id": 43,
+            "matured": 5,
+            "on_time": 7,
+            "received": 7
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            82.48591928158494,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            61.12561625330016,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            62.307848426459856,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            49.68701276826676,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 32,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 3.893509512
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 32,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 51,
+            "id": 10,
+            "matured": 46,
+            "on_time": 50,
+            "received": 50
+          },
+          {
+            "generated": 24,
+            "id": 11,
+            "matured": 22,
+            "on_time": 24,
+            "received": 24
+          },
+          {
+            "generated": 91,
+            "id": 14,
+            "matured": 81,
+            "on_time": 90,
+            "received": 90
+          },
+          {
+            "generated": 25,
+            "id": 19,
+            "matured": 23,
+            "on_time": 25,
+            "received": 25
+          },
+          {
+            "generated": 33,
+            "id": 25,
+            "matured": 28,
+            "on_time": 32,
+            "received": 32
+          },
+          {
+            "generated": 41,
+            "id": 27,
+            "matured": 36,
+            "on_time": 40,
+            "received": 40
+          },
+          {
+            "generated": 26,
+            "id": 29,
+            "matured": 23,
+            "on_time": 26,
+            "received": 26
+          },
+          {
+            "generated": 6,
+            "id": 33,
+            "matured": 4,
+            "on_time": 6,
+            "received": 6
+          },
+          {
+            "generated": 22,
+            "id": 38,
+            "matured": 20,
+            "on_time": 22,
+            "received": 22
+          },
+          {
+            "generated": 10,
+            "id": 43,
+            "matured": 8,
+            "on_time": 10,
+            "received": 10
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            84.22039529758518,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            62.209663763300185,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            64.04232444245984,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            50.77106027826679,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 4,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 4.110319014
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 4,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 68,
+            "id": 10,
+            "matured": 63,
+            "on_time": 67,
+            "received": 67
+          },
+          {
+            "generated": 33,
+            "id": 11,
+            "matured": 30,
+            "on_time": 32,
+            "received": 32
+          },
+          {
+            "generated": 124,
+            "id": 14,
+            "matured": 114,
+            "on_time": 123,
+            "received": 123
+          },
+          {
+            "generated": 34,
+            "id": 19,
+            "matured": 31,
+            "on_time": 33,
+            "received": 33
+          },
+          {
+            "generated": 50,
+            "id": 25,
+            "matured": 45,
+            "on_time": 49,
+            "received": 49
+          },
+          {
+            "generated": 58,
+            "id": 27,
+            "matured": 53,
+            "on_time": 57,
+            "received": 57
+          },
+          {
+            "generated": 34,
+            "id": 29,
+            "matured": 32,
+            "on_time": 34,
+            "received": 34
+          },
+          {
+            "generated": 15,
+            "id": 33,
+            "matured": 12,
+            "on_time": 15,
+            "received": 15
+          },
+          {
+            "generated": 31,
+            "id": 38,
+            "matured": 28,
+            "on_time": 30,
+            "received": 30
+          },
+          {
+            "generated": 18,
+            "id": 43,
+            "matured": 16,
+            "on_time": 18,
+            "received": 18
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            89.5762705695859,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            65.55708580830026,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            69.39819971446056,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            54.11848232326689,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 1,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 4.779803423
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 1,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 74,
+            "id": 10,
+            "matured": 69,
+            "on_time": 73,
+            "received": 73
+          },
+          {
+            "generated": 36,
+            "id": 11,
+            "matured": 33,
+            "on_time": 36,
+            "received": 36
+          },
+          {
+            "generated": 137,
+            "id": 14,
+            "matured": 127,
+            "on_time": 136,
+            "received": 136
+          },
+          {
+            "generated": 37,
+            "id": 19,
+            "matured": 34,
+            "on_time": 36,
+            "received": 36
+          },
+          {
+            "generated": 57,
+            "id": 25,
+            "matured": 52,
+            "on_time": 55,
+            "received": 55
+          },
+          {
+            "generated": 64,
+            "id": 27,
+            "matured": 59,
+            "on_time": 63,
+            "received": 63
+          },
+          {
+            "generated": 37,
+            "id": 29,
+            "matured": 35,
+            "on_time": 37,
+            "received": 37
+          },
+          {
+            "generated": 18,
+            "id": 33,
+            "matured": 16,
+            "on_time": 18,
+            "received": 18
+          },
+          {
+            "generated": 34,
+            "id": 38,
+            "matured": 31,
+            "on_time": 34,
+            "received": 34
+          },
+          {
+            "generated": 22,
+            "id": 43,
+            "matured": 19,
+            "on_time": 21,
+            "received": 21
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            91.62486120958617,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            66.83745495830021,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            71.44679035446083,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            55.39885147326693,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 45,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 5.035877253
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 45,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 75,
+            "id": 10,
+            "matured": 70,
+            "on_time": 74,
+            "received": 74
+          },
+          {
+            "generated": 36,
+            "id": 11,
+            "matured": 34,
+            "on_time": 36,
+            "received": 36
+          },
+          {
+            "generated": 139,
+            "id": 14,
+            "matured": 129,
+            "on_time": 138,
+            "received": 138
+          },
+          {
+            "generated": 37,
+            "id": 19,
+            "matured": 35,
+            "on_time": 37,
+            "received": 37
+          },
+          {
+            "generated": 57,
+            "id": 25,
+            "matured": 52,
+            "on_time": 57,
+            "received": 57
+          },
+          {
+            "generated": 65,
+            "id": 27,
+            "matured": 60,
+            "on_time": 64,
+            "received": 64
+          },
+          {
+            "generated": 37,
+            "id": 29,
+            "matured": 35,
+            "on_time": 37,
+            "received": 37
+          },
+          {
+            "generated": 18,
+            "id": 33,
+            "matured": 16,
+            "on_time": 18,
+            "received": 18
+          },
+          {
+            "generated": 34,
+            "id": 38,
+            "matured": 32,
+            "on_time": 34,
+            "received": 34
+          },
+          {
+            "generated": 22,
+            "id": 43,
+            "matured": 20,
+            "on_time": 22,
+            "received": 22
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            91.90601008158619,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            67.01317300330024,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            71.72793922646085,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            55.574569518266934,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 2,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 5.071020862
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 2,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 85,
+            "id": 10,
+            "matured": 80,
+            "on_time": 84,
+            "received": 84
+          },
+          {
+            "generated": 41,
+            "id": 11,
+            "matured": 39,
+            "on_time": 41,
+            "received": 41
+          },
+          {
+            "generated": 158,
+            "id": 14,
+            "matured": 148,
+            "on_time": 157,
+            "received": 157
+          },
+          {
+            "generated": 67,
+            "id": 25,
+            "matured": 62,
+            "on_time": 66,
+            "received": 66
+          },
+          {
+            "generated": 74,
+            "id": 27,
+            "matured": 70,
+            "on_time": 74,
+            "received": 74
+          },
+          {
+            "generated": 23,
+            "id": 33,
+            "matured": 21,
+            "on_time": 23,
+            "received": 23
+          },
+          {
+            "generated": 37,
+            "id": 38,
+            "matured": 37,
+            "on_time": 37,
+            "received": 37
+          },
+          {
+            "generated": 27,
+            "id": 43,
+            "matured": 24,
+            "on_time": 27,
+            "received": 27
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            94.97186069758652,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            68.92932963830023,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            74.79378984246118,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            57.49072615326698,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 23,
+        "schema": "binding-v1",
+        "settled": [
+          {
+            "expected": 37,
+            "id": 29,
+            "on_time": 37,
+            "success": true
+          },
+          {
+            "expected": 37,
+            "id": 19,
+            "on_time": 37,
+            "success": true
+          }
+        ],
+        "time": 5.454252189
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 23,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ndn"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 87,
+            "id": 10,
+            "matured": 82,
+            "on_time": 86,
+            "received": 86
+          },
+          {
+            "generated": 42,
+            "id": 11,
+            "matured": 40,
+            "on_time": 42,
+            "received": 42
+          },
+          {
+            "generated": 162,
+            "id": 14,
+            "matured": 152,
+            "on_time": 161,
+            "received": 161
+          },
+          {
+            "generated": 8,
+            "id": 23,
+            "matured": 0,
+            "on_time": 0,
+            "received": 0
+          },
+          {
+            "generated": 69,
+            "id": 25,
+            "matured": 64,
+            "on_time": 68,
+            "received": 68
+          },
+          {
+            "generated": 74,
+            "id": 27,
+            "matured": 72,
+            "on_time": 74,
+            "received": 74
+          },
+          {
+            "generated": 24,
+            "id": 33,
+            "matured": 22,
+            "on_time": 24,
+            "received": 24
+          },
+          {
+            "generated": 37,
+            "id": 38,
+            "matured": 37,
+            "on_time": 37,
+            "received": 37
+          },
+          {
+            "generated": 28,
+            "id": 43,
+            "matured": 25,
+            "on_time": 28,
+            "received": 28
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            95.58269500958653,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            69.3111010833003,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            75.40462415446119,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            57.87249759826695,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 21,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 5.530606478
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 21,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 2,
+        "mode": "ndn"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 92,
+            "id": 10,
+            "matured": 87,
+            "on_time": 92,
+            "received": 92
+          },
+          {
+            "generated": 45,
+            "id": 11,
+            "matured": 43,
+            "on_time": 45,
+            "received": 45
+          },
+          {
+            "generated": 173,
+            "id": 14,
+            "matured": 163,
+            "on_time": 172,
+            "received": 172
+          },
+          {
+            "generated": 8,
+            "id": 21,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 8,
+            "id": 23,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 75,
+            "id": 25,
+            "matured": 70,
+            "on_time": 74,
+            "received": 74
+          },
+          {
+            "generated": 27,
+            "id": 33,
+            "matured": 25,
+            "on_time": 27,
+            "received": 27
+          },
+          {
+            "generated": 31,
+            "id": 43,
+            "matured": 28,
+            "on_time": 31,
+            "received": 31
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            97.46316137758663,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            70.48639256330031,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            77.28509052246129,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            59.04778907826693,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 20,
+        "schema": "binding-v1",
+        "settled": [
+          {
+            "expected": 37,
+            "id": 38,
+            "on_time": 37,
+            "success": true
+          },
+          {
+            "expected": 74,
+            "id": 27,
+            "on_time": 74,
+            "success": true
+          }
+        ],
+        "time": 5.765664774
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 20,
+        "accept": false,
+        "edge": 0,
+        "server": 0,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 93,
+            "id": 10,
+            "matured": 88,
+            "on_time": 92,
+            "received": 92
+          },
+          {
+            "generated": 45,
+            "id": 11,
+            "matured": 43,
+            "on_time": 45,
+            "received": 45
+          },
+          {
+            "generated": 174,
+            "id": 14,
+            "matured": 164,
+            "on_time": 173,
+            "received": 173
+          },
+          {
+            "generated": 8,
+            "id": 21,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 8,
+            "id": 23,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 75,
+            "id": 25,
+            "matured": 70,
+            "on_time": 74,
+            "received": 74
+          },
+          {
+            "generated": 27,
+            "id": 33,
+            "matured": 25,
+            "on_time": 27,
+            "received": 27
+          },
+          {
+            "generated": 31,
+            "id": 43,
+            "matured": 28,
+            "on_time": 31,
+            "received": 31
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            97.53368392958666,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            70.53046915830032,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            77.35561307446132,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            59.09186567326693,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 42,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 5.774480093
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 42,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 94,
+            "id": 10,
+            "matured": 89,
+            "on_time": 93,
+            "received": 93
+          },
+          {
+            "generated": 46,
+            "id": 11,
+            "matured": 43,
+            "on_time": 45,
+            "received": 45
+          },
+          {
+            "generated": 176,
+            "id": 14,
+            "matured": 166,
+            "on_time": 175,
+            "received": 175
+          },
+          {
+            "generated": 8,
+            "id": 21,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 8,
+            "id": 23,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 76,
+            "id": 25,
+            "matured": 71,
+            "on_time": 75,
+            "received": 75
+          },
+          {
+            "generated": 28,
+            "id": 33,
+            "matured": 25,
+            "on_time": 28,
+            "received": 28
+          },
+          {
+            "generated": 0,
+            "id": 42,
+            "matured": 0,
+            "on_time": 0,
+            "received": 0
+          },
+          {
+            "generated": 31,
+            "id": 43,
+            "matured": 29,
+            "on_time": 31,
+            "received": 31
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            97.8817913295867,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            70.74803628330032,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            77.70372047446136,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            59.309432798266926,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 34,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 5.817993518
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 34,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 104,
+            "id": 10,
+            "matured": 99,
+            "on_time": 103,
+            "received": 103
+          },
+          {
+            "generated": 51,
+            "id": 11,
+            "matured": 48,
+            "on_time": 51,
+            "received": 51
+          },
+          {
+            "generated": 196,
+            "id": 14,
+            "matured": 186,
+            "on_time": 195,
+            "received": 195
+          },
+          {
+            "generated": 8,
+            "id": 21,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 8,
+            "id": 23,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 86,
+            "id": 25,
+            "matured": 81,
+            "on_time": 75,
+            "received": 75
+          },
+          {
+            "generated": 33,
+            "id": 33,
+            "matured": 30,
+            "on_time": 33,
+            "received": 33
+          },
+          {
+            "generated": 2,
+            "id": 34,
+            "matured": 0,
+            "on_time": 2,
+            "received": 2
+          },
+          {
+            "generated": 6,
+            "id": 42,
+            "matured": 3,
+            "on_time": 5,
+            "received": 5
+          },
+          {
+            "generated": 37,
+            "id": 43,
+            "matured": 34,
+            "on_time": 36,
+            "received": 36
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 0,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            101.15723933758699,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            72.79519128830036,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            80.97916848246165,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            61.35658780326695,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 28,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 6.227424519
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 28,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 124,
+            "id": 10,
+            "matured": 119,
+            "on_time": 123,
+            "received": 123
+          },
+          {
+            "generated": 61,
+            "id": 11,
+            "matured": 58,
+            "on_time": 61,
+            "received": 61
+          },
+          {
+            "generated": 236,
+            "id": 14,
+            "matured": 226,
+            "on_time": 235,
+            "received": 235
+          },
+          {
+            "generated": 8,
+            "id": 21,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 8,
+            "id": 23,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 106,
+            "id": 25,
+            "matured": 101,
+            "on_time": 94,
+            "received": 94
+          },
+          {
+            "generated": 16,
+            "id": 28,
+            "matured": 0,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 4,
+            "id": 34,
+            "matured": 2,
+            "on_time": 4,
+            "received": 4
+          },
+          {
+            "generated": 15,
+            "id": 42,
+            "matured": 13,
+            "on_time": 15,
+            "received": 15
+          },
+          {
+            "generated": 46,
+            "id": 43,
+            "matured": 44,
+            "on_time": 46,
+            "received": 46
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            107.46500068958764,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            76.7375421333005,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            87.2869298344623,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            65.298938648267,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 39,
+        "schema": "binding-v1",
+        "settled": [
+          {
+            "expected": 37,
+            "id": 33,
+            "on_time": 37,
+            "success": true
+          }
+        ],
+        "time": 7.015894688
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 39,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 2,
+        "mode": "ndn"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 70,
+            "id": 11,
+            "matured": 68,
+            "on_time": 70,
+            "received": 70
+          },
+          {
+            "generated": 274,
+            "id": 14,
+            "matured": 264,
+            "on_time": 273,
+            "received": 273
+          },
+          {
+            "generated": 16,
+            "id": 21,
+            "matured": 8,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 16,
+            "id": 23,
+            "matured": 8,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 125,
+            "id": 25,
+            "matured": 120,
+            "on_time": 112,
+            "received": 112
+          },
+          {
+            "generated": 16,
+            "id": 28,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 7,
+            "id": 34,
+            "matured": 5,
+            "on_time": 7,
+            "received": 7
+          },
+          {
+            "generated": 8,
+            "id": 39,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 25,
+            "id": 42,
+            "matured": 22,
+            "on_time": 25,
+            "received": 25
+          },
+          {
+            "generated": 56,
+            "id": 43,
+            "matured": 53,
+            "on_time": 56,
+            "received": 56
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            113.49822576958788,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            80.50830780830049,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            93.32015491446253,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            69.06970432326699,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 3,
+        "schema": "binding-v1",
+        "settled": [
+          {
+            "expected": 124,
+            "id": 10,
+            "on_time": 124,
+            "success": true
+          }
+        ],
+        "time": 7.770047823
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 3,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 1,
+        "mode": "ndn"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 0,
+            "id": 3,
+            "matured": 0,
+            "on_time": 0,
+            "received": 0
+          },
+          {
+            "generated": 71,
+            "id": 11,
+            "matured": 68,
+            "on_time": 70,
+            "received": 70
+          },
+          {
+            "generated": 275,
+            "id": 14,
+            "matured": 265,
+            "on_time": 275,
+            "received": 275
+          },
+          {
+            "generated": 16,
+            "id": 21,
+            "matured": 8,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 16,
+            "id": 23,
+            "matured": 8,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 126,
+            "id": 25,
+            "matured": 121,
+            "on_time": 113,
+            "received": 113
+          },
+          {
+            "generated": 16,
+            "id": 28,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 7,
+            "id": 34,
+            "matured": 5,
+            "on_time": 7,
+            "received": 7
+          },
+          {
+            "generated": 8,
+            "id": 39,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 25,
+            "id": 42,
+            "matured": 23,
+            "on_time": 25,
+            "received": 25
+          },
+          {
+            "generated": 56,
+            "id": 43,
+            "matured": 54,
+            "on_time": 56,
+            "received": 56
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            113.7945658175879,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            80.69352033830047,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            93.61649496246255,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            69.25491685326698,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 41,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 7.807090329
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 41,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 8,
+            "id": 3,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 73,
+            "id": 11,
+            "matured": 71,
+            "on_time": 73,
+            "received": 73
+          },
+          {
+            "generated": 286,
+            "id": 14,
+            "matured": 276,
+            "on_time": 285,
+            "received": 285
+          },
+          {
+            "generated": 16,
+            "id": 21,
+            "matured": 8,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 16,
+            "id": 23,
+            "matured": 8,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 131,
+            "id": 25,
+            "matured": 126,
+            "on_time": 118,
+            "received": 118
+          },
+          {
+            "generated": 16,
+            "id": 28,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 8,
+            "id": 34,
+            "matured": 6,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 8,
+            "id": 39,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 1,
+            "id": 41,
+            "matured": 0,
+            "on_time": 1,
+            "received": 1
+          },
+          {
+            "generated": 28,
+            "id": 42,
+            "matured": 25,
+            "on_time": 28,
+            "received": 28
+          },
+          {
+            "generated": 59,
+            "id": 43,
+            "matured": 56,
+            "on_time": 59,
+            "received": 59
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            115.41478057758805,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            81.70615456330046,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            95.2367097224627,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            70.26755107826696,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 18,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 8.009617174
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 18,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 8,
+            "id": 3,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 77,
+            "id": 11,
+            "matured": 75,
+            "on_time": 77,
+            "received": 77
+          },
+          {
+            "generated": 301,
+            "id": 14,
+            "matured": 291,
+            "on_time": 300,
+            "received": 300
+          },
+          {
+            "generated": 16,
+            "id": 18,
+            "matured": 0,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 16,
+            "id": 21,
+            "matured": 8,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 16,
+            "id": 23,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 139,
+            "id": 25,
+            "matured": 134,
+            "on_time": 126,
+            "received": 126
+          },
+          {
+            "generated": 32,
+            "id": 28,
+            "matured": 16,
+            "on_time": 17,
+            "received": 17
+          },
+          {
+            "generated": 9,
+            "id": 34,
+            "matured": 7,
+            "on_time": 9,
+            "received": 9
+          },
+          {
+            "generated": 8,
+            "id": 39,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 2,
+            "id": 41,
+            "matured": 0,
+            "on_time": 2,
+            "received": 2
+          },
+          {
+            "generated": 32,
+            "id": 42,
+            "matured": 29,
+            "on_time": 31,
+            "received": 31
+          },
+          {
+            "generated": 63,
+            "id": 43,
+            "matured": 60,
+            "on_time": 63,
+            "received": 63
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            117.93934272158825,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            83.28400590330041,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            97.7612718664629,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            71.84540241826691,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 22,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 8.325187442
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 22,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 8,
+            "id": 3,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 87,
+            "id": 11,
+            "matured": 85,
+            "on_time": 87,
+            "received": 87
+          },
+          {
+            "generated": 343,
+            "id": 14,
+            "matured": 333,
+            "on_time": 342,
+            "received": 342
+          },
+          {
+            "generated": 16,
+            "id": 18,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 16,
+            "id": 21,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 3,
+            "id": 22,
+            "matured": 1,
+            "on_time": 3,
+            "received": 3
+          },
+          {
+            "generated": 16,
+            "id": 23,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 160,
+            "id": 25,
+            "matured": 155,
+            "on_time": 147,
+            "received": 147
+          },
+          {
+            "generated": 32,
+            "id": 28,
+            "matured": 32,
+            "on_time": 32,
+            "received": 32
+          },
+          {
+            "generated": 10,
+            "id": 34,
+            "matured": 9,
+            "on_time": 10,
+            "received": 10
+          },
+          {
+            "generated": 16,
+            "id": 39,
+            "matured": 8,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 5,
+            "id": 41,
+            "matured": 3,
+            "on_time": 5,
+            "received": 5
+          },
+          {
+            "generated": 42,
+            "id": 42,
+            "matured": 40,
+            "on_time": 42,
+            "received": 42
+          },
+          {
+            "generated": 73,
+            "id": 43,
+            "matured": 71,
+            "on_time": 73,
+            "received": 73
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            124.60642080958873,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            87.45092970830036,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            104.42834995446339,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            76.01232622326687,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 7,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 9.158572203
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 7,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 1,
+        "mode": "ndn"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 16,
+            "id": 3,
+            "matured": 8,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 4,
+            "id": 7,
+            "matured": 4,
+            "on_time": 4,
+            "received": 4
+          },
+          {
+            "generated": 32,
+            "id": 18,
+            "matured": 16,
+            "on_time": 24,
+            "received": 24
+          },
+          {
+            "generated": 7,
+            "id": 22,
+            "matured": 5,
+            "on_time": 7,
+            "received": 7
+          },
+          {
+            "generated": 24,
+            "id": 23,
+            "matured": 24,
+            "on_time": 24,
+            "received": 24
+          },
+          {
+            "generated": 48,
+            "id": 28,
+            "matured": 32,
+            "on_time": 48,
+            "received": 48
+          },
+          {
+            "generated": 16,
+            "id": 39,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 9,
+            "id": 41,
+            "matured": 7,
+            "on_time": 9,
+            "received": 9
+          },
+          {
+            "generated": 58,
+            "id": 42,
+            "matured": 56,
+            "on_time": 58,
+            "received": 58
+          },
+          {
+            "generated": 87,
+            "id": 43,
+            "matured": 87,
+            "on_time": 87,
+            "received": 87
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 1,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            134.97826920158886,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            93.93333495330035,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            114.80019834646333,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            82.49473146826685,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 12,
+        "schema": "binding-v1",
+        "settled": [
+          {
+            "expected": 16,
+            "id": 21,
+            "on_time": 16,
+            "success": true
+          },
+          {
+            "expected": 87,
+            "id": 11,
+            "on_time": 87,
+            "success": true
+          },
+          {
+            "expected": 10,
+            "id": 34,
+            "on_time": 10,
+            "success": true
+          },
+          {
+            "expected": 348,
+            "id": 14,
+            "on_time": 348,
+            "success": true
+          },
+          {
+            "expected": 174,
+            "id": 25,
+            "on_time": 162,
+            "success": false
+          }
+        ],
+        "time": 10.455053252
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 12,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 16,
+            "id": 3,
+            "matured": 8,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 4,
+            "id": 7,
+            "matured": 4,
+            "on_time": 4,
+            "received": 4
+          },
+          {
+            "generated": 16,
+            "id": 12,
+            "matured": 0,
+            "on_time": 2,
+            "received": 2
+          },
+          {
+            "generated": 32,
+            "id": 18,
+            "matured": 16,
+            "on_time": 24,
+            "received": 24
+          },
+          {
+            "generated": 8,
+            "id": 22,
+            "matured": 6,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 24,
+            "id": 23,
+            "matured": 24,
+            "on_time": 24,
+            "received": 24
+          },
+          {
+            "generated": 48,
+            "id": 28,
+            "matured": 32,
+            "on_time": 48,
+            "received": 48
+          },
+          {
+            "generated": 16,
+            "id": 39,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 9,
+            "id": 41,
+            "matured": 7,
+            "on_time": 9,
+            "received": 9
+          },
+          {
+            "generated": 59,
+            "id": 42,
+            "matured": 57,
+            "on_time": 59,
+            "received": 59
+          },
+          {
+            "generated": 87,
+            "id": 43,
+            "matured": 87,
+            "on_time": 87,
+            "received": 87
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 2,
+            "tenant": 1,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            135.55665614558885,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            94.29482679330032,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            115.3785852904633,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            82.85622330826682,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 44,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 10.52735162
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 44,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 16,
+            "id": 3,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 4,
+            "id": 7,
+            "matured": 4,
+            "on_time": 4,
+            "received": 4
+          },
+          {
+            "generated": 16,
+            "id": 12,
+            "matured": 0,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 32,
+            "id": 18,
+            "matured": 32,
+            "on_time": 24,
+            "received": 24
+          },
+          {
+            "generated": 9,
+            "id": 22,
+            "matured": 7,
+            "on_time": 9,
+            "received": 9
+          },
+          {
+            "generated": 24,
+            "id": 23,
+            "matured": 24,
+            "on_time": 24,
+            "received": 24
+          },
+          {
+            "generated": 48,
+            "id": 28,
+            "matured": 32,
+            "on_time": 48,
+            "received": 48
+          },
+          {
+            "generated": 11,
+            "id": 41,
+            "matured": 9,
+            "on_time": 11,
+            "received": 11
+          },
+          {
+            "generated": 64,
+            "id": 42,
+            "matured": 62,
+            "on_time": 64,
+            "received": 64
+          },
+          {
+            "generated": 8,
+            "id": 44,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 3,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            138.87894742558888,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            96.37125884330027,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            118.7008765704633,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            84.93265535826677,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 46,
+        "schema": "binding-v1",
+        "settled": [
+          {
+            "expected": 87,
+            "id": 43,
+            "on_time": 87,
+            "success": true
+          },
+          {
+            "expected": 16,
+            "id": 39,
+            "on_time": 16,
+            "success": true
+          }
+        ],
+        "time": 10.94263803
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 46,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 8,
+            "id": 7,
+            "matured": 4,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 16,
+            "id": 12,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 32,
+            "id": 18,
+            "matured": 32,
+            "on_time": 24,
+            "received": 24
+          },
+          {
+            "generated": 10,
+            "id": 22,
+            "matured": 10,
+            "on_time": 10,
+            "received": 10
+          },
+          {
+            "generated": 48,
+            "id": 28,
+            "matured": 48,
+            "on_time": 48,
+            "received": 48
+          },
+          {
+            "generated": 14,
+            "id": 41,
+            "matured": 12,
+            "on_time": 14,
+            "received": 14
+          },
+          {
+            "generated": 75,
+            "id": 42,
+            "matured": 73,
+            "on_time": 75,
+            "received": 75
+          },
+          {
+            "generated": 8,
+            "id": 44,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 8,
+            "id": 46,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            145.63878304158885,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            100.5961561033002,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            125.46071218646335,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            89.1575526182667,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 15,
+        "schema": "binding-v1",
+        "settled": [
+          {
+            "expected": 24,
+            "id": 23,
+            "on_time": 24,
+            "success": true
+          },
+          {
+            "expected": 16,
+            "id": 3,
+            "on_time": 16,
+            "success": true
+          }
+        ],
+        "time": 11.787617482
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 15,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 8,
+            "id": 7,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 16,
+            "id": 12,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 16,
+            "id": 15,
+            "matured": 0,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 48,
+            "id": 28,
+            "matured": 48,
+            "on_time": 48,
+            "received": 48
+          },
+          {
+            "generated": 15,
+            "id": 41,
+            "matured": 13,
+            "on_time": 15,
+            "received": 15
+          },
+          {
+            "generated": 81,
+            "id": 42,
+            "matured": 78,
+            "on_time": 80,
+            "received": 80
+          },
+          {
+            "generated": 8,
+            "id": 44,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 8,
+            "id": 46,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            149.21591704158888,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            102.8318648533001,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            129.0378461864634,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            91.39326136826661,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 16,
+        "schema": "binding-v1",
+        "settled": [
+          {
+            "expected": 32,
+            "id": 18,
+            "on_time": 24,
+            "success": false
+          },
+          {
+            "expected": 10,
+            "id": 22,
+            "on_time": 10,
+            "success": true
+          }
+        ],
+        "time": 12.234759232
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 16,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 8,
+            "id": 7,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 16,
+            "id": 12,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 16,
+            "id": 15,
+            "matured": 0,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 1,
+            "id": 16,
+            "matured": 0,
+            "on_time": 1,
+            "received": 1
+          },
+          {
+            "generated": 64,
+            "id": 28,
+            "matured": 48,
+            "on_time": 63,
+            "received": 63
+          },
+          {
+            "generated": 16,
+            "id": 41,
+            "matured": 14,
+            "on_time": 15,
+            "received": 15
+          },
+          {
+            "generated": 83,
+            "id": 42,
+            "matured": 80,
+            "on_time": 83,
+            "received": 83
+          },
+          {
+            "generated": 8,
+            "id": 44,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 8,
+            "id": 46,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            149.28523811358875,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            103.76864288330015,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            130.53669103446356,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            92.33003939826665,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 30,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 12.422114838
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 30,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 1,
+        "mode": "ndn"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 8,
+            "id": 7,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 32,
+            "id": 12,
+            "matured": 16,
+            "on_time": 32,
+            "received": 32
+          },
+          {
+            "generated": 16,
+            "id": 15,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 2,
+            "id": 16,
+            "matured": 0,
+            "on_time": 1,
+            "received": 1
+          },
+          {
+            "generated": 64,
+            "id": 28,
+            "matured": 48,
+            "on_time": 64,
+            "received": 64
+          },
+          {
+            "generated": 8,
+            "id": 30,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 17,
+            "id": 41,
+            "matured": 15,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 86,
+            "id": 42,
+            "matured": 84,
+            "on_time": 86,
+            "received": 86
+          },
+          {
+            "generated": 16,
+            "id": 44,
+            "matured": 8,
+            "on_time": 11,
+            "received": 11
+          },
+          {
+            "generated": 8,
+            "id": 46,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            147.29362666558865,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            105.01340003830006,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            132.52830248246366,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            93.57479655326657,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 36,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 12.671066269
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 36,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 8,
+            "id": 7,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 32,
+            "id": 12,
+            "matured": 16,
+            "on_time": 32,
+            "received": 32
+          },
+          {
+            "generated": 16,
+            "id": 15,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 3,
+            "id": 16,
+            "matured": 1,
+            "on_time": 3,
+            "received": 3
+          },
+          {
+            "generated": 64,
+            "id": 28,
+            "matured": 48,
+            "on_time": 64,
+            "received": 64
+          },
+          {
+            "generated": 8,
+            "id": 30,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 1,
+            "id": 36,
+            "matured": 0,
+            "on_time": 1,
+            "received": 1
+          },
+          {
+            "generated": 17,
+            "id": 41,
+            "matured": 15,
+            "on_time": 17,
+            "received": 17
+          },
+          {
+            "generated": 87,
+            "id": 42,
+            "matured": 87,
+            "on_time": 87,
+            "received": 87
+          },
+          {
+            "generated": 16,
+            "id": 44,
+            "matured": 8,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 8,
+            "id": 46,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            145.30986532158863,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            106.25325087830001,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            134.51206382646367,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            94.81464739326651,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 6,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 12.919036437
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 6,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 0,
+            "id": 6,
+            "matured": 0,
+            "on_time": 0,
+            "received": 0
+          },
+          {
+            "generated": 8,
+            "id": 7,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 32,
+            "id": 12,
+            "matured": 16,
+            "on_time": 32,
+            "received": 32
+          },
+          {
+            "generated": 16,
+            "id": 15,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 3,
+            "id": 16,
+            "matured": 1,
+            "on_time": 3,
+            "received": 3
+          },
+          {
+            "generated": 64,
+            "id": 28,
+            "matured": 48,
+            "on_time": 64,
+            "received": 64
+          },
+          {
+            "generated": 8,
+            "id": 30,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 1,
+            "id": 36,
+            "matured": 0,
+            "on_time": 1,
+            "received": 1
+          },
+          {
+            "generated": 17,
+            "id": 41,
+            "matured": 15,
+            "on_time": 17,
+            "received": 17
+          },
+          {
+            "generated": 87,
+            "id": 42,
+            "matured": 87,
+            "on_time": 87,
+            "received": 87
+          },
+          {
+            "generated": 16,
+            "id": 44,
+            "matured": 8,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 8,
+            "id": 46,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 3,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            145.24786798558864,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            106.2919992133,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            134.57406116246366,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            94.8533957282665,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 48,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 12.926786104
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 48,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 2,
+        "mode": "ndn"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 16,
+            "id": 6,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 12,
+            "id": 7,
+            "matured": 8,
+            "on_time": 12,
+            "received": 12
+          },
+          {
+            "generated": 32,
+            "id": 12,
+            "matured": 32,
+            "on_time": 32,
+            "received": 32
+          },
+          {
+            "generated": 16,
+            "id": 15,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 6,
+            "id": 16,
+            "matured": 4,
+            "on_time": 5,
+            "received": 5
+          },
+          {
+            "generated": 64,
+            "id": 28,
+            "matured": 64,
+            "on_time": 64,
+            "received": 64
+          },
+          {
+            "generated": 8,
+            "id": 30,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 4,
+            "id": 36,
+            "matured": 2,
+            "on_time": 4,
+            "received": 4
+          },
+          {
+            "generated": 20,
+            "id": 41,
+            "matured": 18,
+            "on_time": 20,
+            "received": 20
+          },
+          {
+            "generated": 16,
+            "id": 44,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 16,
+            "id": 46,
+            "matured": 9,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 8,
+            "id": 48,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 0,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            138.33026298558835,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            110.61550233830005,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            141.49166616246396,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            99.17689885326655,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 5,
+        "schema": "binding-v1",
+        "settled": [
+          {
+            "expected": 87,
+            "id": 42,
+            "on_time": 87,
+            "success": true
+          }
+        ],
+        "time": 13.791486729
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 5,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 1,
+        "mode": "ndn"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 4,
+            "id": 5,
+            "matured": 4,
+            "on_time": 4,
+            "received": 4
+          },
+          {
+            "generated": 16,
+            "id": 6,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 12,
+            "id": 7,
+            "matured": 12,
+            "on_time": 12,
+            "received": 12
+          },
+          {
+            "generated": 32,
+            "id": 15,
+            "matured": 32,
+            "on_time": 32,
+            "received": 32
+          },
+          {
+            "generated": 9,
+            "id": 16,
+            "matured": 7,
+            "on_time": 9,
+            "received": 9
+          },
+          {
+            "generated": 16,
+            "id": 30,
+            "matured": 8,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 8,
+            "id": 36,
+            "matured": 6,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 24,
+            "id": 41,
+            "matured": 22,
+            "on_time": 24,
+            "received": 24
+          },
+          {
+            "generated": 8,
+            "id": 48,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 4,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            129.66858776958833,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            116.02904934830002,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            149.846658626464,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            104.59044586326652,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 40,
+        "schema": "binding-v1",
+        "settled": [
+          {
+            "expected": 64,
+            "id": 28,
+            "on_time": 64,
+            "success": true
+          },
+          {
+            "expected": 32,
+            "id": 12,
+            "on_time": 32,
+            "success": true
+          },
+          {
+            "expected": 16,
+            "id": 44,
+            "on_time": 16,
+            "success": true
+          },
+          {
+            "expected": 16,
+            "id": 46,
+            "on_time": 16,
+            "success": true
+          }
+        ],
+        "time": 14.874196131
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 40,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 4,
+            "id": 5,
+            "matured": 4,
+            "on_time": 4,
+            "received": 4
+          },
+          {
+            "generated": 32,
+            "id": 6,
+            "matured": 16,
+            "on_time": 32,
+            "received": 32
+          },
+          {
+            "generated": 32,
+            "id": 15,
+            "matured": 32,
+            "on_time": 32,
+            "received": 32
+          },
+          {
+            "generated": 10,
+            "id": 16,
+            "matured": 9,
+            "on_time": 10,
+            "received": 10
+          },
+          {
+            "generated": 16,
+            "id": 30,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 10,
+            "id": 36,
+            "matured": 8,
+            "on_time": 10,
+            "received": 10
+          },
+          {
+            "generated": 3,
+            "id": 40,
+            "matured": 1,
+            "on_time": 3,
+            "received": 3
+          },
+          {
+            "generated": 16,
+            "id": 48,
+            "matured": 8,
+            "on_time": 16,
+            "received": 16
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 4,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            124.06689435358835,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            119.53010773330006,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            144.244965210464,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            108.09150424826656,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 37,
+        "schema": "binding-v1",
+        "settled": [
+          {
+            "expected": 12,
+            "id": 7,
+            "on_time": 12,
+            "success": true
+          },
+          {
+            "expected": 24,
+            "id": 41,
+            "on_time": 24,
+            "success": true
+          }
+        ],
+        "time": 15.574407808
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 37,
+        "accept": true,
+        "edge": 2,
+        "server": 2,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 4,
+            "id": 5,
+            "matured": 4,
+            "on_time": 4,
+            "received": 4
+          },
+          {
+            "generated": 32,
+            "id": 6,
+            "matured": 16,
+            "on_time": 32,
+            "received": 32
+          },
+          {
+            "generated": 10,
+            "id": 16,
+            "matured": 10,
+            "on_time": 10,
+            "received": 10
+          },
+          {
+            "generated": 16,
+            "id": 30,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 10,
+            "id": 36,
+            "matured": 8,
+            "on_time": 10,
+            "received": 10
+          },
+          {
+            "generated": 1,
+            "id": 37,
+            "matured": 0,
+            "on_time": 1,
+            "received": 1
+          },
+          {
+            "generated": 3,
+            "id": 40,
+            "matured": 1,
+            "on_time": 3,
+            "received": 3
+          },
+          {
+            "generated": 16,
+            "id": 48,
+            "matured": 8,
+            "on_time": 16,
+            "received": 16
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 4,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            123.09466302558835,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            120.13775231330006,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            143.272733882464,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            108.69914882826656,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 24,
+        "schema": "binding-v1",
+        "settled": [
+          {
+            "expected": 32,
+            "id": 15,
+            "on_time": 32,
+            "success": true
+          }
+        ],
+        "time": 15.695936724
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 24,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 8,
+            "id": 5,
+            "matured": 4,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 32,
+            "id": 6,
+            "matured": 32,
+            "on_time": 32,
+            "received": 32
+          },
+          {
+            "generated": 8,
+            "id": 24,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 16,
+            "id": 30,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 10,
+            "id": 36,
+            "matured": 10,
+            "on_time": 10,
+            "received": 10
+          },
+          {
+            "generated": 2,
+            "id": 37,
+            "matured": 0,
+            "on_time": 2,
+            "received": 2
+          },
+          {
+            "generated": 5,
+            "id": 40,
+            "matured": 3,
+            "on_time": 4,
+            "received": 4
+          },
+          {
+            "generated": 16,
+            "id": 48,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 4,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            119.57143037758829,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            122.33977271830013,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            139.74950123446402,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            110.90116923326663,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 26,
+        "schema": "binding-v1",
+        "settled": [
+          {
+            "expected": 10,
+            "id": 16,
+            "on_time": 10,
+            "success": true
+          }
+        ],
+        "time": 16.136340805
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 26,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 1,
+        "mode": "ndn"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 8,
+            "id": 5,
+            "matured": 4,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 32,
+            "id": 6,
+            "matured": 32,
+            "on_time": 32,
+            "received": 32
+          },
+          {
+            "generated": 8,
+            "id": 24,
+            "matured": 0,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 0,
+            "id": 26,
+            "matured": 0,
+            "on_time": 0,
+            "received": 0
+          },
+          {
+            "generated": 16,
+            "id": 30,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 10,
+            "id": 36,
+            "matured": 10,
+            "on_time": 10,
+            "received": 10
+          },
+          {
+            "generated": 2,
+            "id": 37,
+            "matured": 0,
+            "on_time": 2,
+            "received": 2
+          },
+          {
+            "generated": 5,
+            "id": 40,
+            "matured": 3,
+            "on_time": 5,
+            "received": 5
+          },
+          {
+            "generated": 16,
+            "id": 48,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 4,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            119.50341807358829,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            122.38228040830012,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            139.68148893046404,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            110.94367692326662,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 47,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 16.144842343
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 47,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 8,
+            "id": 5,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 8,
+            "id": 24,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 4,
+            "id": 26,
+            "matured": 4,
+            "on_time": 4,
+            "received": 4
+          },
+          {
+            "generated": 5,
+            "id": 37,
+            "matured": 3,
+            "on_time": 5,
+            "received": 5
+          },
+          {
+            "generated": 8,
+            "id": 40,
+            "matured": 6,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 16,
+            "id": 47,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 24,
+            "id": 48,
+            "matured": 16,
+            "on_time": 24,
+            "received": 24
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 4,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 1,
+            "node": 1,
+            "tenant": 2,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            111.70512029758824,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            127.25621651830022,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            131.8831911544639,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            115.81761303326672,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 31,
+        "schema": "binding-v1",
+        "settled": [
+          {
+            "expected": 16,
+            "id": 30,
+            "on_time": 16,
+            "success": true
+          },
+          {
+            "expected": 10,
+            "id": 36,
+            "on_time": 10,
+            "success": true
+          },
+          {
+            "expected": 32,
+            "id": 6,
+            "on_time": 32,
+            "success": true
+          }
+        ],
+        "time": 17.119629565
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 31,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ip"
+      }
+    },
+    {
+      "observation": {
+        "active": [
+          {
+            "generated": 8,
+            "id": 5,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 8,
+            "id": 24,
+            "matured": 8,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 4,
+            "id": 26,
+            "matured": 4,
+            "on_time": 4,
+            "received": 4
+          },
+          {
+            "generated": 0,
+            "id": 31,
+            "matured": 0,
+            "on_time": 0,
+            "received": 0
+          },
+          {
+            "generated": 6,
+            "id": 37,
+            "matured": 4,
+            "on_time": 6,
+            "received": 6
+          },
+          {
+            "generated": 8,
+            "id": 40,
+            "matured": 6,
+            "on_time": 8,
+            "received": 8
+          },
+          {
+            "generated": 16,
+            "id": 47,
+            "matured": 16,
+            "on_time": 16,
+            "received": 16
+          },
+          {
+            "generated": 24,
+            "id": 48,
+            "matured": 16,
+            "on_time": 24,
+            "received": 24
+          }
+        ],
+        "associations": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 3,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "5": 4,
+          "6": 4,
+          "7": 3,
+          "8": 4,
+          "9": 3
+        },
+        "cached": [
+          {
+            "bytes": 4000,
+            "content": 3,
+            "node": 1,
+            "tenant": 1,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 1,
+            "node": 1,
+            "tenant": 2,
+            "version": 4
+          },
+          {
+            "bytes": 4000,
+            "content": 2,
+            "node": 2,
+            "tenant": 2,
+            "version": 4
+          }
+        ],
+        "kind": "observation",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            111.43351654558823,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            127.42596886330021,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            131.6115874024639,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            115.98736537826672,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 13,
+        "schema": "binding-v1",
+        "settled": [],
+        "time": 17.153580034
+      },
+      "decision": {
+        "schema": "binding-v1",
+        "request_id": 13,
+        "accept": true,
+        "edge": 1,
+        "server": 1,
+        "cache": 0,
+        "mode": "ndn"
+      }
+    },
+    {
+      "observation": {
+        "active": [],
+        "associations": {
+          "10": 4,
+          "11": 3,
+          "12": 4,
+          "13": 3,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "5": 3,
+          "6": 4,
+          "7": 3,
+          "8": 4,
+          "9": 3
+        },
+        "cached": [],
+        "kind": "done",
+        "positions": {
+          "10": [
+            145.0,
+            0.3052542513201981,
+            80.0
+          ],
+          "11": [
+            51.337843185588056,
+            2.2855567973793356,
+            80.0
+          ],
+          "12": [
+            145.0,
+            0.851701700193054,
+            80.0
+          ],
+          "13": [
+            20.0,
+            0.8153313744104809,
+            80.0
+          ],
+          "14": [
+            108.34193130330011,
+            -2.622997225817318,
+            80.0
+          ],
+          "15": [
+            20.0,
+            -2.4088903821789547,
+            80.0
+          ],
+          "16": [
+            145.0,
+            0.533345474487807,
+            80.0
+          ],
+          "5": [
+            31.15977233046384,
+            0.5447480751309559,
+            80.0
+          ],
+          "6": [
+            145.0,
+            0.4424535182911873,
+            80.0
+          ],
+          "7": [
+            20.0,
+            0.9976061348527328,
+            80.0
+          ],
+          "8": [
+            119.78053478826702,
+            -2.712263742622109,
+            80.0
+          ],
+          "9": [
+            20.0,
+            0.48241621175410554,
+            80.0
+          ]
+        },
+        "request_id": 0,
+        "schema": "binding-v1",
+        "settled": [
+          {
+            "expected": 12,
+            "id": 5,
+            "on_time": 12,
+            "success": true
+          },
+          {
+            "expected": 32,
+            "id": 47,
+            "on_time": 32,
+            "success": true
+          },
+          {
+            "expected": 32,
+            "id": 48,
+            "on_time": 32,
+            "success": true
+          },
+          {
+            "expected": 16,
+            "id": 13,
+            "on_time": 16,
+            "success": true
+          },
+          {
+            "expected": 24,
+            "id": 24,
+            "on_time": 24,
+            "success": true
+          },
+          {
+            "expected": 12,
+            "id": 26,
+            "on_time": 12,
+            "success": true
+          },
+          {
+            "expected": 24,
+            "id": 40,
+            "on_time": 24,
+            "success": true
+          },
+          {
+            "expected": 24,
+            "id": 37,
+            "on_time": 24,
+            "success": true
+          },
+          {
+            "expected": 24,
+            "id": 31,
+            "on_time": 24,
+            "success": true
+          }
+        ],
+        "time": 30.0
+      }
+    }
+  ],
+  "native_seconds": 0.8092239399993559,
+  "method": "ppo",
+  "init": 37,
+  "seed": 323000,
+  "load": 48,
+  "profile": "upload_first",
+  "scenario_sha256": "9ce385a1686b78b404477928efc9e6441cf1db160ca1b995b4af1cbb66a804e8",
+  "action_sha256": "f276e025cc1f42831104f3cc10792948b314cb542d8a29c58ea69a98cd391701"
+}

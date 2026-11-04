@@ -1,0 +1,347 @@
+{
+  "sources": {
+    "allocation_final.py": "eaba91cf1e3db4a484d2cbe98867b39373d422592183a2de72c3fadca775d656",
+    "allocation_value.py": "e4e2d0b7b6bd0efac7e048050e36a07865d0ca7df9b51203f544d4cfc51caad4",
+    "modal_binding.py": "5e3c5ccafd62eeebaab1fe7e5c8d7f9aaf817b5a18a1f9bc18c6c8bc085891a8",
+    "modal_binding_rl.py": "eae65aad11853415d4a87d839991e8e2863b50784a14688b10bd2bfa7b3b1106",
+    "distributional_allocation.py": "49e9a810fce9191cc48b12a6682a625717694ec5886d567dccc33877428dc695",
+    "patrol.py": "c55cab09985d11390e202d9e7e54876dbf626179f40c79023242f65fe76ba675",
+    "initial_allocation.py": "dc80996d94e5beb3a14b75c1be596429a902726ad42e20a8041193d61890dbb6",
+    "patrol_contract.schema.json": "b17b73f389642d868bcad29067dad8ad4abf06ddbd421c1cd6d7d8c39aa14c02",
+    "tools/modal_binding_run.py": "99b68219217c999538458b21bcb1918c2da24a6863e2281e7e5652f68f23a5e1",
+    "tests/test_allocation_simple.py": "e432c01eb54328bf2774f505c41d868f73762590b98f522cea8c0e7030ba6d10",
+    "SIMPLE_DESIGN.md": "23bbedebbb6942a1351d11de8e80d50560de56148b881f67aa68962c78306c94",
+    "execution/allocation_final_scenario.cc": "d252fa17af3596b9f536d3a329b861c14641b855f44e49142543445216ddacac",
+    "tools/allocation_simple_run.py": "80e432adf6c9b951e02dab3fab5082af54a85f0730891098b6704598e0887451",
+    "guided_allocation.py": "77c3d2f657af4ee912aa4517a2ae78900c1450571f90da1f2665a10f62fae4a9",
+    "mission_allocation.py": "8142b5bb82f638810034ea06051eed44eed033173dd0f9138af133106b2d0d98",
+    "mission_policy.py": "b91a98a31dbcf4563bf160baf46060c0ce1bfecc45a2819a030ff04fd76794d2",
+    "tools/mission_allocation_run.py": "3cadd1465a58907e21e70900735a74927cfcf62734caa487cc5ffef42528fc2d",
+    "tests/test_mission_allocation.py": "fa87bd47ea64db11f6a456c43929afc2b881990f085f7bd049ebddd24c8af88d"
+  },
+  "binary_sha256": "4713d4f5ed04fb073c3d0256450b59c13f7e103aae3f2f9bd67df98ac0f20ad5",
+  "initializations": [
+    11,
+    23,
+    37,
+    53,
+    71,
+    89,
+    101,
+    127
+  ],
+  "loads": [
+    48,
+    80,
+    112
+  ],
+  "development": [
+    321000,
+    321001,
+    321002,
+    321003,
+    321004,
+    321005,
+    321006,
+    321007,
+    321008,
+    321009
+  ],
+  "validation": [
+    322000,
+    322001,
+    322002,
+    322003,
+    322004,
+    322005,
+    322006,
+    322007,
+    322008,
+    322009,
+    322010,
+    322011,
+    322012,
+    322013,
+    322014,
+    322015,
+    322016,
+    322017,
+    322018,
+    322019,
+    322020,
+    322021,
+    322022,
+    322023,
+    322024,
+    322025,
+    322026,
+    322027,
+    322028,
+    322029,
+    322030,
+    322031,
+    322032,
+    322033,
+    322034,
+    322035,
+    322036,
+    322037,
+    322038,
+    322039,
+    322040,
+    322041,
+    322042,
+    322043,
+    322044,
+    322045,
+    322046,
+    322047,
+    322048,
+    322049,
+    322050,
+    322051,
+    322052,
+    322053,
+    322054,
+    322055,
+    322056,
+    322057,
+    322058,
+    322059
+  ],
+  "test": [
+    323000,
+    323001,
+    323002,
+    323003,
+    323004,
+    323005,
+    323006,
+    323007,
+    323008,
+    323009,
+    323010,
+    323011,
+    323012,
+    323013,
+    323014,
+    323015,
+    323016,
+    323017,
+    323018,
+    323019,
+    323020,
+    323021,
+    323022,
+    323023,
+    323024,
+    323025,
+    323026,
+    323027,
+    323028,
+    323029,
+    323030,
+    323031,
+    323032,
+    323033,
+    323034,
+    323035,
+    323036,
+    323037,
+    323038,
+    323039,
+    323040,
+    323041,
+    323042,
+    323043,
+    323044,
+    323045,
+    323046,
+    323047,
+    323048,
+    323049,
+    323050,
+    323051,
+    323052,
+    323053,
+    323054,
+    323055,
+    323056,
+    323057,
+    323058,
+    323059
+  ],
+  "training_range": [
+    71000000,
+    72000000
+  ],
+  "hyperparameters": {
+    "learning_rate": 5e-05,
+    "n_steps": 1024,
+    "batch_size": 128,
+    "n_epochs": 5,
+    "gamma": 1.0,
+    "gae_lambda": 1.0,
+    "clip_range": 0.1,
+    "ent_coef": 0.002,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5,
+    "target_kl": 0.02,
+    "policy_kwargs": {
+      "net_arch": {
+        "pi": [],
+        "vf": [
+          96,
+          96
+        ]
+      },
+      "ortho_init": false
+    }
+  },
+  "checkpoints": [
+    0,
+    16384,
+    32768,
+    65536
+  ],
+  "workload": "steady20%, upload-first50%, retrieval-first30%; unchanged service mixture, durations, rate, payload and SLA",
+  "private_profiles": "hidden from policy; state adds only past three-second arrival counts per business",
+  "rule_grid": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.25,
+      0.0
+    ],
+    [
+      0.0,
+      0.25,
+      1.0
+    ],
+    [
+      0.0,
+      0.5,
+      0.0
+    ],
+    [
+      0.0,
+      0.5,
+      1.0
+    ],
+    [
+      0.5,
+      0.0,
+      0.0
+    ],
+    [
+      0.5,
+      0.0,
+      1.0
+    ],
+    [
+      0.5,
+      0.25,
+      0.0
+    ],
+    [
+      0.5,
+      0.25,
+      1.0
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.5,
+      0.5,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.25,
+      0.0
+    ],
+    [
+      1.0,
+      0.25,
+      1.0
+    ],
+    [
+      1.0,
+      0.5,
+      0.0
+    ],
+    [
+      1.0,
+      0.5,
+      1.0
+    ],
+    [
+      2.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.0,
+      0.0,
+      1.0
+    ],
+    [
+      2.0,
+      0.25,
+      0.0
+    ],
+    [
+      2.0,
+      0.25,
+      1.0
+    ],
+    [
+      2.0,
+      0.5,
+      0.0
+    ],
+    [
+      2.0,
+      0.5,
+      1.0
+    ]
+  ],
+  "admission_price_thresholds": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0,
+    null
+  ],
+  "prior_selection": "best of24modal formulas then7price thresholds on10development scenes; no test selection",
+  "baseline_selection": "full24modal grid and7price thresholds plus common rules on60validation scenes",
+  "model_selection": "all8initializations retained; per-init best validation actual SLA, tie earlier checkpoint",
+  "reward": "potential-shaped native success: Phi=.5observedactive, gamma1, initial/terminalPhi0; total exactly SLA success count",
+  "primary": "RL minus validation-selected best rule family, including admission price",
+  "acceptance": "paired95CI lower>0, learned policy better than its zero-step prior, admitted violation no worse",
+  "scope": "firstpart only; no prediction, QoS controller, resource tiers, overbooking or auxiliary heads"
+}

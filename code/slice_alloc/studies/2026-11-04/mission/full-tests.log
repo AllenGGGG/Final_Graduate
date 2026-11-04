@@ -1,0 +1,9 @@
+./home/allen/.local/lib/python3.10/site-packages/stable_baselines3/common/utils.py:168: UserWarning: get_schedule_fn() is deprecated, please use FloatSchedule() instead
+  warnings.warn("get_schedule_fn() is deprecated, please use FloatSchedule() instead")
+/home/allen/.local/lib/python3.10/site-packages/stable_baselines3/common/utils.py:214: UserWarning: constant_fn() is deprecated, please use ConstantSchedule() instead
+  warnings.warn("constant_fn() is deprecated, please use ConstantSchedule() instead")
+..............................
+----------------------------------------------------------------------
+Ran 31 tests in 30.204s
+
+OK

@@ -1,0 +1,3972 @@
+{
+  "method": "price",
+  "parameters": [
+    2.0,
+    0.5,
+    1.0
+  ],
+  "threshold": 0.25,
+  "rows": [
+    {
+      "seed": 322000,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 18,
+      "admitted": 19,
+      "by_service": {
+        "telemetry": {
+          "requests": 18,
+          "success": 5
+        },
+        "object": {
+          "requests": 22,
+          "success": 9
+        },
+        "command": {
+          "requests": 8,
+          "success": 4
+        }
+      }
+    },
+    {
+      "seed": 322000,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 30,
+      "admitted": 30,
+      "by_service": {
+        "telemetry": {
+          "requests": 30,
+          "success": 6
+        },
+        "object": {
+          "requests": 32,
+          "success": 10
+        },
+        "command": {
+          "requests": 18,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322000,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 40,
+      "admitted": 40,
+      "by_service": {
+        "telemetry": {
+          "requests": 40,
+          "success": 6
+        },
+        "object": {
+          "requests": 49,
+          "success": 14
+        },
+        "command": {
+          "requests": 23,
+          "success": 20
+        }
+      }
+    },
+    {
+      "seed": 322001,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 19,
+      "admitted": 19,
+      "by_service": {
+        "telemetry": {
+          "requests": 15,
+          "success": 3
+        },
+        "object": {
+          "requests": 20,
+          "success": 6
+        },
+        "command": {
+          "requests": 13,
+          "success": 10
+        }
+      }
+    },
+    {
+      "seed": 322001,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 31,
+      "admitted": 31,
+      "by_service": {
+        "telemetry": {
+          "requests": 22,
+          "success": 5
+        },
+        "object": {
+          "requests": 36,
+          "success": 10
+        },
+        "command": {
+          "requests": 22,
+          "success": 16
+        }
+      }
+    },
+    {
+      "seed": 322001,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 37,
+      "admitted": 37,
+      "by_service": {
+        "telemetry": {
+          "requests": 36,
+          "success": 6
+        },
+        "object": {
+          "requests": 49,
+          "success": 12
+        },
+        "command": {
+          "requests": 27,
+          "success": 19
+        }
+      }
+    },
+    {
+      "seed": 322002,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 15,
+      "admitted": 15,
+      "by_service": {
+        "telemetry": {
+          "requests": 25,
+          "success": 5
+        },
+        "object": {
+          "requests": 15,
+          "success": 3
+        },
+        "command": {
+          "requests": 8,
+          "success": 7
+        }
+      }
+    },
+    {
+      "seed": 322002,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 22,
+      "admitted": 22,
+      "by_service": {
+        "telemetry": {
+          "requests": 35,
+          "success": 3
+        },
+        "object": {
+          "requests": 29,
+          "success": 5
+        },
+        "command": {
+          "requests": 16,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322002,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 37,
+      "admitted": 37,
+      "by_service": {
+        "telemetry": {
+          "requests": 40,
+          "success": 4
+        },
+        "object": {
+          "requests": 47,
+          "success": 11
+        },
+        "command": {
+          "requests": 25,
+          "success": 22
+        }
+      }
+    },
+    {
+      "seed": 322003,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 12,
+      "admitted": 12,
+      "by_service": {
+        "telemetry": {
+          "requests": 20,
+          "success": 2
+        },
+        "object": {
+          "requests": 21,
+          "success": 4
+        },
+        "command": {
+          "requests": 7,
+          "success": 6
+        }
+      }
+    },
+    {
+      "seed": 322003,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 24,
+      "admitted": 25,
+      "by_service": {
+        "telemetry": {
+          "requests": 35,
+          "success": 7
+        },
+        "object": {
+          "requests": 29,
+          "success": 4
+        },
+        "command": {
+          "requests": 16,
+          "success": 13
+        }
+      }
+    },
+    {
+      "seed": 322003,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 37,
+      "admitted": 37,
+      "by_service": {
+        "telemetry": {
+          "requests": 49,
+          "success": 8
+        },
+        "object": {
+          "requests": 43,
+          "success": 11
+        },
+        "command": {
+          "requests": 20,
+          "success": 18
+        }
+      }
+    },
+    {
+      "seed": 322004,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 15,
+      "admitted": 15,
+      "by_service": {
+        "telemetry": {
+          "requests": 20,
+          "success": 3
+        },
+        "object": {
+          "requests": 17,
+          "success": 5
+        },
+        "command": {
+          "requests": 11,
+          "success": 7
+        }
+      }
+    },
+    {
+      "seed": 322004,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 22,
+      "admitted": 22,
+      "by_service": {
+        "telemetry": {
+          "requests": 32,
+          "success": 5
+        },
+        "object": {
+          "requests": 33,
+          "success": 7
+        },
+        "command": {
+          "requests": 15,
+          "success": 10
+        }
+      }
+    },
+    {
+      "seed": 322004,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 31,
+      "admitted": 31,
+      "by_service": {
+        "telemetry": {
+          "requests": 47,
+          "success": 5
+        },
+        "object": {
+          "requests": 41,
+          "success": 9
+        },
+        "command": {
+          "requests": 24,
+          "success": 17
+        }
+      }
+    },
+    {
+      "seed": 322005,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 18,
+      "admitted": 19,
+      "by_service": {
+        "telemetry": {
+          "requests": 18,
+          "success": 5
+        },
+        "object": {
+          "requests": 22,
+          "success": 9
+        },
+        "command": {
+          "requests": 8,
+          "success": 4
+        }
+      }
+    },
+    {
+      "seed": 322005,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 29,
+      "admitted": 29,
+      "by_service": {
+        "telemetry": {
+          "requests": 30,
+          "success": 5
+        },
+        "object": {
+          "requests": 32,
+          "success": 13
+        },
+        "command": {
+          "requests": 18,
+          "success": 11
+        }
+      }
+    },
+    {
+      "seed": 322005,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 39,
+      "admitted": 41,
+      "by_service": {
+        "telemetry": {
+          "requests": 35,
+          "success": 4
+        },
+        "object": {
+          "requests": 47,
+          "success": 16
+        },
+        "command": {
+          "requests": 30,
+          "success": 19
+        }
+      }
+    },
+    {
+      "seed": 322006,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 16,
+      "admitted": 16,
+      "by_service": {
+        "telemetry": {
+          "requests": 22,
+          "success": 4
+        },
+        "object": {
+          "requests": 11,
+          "success": 2
+        },
+        "command": {
+          "requests": 15,
+          "success": 10
+        }
+      }
+    },
+    {
+      "seed": 322006,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 28,
+      "admitted": 29,
+      "by_service": {
+        "telemetry": {
+          "requests": 34,
+          "success": 5
+        },
+        "object": {
+          "requests": 28,
+          "success": 9
+        },
+        "command": {
+          "requests": 18,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322006,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 38,
+      "admitted": 38,
+      "by_service": {
+        "telemetry": {
+          "requests": 50,
+          "success": 7
+        },
+        "object": {
+          "requests": 38,
+          "success": 14
+        },
+        "command": {
+          "requests": 24,
+          "success": 17
+        }
+      }
+    },
+    {
+      "seed": 322007,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 20,
+      "admitted": 20,
+      "by_service": {
+        "telemetry": {
+          "requests": 14,
+          "success": 4
+        },
+        "object": {
+          "requests": 19,
+          "success": 6
+        },
+        "command": {
+          "requests": 15,
+          "success": 10
+        }
+      }
+    },
+    {
+      "seed": 322007,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 34,
+      "admitted": 34,
+      "by_service": {
+        "telemetry": {
+          "requests": 22,
+          "success": 5
+        },
+        "object": {
+          "requests": 29,
+          "success": 10
+        },
+        "command": {
+          "requests": 29,
+          "success": 19
+        }
+      }
+    },
+    {
+      "seed": 322007,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 43,
+      "admitted": 43,
+      "by_service": {
+        "telemetry": {
+          "requests": 33,
+          "success": 5
+        },
+        "object": {
+          "requests": 43,
+          "success": 14
+        },
+        "command": {
+          "requests": 36,
+          "success": 24
+        }
+      }
+    },
+    {
+      "seed": 322008,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 16,
+      "admitted": 16,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 4
+        },
+        "object": {
+          "requests": 20,
+          "success": 4
+        },
+        "command": {
+          "requests": 11,
+          "success": 8
+        }
+      }
+    },
+    {
+      "seed": 322008,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 25,
+      "admitted": 25,
+      "by_service": {
+        "telemetry": {
+          "requests": 31,
+          "success": 6
+        },
+        "object": {
+          "requests": 31,
+          "success": 7
+        },
+        "command": {
+          "requests": 18,
+          "success": 12
+        }
+      }
+    },
+    {
+      "seed": 322008,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 35,
+      "admitted": 36,
+      "by_service": {
+        "telemetry": {
+          "requests": 45,
+          "success": 8
+        },
+        "object": {
+          "requests": 48,
+          "success": 14
+        },
+        "command": {
+          "requests": 19,
+          "success": 13
+        }
+      }
+    },
+    {
+      "seed": 322009,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 10,
+      "admitted": 10,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 2
+        },
+        "object": {
+          "requests": 19,
+          "success": 2
+        },
+        "command": {
+          "requests": 12,
+          "success": 6
+        }
+      }
+    },
+    {
+      "seed": 322009,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 26,
+      "admitted": 27,
+      "by_service": {
+        "telemetry": {
+          "requests": 22,
+          "success": 3
+        },
+        "object": {
+          "requests": 34,
+          "success": 7
+        },
+        "command": {
+          "requests": 24,
+          "success": 16
+        }
+      }
+    },
+    {
+      "seed": 322009,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 37,
+      "admitted": 37,
+      "by_service": {
+        "telemetry": {
+          "requests": 33,
+          "success": 4
+        },
+        "object": {
+          "requests": 49,
+          "success": 13
+        },
+        "command": {
+          "requests": 30,
+          "success": 20
+        }
+      }
+    },
+    {
+      "seed": 322010,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 18,
+      "admitted": 19,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 6
+        },
+        "object": {
+          "requests": 22,
+          "success": 7
+        },
+        "command": {
+          "requests": 9,
+          "success": 5
+        }
+      }
+    },
+    {
+      "seed": 322010,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 25,
+      "admitted": 26,
+      "by_service": {
+        "telemetry": {
+          "requests": 35,
+          "success": 8
+        },
+        "object": {
+          "requests": 31,
+          "success": 9
+        },
+        "command": {
+          "requests": 14,
+          "success": 8
+        }
+      }
+    },
+    {
+      "seed": 322010,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 30,
+      "admitted": 30,
+      "by_service": {
+        "telemetry": {
+          "requests": 53,
+          "success": 12
+        },
+        "object": {
+          "requests": 39,
+          "success": 7
+        },
+        "command": {
+          "requests": 20,
+          "success": 11
+        }
+      }
+    },
+    {
+      "seed": 322011,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 20,
+      "admitted": 21,
+      "by_service": {
+        "telemetry": {
+          "requests": 16,
+          "success": 3
+        },
+        "object": {
+          "requests": 21,
+          "success": 6
+        },
+        "command": {
+          "requests": 11,
+          "success": 11
+        }
+      }
+    },
+    {
+      "seed": 322011,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 25,
+      "admitted": 28,
+      "by_service": {
+        "telemetry": {
+          "requests": 30,
+          "success": 4
+        },
+        "object": {
+          "requests": 32,
+          "success": 7
+        },
+        "command": {
+          "requests": 18,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322011,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 32,
+      "admitted": 34,
+      "by_service": {
+        "telemetry": {
+          "requests": 42,
+          "success": 6
+        },
+        "object": {
+          "requests": 48,
+          "success": 11
+        },
+        "command": {
+          "requests": 22,
+          "success": 15
+        }
+      }
+    },
+    {
+      "seed": 322012,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 12,
+      "admitted": 12,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 1
+        },
+        "object": {
+          "requests": 21,
+          "success": 7
+        },
+        "command": {
+          "requests": 10,
+          "success": 4
+        }
+      }
+    },
+    {
+      "seed": 322012,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 26,
+      "admitted": 26,
+      "by_service": {
+        "telemetry": {
+          "requests": 35,
+          "success": 5
+        },
+        "object": {
+          "requests": 24,
+          "success": 8
+        },
+        "command": {
+          "requests": 21,
+          "success": 13
+        }
+      }
+    },
+    {
+      "seed": 322012,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 44,
+      "admitted": 44,
+      "by_service": {
+        "telemetry": {
+          "requests": 42,
+          "success": 9
+        },
+        "object": {
+          "requests": 35,
+          "success": 11
+        },
+        "command": {
+          "requests": 35,
+          "success": 24
+        }
+      }
+    },
+    {
+      "seed": 322013,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 18,
+      "admitted": 18,
+      "by_service": {
+        "telemetry": {
+          "requests": 18,
+          "success": 3
+        },
+        "object": {
+          "requests": 19,
+          "success": 6
+        },
+        "command": {
+          "requests": 11,
+          "success": 9
+        }
+      }
+    },
+    {
+      "seed": 322013,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 26,
+      "admitted": 26,
+      "by_service": {
+        "telemetry": {
+          "requests": 35,
+          "success": 7
+        },
+        "object": {
+          "requests": 29,
+          "success": 5
+        },
+        "command": {
+          "requests": 16,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322013,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 35,
+      "admitted": 37,
+      "by_service": {
+        "telemetry": {
+          "requests": 48,
+          "success": 6
+        },
+        "object": {
+          "requests": 45,
+          "success": 12
+        },
+        "command": {
+          "requests": 19,
+          "success": 17
+        }
+      }
+    },
+    {
+      "seed": 322014,
+      "load": 48,
+      "profile": "steady",
+      "requests": 48,
+      "success": 23,
+      "admitted": 23,
+      "by_service": {
+        "telemetry": {
+          "requests": 10,
+          "success": 3
+        },
+        "object": {
+          "requests": 26,
+          "success": 13
+        },
+        "command": {
+          "requests": 12,
+          "success": 7
+        }
+      }
+    },
+    {
+      "seed": 322014,
+      "load": 80,
+      "profile": "steady",
+      "requests": 80,
+      "success": 39,
+      "admitted": 39,
+      "by_service": {
+        "telemetry": {
+          "requests": 16,
+          "success": 5
+        },
+        "object": {
+          "requests": 36,
+          "success": 13
+        },
+        "command": {
+          "requests": 28,
+          "success": 21
+        }
+      }
+    },
+    {
+      "seed": 322014,
+      "load": 112,
+      "profile": "steady",
+      "requests": 112,
+      "success": 49,
+      "admitted": 49,
+      "by_service": {
+        "telemetry": {
+          "requests": 29,
+          "success": 5
+        },
+        "object": {
+          "requests": 45,
+          "success": 17
+        },
+        "command": {
+          "requests": 38,
+          "success": 27
+        }
+      }
+    },
+    {
+      "seed": 322015,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 13,
+      "admitted": 13,
+      "by_service": {
+        "telemetry": {
+          "requests": 18,
+          "success": 3
+        },
+        "object": {
+          "requests": 17,
+          "success": 5
+        },
+        "command": {
+          "requests": 13,
+          "success": 5
+        }
+      }
+    },
+    {
+      "seed": 322015,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 25,
+      "admitted": 25,
+      "by_service": {
+        "telemetry": {
+          "requests": 25,
+          "success": 5
+        },
+        "object": {
+          "requests": 33,
+          "success": 11
+        },
+        "command": {
+          "requests": 22,
+          "success": 9
+        }
+      }
+    },
+    {
+      "seed": 322015,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 37,
+      "admitted": 37,
+      "by_service": {
+        "telemetry": {
+          "requests": 32,
+          "success": 6
+        },
+        "object": {
+          "requests": 49,
+          "success": 17
+        },
+        "command": {
+          "requests": 31,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322016,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 20,
+      "admitted": 20,
+      "by_service": {
+        "telemetry": {
+          "requests": 24,
+          "success": 4
+        },
+        "object": {
+          "requests": 14,
+          "success": 7
+        },
+        "command": {
+          "requests": 10,
+          "success": 9
+        }
+      }
+    },
+    {
+      "seed": 322016,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 25,
+      "admitted": 25,
+      "by_service": {
+        "telemetry": {
+          "requests": 34,
+          "success": 4
+        },
+        "object": {
+          "requests": 28,
+          "success": 10
+        },
+        "command": {
+          "requests": 18,
+          "success": 11
+        }
+      }
+    },
+    {
+      "seed": 322016,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 28,
+      "admitted": 28,
+      "by_service": {
+        "telemetry": {
+          "requests": 46,
+          "success": 4
+        },
+        "object": {
+          "requests": 37,
+          "success": 10
+        },
+        "command": {
+          "requests": 29,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322017,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 23,
+      "admitted": 23,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 4
+        },
+        "object": {
+          "requests": 12,
+          "success": 4
+        },
+        "command": {
+          "requests": 19,
+          "success": 15
+        }
+      }
+    },
+    {
+      "seed": 322017,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 32,
+      "admitted": 32,
+      "by_service": {
+        "telemetry": {
+          "requests": 27,
+          "success": 4
+        },
+        "object": {
+          "requests": 29,
+          "success": 9
+        },
+        "command": {
+          "requests": 24,
+          "success": 19
+        }
+      }
+    },
+    {
+      "seed": 322017,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 44,
+      "admitted": 44,
+      "by_service": {
+        "telemetry": {
+          "requests": 39,
+          "success": 6
+        },
+        "object": {
+          "requests": 46,
+          "success": 15
+        },
+        "command": {
+          "requests": 27,
+          "success": 23
+        }
+      }
+    },
+    {
+      "seed": 322018,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 17,
+      "admitted": 17,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 3
+        },
+        "object": {
+          "requests": 18,
+          "success": 6
+        },
+        "command": {
+          "requests": 11,
+          "success": 8
+        }
+      }
+    },
+    {
+      "seed": 322018,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 31,
+      "admitted": 31,
+      "by_service": {
+        "telemetry": {
+          "requests": 28,
+          "success": 7
+        },
+        "object": {
+          "requests": 35,
+          "success": 9
+        },
+        "command": {
+          "requests": 17,
+          "success": 15
+        }
+      }
+    },
+    {
+      "seed": 322018,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 41,
+      "admitted": 41,
+      "by_service": {
+        "telemetry": {
+          "requests": 38,
+          "success": 9
+        },
+        "object": {
+          "requests": 42,
+          "success": 7
+        },
+        "command": {
+          "requests": 32,
+          "success": 25
+        }
+      }
+    },
+    {
+      "seed": 322019,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 18,
+      "admitted": 18,
+      "by_service": {
+        "telemetry": {
+          "requests": 12,
+          "success": 2
+        },
+        "object": {
+          "requests": 20,
+          "success": 5
+        },
+        "command": {
+          "requests": 16,
+          "success": 11
+        }
+      }
+    },
+    {
+      "seed": 322019,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 29,
+      "admitted": 30,
+      "by_service": {
+        "telemetry": {
+          "requests": 22,
+          "success": 3
+        },
+        "object": {
+          "requests": 34,
+          "success": 8
+        },
+        "command": {
+          "requests": 24,
+          "success": 18
+        }
+      }
+    },
+    {
+      "seed": 322019,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 41,
+      "admitted": 41,
+      "by_service": {
+        "telemetry": {
+          "requests": 37,
+          "success": 6
+        },
+        "object": {
+          "requests": 44,
+          "success": 12
+        },
+        "command": {
+          "requests": 31,
+          "success": 23
+        }
+      }
+    },
+    {
+      "seed": 322020,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 16,
+      "admitted": 16,
+      "by_service": {
+        "telemetry": {
+          "requests": 16,
+          "success": 2
+        },
+        "object": {
+          "requests": 20,
+          "success": 6
+        },
+        "command": {
+          "requests": 12,
+          "success": 8
+        }
+      }
+    },
+    {
+      "seed": 322020,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 28,
+      "admitted": 28,
+      "by_service": {
+        "telemetry": {
+          "requests": 20,
+          "success": 3
+        },
+        "object": {
+          "requests": 38,
+          "success": 12
+        },
+        "command": {
+          "requests": 22,
+          "success": 13
+        }
+      }
+    },
+    {
+      "seed": 322020,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 40,
+      "admitted": 40,
+      "by_service": {
+        "telemetry": {
+          "requests": 39,
+          "success": 4
+        },
+        "object": {
+          "requests": 38,
+          "success": 12
+        },
+        "command": {
+          "requests": 35,
+          "success": 24
+        }
+      }
+    },
+    {
+      "seed": 322021,
+      "load": 48,
+      "profile": "steady",
+      "requests": 48,
+      "success": 20,
+      "admitted": 20,
+      "by_service": {
+        "telemetry": {
+          "requests": 22,
+          "success": 8
+        },
+        "object": {
+          "requests": 16,
+          "success": 3
+        },
+        "command": {
+          "requests": 10,
+          "success": 9
+        }
+      }
+    },
+    {
+      "seed": 322021,
+      "load": 80,
+      "profile": "steady",
+      "requests": 80,
+      "success": 27,
+      "admitted": 28,
+      "by_service": {
+        "telemetry": {
+          "requests": 28,
+          "success": 7
+        },
+        "object": {
+          "requests": 31,
+          "success": 8
+        },
+        "command": {
+          "requests": 21,
+          "success": 12
+        }
+      }
+    },
+    {
+      "seed": 322021,
+      "load": 112,
+      "profile": "steady",
+      "requests": 112,
+      "success": 38,
+      "admitted": 38,
+      "by_service": {
+        "telemetry": {
+          "requests": 40,
+          "success": 10
+        },
+        "object": {
+          "requests": 41,
+          "success": 9
+        },
+        "command": {
+          "requests": 31,
+          "success": 19
+        }
+      }
+    },
+    {
+      "seed": 322022,
+      "load": 48,
+      "profile": "steady",
+      "requests": 48,
+      "success": 19,
+      "admitted": 19,
+      "by_service": {
+        "telemetry": {
+          "requests": 18,
+          "success": 3
+        },
+        "object": {
+          "requests": 15,
+          "success": 4
+        },
+        "command": {
+          "requests": 15,
+          "success": 12
+        }
+      }
+    },
+    {
+      "seed": 322022,
+      "load": 80,
+      "profile": "steady",
+      "requests": 80,
+      "success": 29,
+      "admitted": 29,
+      "by_service": {
+        "telemetry": {
+          "requests": 37,
+          "success": 6
+        },
+        "object": {
+          "requests": 26,
+          "success": 9
+        },
+        "command": {
+          "requests": 17,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322022,
+      "load": 112,
+      "profile": "steady",
+      "requests": 112,
+      "success": 44,
+      "admitted": 44,
+      "by_service": {
+        "telemetry": {
+          "requests": 43,
+          "success": 5
+        },
+        "object": {
+          "requests": 44,
+          "success": 17
+        },
+        "command": {
+          "requests": 25,
+          "success": 22
+        }
+      }
+    },
+    {
+      "seed": 322023,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 22,
+      "admitted": 22,
+      "by_service": {
+        "telemetry": {
+          "requests": 14,
+          "success": 2
+        },
+        "object": {
+          "requests": 24,
+          "success": 10
+        },
+        "command": {
+          "requests": 10,
+          "success": 10
+        }
+      }
+    },
+    {
+      "seed": 322023,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 32,
+      "admitted": 33,
+      "by_service": {
+        "telemetry": {
+          "requests": 31,
+          "success": 5
+        },
+        "object": {
+          "requests": 32,
+          "success": 14
+        },
+        "command": {
+          "requests": 17,
+          "success": 13
+        }
+      }
+    },
+    {
+      "seed": 322023,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 44,
+      "admitted": 45,
+      "by_service": {
+        "telemetry": {
+          "requests": 41,
+          "success": 6
+        },
+        "object": {
+          "requests": 45,
+          "success": 18
+        },
+        "command": {
+          "requests": 26,
+          "success": 20
+        }
+      }
+    },
+    {
+      "seed": 322024,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 22,
+      "admitted": 23,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 3
+        },
+        "object": {
+          "requests": 16,
+          "success": 8
+        },
+        "command": {
+          "requests": 13,
+          "success": 11
+        }
+      }
+    },
+    {
+      "seed": 322024,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 29,
+      "admitted": 29,
+      "by_service": {
+        "telemetry": {
+          "requests": 28,
+          "success": 3
+        },
+        "object": {
+          "requests": 36,
+          "success": 14
+        },
+        "command": {
+          "requests": 16,
+          "success": 12
+        }
+      }
+    },
+    {
+      "seed": 322024,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 32,
+      "admitted": 32,
+      "by_service": {
+        "telemetry": {
+          "requests": 40,
+          "success": 5
+        },
+        "object": {
+          "requests": 46,
+          "success": 12
+        },
+        "command": {
+          "requests": 26,
+          "success": 15
+        }
+      }
+    },
+    {
+      "seed": 322025,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 18,
+      "admitted": 18,
+      "by_service": {
+        "telemetry": {
+          "requests": 14,
+          "success": 4
+        },
+        "object": {
+          "requests": 21,
+          "success": 3
+        },
+        "command": {
+          "requests": 13,
+          "success": 11
+        }
+      }
+    },
+    {
+      "seed": 322025,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 32,
+      "admitted": 32,
+      "by_service": {
+        "telemetry": {
+          "requests": 22,
+          "success": 5
+        },
+        "object": {
+          "requests": 32,
+          "success": 8
+        },
+        "command": {
+          "requests": 26,
+          "success": 19
+        }
+      }
+    },
+    {
+      "seed": 322025,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 40,
+      "admitted": 40,
+      "by_service": {
+        "telemetry": {
+          "requests": 39,
+          "success": 7
+        },
+        "object": {
+          "requests": 38,
+          "success": 8
+        },
+        "command": {
+          "requests": 35,
+          "success": 25
+        }
+      }
+    },
+    {
+      "seed": 322026,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 20,
+      "admitted": 20,
+      "by_service": {
+        "telemetry": {
+          "requests": 20,
+          "success": 4
+        },
+        "object": {
+          "requests": 19,
+          "success": 9
+        },
+        "command": {
+          "requests": 9,
+          "success": 7
+        }
+      }
+    },
+    {
+      "seed": 322026,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 34,
+      "admitted": 35,
+      "by_service": {
+        "telemetry": {
+          "requests": 30,
+          "success": 4
+        },
+        "object": {
+          "requests": 30,
+          "success": 14
+        },
+        "command": {
+          "requests": 20,
+          "success": 16
+        }
+      }
+    },
+    {
+      "seed": 322026,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 46,
+      "admitted": 46,
+      "by_service": {
+        "telemetry": {
+          "requests": 36,
+          "success": 5
+        },
+        "object": {
+          "requests": 44,
+          "success": 16
+        },
+        "command": {
+          "requests": 32,
+          "success": 25
+        }
+      }
+    },
+    {
+      "seed": 322027,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 12,
+      "admitted": 13,
+      "by_service": {
+        "telemetry": {
+          "requests": 16,
+          "success": 4
+        },
+        "object": {
+          "requests": 23,
+          "success": 2
+        },
+        "command": {
+          "requests": 9,
+          "success": 6
+        }
+      }
+    },
+    {
+      "seed": 322027,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 23,
+      "admitted": 23,
+      "by_service": {
+        "telemetry": {
+          "requests": 31,
+          "success": 7
+        },
+        "object": {
+          "requests": 36,
+          "success": 9
+        },
+        "command": {
+          "requests": 13,
+          "success": 7
+        }
+      }
+    },
+    {
+      "seed": 322027,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 48,
+      "admitted": 48,
+      "by_service": {
+        "telemetry": {
+          "requests": 29,
+          "success": 6
+        },
+        "object": {
+          "requests": 56,
+          "success": 23
+        },
+        "command": {
+          "requests": 27,
+          "success": 19
+        }
+      }
+    },
+    {
+      "seed": 322028,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 15,
+      "admitted": 16,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 3
+        },
+        "object": {
+          "requests": 18,
+          "success": 6
+        },
+        "command": {
+          "requests": 13,
+          "success": 6
+        }
+      }
+    },
+    {
+      "seed": 322028,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 28,
+      "admitted": 29,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 1
+        },
+        "object": {
+          "requests": 34,
+          "success": 11
+        },
+        "command": {
+          "requests": 27,
+          "success": 16
+        }
+      }
+    },
+    {
+      "seed": 322028,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 38,
+      "admitted": 38,
+      "by_service": {
+        "telemetry": {
+          "requests": 30,
+          "success": 3
+        },
+        "object": {
+          "requests": 47,
+          "success": 14
+        },
+        "command": {
+          "requests": 35,
+          "success": 21
+        }
+      }
+    },
+    {
+      "seed": 322029,
+      "load": 48,
+      "profile": "steady",
+      "requests": 48,
+      "success": 17,
+      "admitted": 17,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 1
+        },
+        "object": {
+          "requests": 22,
+          "success": 8
+        },
+        "command": {
+          "requests": 9,
+          "success": 8
+        }
+      }
+    },
+    {
+      "seed": 322029,
+      "load": 80,
+      "profile": "steady",
+      "requests": 80,
+      "success": 27,
+      "admitted": 27,
+      "by_service": {
+        "telemetry": {
+          "requests": 31,
+          "success": 4
+        },
+        "object": {
+          "requests": 28,
+          "success": 10
+        },
+        "command": {
+          "requests": 21,
+          "success": 13
+        }
+      }
+    },
+    {
+      "seed": 322029,
+      "load": 112,
+      "profile": "steady",
+      "requests": 112,
+      "success": 42,
+      "admitted": 42,
+      "by_service": {
+        "telemetry": {
+          "requests": 44,
+          "success": 7
+        },
+        "object": {
+          "requests": 35,
+          "success": 12
+        },
+        "command": {
+          "requests": 33,
+          "success": 23
+        }
+      }
+    },
+    {
+      "seed": 322030,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 21,
+      "admitted": 21,
+      "by_service": {
+        "telemetry": {
+          "requests": 16,
+          "success": 3
+        },
+        "object": {
+          "requests": 21,
+          "success": 8
+        },
+        "command": {
+          "requests": 11,
+          "success": 10
+        }
+      }
+    },
+    {
+      "seed": 322030,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 24,
+      "admitted": 25,
+      "by_service": {
+        "telemetry": {
+          "requests": 37,
+          "success": 4
+        },
+        "object": {
+          "requests": 25,
+          "success": 6
+        },
+        "command": {
+          "requests": 18,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322030,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 34,
+      "admitted": 34,
+      "by_service": {
+        "telemetry": {
+          "requests": 46,
+          "success": 4
+        },
+        "object": {
+          "requests": 40,
+          "success": 13
+        },
+        "command": {
+          "requests": 26,
+          "success": 17
+        }
+      }
+    },
+    {
+      "seed": 322031,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 19,
+      "admitted": 19,
+      "by_service": {
+        "telemetry": {
+          "requests": 16,
+          "success": 5
+        },
+        "object": {
+          "requests": 19,
+          "success": 5
+        },
+        "command": {
+          "requests": 13,
+          "success": 9
+        }
+      }
+    },
+    {
+      "seed": 322031,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 22,
+      "admitted": 23,
+      "by_service": {
+        "telemetry": {
+          "requests": 29,
+          "success": 6
+        },
+        "object": {
+          "requests": 37,
+          "success": 8
+        },
+        "command": {
+          "requests": 14,
+          "success": 8
+        }
+      }
+    },
+    {
+      "seed": 322031,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 34,
+      "admitted": 34,
+      "by_service": {
+        "telemetry": {
+          "requests": 42,
+          "success": 8
+        },
+        "object": {
+          "requests": 48,
+          "success": 11
+        },
+        "command": {
+          "requests": 22,
+          "success": 15
+        }
+      }
+    },
+    {
+      "seed": 322032,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 15,
+      "admitted": 15,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 4
+        },
+        "object": {
+          "requests": 21,
+          "success": 6
+        },
+        "command": {
+          "requests": 10,
+          "success": 5
+        }
+      }
+    },
+    {
+      "seed": 322032,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 24,
+      "admitted": 24,
+      "by_service": {
+        "telemetry": {
+          "requests": 25,
+          "success": 4
+        },
+        "object": {
+          "requests": 35,
+          "success": 8
+        },
+        "command": {
+          "requests": 20,
+          "success": 12
+        }
+      }
+    },
+    {
+      "seed": 322032,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 36,
+      "admitted": 36,
+      "by_service": {
+        "telemetry": {
+          "requests": 37,
+          "success": 8
+        },
+        "object": {
+          "requests": 48,
+          "success": 11
+        },
+        "command": {
+          "requests": 27,
+          "success": 17
+        }
+      }
+    },
+    {
+      "seed": 322033,
+      "load": 48,
+      "profile": "steady",
+      "requests": 48,
+      "success": 15,
+      "admitted": 15,
+      "by_service": {
+        "telemetry": {
+          "requests": 24,
+          "success": 3
+        },
+        "object": {
+          "requests": 17,
+          "success": 7
+        },
+        "command": {
+          "requests": 7,
+          "success": 5
+        }
+      }
+    },
+    {
+      "seed": 322033,
+      "load": 80,
+      "profile": "steady",
+      "requests": 80,
+      "success": 30,
+      "admitted": 30,
+      "by_service": {
+        "telemetry": {
+          "requests": 32,
+          "success": 5
+        },
+        "object": {
+          "requests": 28,
+          "success": 10
+        },
+        "command": {
+          "requests": 20,
+          "success": 15
+        }
+      }
+    },
+    {
+      "seed": 322033,
+      "load": 112,
+      "profile": "steady",
+      "requests": 112,
+      "success": 40,
+      "admitted": 40,
+      "by_service": {
+        "telemetry": {
+          "requests": 49,
+          "success": 10
+        },
+        "object": {
+          "requests": 42,
+          "success": 16
+        },
+        "command": {
+          "requests": 21,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322034,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 18,
+      "admitted": 19,
+      "by_service": {
+        "telemetry": {
+          "requests": 20,
+          "success": 4
+        },
+        "object": {
+          "requests": 15,
+          "success": 5
+        },
+        "command": {
+          "requests": 13,
+          "success": 9
+        }
+      }
+    },
+    {
+      "seed": 322034,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 32,
+      "admitted": 32,
+      "by_service": {
+        "telemetry": {
+          "requests": 28,
+          "success": 5
+        },
+        "object": {
+          "requests": 30,
+          "success": 13
+        },
+        "command": {
+          "requests": 22,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322034,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 38,
+      "admitted": 38,
+      "by_service": {
+        "telemetry": {
+          "requests": 39,
+          "success": 4
+        },
+        "object": {
+          "requests": 48,
+          "success": 20
+        },
+        "command": {
+          "requests": 25,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322035,
+      "load": 48,
+      "profile": "steady",
+      "requests": 48,
+      "success": 17,
+      "admitted": 17,
+      "by_service": {
+        "telemetry": {
+          "requests": 15,
+          "success": 4
+        },
+        "object": {
+          "requests": 23,
+          "success": 5
+        },
+        "command": {
+          "requests": 10,
+          "success": 8
+        }
+      }
+    },
+    {
+      "seed": 322035,
+      "load": 80,
+      "profile": "steady",
+      "requests": 80,
+      "success": 26,
+      "admitted": 27,
+      "by_service": {
+        "telemetry": {
+          "requests": 24,
+          "success": 4
+        },
+        "object": {
+          "requests": 43,
+          "success": 12
+        },
+        "command": {
+          "requests": 13,
+          "success": 10
+        }
+      }
+    },
+    {
+      "seed": 322035,
+      "load": 112,
+      "profile": "steady",
+      "requests": 112,
+      "success": 38,
+      "admitted": 39,
+      "by_service": {
+        "telemetry": {
+          "requests": 43,
+          "success": 10
+        },
+        "object": {
+          "requests": 48,
+          "success": 12
+        },
+        "command": {
+          "requests": 21,
+          "success": 16
+        }
+      }
+    },
+    {
+      "seed": 322036,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 22,
+      "admitted": 22,
+      "by_service": {
+        "telemetry": {
+          "requests": 18,
+          "success": 3
+        },
+        "object": {
+          "requests": 17,
+          "success": 8
+        },
+        "command": {
+          "requests": 13,
+          "success": 11
+        }
+      }
+    },
+    {
+      "seed": 322036,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 33,
+      "admitted": 33,
+      "by_service": {
+        "telemetry": {
+          "requests": 23,
+          "success": 3
+        },
+        "object": {
+          "requests": 37,
+          "success": 12
+        },
+        "command": {
+          "requests": 20,
+          "success": 18
+        }
+      }
+    },
+    {
+      "seed": 322036,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 42,
+      "admitted": 42,
+      "by_service": {
+        "telemetry": {
+          "requests": 38,
+          "success": 7
+        },
+        "object": {
+          "requests": 48,
+          "success": 13
+        },
+        "command": {
+          "requests": 26,
+          "success": 22
+        }
+      }
+    },
+    {
+      "seed": 322037,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 17,
+      "admitted": 17,
+      "by_service": {
+        "telemetry": {
+          "requests": 16,
+          "success": 2
+        },
+        "object": {
+          "requests": 20,
+          "success": 5
+        },
+        "command": {
+          "requests": 12,
+          "success": 10
+        }
+      }
+    },
+    {
+      "seed": 322037,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 35,
+      "admitted": 35,
+      "by_service": {
+        "telemetry": {
+          "requests": 25,
+          "success": 5
+        },
+        "object": {
+          "requests": 32,
+          "success": 12
+        },
+        "command": {
+          "requests": 23,
+          "success": 18
+        }
+      }
+    },
+    {
+      "seed": 322037,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 41,
+      "admitted": 41,
+      "by_service": {
+        "telemetry": {
+          "requests": 30,
+          "success": 4
+        },
+        "object": {
+          "requests": 49,
+          "success": 12
+        },
+        "command": {
+          "requests": 33,
+          "success": 25
+        }
+      }
+    },
+    {
+      "seed": 322038,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 19,
+      "admitted": 19,
+      "by_service": {
+        "telemetry": {
+          "requests": 14,
+          "success": 3
+        },
+        "object": {
+          "requests": 19,
+          "success": 10
+        },
+        "command": {
+          "requests": 15,
+          "success": 6
+        }
+      }
+    },
+    {
+      "seed": 322038,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 25,
+      "admitted": 25,
+      "by_service": {
+        "telemetry": {
+          "requests": 27,
+          "success": 4
+        },
+        "object": {
+          "requests": 34,
+          "success": 14
+        },
+        "command": {
+          "requests": 19,
+          "success": 7
+        }
+      }
+    },
+    {
+      "seed": 322038,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 36,
+      "admitted": 36,
+      "by_service": {
+        "telemetry": {
+          "requests": 38,
+          "success": 6
+        },
+        "object": {
+          "requests": 46,
+          "success": 16
+        },
+        "command": {
+          "requests": 28,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322039,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 12,
+      "admitted": 13,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 5
+        },
+        "object": {
+          "requests": 21,
+          "success": 4
+        },
+        "command": {
+          "requests": 8,
+          "success": 3
+        }
+      }
+    },
+    {
+      "seed": 322039,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 26,
+      "admitted": 26,
+      "by_service": {
+        "telemetry": {
+          "requests": 36,
+          "success": 9
+        },
+        "object": {
+          "requests": 23,
+          "success": 3
+        },
+        "command": {
+          "requests": 21,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322039,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 42,
+      "admitted": 42,
+      "by_service": {
+        "telemetry": {
+          "requests": 40,
+          "success": 9
+        },
+        "object": {
+          "requests": 40,
+          "success": 8
+        },
+        "command": {
+          "requests": 32,
+          "success": 25
+        }
+      }
+    },
+    {
+      "seed": 322040,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 21,
+      "admitted": 22,
+      "by_service": {
+        "telemetry": {
+          "requests": 13,
+          "success": 4
+        },
+        "object": {
+          "requests": 26,
+          "success": 10
+        },
+        "command": {
+          "requests": 9,
+          "success": 7
+        }
+      }
+    },
+    {
+      "seed": 322040,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 36,
+      "admitted": 36,
+      "by_service": {
+        "telemetry": {
+          "requests": 24,
+          "success": 6
+        },
+        "object": {
+          "requests": 35,
+          "success": 12
+        },
+        "command": {
+          "requests": 21,
+          "success": 18
+        }
+      }
+    },
+    {
+      "seed": 322040,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 46,
+      "admitted": 48,
+      "by_service": {
+        "telemetry": {
+          "requests": 37,
+          "success": 7
+        },
+        "object": {
+          "requests": 43,
+          "success": 15
+        },
+        "command": {
+          "requests": 32,
+          "success": 24
+        }
+      }
+    },
+    {
+      "seed": 322041,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 17,
+      "admitted": 17,
+      "by_service": {
+        "telemetry": {
+          "requests": 22,
+          "success": 3
+        },
+        "object": {
+          "requests": 16,
+          "success": 8
+        },
+        "command": {
+          "requests": 10,
+          "success": 6
+        }
+      }
+    },
+    {
+      "seed": 322041,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 29,
+      "admitted": 30,
+      "by_service": {
+        "telemetry": {
+          "requests": 32,
+          "success": 5
+        },
+        "object": {
+          "requests": 24,
+          "success": 8
+        },
+        "command": {
+          "requests": 24,
+          "success": 16
+        }
+      }
+    },
+    {
+      "seed": 322041,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 41,
+      "admitted": 43,
+      "by_service": {
+        "telemetry": {
+          "requests": 38,
+          "success": 5
+        },
+        "object": {
+          "requests": 39,
+          "success": 10
+        },
+        "command": {
+          "requests": 35,
+          "success": 26
+        }
+      }
+    },
+    {
+      "seed": 322042,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 14,
+      "admitted": 14,
+      "by_service": {
+        "telemetry": {
+          "requests": 20,
+          "success": 4
+        },
+        "object": {
+          "requests": 21,
+          "success": 4
+        },
+        "command": {
+          "requests": 7,
+          "success": 6
+        }
+      }
+    },
+    {
+      "seed": 322042,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 21,
+      "admitted": 21,
+      "by_service": {
+        "telemetry": {
+          "requests": 32,
+          "success": 4
+        },
+        "object": {
+          "requests": 33,
+          "success": 7
+        },
+        "command": {
+          "requests": 15,
+          "success": 10
+        }
+      }
+    },
+    {
+      "seed": 322042,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 32,
+      "admitted": 33,
+      "by_service": {
+        "telemetry": {
+          "requests": 43,
+          "success": 4
+        },
+        "object": {
+          "requests": 43,
+          "success": 11
+        },
+        "command": {
+          "requests": 26,
+          "success": 17
+        }
+      }
+    },
+    {
+      "seed": 322043,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 25,
+      "admitted": 25,
+      "by_service": {
+        "telemetry": {
+          "requests": 13,
+          "success": 3
+        },
+        "object": {
+          "requests": 20,
+          "success": 8
+        },
+        "command": {
+          "requests": 15,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322043,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 36,
+      "admitted": 36,
+      "by_service": {
+        "telemetry": {
+          "requests": 26,
+          "success": 5
+        },
+        "object": {
+          "requests": 32,
+          "success": 12
+        },
+        "command": {
+          "requests": 22,
+          "success": 19
+        }
+      }
+    },
+    {
+      "seed": 322043,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 37,
+      "admitted": 39,
+      "by_service": {
+        "telemetry": {
+          "requests": 32,
+          "success": 5
+        },
+        "object": {
+          "requests": 48,
+          "success": 12
+        },
+        "command": {
+          "requests": 32,
+          "success": 20
+        }
+      }
+    },
+    {
+      "seed": 322044,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 13,
+      "admitted": 14,
+      "by_service": {
+        "telemetry": {
+          "requests": 21,
+          "success": 4
+        },
+        "object": {
+          "requests": 18,
+          "success": 5
+        },
+        "command": {
+          "requests": 9,
+          "success": 4
+        }
+      }
+    },
+    {
+      "seed": 322044,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 16,
+      "admitted": 17,
+      "by_service": {
+        "telemetry": {
+          "requests": 41,
+          "success": 5
+        },
+        "object": {
+          "requests": 25,
+          "success": 3
+        },
+        "command": {
+          "requests": 14,
+          "success": 8
+        }
+      }
+    },
+    {
+      "seed": 322044,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 26,
+      "admitted": 28,
+      "by_service": {
+        "telemetry": {
+          "requests": 52,
+          "success": 6
+        },
+        "object": {
+          "requests": 39,
+          "success": 7
+        },
+        "command": {
+          "requests": 21,
+          "success": 13
+        }
+      }
+    },
+    {
+      "seed": 322045,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 21,
+      "admitted": 21,
+      "by_service": {
+        "telemetry": {
+          "requests": 16,
+          "success": 3
+        },
+        "object": {
+          "requests": 18,
+          "success": 8
+        },
+        "command": {
+          "requests": 14,
+          "success": 10
+        }
+      }
+    },
+    {
+      "seed": 322045,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 28,
+      "admitted": 28,
+      "by_service": {
+        "telemetry": {
+          "requests": 30,
+          "success": 4
+        },
+        "object": {
+          "requests": 33,
+          "success": 11
+        },
+        "command": {
+          "requests": 17,
+          "success": 13
+        }
+      }
+    },
+    {
+      "seed": 322045,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 42,
+      "admitted": 44,
+      "by_service": {
+        "telemetry": {
+          "requests": 40,
+          "success": 6
+        },
+        "object": {
+          "requests": 46,
+          "success": 17
+        },
+        "command": {
+          "requests": 26,
+          "success": 19
+        }
+      }
+    },
+    {
+      "seed": 322046,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 22,
+      "admitted": 22,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 5
+        },
+        "object": {
+          "requests": 20,
+          "success": 8
+        },
+        "command": {
+          "requests": 11,
+          "success": 9
+        }
+      }
+    },
+    {
+      "seed": 322046,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 37,
+      "admitted": 37,
+      "by_service": {
+        "telemetry": {
+          "requests": 24,
+          "success": 5
+        },
+        "object": {
+          "requests": 40,
+          "success": 20
+        },
+        "command": {
+          "requests": 16,
+          "success": 12
+        }
+      }
+    },
+    {
+      "seed": 322046,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 40,
+      "admitted": 40,
+      "by_service": {
+        "telemetry": {
+          "requests": 36,
+          "success": 6
+        },
+        "object": {
+          "requests": 56,
+          "success": 21
+        },
+        "command": {
+          "requests": 20,
+          "success": 13
+        }
+      }
+    },
+    {
+      "seed": 322047,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 17,
+      "admitted": 17,
+      "by_service": {
+        "telemetry": {
+          "requests": 11,
+          "success": 1
+        },
+        "object": {
+          "requests": 25,
+          "success": 6
+        },
+        "command": {
+          "requests": 12,
+          "success": 10
+        }
+      }
+    },
+    {
+      "seed": 322047,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 32,
+      "admitted": 32,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 2
+        },
+        "object": {
+          "requests": 41,
+          "success": 13
+        },
+        "command": {
+          "requests": 20,
+          "success": 17
+        }
+      }
+    },
+    {
+      "seed": 322047,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 45,
+      "admitted": 45,
+      "by_service": {
+        "telemetry": {
+          "requests": 29,
+          "success": 2
+        },
+        "object": {
+          "requests": 52,
+          "success": 15
+        },
+        "command": {
+          "requests": 31,
+          "success": 28
+        }
+      }
+    },
+    {
+      "seed": 322048,
+      "load": 48,
+      "profile": "steady",
+      "requests": 48,
+      "success": 13,
+      "admitted": 13,
+      "by_service": {
+        "telemetry": {
+          "requests": 22,
+          "success": 4
+        },
+        "object": {
+          "requests": 18,
+          "success": 3
+        },
+        "command": {
+          "requests": 8,
+          "success": 6
+        }
+      }
+    },
+    {
+      "seed": 322048,
+      "load": 80,
+      "profile": "steady",
+      "requests": 80,
+      "success": 23,
+      "admitted": 25,
+      "by_service": {
+        "telemetry": {
+          "requests": 30,
+          "success": 5
+        },
+        "object": {
+          "requests": 33,
+          "success": 6
+        },
+        "command": {
+          "requests": 17,
+          "success": 12
+        }
+      }
+    },
+    {
+      "seed": 322048,
+      "load": 112,
+      "profile": "steady",
+      "requests": 112,
+      "success": 34,
+      "admitted": 34,
+      "by_service": {
+        "telemetry": {
+          "requests": 39,
+          "success": 9
+        },
+        "object": {
+          "requests": 44,
+          "success": 5
+        },
+        "command": {
+          "requests": 29,
+          "success": 20
+        }
+      }
+    },
+    {
+      "seed": 322049,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 17,
+      "admitted": 17,
+      "by_service": {
+        "telemetry": {
+          "requests": 24,
+          "success": 6
+        },
+        "object": {
+          "requests": 11,
+          "success": 6
+        },
+        "command": {
+          "requests": 13,
+          "success": 5
+        }
+      }
+    },
+    {
+      "seed": 322049,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 29,
+      "admitted": 29,
+      "by_service": {
+        "telemetry": {
+          "requests": 32,
+          "success": 9
+        },
+        "object": {
+          "requests": 27,
+          "success": 9
+        },
+        "command": {
+          "requests": 21,
+          "success": 11
+        }
+      }
+    },
+    {
+      "seed": 322049,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 41,
+      "admitted": 41,
+      "by_service": {
+        "telemetry": {
+          "requests": 48,
+          "success": 10
+        },
+        "object": {
+          "requests": 34,
+          "success": 10
+        },
+        "command": {
+          "requests": 30,
+          "success": 21
+        }
+      }
+    },
+    {
+      "seed": 322050,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 18,
+      "admitted": 18,
+      "by_service": {
+        "telemetry": {
+          "requests": 14,
+          "success": 5
+        },
+        "object": {
+          "requests": 25,
+          "success": 8
+        },
+        "command": {
+          "requests": 9,
+          "success": 5
+        }
+      }
+    },
+    {
+      "seed": 322050,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 36,
+      "admitted": 36,
+      "by_service": {
+        "telemetry": {
+          "requests": 26,
+          "success": 8
+        },
+        "object": {
+          "requests": 33,
+          "success": 12
+        },
+        "command": {
+          "requests": 21,
+          "success": 16
+        }
+      }
+    },
+    {
+      "seed": 322050,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 44,
+      "admitted": 44,
+      "by_service": {
+        "telemetry": {
+          "requests": 40,
+          "success": 12
+        },
+        "object": {
+          "requests": 48,
+          "success": 15
+        },
+        "command": {
+          "requests": 24,
+          "success": 17
+        }
+      }
+    },
+    {
+      "seed": 322051,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 19,
+      "admitted": 19,
+      "by_service": {
+        "telemetry": {
+          "requests": 18,
+          "success": 0
+        },
+        "object": {
+          "requests": 19,
+          "success": 8
+        },
+        "command": {
+          "requests": 11,
+          "success": 11
+        }
+      }
+    },
+    {
+      "seed": 322051,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 30,
+      "admitted": 30,
+      "by_service": {
+        "telemetry": {
+          "requests": 32,
+          "success": 2
+        },
+        "object": {
+          "requests": 28,
+          "success": 10
+        },
+        "command": {
+          "requests": 20,
+          "success": 18
+        }
+      }
+    },
+    {
+      "seed": 322051,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 45,
+      "admitted": 45,
+      "by_service": {
+        "telemetry": {
+          "requests": 40,
+          "success": 4
+        },
+        "object": {
+          "requests": 40,
+          "success": 14
+        },
+        "command": {
+          "requests": 32,
+          "success": 27
+        }
+      }
+    },
+    {
+      "seed": 322052,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 18,
+      "admitted": 18,
+      "by_service": {
+        "telemetry": {
+          "requests": 15,
+          "success": 3
+        },
+        "object": {
+          "requests": 20,
+          "success": 7
+        },
+        "command": {
+          "requests": 13,
+          "success": 8
+        }
+      }
+    },
+    {
+      "seed": 322052,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 33,
+      "admitted": 33,
+      "by_service": {
+        "telemetry": {
+          "requests": 22,
+          "success": 5
+        },
+        "object": {
+          "requests": 32,
+          "success": 10
+        },
+        "command": {
+          "requests": 26,
+          "success": 18
+        }
+      }
+    },
+    {
+      "seed": 322052,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 47,
+      "admitted": 48,
+      "by_service": {
+        "telemetry": {
+          "requests": 35,
+          "success": 11
+        },
+        "object": {
+          "requests": 43,
+          "success": 14
+        },
+        "command": {
+          "requests": 34,
+          "success": 22
+        }
+      }
+    },
+    {
+      "seed": 322053,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 14,
+      "admitted": 14,
+      "by_service": {
+        "telemetry": {
+          "requests": 13,
+          "success": 2
+        },
+        "object": {
+          "requests": 20,
+          "success": 5
+        },
+        "command": {
+          "requests": 15,
+          "success": 7
+        }
+      }
+    },
+    {
+      "seed": 322053,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 23,
+      "admitted": 24,
+      "by_service": {
+        "telemetry": {
+          "requests": 27,
+          "success": 5
+        },
+        "object": {
+          "requests": 34,
+          "success": 8
+        },
+        "command": {
+          "requests": 19,
+          "success": 10
+        }
+      }
+    },
+    {
+      "seed": 322053,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 37,
+      "admitted": 37,
+      "by_service": {
+        "telemetry": {
+          "requests": 41,
+          "success": 7
+        },
+        "object": {
+          "requests": 44,
+          "success": 13
+        },
+        "command": {
+          "requests": 27,
+          "success": 17
+        }
+      }
+    },
+    {
+      "seed": 322054,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 13,
+      "admitted": 14,
+      "by_service": {
+        "telemetry": {
+          "requests": 14,
+          "success": 2
+        },
+        "object": {
+          "requests": 26,
+          "success": 5
+        },
+        "command": {
+          "requests": 8,
+          "success": 6
+        }
+      }
+    },
+    {
+      "seed": 322054,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 34,
+      "admitted": 34,
+      "by_service": {
+        "telemetry": {
+          "requests": 27,
+          "success": 6
+        },
+        "object": {
+          "requests": 37,
+          "success": 16
+        },
+        "command": {
+          "requests": 16,
+          "success": 12
+        }
+      }
+    },
+    {
+      "seed": 322054,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 41,
+      "admitted": 42,
+      "by_service": {
+        "telemetry": {
+          "requests": 36,
+          "success": 6
+        },
+        "object": {
+          "requests": 54,
+          "success": 17
+        },
+        "command": {
+          "requests": 22,
+          "success": 18
+        }
+      }
+    },
+    {
+      "seed": 322055,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 17,
+      "admitted": 17,
+      "by_service": {
+        "telemetry": {
+          "requests": 15,
+          "success": 2
+        },
+        "object": {
+          "requests": 14,
+          "success": 2
+        },
+        "command": {
+          "requests": 19,
+          "success": 13
+        }
+      }
+    },
+    {
+      "seed": 322055,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 24,
+      "admitted": 24,
+      "by_service": {
+        "telemetry": {
+          "requests": 27,
+          "success": 5
+        },
+        "object": {
+          "requests": 27,
+          "success": 4
+        },
+        "command": {
+          "requests": 26,
+          "success": 15
+        }
+      }
+    },
+    {
+      "seed": 322055,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 34,
+      "admitted": 34,
+      "by_service": {
+        "telemetry": {
+          "requests": 42,
+          "success": 5
+        },
+        "object": {
+          "requests": 40,
+          "success": 9
+        },
+        "command": {
+          "requests": 30,
+          "success": 20
+        }
+      }
+    },
+    {
+      "seed": 322056,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 17,
+      "admitted": 17,
+      "by_service": {
+        "telemetry": {
+          "requests": 20,
+          "success": 3
+        },
+        "object": {
+          "requests": 16,
+          "success": 4
+        },
+        "command": {
+          "requests": 12,
+          "success": 10
+        }
+      }
+    },
+    {
+      "seed": 322056,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 25,
+      "admitted": 25,
+      "by_service": {
+        "telemetry": {
+          "requests": 35,
+          "success": 5
+        },
+        "object": {
+          "requests": 25,
+          "success": 6
+        },
+        "command": {
+          "requests": 20,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322056,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 40,
+      "admitted": 41,
+      "by_service": {
+        "telemetry": {
+          "requests": 44,
+          "success": 6
+        },
+        "object": {
+          "requests": 38,
+          "success": 11
+        },
+        "command": {
+          "requests": 30,
+          "success": 23
+        }
+      }
+    },
+    {
+      "seed": 322057,
+      "load": 48,
+      "profile": "retrieval_first",
+      "requests": 48,
+      "success": 17,
+      "admitted": 17,
+      "by_service": {
+        "telemetry": {
+          "requests": 14,
+          "success": 3
+        },
+        "object": {
+          "requests": 22,
+          "success": 6
+        },
+        "command": {
+          "requests": 12,
+          "success": 8
+        }
+      }
+    },
+    {
+      "seed": 322057,
+      "load": 80,
+      "profile": "retrieval_first",
+      "requests": 80,
+      "success": 29,
+      "admitted": 29,
+      "by_service": {
+        "telemetry": {
+          "requests": 21,
+          "success": 2
+        },
+        "object": {
+          "requests": 36,
+          "success": 9
+        },
+        "command": {
+          "requests": 23,
+          "success": 18
+        }
+      }
+    },
+    {
+      "seed": 322057,
+      "load": 112,
+      "profile": "retrieval_first",
+      "requests": 112,
+      "success": 42,
+      "admitted": 42,
+      "by_service": {
+        "telemetry": {
+          "requests": 38,
+          "success": 9
+        },
+        "object": {
+          "requests": 44,
+          "success": 10
+        },
+        "command": {
+          "requests": 30,
+          "success": 23
+        }
+      }
+    },
+    {
+      "seed": 322058,
+      "load": 48,
+      "profile": "upload_first",
+      "requests": 48,
+      "success": 20,
+      "admitted": 20,
+      "by_service": {
+        "telemetry": {
+          "requests": 14,
+          "success": 3
+        },
+        "object": {
+          "requests": 18,
+          "success": 5
+        },
+        "command": {
+          "requests": 16,
+          "success": 12
+        }
+      }
+    },
+    {
+      "seed": 322058,
+      "load": 80,
+      "profile": "upload_first",
+      "requests": 80,
+      "success": 26,
+      "admitted": 26,
+      "by_service": {
+        "telemetry": {
+          "requests": 27,
+          "success": 5
+        },
+        "object": {
+          "requests": 37,
+          "success": 12
+        },
+        "command": {
+          "requests": 16,
+          "success": 9
+        }
+      }
+    },
+    {
+      "seed": 322058,
+      "load": 112,
+      "profile": "upload_first",
+      "requests": 112,
+      "success": 35,
+      "admitted": 35,
+      "by_service": {
+        "telemetry": {
+          "requests": 34,
+          "success": 6
+        },
+        "object": {
+          "requests": 51,
+          "success": 12
+        },
+        "command": {
+          "requests": 27,
+          "success": 17
+        }
+      }
+    },
+    {
+      "seed": 322059,
+      "load": 48,
+      "profile": "steady",
+      "requests": 48,
+      "success": 22,
+      "admitted": 22,
+      "by_service": {
+        "telemetry": {
+          "requests": 15,
+          "success": 5
+        },
+        "object": {
+          "requests": 16,
+          "success": 4
+        },
+        "command": {
+          "requests": 17,
+          "success": 13
+        }
+      }
+    },
+    {
+      "seed": 322059,
+      "load": 80,
+      "profile": "steady",
+      "requests": 80,
+      "success": 27,
+      "admitted": 27,
+      "by_service": {
+        "telemetry": {
+          "requests": 31,
+          "success": 5
+        },
+        "object": {
+          "requests": 24,
+          "success": 8
+        },
+        "command": {
+          "requests": 25,
+          "success": 14
+        }
+      }
+    },
+    {
+      "seed": 322059,
+      "load": 112,
+      "profile": "steady",
+      "requests": 112,
+      "success": 40,
+      "admitted": 41,
+      "by_service": {
+        "telemetry": {
+          "requests": 43,
+          "success": 11
+        },
+        "object": {
+          "requests": 36,
+          "success": 11
+        },
+        "command": {
+          "requests": 33,
+          "success": 18
+        }
+      }
+    }
+  ],
+  "rate": 0.3529861111111111
+}

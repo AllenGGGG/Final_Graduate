@@ -1,0 +1,13 @@
+{
+  "declared_before_test": true,
+  "formal_test_opened": false,
+  "base_family": "mission PPO learning_rate5e-5, all8initializations",
+  "pilot_families": [
+    "PPO3e-4 fixed-index actor",
+    "PPO3e-4 shared candidate actor"
+  ],
+  "continuation": "After planned65k pilot budgets, expand remaining6initializations only if both pilot selections are not below zero and their mean exceeds base-family matching initializations by at least0.5percentage_points",
+  "final_selection": "choose one fully trained8init family by mean validation-selected SLA; tie simpler original family; never mix families per initialization",
+  "test": "evaluate exactly one selected family once on323000..323059; no test-driven retuning",
+  "disclosure": "development decisions made after initial checkpoints, not a claim of preregistration before training; full attempts preserved"
+}

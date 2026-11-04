@@ -1,0 +1,5 @@
+{
+  "promoted": false,
+  "reason": "Both predefined pilot initializations select zero-step rule after65536decisions; shaping did not improve validation",
+  "formal_test_opened": false
+}

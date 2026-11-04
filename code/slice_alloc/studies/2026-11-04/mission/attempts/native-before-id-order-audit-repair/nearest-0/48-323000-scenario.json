@@ -1,0 +1,1104 @@
+{
+  "schema": "binding-v1",
+  "radio_seed": 323001,
+  "public": {
+    "uavs": 12,
+    "mapping_entries": 8,
+    "mapcache_entries": 8,
+    "missions": {
+      "5": {
+        "role": "patrol",
+        "x_min": 30.0,
+        "x_max": 150.0,
+        "altitude": 80.0
+      },
+      "6": {
+        "role": "hover",
+        "x_min": 145.0,
+        "x_max": 145.0,
+        "altitude": 80.0
+      },
+      "7": {
+        "role": "hover",
+        "x_min": 20.0,
+        "x_max": 20.0,
+        "altitude": 80.0
+      },
+      "8": {
+        "role": "patrol",
+        "x_min": 30.0,
+        "x_max": 150.0,
+        "altitude": 80.0
+      },
+      "9": {
+        "role": "hover",
+        "x_min": 20.0,
+        "x_max": 20.0,
+        "altitude": 80.0
+      },
+      "10": {
+        "role": "hover",
+        "x_min": 145.0,
+        "x_max": 145.0,
+        "altitude": 80.0
+      },
+      "11": {
+        "role": "patrol",
+        "x_min": 30.0,
+        "x_max": 150.0,
+        "altitude": 80.0
+      },
+      "12": {
+        "role": "hover",
+        "x_min": 145.0,
+        "x_max": 145.0,
+        "altitude": 80.0
+      },
+      "13": {
+        "role": "hover",
+        "x_min": 20.0,
+        "x_max": 20.0,
+        "altitude": 80.0
+      },
+      "14": {
+        "role": "patrol",
+        "x_min": 30.0,
+        "x_max": 150.0,
+        "altitude": 80.0
+      },
+      "15": {
+        "role": "hover",
+        "x_min": 20.0,
+        "x_max": 20.0,
+        "altitude": 80.0
+      },
+      "16": {
+        "role": "hover",
+        "x_min": 145.0,
+        "x_max": 145.0,
+        "altitude": 80.0
+      }
+    },
+    "cache_bytes": 16000,
+    "backhaul_mbps": 1.0,
+    "cross_mbps": 0.5,
+    "access_mbps": 2.0,
+    "profile": "mixed",
+    "allowed_aps": {
+      "5": [
+        3,
+        4
+      ],
+      "6": [
+        4
+      ],
+      "7": [
+        3
+      ],
+      "8": [
+        3,
+        4
+      ],
+      "9": [
+        3
+      ],
+      "10": [
+        4
+      ],
+      "11": [
+        3,
+        4
+      ],
+      "12": [
+        4
+      ],
+      "13": [
+        3
+      ],
+      "14": [
+        3,
+        4
+      ],
+      "15": [
+        3
+      ],
+      "16": [
+        4
+      ]
+    },
+    "max_handover": 2,
+    "mapping_ttl": 0.6,
+    "airtime_budget": 0.65,
+    "distance_loss": true,
+    "loss_exponent": 2.5,
+    "tx_power_dbm": 20.0
+  },
+  "private": {
+    "initial_positions": {
+      "5": [
+        35.08655546646006,
+        0.5447480751309559,
+        80.0
+      ],
+      "6": [
+        145.0,
+        0.4424535182911873,
+        80.0
+      ],
+      "7": [
+        20.0,
+        0.9976061348527328,
+        80.0
+      ],
+      "8": [
+        30.735919218266574,
+        -2.712263742622109,
+        80.0
+      ],
+      "9": [
+        20.0,
+        0.48241621175410554,
+        80.0
+      ],
+      "10": [
+        145.0,
+        0.3052542513201981,
+        80.0
+      ],
+      "11": [
+        52.77781409758351,
+        2.2855567973793356,
+        80.0
+      ],
+      "12": [
+        145.0,
+        0.851701700193054,
+        80.0
+      ],
+      "13": [
+        20.0,
+        0.8153313744104809,
+        80.0
+      ],
+      "14": [
+        43.65604881329997,
+        -2.622997225817318,
+        80.0
+      ],
+      "15": [
+        20.0,
+        -2.4088903821789547,
+        80.0
+      ],
+      "16": [
+        145.0,
+        0.533345474487807,
+        80.0
+      ]
+    },
+    "motions": [
+      {
+        "node": 5,
+        "speed": 8.0,
+        "right": true,
+        "start": 0.49084789221890973
+      },
+      {
+        "node": 8,
+        "speed": 5.0,
+        "right": true,
+        "start": 0.10329080192744944
+      },
+      {
+        "node": 11,
+        "speed": 8.0,
+        "right": true,
+        "start": 0.179996364059891
+      },
+      {
+        "node": 14,
+        "speed": 5.0,
+        "right": true,
+        "start": 0.39959602360976837
+      }
+    ],
+    "demand_profile": "upload_first"
+  },
+  "requests": [
+    {
+      "id": 29,
+      "tenant": 1,
+      "service": "telemetry",
+      "members": [
+        12
+      ],
+      "start": 2.0273013870181114,
+      "stop": 5.02730138701811,
+      "period": 0.08,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1029,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 10,
+      "tenant": 2,
+      "service": "telemetry",
+      "members": [
+        5
+      ],
+      "start": 2.0492360140134966,
+      "stop": 7.049236014013497,
+      "period": 0.04,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1010,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 19,
+      "tenant": 1,
+      "service": "telemetry",
+      "members": [
+        7
+      ],
+      "start": 2.0866061478379176,
+      "stop": 5.086606147837918,
+      "period": 0.08,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1019,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 11,
+      "tenant": 2,
+      "service": "telemetry",
+      "members": [
+        9
+      ],
+      "start": 2.1483761255582805,
+      "stop": 9.148376125558281,
+      "period": 0.08,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1011,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 14,
+      "tenant": 2,
+      "service": "telemetry",
+      "members": [
+        7
+      ],
+      "start": 2.264773487507142,
+      "stop": 9.264773487507142,
+      "period": 0.02,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1014,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 38,
+      "tenant": 1,
+      "service": "telemetry",
+      "members": [
+        16
+      ],
+      "start": 2.310538072253964,
+      "stop": 5.310538072253964,
+      "period": 0.08,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1038,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 27,
+      "tenant": 1,
+      "service": "telemetry",
+      "members": [
+        13
+      ],
+      "start": 2.4314542774271337,
+      "stop": 5.431454277427134,
+      "period": 0.04,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1027,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 8,
+      "tenant": 1,
+      "service": "telemetry",
+      "members": [
+        11
+      ],
+      "start": 2.4800406592508586,
+      "stop": 9.480040659250859,
+      "period": 0.02,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1008,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 25,
+      "tenant": 1,
+      "service": "telemetry",
+      "members": [
+        11
+      ],
+      "start": 2.7426935261470082,
+      "stop": 9.742693526147006,
+      "period": 0.04,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1025,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 35,
+      "tenant": 2,
+      "service": "telemetry",
+      "members": [
+        13
+      ],
+      "start": 2.78964866286791,
+      "stop": 5.789648662867908,
+      "period": 0.04,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1035,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 43,
+      "tenant": 1,
+      "service": "telemetry",
+      "members": [
+        10
+      ],
+      "start": 3.2933201375275685,
+      "stop": 10.29332013752757,
+      "period": 0.08,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1043,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 9,
+      "tenant": 2,
+      "service": "telemetry",
+      "members": [
+        5
+      ],
+      "start": 3.3782261983468342,
+      "stop": 6.378226198346834,
+      "period": 0.04,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1009,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 33,
+      "tenant": 2,
+      "service": "telemetry",
+      "members": [
+        9
+      ],
+      "start": 3.5840586570338027,
+      "stop": 6.584058657033804,
+      "period": 0.08,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1033,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 17,
+      "tenant": 2,
+      "service": "telemetry",
+      "members": [
+        9
+      ],
+      "start": 3.728559515908532,
+      "stop": 8.728559515908533,
+      "period": 0.04,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1017,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 32,
+      "tenant": 1,
+      "service": "telemetry",
+      "members": [
+        5
+      ],
+      "start": 3.8935095120596777,
+      "stop": 10.89350951205968,
+      "period": 0.02,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1032,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 4,
+      "tenant": 2,
+      "service": "telemetry",
+      "members": [
+        13
+      ],
+      "start": 4.110319014495488,
+      "stop": 11.110319014495488,
+      "period": 0.08,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1004,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 1,
+      "tenant": 2,
+      "service": "telemetry",
+      "members": [
+        13
+      ],
+      "start": 4.779803422718713,
+      "stop": 7.779803422718713,
+      "period": 0.08,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1001,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 45,
+      "tenant": 1,
+      "service": "telemetry",
+      "members": [
+        6
+      ],
+      "start": 5.035877253412073,
+      "stop": 12.035877253412073,
+      "period": 0.02,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1045,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 2,
+      "tenant": 2,
+      "service": "telemetry",
+      "members": [
+        13
+      ],
+      "start": 5.0710208615025305,
+      "stop": 8.07102086150253,
+      "period": 0.08,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1002,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 23,
+      "tenant": 1,
+      "service": "object",
+      "members": [
+        11
+      ],
+      "start": 5.4542521887371,
+      "stop": 10.454252188737097,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 8,
+      "content": 1,
+      "reusable": true,
+      "version": 8,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 21,
+      "tenant": 2,
+      "service": "object",
+      "members": [
+        6,
+        15
+      ],
+      "start": 5.530606478403988,
+      "stop": 8.530606478403989,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 4,
+      "content": 3,
+      "reusable": true,
+      "version": 4,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 20,
+      "tenant": 1,
+      "service": "telemetry",
+      "members": [
+        7
+      ],
+      "start": 5.765664774052434,
+      "stop": 12.765664774052432,
+      "period": 0.02,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1020,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 42,
+      "tenant": 1,
+      "service": "telemetry",
+      "members": [
+        10
+      ],
+      "start": 5.774480092860948,
+      "stop": 12.774480092860948,
+      "period": 0.08,
+      "deadline": 0.2,
+      "payload": 1000,
+      "chunks": 1,
+      "content": 1042,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 34,
+      "tenant": 1,
+      "service": "command",
+      "members": [
+        10
+      ],
+      "start": 5.817993518382834,
+      "stop": 8.817993518382831,
+      "period": 0.3,
+      "deadline": 0.6,
+      "payload": 512,
+      "chunks": 1,
+      "content": 1034,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 28,
+      "tenant": 1,
+      "service": "object",
+      "members": [
+        10,
+        15
+      ],
+      "start": 6.227424518877688,
+      "stop": 13.227424518877688,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 8,
+      "content": 2,
+      "reusable": true,
+      "version": 8,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 39,
+      "tenant": 1,
+      "service": "object",
+      "members": [
+        8,
+        12
+      ],
+      "start": 7.015894687979593,
+      "stop": 10.015894687979591,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 4,
+      "content": 3,
+      "reusable": true,
+      "version": 4,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 3,
+      "tenant": 1,
+      "service": "object",
+      "members": [
+        7,
+        8
+      ],
+      "start": 7.770047823471051,
+      "stop": 10.770047823471051,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 4,
+      "content": 3,
+      "reusable": true,
+      "version": 4,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 41,
+      "tenant": 1,
+      "service": "command",
+      "members": [
+        15
+      ],
+      "start": 7.807090329309176,
+      "stop": 14.807090329309176,
+      "period": 0.3,
+      "deadline": 0.6,
+      "payload": 512,
+      "chunks": 1,
+      "content": 1041,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 18,
+      "tenant": 1,
+      "service": "object",
+      "members": [
+        5,
+        6
+      ],
+      "start": 8.009617174312236,
+      "stop": 11.009617174312236,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 8,
+      "content": 3,
+      "reusable": true,
+      "version": 8,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 22,
+      "tenant": 2,
+      "service": "command",
+      "members": [
+        13
+      ],
+      "start": 8.32518744231647,
+      "stop": 11.32518744231647,
+      "period": 0.3,
+      "deadline": 0.6,
+      "payload": 512,
+      "chunks": 1,
+      "content": 1022,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 7,
+      "tenant": 1,
+      "service": "object",
+      "members": [
+        8
+      ],
+      "start": 9.158572203456485,
+      "stop": 14.158572203456485,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 4,
+      "content": 3,
+      "reusable": true,
+      "version": 4,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 12,
+      "tenant": 2,
+      "service": "object",
+      "members": [
+        5,
+        6
+      ],
+      "start": 10.455053251901006,
+      "stop": 13.455053251901006,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 8,
+      "content": 2,
+      "reusable": true,
+      "version": 8,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 44,
+      "tenant": 1,
+      "service": "object",
+      "members": [
+        6
+      ],
+      "start": 10.527351620060795,
+      "stop": 13.527351620060795,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 8,
+      "content": 3,
+      "reusable": true,
+      "version": 8,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 46,
+      "tenant": 2,
+      "service": "object",
+      "members": [
+        9
+      ],
+      "start": 10.942638030239785,
+      "stop": 13.942638030239785,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 8,
+      "content": 2,
+      "reusable": true,
+      "version": 8,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 15,
+      "tenant": 1,
+      "service": "object",
+      "members": [
+        6,
+        11
+      ],
+      "start": 11.78761748190556,
+      "stop": 14.78761748190556,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 8,
+      "content": 2,
+      "reusable": true,
+      "version": 8,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 16,
+      "tenant": 2,
+      "service": "command",
+      "members": [
+        12
+      ],
+      "start": 12.234759232370841,
+      "stop": 15.234759232370841,
+      "period": 0.3,
+      "deadline": 0.6,
+      "payload": 512,
+      "chunks": 1,
+      "content": 1016,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 30,
+      "tenant": 1,
+      "service": "object",
+      "members": [
+        13,
+        15
+      ],
+      "start": 12.422114837680986,
+      "stop": 15.422114837680985,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 4,
+      "content": 2,
+      "reusable": true,
+      "version": 4,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 36,
+      "tenant": 2,
+      "service": "command",
+      "members": [
+        15
+      ],
+      "start": 12.67106626899087,
+      "stop": 15.67106626899087,
+      "period": 0.3,
+      "deadline": 0.6,
+      "payload": 512,
+      "chunks": 1,
+      "content": 1036,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 6,
+      "tenant": 2,
+      "service": "object",
+      "members": [
+        10,
+        13
+      ],
+      "start": 12.919036436675707,
+      "stop": 15.919036436675707,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 8,
+      "content": 3,
+      "reusable": true,
+      "version": 8,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 48,
+      "tenant": 2,
+      "service": "object",
+      "members": [
+        8,
+        9
+      ],
+      "start": 12.926786104130814,
+      "stop": 19.926786104130812,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 4,
+      "content": 2,
+      "reusable": true,
+      "version": 4,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 5,
+      "tenant": 1,
+      "service": "object",
+      "members": [
+        9
+      ],
+      "start": 13.79148672855033,
+      "stop": 18.791486728550332,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 4,
+      "content": 3,
+      "reusable": true,
+      "version": 4,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 40,
+      "tenant": 2,
+      "service": "command",
+      "members": [
+        12
+      ],
+      "start": 14.8741961312959,
+      "stop": 21.8741961312959,
+      "period": 0.3,
+      "deadline": 0.6,
+      "payload": 512,
+      "chunks": 1,
+      "content": 1040,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 37,
+      "tenant": 1,
+      "service": "command",
+      "members": [
+        10
+      ],
+      "start": 15.574407807925972,
+      "stop": 22.574407807925972,
+      "period": 0.3,
+      "deadline": 0.6,
+      "payload": 512,
+      "chunks": 1,
+      "content": 1037,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 24,
+      "tenant": 1,
+      "service": "object",
+      "members": [
+        15
+      ],
+      "start": 15.695936724300559,
+      "stop": 20.69593672430056,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 8,
+      "content": 1,
+      "reusable": true,
+      "version": 8,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 26,
+      "tenant": 2,
+      "service": "object",
+      "members": [
+        15
+      ],
+      "start": 16.136340805115136,
+      "stop": 21.136340805115136,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 4,
+      "content": 1,
+      "reusable": true,
+      "version": 4,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 47,
+      "tenant": 2,
+      "service": "object",
+      "members": [
+        10,
+        13
+      ],
+      "start": 16.14484234336185,
+      "stop": 19.14484234336185,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 8,
+      "content": 2,
+      "reusable": true,
+      "version": 8,
+      "minimum_ratio": 1.0
+    },
+    {
+      "id": 31,
+      "tenant": 1,
+      "service": "command",
+      "members": [
+        7
+      ],
+      "start": 17.119629565445397,
+      "stop": 24.119629565445393,
+      "period": 0.3,
+      "deadline": 0.6,
+      "payload": 512,
+      "chunks": 1,
+      "content": 1031,
+      "reusable": false,
+      "version": 1,
+      "minimum_ratio": 0.95
+    },
+    {
+      "id": 13,
+      "tenant": 1,
+      "service": "object",
+      "members": [
+        14
+      ],
+      "start": 17.153580034261704,
+      "stop": 20.153580034261704,
+      "period": 2.0,
+      "deadline": 0.8,
+      "payload": 1000,
+      "chunks": 8,
+      "content": 3,
+      "reusable": true,
+      "version": 8,
+      "minimum_ratio": 1.0
+    }
+  ]
+}

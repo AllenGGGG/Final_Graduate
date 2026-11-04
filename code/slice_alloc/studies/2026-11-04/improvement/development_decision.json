@@ -1,0 +1,5 @@
+{
+  "promoted": false,
+  "reason": "all eight validation selections prefer rule-only step zero; no formal test opened",
+  "test_opened": false
+}

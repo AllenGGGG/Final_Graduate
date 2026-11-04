@@ -1,0 +1,965 @@
+{
+  "rows": [
+    {
+      "seed": 321000,
+      "load": 48,
+      "reject_top": 0,
+      "success": 31,
+      "admitted": 35,
+      "requests": 48
+    },
+    {
+      "seed": 321000,
+      "load": 48,
+      "reject_top": 1,
+      "success": 31,
+      "admitted": 35,
+      "requests": 48
+    },
+    {
+      "seed": 321000,
+      "load": 48,
+      "reject_top": 2,
+      "success": 33,
+      "admitted": 37,
+      "requests": 48
+    },
+    {
+      "seed": 321000,
+      "load": 48,
+      "reject_top": 3,
+      "success": 34,
+      "admitted": 38,
+      "requests": 48
+    },
+    {
+      "seed": 321000,
+      "load": 80,
+      "reject_top": 0,
+      "success": 47,
+      "admitted": 55,
+      "requests": 80
+    },
+    {
+      "seed": 321000,
+      "load": 80,
+      "reject_top": 1,
+      "success": 47,
+      "admitted": 55,
+      "requests": 80
+    },
+    {
+      "seed": 321000,
+      "load": 80,
+      "reject_top": 2,
+      "success": 47,
+      "admitted": 55,
+      "requests": 80
+    },
+    {
+      "seed": 321000,
+      "load": 80,
+      "reject_top": 3,
+      "success": 47,
+      "admitted": 55,
+      "requests": 80
+    },
+    {
+      "seed": 321000,
+      "load": 112,
+      "reject_top": 0,
+      "success": 71,
+      "admitted": 78,
+      "requests": 112
+    },
+    {
+      "seed": 321000,
+      "load": 112,
+      "reject_top": 1,
+      "success": 71,
+      "admitted": 78,
+      "requests": 112
+    },
+    {
+      "seed": 321000,
+      "load": 112,
+      "reject_top": 2,
+      "success": 71,
+      "admitted": 78,
+      "requests": 112
+    },
+    {
+      "seed": 321000,
+      "load": 112,
+      "reject_top": 3,
+      "success": 71,
+      "admitted": 78,
+      "requests": 112
+    },
+    {
+      "seed": 321001,
+      "load": 48,
+      "reject_top": 0,
+      "success": 38,
+      "admitted": 42,
+      "requests": 48
+    },
+    {
+      "seed": 321001,
+      "load": 48,
+      "reject_top": 1,
+      "success": 37,
+      "admitted": 41,
+      "requests": 48
+    },
+    {
+      "seed": 321001,
+      "load": 48,
+      "reject_top": 2,
+      "success": 38,
+      "admitted": 42,
+      "requests": 48
+    },
+    {
+      "seed": 321001,
+      "load": 48,
+      "reject_top": 3,
+      "success": 38,
+      "admitted": 42,
+      "requests": 48
+    },
+    {
+      "seed": 321001,
+      "load": 80,
+      "reject_top": 0,
+      "success": 62,
+      "admitted": 71,
+      "requests": 80
+    },
+    {
+      "seed": 321001,
+      "load": 80,
+      "reject_top": 1,
+      "success": 62,
+      "admitted": 71,
+      "requests": 80
+    },
+    {
+      "seed": 321001,
+      "load": 80,
+      "reject_top": 2,
+      "success": 62,
+      "admitted": 71,
+      "requests": 80
+    },
+    {
+      "seed": 321001,
+      "load": 80,
+      "reject_top": 3,
+      "success": 61,
+      "admitted": 70,
+      "requests": 80
+    },
+    {
+      "seed": 321001,
+      "load": 112,
+      "reject_top": 0,
+      "success": 83,
+      "admitted": 90,
+      "requests": 112
+    },
+    {
+      "seed": 321001,
+      "load": 112,
+      "reject_top": 1,
+      "success": 84,
+      "admitted": 91,
+      "requests": 112
+    },
+    {
+      "seed": 321001,
+      "load": 112,
+      "reject_top": 2,
+      "success": 84,
+      "admitted": 91,
+      "requests": 112
+    },
+    {
+      "seed": 321001,
+      "load": 112,
+      "reject_top": 3,
+      "success": 84,
+      "admitted": 91,
+      "requests": 112
+    },
+    {
+      "seed": 321002,
+      "load": 48,
+      "reject_top": 0,
+      "success": 40,
+      "admitted": 45,
+      "requests": 48
+    },
+    {
+      "seed": 321002,
+      "load": 48,
+      "reject_top": 1,
+      "success": 40,
+      "admitted": 45,
+      "requests": 48
+    },
+    {
+      "seed": 321002,
+      "load": 48,
+      "reject_top": 2,
+      "success": 39,
+      "admitted": 44,
+      "requests": 48
+    },
+    {
+      "seed": 321002,
+      "load": 48,
+      "reject_top": 3,
+      "success": 38,
+      "admitted": 43,
+      "requests": 48
+    },
+    {
+      "seed": 321002,
+      "load": 80,
+      "reject_top": 0,
+      "success": 57,
+      "admitted": 66,
+      "requests": 80
+    },
+    {
+      "seed": 321002,
+      "load": 80,
+      "reject_top": 1,
+      "success": 57,
+      "admitted": 66,
+      "requests": 80
+    },
+    {
+      "seed": 321002,
+      "load": 80,
+      "reject_top": 2,
+      "success": 59,
+      "admitted": 68,
+      "requests": 80
+    },
+    {
+      "seed": 321002,
+      "load": 80,
+      "reject_top": 3,
+      "success": 58,
+      "admitted": 67,
+      "requests": 80
+    },
+    {
+      "seed": 321002,
+      "load": 112,
+      "reject_top": 0,
+      "success": 71,
+      "admitted": 79,
+      "requests": 112
+    },
+    {
+      "seed": 321002,
+      "load": 112,
+      "reject_top": 1,
+      "success": 72,
+      "admitted": 80,
+      "requests": 112
+    },
+    {
+      "seed": 321002,
+      "load": 112,
+      "reject_top": 2,
+      "success": 72,
+      "admitted": 80,
+      "requests": 112
+    },
+    {
+      "seed": 321002,
+      "load": 112,
+      "reject_top": 3,
+      "success": 72,
+      "admitted": 80,
+      "requests": 112
+    },
+    {
+      "seed": 321003,
+      "load": 48,
+      "reject_top": 0,
+      "success": 38,
+      "admitted": 42,
+      "requests": 48
+    },
+    {
+      "seed": 321003,
+      "load": 48,
+      "reject_top": 1,
+      "success": 38,
+      "admitted": 42,
+      "requests": 48
+    },
+    {
+      "seed": 321003,
+      "load": 48,
+      "reject_top": 2,
+      "success": 38,
+      "admitted": 42,
+      "requests": 48
+    },
+    {
+      "seed": 321003,
+      "load": 48,
+      "reject_top": 3,
+      "success": 38,
+      "admitted": 42,
+      "requests": 48
+    },
+    {
+      "seed": 321003,
+      "load": 80,
+      "reject_top": 0,
+      "success": 64,
+      "admitted": 68,
+      "requests": 80
+    },
+    {
+      "seed": 321003,
+      "load": 80,
+      "reject_top": 1,
+      "success": 64,
+      "admitted": 68,
+      "requests": 80
+    },
+    {
+      "seed": 321003,
+      "load": 80,
+      "reject_top": 2,
+      "success": 64,
+      "admitted": 68,
+      "requests": 80
+    },
+    {
+      "seed": 321003,
+      "load": 80,
+      "reject_top": 3,
+      "success": 64,
+      "admitted": 68,
+      "requests": 80
+    },
+    {
+      "seed": 321003,
+      "load": 112,
+      "reject_top": 0,
+      "success": 74,
+      "admitted": 84,
+      "requests": 112
+    },
+    {
+      "seed": 321003,
+      "load": 112,
+      "reject_top": 1,
+      "success": 74,
+      "admitted": 84,
+      "requests": 112
+    },
+    {
+      "seed": 321003,
+      "load": 112,
+      "reject_top": 2,
+      "success": 74,
+      "admitted": 84,
+      "requests": 112
+    },
+    {
+      "seed": 321003,
+      "load": 112,
+      "reject_top": 3,
+      "success": 74,
+      "admitted": 84,
+      "requests": 112
+    },
+    {
+      "seed": 321004,
+      "load": 48,
+      "reject_top": 0,
+      "success": 37,
+      "admitted": 40,
+      "requests": 48
+    },
+    {
+      "seed": 321004,
+      "load": 48,
+      "reject_top": 1,
+      "success": 37,
+      "admitted": 40,
+      "requests": 48
+    },
+    {
+      "seed": 321004,
+      "load": 48,
+      "reject_top": 2,
+      "success": 37,
+      "admitted": 40,
+      "requests": 48
+    },
+    {
+      "seed": 321004,
+      "load": 48,
+      "reject_top": 3,
+      "success": 38,
+      "admitted": 41,
+      "requests": 48
+    },
+    {
+      "seed": 321004,
+      "load": 80,
+      "reject_top": 0,
+      "success": 53,
+      "admitted": 58,
+      "requests": 80
+    },
+    {
+      "seed": 321004,
+      "load": 80,
+      "reject_top": 1,
+      "success": 53,
+      "admitted": 58,
+      "requests": 80
+    },
+    {
+      "seed": 321004,
+      "load": 80,
+      "reject_top": 2,
+      "success": 53,
+      "admitted": 58,
+      "requests": 80
+    },
+    {
+      "seed": 321004,
+      "load": 80,
+      "reject_top": 3,
+      "success": 53,
+      "admitted": 58,
+      "requests": 80
+    },
+    {
+      "seed": 321004,
+      "load": 112,
+      "reject_top": 0,
+      "success": 67,
+      "admitted": 74,
+      "requests": 112
+    },
+    {
+      "seed": 321004,
+      "load": 112,
+      "reject_top": 1,
+      "success": 67,
+      "admitted": 74,
+      "requests": 112
+    },
+    {
+      "seed": 321004,
+      "load": 112,
+      "reject_top": 2,
+      "success": 70,
+      "admitted": 78,
+      "requests": 112
+    },
+    {
+      "seed": 321004,
+      "load": 112,
+      "reject_top": 3,
+      "success": 70,
+      "admitted": 78,
+      "requests": 112
+    },
+    {
+      "seed": 321005,
+      "load": 48,
+      "reject_top": 0,
+      "success": 36,
+      "admitted": 44,
+      "requests": 48
+    },
+    {
+      "seed": 321005,
+      "load": 48,
+      "reject_top": 1,
+      "success": 36,
+      "admitted": 44,
+      "requests": 48
+    },
+    {
+      "seed": 321005,
+      "load": 48,
+      "reject_top": 2,
+      "success": 36,
+      "admitted": 44,
+      "requests": 48
+    },
+    {
+      "seed": 321005,
+      "load": 48,
+      "reject_top": 3,
+      "success": 36,
+      "admitted": 44,
+      "requests": 48
+    },
+    {
+      "seed": 321005,
+      "load": 80,
+      "reject_top": 0,
+      "success": 62,
+      "admitted": 66,
+      "requests": 80
+    },
+    {
+      "seed": 321005,
+      "load": 80,
+      "reject_top": 1,
+      "success": 61,
+      "admitted": 65,
+      "requests": 80
+    },
+    {
+      "seed": 321005,
+      "load": 80,
+      "reject_top": 2,
+      "success": 61,
+      "admitted": 65,
+      "requests": 80
+    },
+    {
+      "seed": 321005,
+      "load": 80,
+      "reject_top": 3,
+      "success": 62,
+      "admitted": 66,
+      "requests": 80
+    },
+    {
+      "seed": 321005,
+      "load": 112,
+      "reject_top": 0,
+      "success": 66,
+      "admitted": 78,
+      "requests": 112
+    },
+    {
+      "seed": 321005,
+      "load": 112,
+      "reject_top": 1,
+      "success": 66,
+      "admitted": 78,
+      "requests": 112
+    },
+    {
+      "seed": 321005,
+      "load": 112,
+      "reject_top": 2,
+      "success": 66,
+      "admitted": 78,
+      "requests": 112
+    },
+    {
+      "seed": 321005,
+      "load": 112,
+      "reject_top": 3,
+      "success": 66,
+      "admitted": 78,
+      "requests": 112
+    },
+    {
+      "seed": 321006,
+      "load": 48,
+      "reject_top": 0,
+      "success": 40,
+      "admitted": 45,
+      "requests": 48
+    },
+    {
+      "seed": 321006,
+      "load": 48,
+      "reject_top": 1,
+      "success": 37,
+      "admitted": 44,
+      "requests": 48
+    },
+    {
+      "seed": 321006,
+      "load": 48,
+      "reject_top": 2,
+      "success": 37,
+      "admitted": 44,
+      "requests": 48
+    },
+    {
+      "seed": 321006,
+      "load": 48,
+      "reject_top": 3,
+      "success": 36,
+      "admitted": 43,
+      "requests": 48
+    },
+    {
+      "seed": 321006,
+      "load": 80,
+      "reject_top": 0,
+      "success": 59,
+      "admitted": 68,
+      "requests": 80
+    },
+    {
+      "seed": 321006,
+      "load": 80,
+      "reject_top": 1,
+      "success": 59,
+      "admitted": 68,
+      "requests": 80
+    },
+    {
+      "seed": 321006,
+      "load": 80,
+      "reject_top": 2,
+      "success": 59,
+      "admitted": 68,
+      "requests": 80
+    },
+    {
+      "seed": 321006,
+      "load": 80,
+      "reject_top": 3,
+      "success": 59,
+      "admitted": 68,
+      "requests": 80
+    },
+    {
+      "seed": 321006,
+      "load": 112,
+      "reject_top": 0,
+      "success": 82,
+      "admitted": 86,
+      "requests": 112
+    },
+    {
+      "seed": 321006,
+      "load": 112,
+      "reject_top": 1,
+      "success": 82,
+      "admitted": 86,
+      "requests": 112
+    },
+    {
+      "seed": 321006,
+      "load": 112,
+      "reject_top": 2,
+      "success": 83,
+      "admitted": 87,
+      "requests": 112
+    },
+    {
+      "seed": 321006,
+      "load": 112,
+      "reject_top": 3,
+      "success": 84,
+      "admitted": 87,
+      "requests": 112
+    },
+    {
+      "seed": 321007,
+      "load": 48,
+      "reject_top": 0,
+      "success": 36,
+      "admitted": 38,
+      "requests": 48
+    },
+    {
+      "seed": 321007,
+      "load": 48,
+      "reject_top": 1,
+      "success": 36,
+      "admitted": 39,
+      "requests": 48
+    },
+    {
+      "seed": 321007,
+      "load": 48,
+      "reject_top": 2,
+      "success": 36,
+      "admitted": 39,
+      "requests": 48
+    },
+    {
+      "seed": 321007,
+      "load": 48,
+      "reject_top": 3,
+      "success": 36,
+      "admitted": 39,
+      "requests": 48
+    },
+    {
+      "seed": 321007,
+      "load": 80,
+      "reject_top": 0,
+      "success": 55,
+      "admitted": 61,
+      "requests": 80
+    },
+    {
+      "seed": 321007,
+      "load": 80,
+      "reject_top": 1,
+      "success": 55,
+      "admitted": 61,
+      "requests": 80
+    },
+    {
+      "seed": 321007,
+      "load": 80,
+      "reject_top": 2,
+      "success": 55,
+      "admitted": 61,
+      "requests": 80
+    },
+    {
+      "seed": 321007,
+      "load": 80,
+      "reject_top": 3,
+      "success": 55,
+      "admitted": 61,
+      "requests": 80
+    },
+    {
+      "seed": 321007,
+      "load": 112,
+      "reject_top": 0,
+      "success": 76,
+      "admitted": 81,
+      "requests": 112
+    },
+    {
+      "seed": 321007,
+      "load": 112,
+      "reject_top": 1,
+      "success": 76,
+      "admitted": 81,
+      "requests": 112
+    },
+    {
+      "seed": 321007,
+      "load": 112,
+      "reject_top": 2,
+      "success": 76,
+      "admitted": 81,
+      "requests": 112
+    },
+    {
+      "seed": 321007,
+      "load": 112,
+      "reject_top": 3,
+      "success": 76,
+      "admitted": 81,
+      "requests": 112
+    },
+    {
+      "seed": 321008,
+      "load": 48,
+      "reject_top": 0,
+      "success": 34,
+      "admitted": 38,
+      "requests": 48
+    },
+    {
+      "seed": 321008,
+      "load": 48,
+      "reject_top": 1,
+      "success": 35,
+      "admitted": 40,
+      "requests": 48
+    },
+    {
+      "seed": 321008,
+      "load": 48,
+      "reject_top": 2,
+      "success": 35,
+      "admitted": 40,
+      "requests": 48
+    },
+    {
+      "seed": 321008,
+      "load": 48,
+      "reject_top": 3,
+      "success": 35,
+      "admitted": 40,
+      "requests": 48
+    },
+    {
+      "seed": 321008,
+      "load": 80,
+      "reject_top": 0,
+      "success": 59,
+      "admitted": 63,
+      "requests": 80
+    },
+    {
+      "seed": 321008,
+      "load": 80,
+      "reject_top": 1,
+      "success": 58,
+      "admitted": 63,
+      "requests": 80
+    },
+    {
+      "seed": 321008,
+      "load": 80,
+      "reject_top": 2,
+      "success": 58,
+      "admitted": 63,
+      "requests": 80
+    },
+    {
+      "seed": 321008,
+      "load": 80,
+      "reject_top": 3,
+      "success": 58,
+      "admitted": 63,
+      "requests": 80
+    },
+    {
+      "seed": 321008,
+      "load": 112,
+      "reject_top": 0,
+      "success": 73,
+      "admitted": 76,
+      "requests": 112
+    },
+    {
+      "seed": 321008,
+      "load": 112,
+      "reject_top": 1,
+      "success": 73,
+      "admitted": 76,
+      "requests": 112
+    },
+    {
+      "seed": 321008,
+      "load": 112,
+      "reject_top": 2,
+      "success": 73,
+      "admitted": 76,
+      "requests": 112
+    },
+    {
+      "seed": 321008,
+      "load": 112,
+      "reject_top": 3,
+      "success": 73,
+      "admitted": 76,
+      "requests": 112
+    },
+    {
+      "seed": 321009,
+      "load": 48,
+      "reject_top": 0,
+      "success": 42,
+      "admitted": 44,
+      "requests": 48
+    },
+    {
+      "seed": 321009,
+      "load": 48,
+      "reject_top": 1,
+      "success": 42,
+      "admitted": 44,
+      "requests": 48
+    },
+    {
+      "seed": 321009,
+      "load": 48,
+      "reject_top": 2,
+      "success": 41,
+      "admitted": 43,
+      "requests": 48
+    },
+    {
+      "seed": 321009,
+      "load": 48,
+      "reject_top": 3,
+      "success": 40,
+      "admitted": 42,
+      "requests": 48
+    },
+    {
+      "seed": 321009,
+      "load": 80,
+      "reject_top": 0,
+      "success": 71,
+      "admitted": 73,
+      "requests": 80
+    },
+    {
+      "seed": 321009,
+      "load": 80,
+      "reject_top": 1,
+      "success": 71,
+      "admitted": 73,
+      "requests": 80
+    },
+    {
+      "seed": 321009,
+      "load": 80,
+      "reject_top": 2,
+      "success": 70,
+      "admitted": 72,
+      "requests": 80
+    },
+    {
+      "seed": 321009,
+      "load": 80,
+      "reject_top": 3,
+      "success": 69,
+      "admitted": 72,
+      "requests": 80
+    },
+    {
+      "seed": 321009,
+      "load": 112,
+      "reject_top": 0,
+      "success": 84,
+      "admitted": 92,
+      "requests": 112
+    },
+    {
+      "seed": 321009,
+      "load": 112,
+      "reject_top": 1,
+      "success": 84,
+      "admitted": 92,
+      "requests": 112
+    },
+    {
+      "seed": 321009,
+      "load": 112,
+      "reject_top": 2,
+      "success": 84,
+      "admitted": 92,
+      "requests": 112
+    },
+    {
+      "seed": 321009,
+      "load": 112,
+      "reject_top": 3,
+      "success": 84,
+      "admitted": 92,
+      "requests": 112
+    }
+  ],
+  "disclosure": "development-only hindsight choice of the largest telemetry contracts; diagnostic feasible lower bound, not an online baseline or an optimality upper bound"
+}

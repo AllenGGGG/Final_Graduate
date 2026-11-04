@@ -1,0 +1,48 @@
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/allen/miniconda3/envs/sdn/lib/python3.10/concurrent/futures/process.py", line 246, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "/home/allen/miniconda3/envs/sdn/lib/python3.10/concurrent/futures/process.py", line 205, in _process_chunk
+    return [fn(*args) for args in chunk]
+  File "/home/allen/miniconda3/envs/sdn/lib/python3.10/concurrent/futures/process.py", line 205, in <listcomp>
+    return [fn(*args) for args in chunk]
+  File "/home/allen/My_Tasks/Final_Graduate/code/slice_alloc/tools/mission_allocation_evaluate.py", line 85, in evaluate_group
+    return [episode(s,l,method,init,model) for s in run.TEST for l in run.LOADS]
+  File "/home/allen/My_Tasks/Final_Graduate/code/slice_alloc/tools/mission_allocation_evaluate.py", line 85, in <listcomp>
+    return [episode(s,l,method,init,model) for s in run.TEST for l in run.LOADS]
+  File "/home/allen/My_Tasks/Final_Graduate/code/slice_alloc/tools/mission_allocation_evaluate.py", line 75, in episode
+    return audit_row(row)
+  File "/home/allen/My_Tasks/Final_Graduate/code/slice_alloc/tools/mission_allocation_evaluate.py", line 25, in audit_row
+    verified=audit.verify_episode(run.OUT,core)
+  File "/home/allen/My_Tasks/Final_Graduate/code/slice_alloc/tools/allocation_simple_report.py", line 43, in verify_episode
+    assert native.audit(prefix, result, cfg)['audited']
+  File "/home/allen/My_Tasks/Final_Graduate/code/slice_alloc/tools/modal_binding_run.py", line 111, in audit
+    assert ontime.get(s['id'],0)==s['on_time']
+AssertionError
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/allen/miniconda3/envs/sdn/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/allen/miniconda3/envs/sdn/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/allen/My_Tasks/Final_Graduate/code/slice_alloc/tools/mission_allocation_evaluate.py", line 216, in <module>
+    if __name__=='__main__':main()
+  File "/home/allen/My_Tasks/Final_Graduate/code/slice_alloc/tools/mission_allocation_evaluate.py", line 212, in main
+    elif args.command=='evaluate':evaluate(args.workers)
+  File "/home/allen/My_Tasks/Final_Graduate/code/slice_alloc/tools/mission_allocation_evaluate.py", line 102, in evaluate
+    for group in pool.map(evaluate_group,specs):
+  File "/home/allen/miniconda3/envs/sdn/lib/python3.10/concurrent/futures/process.py", line 575, in _chain_from_iterable_of_lists
+    for element in iterable:
+  File "/home/allen/miniconda3/envs/sdn/lib/python3.10/concurrent/futures/_base.py", line 621, in result_iterator
+    yield _result_or_cancel(fs.pop())
+  File "/home/allen/miniconda3/envs/sdn/lib/python3.10/concurrent/futures/_base.py", line 319, in _result_or_cancel
+    return fut.result(timeout)
+  File "/home/allen/miniconda3/envs/sdn/lib/python3.10/concurrent/futures/_base.py", line 458, in result
+    return self.__get_result()
+  File "/home/allen/miniconda3/envs/sdn/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+AssertionError

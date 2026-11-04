@@ -1,0 +1,769 @@
+{
+  "rows": [
+    {
+      "seed": 221000,
+      "requests": 128,
+      "rule_success": 111,
+      "feasible_hindsight_success": 111,
+      "trials": [
+        {
+          "trial": 0,
+          "success": 111
+        },
+        {
+          "trial": 1,
+          "success": 105
+        },
+        {
+          "trial": 2,
+          "success": 110
+        },
+        {
+          "trial": 3,
+          "success": 110
+        },
+        {
+          "trial": 4,
+          "success": 110
+        },
+        {
+          "trial": 5,
+          "success": 109
+        },
+        {
+          "trial": 6,
+          "success": 110
+        },
+        {
+          "trial": 7,
+          "success": 111
+        },
+        {
+          "trial": 8,
+          "success": 110
+        },
+        {
+          "trial": 9,
+          "success": 109
+        },
+        {
+          "trial": 10,
+          "success": 107
+        },
+        {
+          "trial": 11,
+          "success": 105
+        },
+        {
+          "trial": 12,
+          "success": 109
+        },
+        {
+          "trial": 13,
+          "success": 111
+        },
+        {
+          "trial": 14,
+          "success": 109
+        },
+        {
+          "trial": 15,
+          "success": 106
+        },
+        {
+          "trial": 16,
+          "success": 109
+        }
+      ]
+    },
+    {
+      "seed": 221001,
+      "requests": 128,
+      "rule_success": 87,
+      "feasible_hindsight_success": 88,
+      "trials": [
+        {
+          "trial": 0,
+          "success": 87
+        },
+        {
+          "trial": 1,
+          "success": 86
+        },
+        {
+          "trial": 2,
+          "success": 87
+        },
+        {
+          "trial": 3,
+          "success": 85
+        },
+        {
+          "trial": 4,
+          "success": 87
+        },
+        {
+          "trial": 5,
+          "success": 87
+        },
+        {
+          "trial": 6,
+          "success": 88
+        },
+        {
+          "trial": 7,
+          "success": 87
+        },
+        {
+          "trial": 8,
+          "success": 83
+        },
+        {
+          "trial": 9,
+          "success": 83
+        },
+        {
+          "trial": 10,
+          "success": 87
+        },
+        {
+          "trial": 11,
+          "success": 83
+        },
+        {
+          "trial": 12,
+          "success": 82
+        },
+        {
+          "trial": 13,
+          "success": 80
+        },
+        {
+          "trial": 14,
+          "success": 82
+        },
+        {
+          "trial": 15,
+          "success": 85
+        },
+        {
+          "trial": 16,
+          "success": 81
+        }
+      ]
+    },
+    {
+      "seed": 221002,
+      "requests": 128,
+      "rule_success": 97,
+      "feasible_hindsight_success": 99,
+      "trials": [
+        {
+          "trial": 0,
+          "success": 97
+        },
+        {
+          "trial": 1,
+          "success": 90
+        },
+        {
+          "trial": 2,
+          "success": 95
+        },
+        {
+          "trial": 3,
+          "success": 96
+        },
+        {
+          "trial": 4,
+          "success": 95
+        },
+        {
+          "trial": 5,
+          "success": 93
+        },
+        {
+          "trial": 6,
+          "success": 98
+        },
+        {
+          "trial": 7,
+          "success": 92
+        },
+        {
+          "trial": 8,
+          "success": 96
+        },
+        {
+          "trial": 9,
+          "success": 95
+        },
+        {
+          "trial": 10,
+          "success": 95
+        },
+        {
+          "trial": 11,
+          "success": 90
+        },
+        {
+          "trial": 12,
+          "success": 91
+        },
+        {
+          "trial": 13,
+          "success": 99
+        },
+        {
+          "trial": 14,
+          "success": 98
+        },
+        {
+          "trial": 15,
+          "success": 93
+        },
+        {
+          "trial": 16,
+          "success": 95
+        }
+      ]
+    },
+    {
+      "seed": 221003,
+      "requests": 128,
+      "rule_success": 103,
+      "feasible_hindsight_success": 103,
+      "trials": [
+        {
+          "trial": 0,
+          "success": 103
+        },
+        {
+          "trial": 1,
+          "success": 103
+        },
+        {
+          "trial": 2,
+          "success": 103
+        },
+        {
+          "trial": 3,
+          "success": 101
+        },
+        {
+          "trial": 4,
+          "success": 101
+        },
+        {
+          "trial": 5,
+          "success": 101
+        },
+        {
+          "trial": 6,
+          "success": 100
+        },
+        {
+          "trial": 7,
+          "success": 100
+        },
+        {
+          "trial": 8,
+          "success": 102
+        },
+        {
+          "trial": 9,
+          "success": 101
+        },
+        {
+          "trial": 10,
+          "success": 93
+        },
+        {
+          "trial": 11,
+          "success": 97
+        },
+        {
+          "trial": 12,
+          "success": 100
+        },
+        {
+          "trial": 13,
+          "success": 98
+        },
+        {
+          "trial": 14,
+          "success": 102
+        },
+        {
+          "trial": 15,
+          "success": 99
+        },
+        {
+          "trial": 16,
+          "success": 90
+        }
+      ]
+    },
+    {
+      "seed": 221004,
+      "requests": 128,
+      "rule_success": 104,
+      "feasible_hindsight_success": 106,
+      "trials": [
+        {
+          "trial": 0,
+          "success": 104
+        },
+        {
+          "trial": 1,
+          "success": 103
+        },
+        {
+          "trial": 2,
+          "success": 104
+        },
+        {
+          "trial": 3,
+          "success": 106
+        },
+        {
+          "trial": 4,
+          "success": 105
+        },
+        {
+          "trial": 5,
+          "success": 104
+        },
+        {
+          "trial": 6,
+          "success": 105
+        },
+        {
+          "trial": 7,
+          "success": 103
+        },
+        {
+          "trial": 8,
+          "success": 104
+        },
+        {
+          "trial": 9,
+          "success": 105
+        },
+        {
+          "trial": 10,
+          "success": 104
+        },
+        {
+          "trial": 11,
+          "success": 105
+        },
+        {
+          "trial": 12,
+          "success": 101
+        },
+        {
+          "trial": 13,
+          "success": 103
+        },
+        {
+          "trial": 14,
+          "success": 101
+        },
+        {
+          "trial": 15,
+          "success": 104
+        },
+        {
+          "trial": 16,
+          "success": 103
+        }
+      ]
+    },
+    {
+      "seed": 221005,
+      "requests": 128,
+      "rule_success": 111,
+      "feasible_hindsight_success": 111,
+      "trials": [
+        {
+          "trial": 0,
+          "success": 111
+        },
+        {
+          "trial": 1,
+          "success": 111
+        },
+        {
+          "trial": 2,
+          "success": 111
+        },
+        {
+          "trial": 3,
+          "success": 109
+        },
+        {
+          "trial": 4,
+          "success": 111
+        },
+        {
+          "trial": 5,
+          "success": 110
+        },
+        {
+          "trial": 6,
+          "success": 109
+        },
+        {
+          "trial": 7,
+          "success": 111
+        },
+        {
+          "trial": 8,
+          "success": 110
+        },
+        {
+          "trial": 9,
+          "success": 110
+        },
+        {
+          "trial": 10,
+          "success": 109
+        },
+        {
+          "trial": 11,
+          "success": 108
+        },
+        {
+          "trial": 12,
+          "success": 108
+        },
+        {
+          "trial": 13,
+          "success": 108
+        },
+        {
+          "trial": 14,
+          "success": 104
+        },
+        {
+          "trial": 15,
+          "success": 104
+        },
+        {
+          "trial": 16,
+          "success": 110
+        }
+      ]
+    },
+    {
+      "seed": 221006,
+      "requests": 128,
+      "rule_success": 112,
+      "feasible_hindsight_success": 112,
+      "trials": [
+        {
+          "trial": 0,
+          "success": 112
+        },
+        {
+          "trial": 1,
+          "success": 110
+        },
+        {
+          "trial": 2,
+          "success": 111
+        },
+        {
+          "trial": 3,
+          "success": 110
+        },
+        {
+          "trial": 4,
+          "success": 112
+        },
+        {
+          "trial": 5,
+          "success": 110
+        },
+        {
+          "trial": 6,
+          "success": 107
+        },
+        {
+          "trial": 7,
+          "success": 112
+        },
+        {
+          "trial": 8,
+          "success": 110
+        },
+        {
+          "trial": 9,
+          "success": 111
+        },
+        {
+          "trial": 10,
+          "success": 110
+        },
+        {
+          "trial": 11,
+          "success": 106
+        },
+        {
+          "trial": 12,
+          "success": 109
+        },
+        {
+          "trial": 13,
+          "success": 104
+        },
+        {
+          "trial": 14,
+          "success": 108
+        },
+        {
+          "trial": 15,
+          "success": 105
+        },
+        {
+          "trial": 16,
+          "success": 109
+        }
+      ]
+    },
+    {
+      "seed": 221007,
+      "requests": 128,
+      "rule_success": 104,
+      "feasible_hindsight_success": 104,
+      "trials": [
+        {
+          "trial": 0,
+          "success": 104
+        },
+        {
+          "trial": 1,
+          "success": 102
+        },
+        {
+          "trial": 2,
+          "success": 94
+        },
+        {
+          "trial": 3,
+          "success": 102
+        },
+        {
+          "trial": 4,
+          "success": 101
+        },
+        {
+          "trial": 5,
+          "success": 103
+        },
+        {
+          "trial": 6,
+          "success": 97
+        },
+        {
+          "trial": 7,
+          "success": 99
+        },
+        {
+          "trial": 8,
+          "success": 103
+        },
+        {
+          "trial": 9,
+          "success": 97
+        },
+        {
+          "trial": 10,
+          "success": 96
+        },
+        {
+          "trial": 11,
+          "success": 94
+        },
+        {
+          "trial": 12,
+          "success": 97
+        },
+        {
+          "trial": 13,
+          "success": 100
+        },
+        {
+          "trial": 14,
+          "success": 98
+        },
+        {
+          "trial": 15,
+          "success": 99
+        },
+        {
+          "trial": 16,
+          "success": 97
+        }
+      ]
+    },
+    {
+      "seed": 221008,
+      "requests": 128,
+      "rule_success": 104,
+      "feasible_hindsight_success": 104,
+      "trials": [
+        {
+          "trial": 0,
+          "success": 104
+        },
+        {
+          "trial": 1,
+          "success": 102
+        },
+        {
+          "trial": 2,
+          "success": 98
+        },
+        {
+          "trial": 3,
+          "success": 102
+        },
+        {
+          "trial": 4,
+          "success": 104
+        },
+        {
+          "trial": 5,
+          "success": 102
+        },
+        {
+          "trial": 6,
+          "success": 103
+        },
+        {
+          "trial": 7,
+          "success": 103
+        },
+        {
+          "trial": 8,
+          "success": 104
+        },
+        {
+          "trial": 9,
+          "success": 101
+        },
+        {
+          "trial": 10,
+          "success": 104
+        },
+        {
+          "trial": 11,
+          "success": 100
+        },
+        {
+          "trial": 12,
+          "success": 100
+        },
+        {
+          "trial": 13,
+          "success": 101
+        },
+        {
+          "trial": 14,
+          "success": 100
+        },
+        {
+          "trial": 15,
+          "success": 103
+        },
+        {
+          "trial": 16,
+          "success": 102
+        }
+      ]
+    },
+    {
+      "seed": 221009,
+      "requests": 128,
+      "rule_success": 105,
+      "feasible_hindsight_success": 107,
+      "trials": [
+        {
+          "trial": 0,
+          "success": 105
+        },
+        {
+          "trial": 1,
+          "success": 107
+        },
+        {
+          "trial": 2,
+          "success": 105
+        },
+        {
+          "trial": 3,
+          "success": 103
+        },
+        {
+          "trial": 4,
+          "success": 102
+        },
+        {
+          "trial": 5,
+          "success": 102
+        },
+        {
+          "trial": 6,
+          "success": 103
+        },
+        {
+          "trial": 7,
+          "success": 103
+        },
+        {
+          "trial": 8,
+          "success": 104
+        },
+        {
+          "trial": 9,
+          "success": 96
+        },
+        {
+          "trial": 10,
+          "success": 101
+        },
+        {
+          "trial": 11,
+          "success": 95
+        },
+        {
+          "trial": 12,
+          "success": 106
+        },
+        {
+          "trial": 13,
+          "success": 100
+        },
+        {
+          "trial": 14,
+          "success": 102
+        },
+        {
+          "trial": 15,
+          "success": 98
+        },
+        {
+          "trial": 16,
+          "success": 102
+        }
+      ]
+    }
+  ],
+  "rule_success": 1038,
+  "feasible_hindsight_success": 1045,
+  "requests": 1280,
+  "source_sha256": "1dbacad2d4181f9cb04e3ae2d31e4786dbbc5aa19ceee67e15d4a49037c8094d",
+  "interpretation": "17 feasible trajectories per scenario, selected with hindsight on development only. A lower bound on achievable optimum; a small gap cannot imply a small optimality gap."
+}

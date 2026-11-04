@@ -1,0 +1,11 @@
+{
+  "protocol.json": "d3fbc741beec677fe4cbdd18a8a756d1ccf7202fefbba69ed65514e78cdb9e41",
+  "training_complete.json": "c627e5d7737ce7cf186cb0e401802b2c390950080e01b052f2cb63a2bec16391",
+  "diagnosis.json": "9264a195d430be7b09e7380c341825d16fabc8d84c0febcf00988fff00957a14",
+  "prior_validation.json": "590780b29aff244c5e87c47e55f0c285061f9ab43920865b4b12c1d03b6f0bb4",
+  "baseline_selection.json": "da97bb11c206c7e8e45276849f05aad04efa794885217b22a5c161b692863410",
+  "evaluation_registration.json": "086e4742c32b79d14aa5ae0b405aa077cb7585ac54ba90be03752edc9e9f7a8d",
+  "family_selection_registration.json": "89e394178ff75f1c82e20f23aa0a565790d1ca087ca9d99d4cc03dd5568ce07b",
+  "family_selection.json": "48d353e883723b607953b3cfc3dbb88ddf86ee10ba8058fad9d438d8cc9a81d5",
+  "full-tests.log": "c0e10ee51ad794144f1131002430e3cdff0d936b3093e31891c4237c2bed240c"
+}

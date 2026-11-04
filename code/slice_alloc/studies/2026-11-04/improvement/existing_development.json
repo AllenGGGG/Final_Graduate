@@ -1,0 +1,737 @@
+[
+  {
+    "init": 11,
+    "model_sha256": "4a8202161f194306a981326e6c8e1f1682f614ec0d3d77561ce3c79945b86c5b",
+    "rows": [
+      {
+        "seed": 221000,
+        "load": 48,
+        "requests": 48,
+        "success": 40,
+        "admitted": 43
+      },
+      {
+        "seed": 221000,
+        "load": 80,
+        "requests": 80,
+        "success": 64,
+        "admitted": 73
+      },
+      {
+        "seed": 221001,
+        "load": 48,
+        "requests": 48,
+        "success": 30,
+        "admitted": 41
+      },
+      {
+        "seed": 221001,
+        "load": 80,
+        "requests": 80,
+        "success": 47,
+        "admitted": 64
+      },
+      {
+        "seed": 221002,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 46
+      },
+      {
+        "seed": 221002,
+        "load": 80,
+        "requests": 80,
+        "success": 57,
+        "admitted": 71
+      },
+      {
+        "seed": 221003,
+        "load": 48,
+        "requests": 48,
+        "success": 37,
+        "admitted": 43
+      },
+      {
+        "seed": 221003,
+        "load": 80,
+        "requests": 80,
+        "success": 59,
+        "admitted": 64
+      },
+      {
+        "seed": 221004,
+        "load": 48,
+        "requests": 48,
+        "success": 42,
+        "admitted": 45
+      },
+      {
+        "seed": 221004,
+        "load": 80,
+        "requests": 80,
+        "success": 64,
+        "admitted": 67
+      },
+      {
+        "seed": 221005,
+        "load": 48,
+        "requests": 48,
+        "success": 45,
+        "admitted": 47
+      },
+      {
+        "seed": 221005,
+        "load": 80,
+        "requests": 80,
+        "success": 63,
+        "admitted": 69
+      },
+      {
+        "seed": 221006,
+        "load": 48,
+        "requests": 48,
+        "success": 44,
+        "admitted": 46
+      },
+      {
+        "seed": 221006,
+        "load": 80,
+        "requests": 80,
+        "success": 66,
+        "admitted": 70
+      },
+      {
+        "seed": 221007,
+        "load": 48,
+        "requests": 48,
+        "success": 42,
+        "admitted": 43
+      },
+      {
+        "seed": 221007,
+        "load": 80,
+        "requests": 80,
+        "success": 55,
+        "admitted": 65
+      },
+      {
+        "seed": 221008,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 46
+      },
+      {
+        "seed": 221008,
+        "load": 80,
+        "requests": 80,
+        "success": 60,
+        "admitted": 70
+      },
+      {
+        "seed": 221009,
+        "load": 48,
+        "requests": 48,
+        "success": 42,
+        "admitted": 44
+      },
+      {
+        "seed": 221009,
+        "load": 80,
+        "requests": 80,
+        "success": 65,
+        "admitted": 70
+      }
+    ],
+    "rate": 0.784375
+  },
+  {
+    "init": 23,
+    "model_sha256": "b21fc802ba32fdc8c616b4642f6625018c904ecb65d53367cddf93341e025ead",
+    "rows": [
+      {
+        "seed": 221000,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 43
+      },
+      {
+        "seed": 221000,
+        "load": 80,
+        "requests": 80,
+        "success": 68,
+        "admitted": 73
+      },
+      {
+        "seed": 221001,
+        "load": 48,
+        "requests": 48,
+        "success": 30,
+        "admitted": 41
+      },
+      {
+        "seed": 221001,
+        "load": 80,
+        "requests": 80,
+        "success": 50,
+        "admitted": 66
+      },
+      {
+        "seed": 221002,
+        "load": 48,
+        "requests": 48,
+        "success": 40,
+        "admitted": 46
+      },
+      {
+        "seed": 221002,
+        "load": 80,
+        "requests": 80,
+        "success": 52,
+        "admitted": 66
+      },
+      {
+        "seed": 221003,
+        "load": 48,
+        "requests": 48,
+        "success": 38,
+        "admitted": 45
+      },
+      {
+        "seed": 221003,
+        "load": 80,
+        "requests": 80,
+        "success": 56,
+        "admitted": 67
+      },
+      {
+        "seed": 221004,
+        "load": 48,
+        "requests": 48,
+        "success": 40,
+        "admitted": 44
+      },
+      {
+        "seed": 221004,
+        "load": 80,
+        "requests": 80,
+        "success": 61,
+        "admitted": 66
+      },
+      {
+        "seed": 221005,
+        "load": 48,
+        "requests": 48,
+        "success": 44,
+        "admitted": 47
+      },
+      {
+        "seed": 221005,
+        "load": 80,
+        "requests": 80,
+        "success": 59,
+        "admitted": 69
+      },
+      {
+        "seed": 221006,
+        "load": 48,
+        "requests": 48,
+        "success": 42,
+        "admitted": 45
+      },
+      {
+        "seed": 221006,
+        "load": 80,
+        "requests": 80,
+        "success": 69,
+        "admitted": 74
+      },
+      {
+        "seed": 221007,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 42
+      },
+      {
+        "seed": 221007,
+        "load": 80,
+        "requests": 80,
+        "success": 52,
+        "admitted": 66
+      },
+      {
+        "seed": 221008,
+        "load": 48,
+        "requests": 48,
+        "success": 40,
+        "admitted": 46
+      },
+      {
+        "seed": 221008,
+        "load": 80,
+        "requests": 80,
+        "success": 61,
+        "admitted": 71
+      },
+      {
+        "seed": 221009,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 43
+      },
+      {
+        "seed": 221009,
+        "load": 80,
+        "requests": 80,
+        "success": 63,
+        "admitted": 70
+      }
+    ],
+    "rate": 0.7703125
+  },
+  {
+    "init": 37,
+    "model_sha256": "d72ecb9f26c4056c8abff5d12bc5580ed1e342a73c5bd140036038352ec49c76",
+    "rows": [
+      {
+        "seed": 221000,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 43
+      },
+      {
+        "seed": 221000,
+        "load": 80,
+        "requests": 80,
+        "success": 69,
+        "admitted": 73
+      },
+      {
+        "seed": 221001,
+        "load": 48,
+        "requests": 48,
+        "success": 28,
+        "admitted": 35
+      },
+      {
+        "seed": 221001,
+        "load": 80,
+        "requests": 80,
+        "success": 51,
+        "admitted": 63
+      },
+      {
+        "seed": 221002,
+        "load": 48,
+        "requests": 48,
+        "success": 36,
+        "admitted": 44
+      },
+      {
+        "seed": 221002,
+        "load": 80,
+        "requests": 80,
+        "success": 55,
+        "admitted": 61
+      },
+      {
+        "seed": 221003,
+        "load": 48,
+        "requests": 48,
+        "success": 37,
+        "admitted": 43
+      },
+      {
+        "seed": 221003,
+        "load": 80,
+        "requests": 80,
+        "success": 59,
+        "admitted": 63
+      },
+      {
+        "seed": 221004,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 44
+      },
+      {
+        "seed": 221004,
+        "load": 80,
+        "requests": 80,
+        "success": 64,
+        "admitted": 66
+      },
+      {
+        "seed": 221005,
+        "load": 48,
+        "requests": 48,
+        "success": 45,
+        "admitted": 47
+      },
+      {
+        "seed": 221005,
+        "load": 80,
+        "requests": 80,
+        "success": 63,
+        "admitted": 69
+      },
+      {
+        "seed": 221006,
+        "load": 48,
+        "requests": 48,
+        "success": 43,
+        "admitted": 45
+      },
+      {
+        "seed": 221006,
+        "load": 80,
+        "requests": 80,
+        "success": 68,
+        "admitted": 72
+      },
+      {
+        "seed": 221007,
+        "load": 48,
+        "requests": 48,
+        "success": 43,
+        "admitted": 43
+      },
+      {
+        "seed": 221007,
+        "load": 80,
+        "requests": 80,
+        "success": 57,
+        "admitted": 62
+      },
+      {
+        "seed": 221008,
+        "load": 48,
+        "requests": 48,
+        "success": 42,
+        "admitted": 46
+      },
+      {
+        "seed": 221008,
+        "load": 80,
+        "requests": 80,
+        "success": 51,
+        "admitted": 63
+      },
+      {
+        "seed": 221009,
+        "load": 48,
+        "requests": 48,
+        "success": 38,
+        "admitted": 43
+      },
+      {
+        "seed": 221009,
+        "load": 80,
+        "requests": 80,
+        "success": 64,
+        "admitted": 68
+      }
+    ],
+    "rate": 0.77578125
+  },
+  {
+    "init": 53,
+    "model_sha256": "bc43cee4287f62dc1ebb4757cf11af970eca7696700cda4e780afa3a2cf5e189",
+    "rows": [
+      {
+        "seed": 221000,
+        "load": 48,
+        "requests": 48,
+        "success": 40,
+        "admitted": 43
+      },
+      {
+        "seed": 221000,
+        "load": 80,
+        "requests": 80,
+        "success": 68,
+        "admitted": 73
+      },
+      {
+        "seed": 221001,
+        "load": 48,
+        "requests": 48,
+        "success": 29,
+        "admitted": 37
+      },
+      {
+        "seed": 221001,
+        "load": 80,
+        "requests": 80,
+        "success": 55,
+        "admitted": 66
+      },
+      {
+        "seed": 221002,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 46
+      },
+      {
+        "seed": 221002,
+        "load": 80,
+        "requests": 80,
+        "success": 57,
+        "admitted": 64
+      },
+      {
+        "seed": 221003,
+        "load": 48,
+        "requests": 48,
+        "success": 40,
+        "admitted": 45
+      },
+      {
+        "seed": 221003,
+        "load": 80,
+        "requests": 80,
+        "success": 60,
+        "admitted": 67
+      },
+      {
+        "seed": 221004,
+        "load": 48,
+        "requests": 48,
+        "success": 40,
+        "admitted": 44
+      },
+      {
+        "seed": 221004,
+        "load": 80,
+        "requests": 80,
+        "success": 66,
+        "admitted": 67
+      },
+      {
+        "seed": 221005,
+        "load": 48,
+        "requests": 48,
+        "success": 46,
+        "admitted": 47
+      },
+      {
+        "seed": 221005,
+        "load": 80,
+        "requests": 80,
+        "success": 64,
+        "admitted": 68
+      },
+      {
+        "seed": 221006,
+        "load": 48,
+        "requests": 48,
+        "success": 42,
+        "admitted": 45
+      },
+      {
+        "seed": 221006,
+        "load": 80,
+        "requests": 80,
+        "success": 68,
+        "admitted": 72
+      },
+      {
+        "seed": 221007,
+        "load": 48,
+        "requests": 48,
+        "success": 43,
+        "admitted": 43
+      },
+      {
+        "seed": 221007,
+        "load": 80,
+        "requests": 80,
+        "success": 57,
+        "admitted": 65
+      },
+      {
+        "seed": 221008,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 46
+      },
+      {
+        "seed": 221008,
+        "load": 80,
+        "requests": 80,
+        "success": 63,
+        "admitted": 69
+      },
+      {
+        "seed": 221009,
+        "load": 48,
+        "requests": 48,
+        "success": 38,
+        "admitted": 42
+      },
+      {
+        "seed": 221009,
+        "load": 80,
+        "requests": 80,
+        "success": 60,
+        "admitted": 63
+      }
+    ],
+    "rate": 0.7953125
+  },
+  {
+    "init": 71,
+    "model_sha256": "4e7d9973b8ab6136cde351242c9a4658ed325678250b2fd295af99facc240d36",
+    "rows": [
+      {
+        "seed": 221000,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 43
+      },
+      {
+        "seed": 221000,
+        "load": 80,
+        "requests": 80,
+        "success": 69,
+        "admitted": 74
+      },
+      {
+        "seed": 221001,
+        "load": 48,
+        "requests": 48,
+        "success": 29,
+        "admitted": 37
+      },
+      {
+        "seed": 221001,
+        "load": 80,
+        "requests": 80,
+        "success": 51,
+        "admitted": 63
+      },
+      {
+        "seed": 221002,
+        "load": 48,
+        "requests": 48,
+        "success": 38,
+        "admitted": 42
+      },
+      {
+        "seed": 221002,
+        "load": 80,
+        "requests": 80,
+        "success": 58,
+        "admitted": 71
+      },
+      {
+        "seed": 221003,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 43
+      },
+      {
+        "seed": 221003,
+        "load": 80,
+        "requests": 80,
+        "success": 59,
+        "admitted": 64
+      },
+      {
+        "seed": 221004,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 44
+      },
+      {
+        "seed": 221004,
+        "load": 80,
+        "requests": 80,
+        "success": 64,
+        "admitted": 66
+      },
+      {
+        "seed": 221005,
+        "load": 48,
+        "requests": 48,
+        "success": 45,
+        "admitted": 47
+      },
+      {
+        "seed": 221005,
+        "load": 80,
+        "requests": 80,
+        "success": 65,
+        "admitted": 68
+      },
+      {
+        "seed": 221006,
+        "load": 48,
+        "requests": 48,
+        "success": 42,
+        "admitted": 45
+      },
+      {
+        "seed": 221006,
+        "load": 80,
+        "requests": 80,
+        "success": 67,
+        "admitted": 71
+      },
+      {
+        "seed": 221007,
+        "load": 48,
+        "requests": 48,
+        "success": 43,
+        "admitted": 43
+      },
+      {
+        "seed": 221007,
+        "load": 80,
+        "requests": 80,
+        "success": 57,
+        "admitted": 64
+      },
+      {
+        "seed": 221008,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 45
+      },
+      {
+        "seed": 221008,
+        "load": 80,
+        "requests": 80,
+        "success": 61,
+        "admitted": 69
+      },
+      {
+        "seed": 221009,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 41
+      },
+      {
+        "seed": 221009,
+        "load": 80,
+        "requests": 80,
+        "success": 64,
+        "admitted": 66
+      }
+    ],
+    "rate": 0.78984375
+  }
+]

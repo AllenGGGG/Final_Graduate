@@ -1,0 +1,340 @@
+{
+  "source_hashes": {
+    "allocation_final.py": "eaba91cf1e3db4a484d2cbe98867b39373d422592183a2de72c3fadca775d656",
+    "allocation_value.py": "e4e2d0b7b6bd0efac7e048050e36a07865d0ca7df9b51203f544d4cfc51caad4",
+    "modal_binding.py": "5e3c5ccafd62eeebaab1fe7e5c8d7f9aaf817b5a18a1f9bc18c6c8bc085891a8",
+    "modal_binding_rl.py": "eae65aad11853415d4a87d839991e8e2863b50784a14688b10bd2bfa7b3b1106",
+    "distributional_allocation.py": "49e9a810fce9191cc48b12a6682a625717694ec5886d567dccc33877428dc695",
+    "patrol.py": "c55cab09985d11390e202d9e7e54876dbf626179f40c79023242f65fe76ba675",
+    "initial_allocation.py": "dc80996d94e5beb3a14b75c1be596429a902726ad42e20a8041193d61890dbb6",
+    "patrol_contract.schema.json": "b17b73f389642d868bcad29067dad8ad4abf06ddbd421c1cd6d7d8c39aa14c02",
+    "tools/modal_binding_run.py": "99b68219217c999538458b21bcb1918c2da24a6863e2281e7e5652f68f23a5e1",
+    "tests/test_allocation_simple.py": "e432c01eb54328bf2774f505c41d868f73762590b98f522cea8c0e7030ba6d10",
+    "SIMPLE_DESIGN.md": "23bbedebbb6942a1351d11de8e80d50560de56148b881f67aa68962c78306c94",
+    "execution/allocation_final_scenario.cc": "d252fa17af3596b9f536d3a329b861c14641b855f44e49142543445216ddacac",
+    "tools/allocation_simple_run.py": "80e432adf6c9b951e02dab3fab5082af54a85f0730891098b6704598e0887451",
+    "tools/allocation_simple_report.py": "73b910f244cadb44a5ac80c86cd1d335d0ba5ec40aa3cd827c1df46c6b915f42",
+    "guided_allocation.py": "77c3d2f657af4ee912aa4517a2ae78900c1450571f90da1f2665a10f62fae4a9",
+    "tools/allocation_improve_run.py": "14e93fb5686557a4e053d6a6d063b6910d4b1e850c3964993f2eed0abc6db182",
+    "tests/test_guided_allocation.py": "7ed6da5342a71e707c96da540a08d61df73169a6e31bd8567ff7f9ec088ed870"
+  },
+  "binary_sha256": "4713d4f5ed04fb073c3d0256450b59c13f7e103aae3f2f9bd67df98ac0f20ad5",
+  "initializations": [
+    11,
+    23,
+    37,
+    53,
+    71,
+    89,
+    101,
+    127
+  ],
+  "loads": [
+    48,
+    80
+  ],
+  "development": [
+    221000,
+    221001,
+    221002,
+    221003,
+    221004,
+    221005,
+    221006,
+    221007,
+    221008,
+    221009
+  ],
+  "validation": [
+    222000,
+    222001,
+    222002,
+    222003,
+    222004,
+    222005,
+    222006,
+    222007,
+    222008,
+    222009,
+    222010,
+    222011,
+    222012,
+    222013,
+    222014,
+    222015,
+    222016,
+    222017,
+    222018,
+    222019,
+    222020,
+    222021,
+    222022,
+    222023,
+    222024,
+    222025,
+    222026,
+    222027,
+    222028,
+    222029,
+    222030,
+    222031,
+    222032,
+    222033,
+    222034,
+    222035,
+    222036,
+    222037,
+    222038,
+    222039,
+    222040,
+    222041,
+    222042,
+    222043,
+    222044,
+    222045,
+    222046,
+    222047,
+    222048,
+    222049,
+    222050,
+    222051,
+    222052,
+    222053,
+    222054,
+    222055,
+    222056,
+    222057,
+    222058,
+    222059
+  ],
+  "test": [
+    223000,
+    223001,
+    223002,
+    223003,
+    223004,
+    223005,
+    223006,
+    223007,
+    223008,
+    223009,
+    223010,
+    223011,
+    223012,
+    223013,
+    223014,
+    223015,
+    223016,
+    223017,
+    223018,
+    223019,
+    223020,
+    223021,
+    223022,
+    223023,
+    223024,
+    223025,
+    223026,
+    223027,
+    223028,
+    223029,
+    223030,
+    223031,
+    223032,
+    223033,
+    223034,
+    223035,
+    223036,
+    223037,
+    223038,
+    223039,
+    223040,
+    223041,
+    223042,
+    223043,
+    223044,
+    223045,
+    223046,
+    223047,
+    223048,
+    223049,
+    223050,
+    223051,
+    223052,
+    223053,
+    223054,
+    223055,
+    223056,
+    223057,
+    223058,
+    223059
+  ],
+  "rule_grid": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.25,
+      0.0
+    ],
+    [
+      0.0,
+      0.25,
+      1.0
+    ],
+    [
+      0.0,
+      0.5,
+      0.0
+    ],
+    [
+      0.0,
+      0.5,
+      1.0
+    ],
+    [
+      0.5,
+      0.0,
+      0.0
+    ],
+    [
+      0.5,
+      0.0,
+      1.0
+    ],
+    [
+      0.5,
+      0.25,
+      0.0
+    ],
+    [
+      0.5,
+      0.25,
+      1.0
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.5,
+      0.5,
+      1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.25,
+      0.0
+    ],
+    [
+      1.0,
+      0.25,
+      1.0
+    ],
+    [
+      1.0,
+      0.5,
+      0.0
+    ],
+    [
+      1.0,
+      0.5,
+      1.0
+    ],
+    [
+      2.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.0,
+      0.0,
+      1.0
+    ],
+    [
+      2.0,
+      0.25,
+      0.0
+    ],
+    [
+      2.0,
+      0.25,
+      1.0
+    ],
+    [
+      2.0,
+      0.5,
+      0.0
+    ],
+    [
+      2.0,
+      0.5,
+      1.0
+    ]
+  ],
+  "budgets": [
+    0,
+    16384,
+    32768,
+    65536
+  ],
+  "physics": "unchanged 72f5ec9 low-altitude native multimodal network",
+  "primary": "guided RL minus validation-selected modal-aware greedy",
+  "selection": "all initializations retained; per-init highest validation SLA, tie earlier checkpoint",
+  "promotion": "paired two-way bootstrap lower bound >0; admitted violation rate not worse",
+  "changes": "explicit rule prior, zero residual initialization, epsilon .1 -> .02, n-step32; no reward relabelling",
+  "training_seed_range": [
+    61000000,
+    62000000
+  ],
+  "rule_selection": "24 formulas on development, select best on development; verify on separate validation",
+  "disclosure": "8 RL initializations, 4 checkpoints each incl rule at zero; not a guarantee against rules on test",
+  "hyperparameters": {
+    "learning_rate": 3e-05,
+    "buffer_size": 50000,
+    "learning_starts": 1024,
+    "batch_size": 128,
+    "train_freq": 4,
+    "gradient_steps": 1,
+    "gamma": 1.0,
+    "target_update_interval": 1000,
+    "exploration_initial_eps": 0.1,
+    "exploration_final_eps": 0.02,
+    "exploration_steps": 32768,
+    "max_grad_norm": 10.0,
+    "policy_kwargs": {
+      "n_quantiles": 1,
+      "net_arch": [
+        96
+      ]
+    },
+    "replay_buffer_kwargs": {
+      "horizon": 32,
+      "discount": 1.0
+    }
+  },
+  "replay_buffer_class": "slice_alloc.distributional_allocation.NStepDictReplay",
+  "references": [
+    "https://ojs.aaai.org/index.php/AAAI/article/view/11757",
+    "https://papers.nips.cc/paper/2019/hash/16105fb9cc614fc29e1bda00dab60d41-Abstract.html"
+  ]
+}

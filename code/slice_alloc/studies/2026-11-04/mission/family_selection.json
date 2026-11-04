@@ -1,0 +1,103 @@
+{
+  "selected_family": "mission",
+  "initializations": [
+    11,
+    23,
+    37,
+    53,
+    71,
+    89,
+    101,
+    127
+  ],
+  "mean_validation": 0.7104253472222222,
+  "prior_validation": 0.7101388888888889,
+  "pilot_decisions": [
+    {
+      "family": "mission-fast",
+      "gain_over_matching_base": -0.0007986111111111249,
+      "qualifies_for_expansion": false,
+      "results": [
+        {
+          "init": 11,
+          "step": 0,
+          "validation": 0.7101388888888889
+        },
+        {
+          "init": 23,
+          "step": 0,
+          "validation": 0.7101388888888889
+        }
+      ]
+    },
+    {
+      "family": "mission-candidate",
+      "gain_over_matching_base": 0.0006249999999999867,
+      "qualifies_for_expansion": false,
+      "results": [
+        {
+          "init": 11,
+          "step": 32768,
+          "validation": 0.7106944444444444
+        },
+        {
+          "init": 23,
+          "step": 32768,
+          "validation": 0.7124305555555556
+        }
+      ]
+    }
+  ],
+  "selected_models": [
+    {
+      "init": 11,
+      "step": 65536,
+      "validation": 0.7115277777777778,
+      "sha256": "e003f9e95a7737554fb31de7b17298e460ed710eb6eceecd2c60f7b098fb6288"
+    },
+    {
+      "init": 23,
+      "step": 16384,
+      "validation": 0.7103472222222222,
+      "sha256": "c90932702ba2b83543c76011468f2945453b60b1a2c2a4cb3e2d47f9c64429d0"
+    },
+    {
+      "init": 37,
+      "step": 0,
+      "validation": 0.7101388888888889,
+      "sha256": "e21ff85762bc7e5a2645795a8f53d0da2572d22d8ad36110d9ae1e58476098e3"
+    },
+    {
+      "init": 53,
+      "step": 0,
+      "validation": 0.7101388888888889,
+      "sha256": "b2d1eac293ec2ec7b23c72316870ff96da64d3c0d204f6bff7be72a7a09bfb7d"
+    },
+    {
+      "init": 71,
+      "step": 32768,
+      "validation": 0.7106944444444444,
+      "sha256": "c1fdbc21c939610d200d585aebafb6150e90fc9a62820038ab349f81a5253419"
+    },
+    {
+      "init": 89,
+      "step": 65536,
+      "validation": 0.7102777777777778,
+      "sha256": "420eebc6551fd17909558dcd0a5916f9d92d5e6dad8a70d4710ad850c025f82a"
+    },
+    {
+      "init": 101,
+      "step": 0,
+      "validation": 0.7101388888888889,
+      "sha256": "b6b194fa3e299d4dc14462078839331819b61ce112957edb4ba382d65570a8e0"
+    },
+    {
+      "init": 127,
+      "step": 0,
+      "validation": 0.7101388888888889,
+      "sha256": "45c0b6c36538e8b95c0dfa7434d44af3bfe882aa1f272af404e578337a9d5609"
+    }
+  ],
+  "controller_source_sha256": "f7692bc76ecbc6b644b09c7bcc4a7df3543348f528120108de8389a2abe371d9",
+  "decision": "base family retained after both bounded pilots fail declared0.5pp expansion threshold; final test determines publication, not validation gain"
+}

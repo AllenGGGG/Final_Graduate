@@ -1,0 +1,2719 @@
+[
+  {
+    "method": "greedy",
+    "threshold": null,
+    "rate": 0.6691666666666667,
+    "rows": [
+      {
+        "seed": 321000,
+        "load": 48,
+        "requests": 48,
+        "success": 29,
+        "admitted": 35,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 80,
+        "requests": 80,
+        "success": 45,
+        "admitted": 54,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 112,
+        "requests": 112,
+        "success": 54,
+        "admitted": 66,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321001,
+        "load": 48,
+        "requests": 48,
+        "success": 34,
+        "admitted": 43,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 80,
+        "requests": 80,
+        "success": 55,
+        "admitted": 72,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 112,
+        "requests": 112,
+        "success": 77,
+        "admitted": 97,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 47,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 80,
+        "requests": 80,
+        "success": 58,
+        "admitted": 67,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 112,
+        "requests": 112,
+        "success": 74,
+        "admitted": 86,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 48,
+        "requests": 48,
+        "success": 37,
+        "admitted": 44,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 80,
+        "requests": 80,
+        "success": 68,
+        "admitted": 74,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 112,
+        "requests": 112,
+        "success": 72,
+        "admitted": 84,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321004,
+        "load": 48,
+        "requests": 48,
+        "success": 34,
+        "admitted": 40,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 80,
+        "requests": 80,
+        "success": 52,
+        "admitted": 57,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 112,
+        "requests": 112,
+        "success": 61,
+        "admitted": 70,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321005,
+        "load": 48,
+        "requests": 48,
+        "success": 31,
+        "admitted": 44,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 80,
+        "requests": 80,
+        "success": 52,
+        "admitted": 68,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 112,
+        "requests": 112,
+        "success": 66,
+        "admitted": 92,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321006,
+        "load": 48,
+        "requests": 48,
+        "success": 37,
+        "admitted": 45,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 80,
+        "requests": 80,
+        "success": 53,
+        "admitted": 66,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 112,
+        "requests": 112,
+        "success": 80,
+        "admitted": 91,
+        "profile": "steady"
+      },
+      {
+        "seed": 321007,
+        "load": 48,
+        "requests": 48,
+        "success": 33,
+        "admitted": 38,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 80,
+        "requests": 80,
+        "success": 52,
+        "admitted": 62,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 112,
+        "requests": 112,
+        "success": 67,
+        "admitted": 79,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 48,
+        "requests": 48,
+        "success": 31,
+        "admitted": 36,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 80,
+        "requests": 80,
+        "success": 53,
+        "admitted": 60,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 112,
+        "requests": 112,
+        "success": 70,
+        "admitted": 77,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321009,
+        "load": 48,
+        "requests": 48,
+        "success": 42,
+        "admitted": 46,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 80,
+        "requests": 80,
+        "success": 67,
+        "admitted": 75,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 112,
+        "requests": 112,
+        "success": 81,
+        "admitted": 91,
+        "profile": "steady"
+      }
+    ]
+  },
+  {
+    "method": "modal_greedy",
+    "threshold": null,
+    "rate": 0.7083333333333334,
+    "rows": [
+      {
+        "seed": 321000,
+        "load": 48,
+        "requests": 48,
+        "success": 31,
+        "admitted": 35,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 80,
+        "requests": 80,
+        "success": 47,
+        "admitted": 51,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 112,
+        "requests": 112,
+        "success": 70,
+        "admitted": 78,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321001,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 43,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 80,
+        "requests": 80,
+        "success": 63,
+        "admitted": 70,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 112,
+        "requests": 112,
+        "success": 83,
+        "admitted": 91,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 46,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 80,
+        "requests": 80,
+        "success": 58,
+        "admitted": 66,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 112,
+        "requests": 112,
+        "success": 69,
+        "admitted": 75,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 44,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 80,
+        "requests": 80,
+        "success": 65,
+        "admitted": 69,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 112,
+        "requests": 112,
+        "success": 73,
+        "admitted": 84,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321004,
+        "load": 48,
+        "requests": 48,
+        "success": 37,
+        "admitted": 40,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 80,
+        "requests": 80,
+        "success": 53,
+        "admitted": 58,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 112,
+        "requests": 112,
+        "success": 64,
+        "admitted": 68,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321005,
+        "load": 48,
+        "requests": 48,
+        "success": 36,
+        "admitted": 44,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 80,
+        "requests": 80,
+        "success": 63,
+        "admitted": 67,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 112,
+        "requests": 112,
+        "success": 60,
+        "admitted": 71,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321006,
+        "load": 48,
+        "requests": 48,
+        "success": 40,
+        "admitted": 45,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 80,
+        "requests": 80,
+        "success": 59,
+        "admitted": 68,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 112,
+        "requests": 112,
+        "success": 84,
+        "admitted": 88,
+        "profile": "steady"
+      },
+      {
+        "seed": 321007,
+        "load": 48,
+        "requests": 48,
+        "success": 35,
+        "admitted": 38,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 80,
+        "requests": 80,
+        "success": 56,
+        "admitted": 62,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 112,
+        "requests": 112,
+        "success": 76,
+        "admitted": 81,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 48,
+        "requests": 48,
+        "success": 32,
+        "admitted": 36,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 80,
+        "requests": 80,
+        "success": 58,
+        "admitted": 62,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 112,
+        "requests": 112,
+        "success": 71,
+        "admitted": 75,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321009,
+        "load": 48,
+        "requests": 48,
+        "success": 43,
+        "admitted": 45,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 80,
+        "requests": 80,
+        "success": 71,
+        "admitted": 73,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 112,
+        "requests": 112,
+        "success": 84,
+        "admitted": 92,
+        "profile": "steady"
+      }
+    ]
+  },
+  {
+    "method": "native",
+    "threshold": null,
+    "rate": 0.68,
+    "rows": [
+      {
+        "seed": 321000,
+        "load": 48,
+        "requests": 48,
+        "success": 31,
+        "admitted": 35,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 80,
+        "requests": 80,
+        "success": 46,
+        "admitted": 50,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 112,
+        "requests": 112,
+        "success": 67,
+        "admitted": 78,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321001,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 43,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 80,
+        "requests": 80,
+        "success": 59,
+        "admitted": 64,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 112,
+        "requests": 112,
+        "success": 78,
+        "admitted": 86,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 45,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 80,
+        "requests": 80,
+        "success": 53,
+        "admitted": 58,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 112,
+        "requests": 112,
+        "success": 65,
+        "admitted": 69,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 42,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 80,
+        "requests": 80,
+        "success": 55,
+        "admitted": 67,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 112,
+        "requests": 112,
+        "success": 63,
+        "admitted": 71,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321004,
+        "load": 48,
+        "requests": 48,
+        "success": 38,
+        "admitted": 40,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 80,
+        "requests": 80,
+        "success": 54,
+        "admitted": 57,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 112,
+        "requests": 112,
+        "success": 66,
+        "admitted": 68,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321005,
+        "load": 48,
+        "requests": 48,
+        "success": 35,
+        "admitted": 43,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 80,
+        "requests": 80,
+        "success": 55,
+        "admitted": 61,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 112,
+        "requests": 112,
+        "success": 55,
+        "admitted": 65,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321006,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 45,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 80,
+        "requests": 80,
+        "success": 58,
+        "admitted": 66,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 112,
+        "requests": 112,
+        "success": 81,
+        "admitted": 87,
+        "profile": "steady"
+      },
+      {
+        "seed": 321007,
+        "load": 48,
+        "requests": 48,
+        "success": 35,
+        "admitted": 38,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 80,
+        "requests": 80,
+        "success": 55,
+        "admitted": 62,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 112,
+        "requests": 112,
+        "success": 70,
+        "admitted": 77,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 48,
+        "requests": 48,
+        "success": 32,
+        "admitted": 36,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 80,
+        "requests": 80,
+        "success": 55,
+        "admitted": 59,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 112,
+        "requests": 112,
+        "success": 69,
+        "admitted": 73,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321009,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 44,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 80,
+        "requests": 80,
+        "success": 69,
+        "admitted": 72,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 112,
+        "requests": 112,
+        "success": 87,
+        "admitted": 93,
+        "profile": "steady"
+      }
+    ]
+  },
+  {
+    "method": "nearest",
+    "threshold": null,
+    "rate": 0.6720833333333334,
+    "rows": [
+      {
+        "seed": 321000,
+        "load": 48,
+        "requests": 48,
+        "success": 30,
+        "admitted": 35,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 80,
+        "requests": 80,
+        "success": 46,
+        "admitted": 54,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 112,
+        "requests": 112,
+        "success": 54,
+        "admitted": 66,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321001,
+        "load": 48,
+        "requests": 48,
+        "success": 34,
+        "admitted": 43,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 80,
+        "requests": 80,
+        "success": 55,
+        "admitted": 71,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 112,
+        "requests": 112,
+        "success": 77,
+        "admitted": 97,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 48,
+        "requests": 48,
+        "success": 40,
+        "admitted": 46,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 80,
+        "requests": 80,
+        "success": 59,
+        "admitted": 67,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 112,
+        "requests": 112,
+        "success": 71,
+        "admitted": 82,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 48,
+        "requests": 48,
+        "success": 37,
+        "admitted": 44,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 80,
+        "requests": 80,
+        "success": 68,
+        "admitted": 74,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 112,
+        "requests": 112,
+        "success": 72,
+        "admitted": 84,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321004,
+        "load": 48,
+        "requests": 48,
+        "success": 34,
+        "admitted": 40,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 80,
+        "requests": 80,
+        "success": 52,
+        "admitted": 57,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 112,
+        "requests": 112,
+        "success": 63,
+        "admitted": 72,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321005,
+        "load": 48,
+        "requests": 48,
+        "success": 32,
+        "admitted": 45,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 80,
+        "requests": 80,
+        "success": 52,
+        "admitted": 68,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 112,
+        "requests": 112,
+        "success": 65,
+        "admitted": 92,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321006,
+        "load": 48,
+        "requests": 48,
+        "success": 37,
+        "admitted": 45,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 80,
+        "requests": 80,
+        "success": 54,
+        "admitted": 67,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 112,
+        "requests": 112,
+        "success": 81,
+        "admitted": 92,
+        "profile": "steady"
+      },
+      {
+        "seed": 321007,
+        "load": 48,
+        "requests": 48,
+        "success": 33,
+        "admitted": 38,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 80,
+        "requests": 80,
+        "success": 52,
+        "admitted": 62,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 112,
+        "requests": 112,
+        "success": 68,
+        "admitted": 79,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 48,
+        "requests": 48,
+        "success": 31,
+        "admitted": 36,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 80,
+        "requests": 80,
+        "success": 53,
+        "admitted": 60,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 112,
+        "requests": 112,
+        "success": 72,
+        "admitted": 78,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321009,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 45,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 80,
+        "requests": 80,
+        "success": 67,
+        "admitted": 75,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 112,
+        "requests": 112,
+        "success": 83,
+        "admitted": 94,
+        "profile": "steady"
+      }
+    ]
+  },
+  {
+    "method": "price",
+    "threshold": 0.25,
+    "rate": 0.3466666666666667,
+    "rows": [
+      {
+        "seed": 321000,
+        "load": 48,
+        "requests": 48,
+        "success": 14,
+        "admitted": 15,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 80,
+        "requests": 80,
+        "success": 24,
+        "admitted": 25,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 112,
+        "requests": 112,
+        "success": 24,
+        "admitted": 24,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321001,
+        "load": 48,
+        "requests": 48,
+        "success": 16,
+        "admitted": 17,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 80,
+        "requests": 80,
+        "success": 31,
+        "admitted": 31,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 112,
+        "requests": 112,
+        "success": 47,
+        "admitted": 48,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 48,
+        "requests": 48,
+        "success": 18,
+        "admitted": 18,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 80,
+        "requests": 80,
+        "success": 31,
+        "admitted": 31,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 112,
+        "requests": 112,
+        "success": 39,
+        "admitted": 39,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 48,
+        "requests": 48,
+        "success": 22,
+        "admitted": 22,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 80,
+        "requests": 80,
+        "success": 35,
+        "admitted": 35,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 112,
+        "requests": 112,
+        "success": 41,
+        "admitted": 41,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321004,
+        "load": 48,
+        "requests": 48,
+        "success": 17,
+        "admitted": 17,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 80,
+        "requests": 80,
+        "success": 27,
+        "admitted": 28,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 112,
+        "requests": 112,
+        "success": 37,
+        "admitted": 39,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321005,
+        "load": 48,
+        "requests": 48,
+        "success": 22,
+        "admitted": 23,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 80,
+        "requests": 80,
+        "success": 35,
+        "admitted": 35,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 112,
+        "requests": 112,
+        "success": 49,
+        "admitted": 49,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321006,
+        "load": 48,
+        "requests": 48,
+        "success": 13,
+        "admitted": 13,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 80,
+        "requests": 80,
+        "success": 21,
+        "admitted": 21,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 112,
+        "requests": 112,
+        "success": 30,
+        "admitted": 30,
+        "profile": "steady"
+      },
+      {
+        "seed": 321007,
+        "load": 48,
+        "requests": 48,
+        "success": 12,
+        "admitted": 12,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 80,
+        "requests": 80,
+        "success": 27,
+        "admitted": 27,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 112,
+        "requests": 112,
+        "success": 36,
+        "admitted": 36,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 48,
+        "requests": 48,
+        "success": 17,
+        "admitted": 18,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 80,
+        "requests": 80,
+        "success": 28,
+        "admitted": 28,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 112,
+        "requests": 112,
+        "success": 36,
+        "admitted": 37,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321009,
+        "load": 48,
+        "requests": 48,
+        "success": 18,
+        "admitted": 18,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 80,
+        "requests": 80,
+        "success": 27,
+        "admitted": 27,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 112,
+        "requests": 112,
+        "success": 38,
+        "admitted": 38,
+        "profile": "steady"
+      }
+    ]
+  },
+  {
+    "method": "price",
+    "threshold": 0.5,
+    "rate": 0.5320833333333334,
+    "rows": [
+      {
+        "seed": 321000,
+        "load": 48,
+        "requests": 48,
+        "success": 27,
+        "admitted": 29,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 80,
+        "requests": 80,
+        "success": 40,
+        "admitted": 43,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 112,
+        "requests": 112,
+        "success": 48,
+        "admitted": 50,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321001,
+        "load": 48,
+        "requests": 48,
+        "success": 27,
+        "admitted": 29,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 80,
+        "requests": 80,
+        "success": 41,
+        "admitted": 44,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 112,
+        "requests": 112,
+        "success": 59,
+        "admitted": 64,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 48,
+        "requests": 48,
+        "success": 30,
+        "admitted": 31,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 80,
+        "requests": 80,
+        "success": 42,
+        "admitted": 44,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 112,
+        "requests": 112,
+        "success": 59,
+        "admitted": 59,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 48,
+        "requests": 48,
+        "success": 30,
+        "admitted": 31,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 80,
+        "requests": 80,
+        "success": 48,
+        "admitted": 49,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 112,
+        "requests": 112,
+        "success": 60,
+        "admitted": 61,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321004,
+        "load": 48,
+        "requests": 48,
+        "success": 31,
+        "admitted": 31,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 80,
+        "requests": 80,
+        "success": 43,
+        "admitted": 45,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 112,
+        "requests": 112,
+        "success": 57,
+        "admitted": 61,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321005,
+        "load": 48,
+        "requests": 48,
+        "success": 28,
+        "admitted": 32,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 80,
+        "requests": 80,
+        "success": 41,
+        "admitted": 44,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 112,
+        "requests": 112,
+        "success": 57,
+        "admitted": 62,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321006,
+        "load": 48,
+        "requests": 48,
+        "success": 25,
+        "admitted": 26,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 80,
+        "requests": 80,
+        "success": 38,
+        "admitted": 42,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 112,
+        "requests": 112,
+        "success": 56,
+        "admitted": 58,
+        "profile": "steady"
+      },
+      {
+        "seed": 321007,
+        "load": 48,
+        "requests": 48,
+        "success": 26,
+        "admitted": 27,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 80,
+        "requests": 80,
+        "success": 44,
+        "admitted": 46,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 112,
+        "requests": 112,
+        "success": 53,
+        "admitted": 55,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 48,
+        "requests": 48,
+        "success": 30,
+        "admitted": 31,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 80,
+        "requests": 80,
+        "success": 43,
+        "admitted": 43,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 112,
+        "requests": 112,
+        "success": 55,
+        "admitted": 56,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321009,
+        "load": 48,
+        "requests": 48,
+        "success": 31,
+        "admitted": 33,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 80,
+        "requests": 80,
+        "success": 47,
+        "admitted": 48,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 112,
+        "requests": 112,
+        "success": 61,
+        "admitted": 65,
+        "profile": "steady"
+      }
+    ]
+  },
+  {
+    "method": "price",
+    "threshold": 1.0,
+    "rate": 0.6845833333333333,
+    "rows": [
+      {
+        "seed": 321000,
+        "load": 48,
+        "requests": 48,
+        "success": 31,
+        "admitted": 35,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 80,
+        "requests": 80,
+        "success": 51,
+        "admitted": 56,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 112,
+        "requests": 112,
+        "success": 71,
+        "admitted": 77,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321001,
+        "load": 48,
+        "requests": 48,
+        "success": 34,
+        "admitted": 38,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 80,
+        "requests": 80,
+        "success": 54,
+        "admitted": 61,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 112,
+        "requests": 112,
+        "success": 79,
+        "admitted": 86,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 41,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 80,
+        "requests": 80,
+        "success": 55,
+        "admitted": 62,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 112,
+        "requests": 112,
+        "success": 71,
+        "admitted": 78,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 48,
+        "requests": 48,
+        "success": 37,
+        "admitted": 41,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 80,
+        "requests": 80,
+        "success": 60,
+        "admitted": 63,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 112,
+        "requests": 112,
+        "success": 75,
+        "admitted": 82,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321004,
+        "load": 48,
+        "requests": 48,
+        "success": 35,
+        "admitted": 38,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 80,
+        "requests": 80,
+        "success": 52,
+        "admitted": 55,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 112,
+        "requests": 112,
+        "success": 71,
+        "admitted": 76,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321005,
+        "load": 48,
+        "requests": 48,
+        "success": 33,
+        "admitted": 40,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 80,
+        "requests": 80,
+        "success": 57,
+        "admitted": 61,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 112,
+        "requests": 112,
+        "success": 69,
+        "admitted": 77,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321006,
+        "load": 48,
+        "requests": 48,
+        "success": 36,
+        "admitted": 41,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 80,
+        "requests": 80,
+        "success": 52,
+        "admitted": 60,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 112,
+        "requests": 112,
+        "success": 77,
+        "admitted": 81,
+        "profile": "steady"
+      },
+      {
+        "seed": 321007,
+        "load": 48,
+        "requests": 48,
+        "success": 34,
+        "admitted": 36,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 80,
+        "requests": 80,
+        "success": 55,
+        "admitted": 59,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 112,
+        "requests": 112,
+        "success": 72,
+        "admitted": 76,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 48,
+        "requests": 48,
+        "success": 35,
+        "admitted": 39,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 80,
+        "requests": 80,
+        "success": 54,
+        "admitted": 56,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 112,
+        "requests": 112,
+        "success": 69,
+        "admitted": 71,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321009,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 41,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 80,
+        "requests": 80,
+        "success": 67,
+        "admitted": 69,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 112,
+        "requests": 112,
+        "success": 79,
+        "admitted": 85,
+        "profile": "steady"
+      }
+    ]
+  },
+  {
+    "method": "price",
+    "threshold": 2.0,
+    "rate": 0.7116666666666667,
+    "rows": [
+      {
+        "seed": 321000,
+        "load": 48,
+        "requests": 48,
+        "success": 31,
+        "admitted": 35,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 80,
+        "requests": 80,
+        "success": 47,
+        "admitted": 55,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 112,
+        "requests": 112,
+        "success": 71,
+        "admitted": 78,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321001,
+        "load": 48,
+        "requests": 48,
+        "success": 38,
+        "admitted": 42,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 80,
+        "requests": 80,
+        "success": 62,
+        "admitted": 71,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 112,
+        "requests": 112,
+        "success": 83,
+        "admitted": 90,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 48,
+        "requests": 48,
+        "success": 40,
+        "admitted": 45,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 80,
+        "requests": 80,
+        "success": 57,
+        "admitted": 66,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 112,
+        "requests": 112,
+        "success": 71,
+        "admitted": 79,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 48,
+        "requests": 48,
+        "success": 38,
+        "admitted": 42,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 80,
+        "requests": 80,
+        "success": 64,
+        "admitted": 68,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 112,
+        "requests": 112,
+        "success": 74,
+        "admitted": 84,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321004,
+        "load": 48,
+        "requests": 48,
+        "success": 37,
+        "admitted": 40,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 80,
+        "requests": 80,
+        "success": 53,
+        "admitted": 58,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 112,
+        "requests": 112,
+        "success": 67,
+        "admitted": 74,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321005,
+        "load": 48,
+        "requests": 48,
+        "success": 36,
+        "admitted": 44,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 80,
+        "requests": 80,
+        "success": 62,
+        "admitted": 66,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 112,
+        "requests": 112,
+        "success": 66,
+        "admitted": 78,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321006,
+        "load": 48,
+        "requests": 48,
+        "success": 40,
+        "admitted": 45,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 80,
+        "requests": 80,
+        "success": 59,
+        "admitted": 68,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 112,
+        "requests": 112,
+        "success": 82,
+        "admitted": 86,
+        "profile": "steady"
+      },
+      {
+        "seed": 321007,
+        "load": 48,
+        "requests": 48,
+        "success": 36,
+        "admitted": 38,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 80,
+        "requests": 80,
+        "success": 55,
+        "admitted": 61,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 112,
+        "requests": 112,
+        "success": 76,
+        "admitted": 81,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 48,
+        "requests": 48,
+        "success": 34,
+        "admitted": 38,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 80,
+        "requests": 80,
+        "success": 59,
+        "admitted": 63,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 112,
+        "requests": 112,
+        "success": 73,
+        "admitted": 76,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321009,
+        "load": 48,
+        "requests": 48,
+        "success": 42,
+        "admitted": 44,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 80,
+        "requests": 80,
+        "success": 71,
+        "admitted": 73,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 112,
+        "requests": 112,
+        "success": 84,
+        "admitted": 92,
+        "profile": "steady"
+      }
+    ]
+  },
+  {
+    "method": "price",
+    "threshold": 4.0,
+    "rate": 0.7083333333333334,
+    "rows": [
+      {
+        "seed": 321000,
+        "load": 48,
+        "requests": 48,
+        "success": 31,
+        "admitted": 35,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 80,
+        "requests": 80,
+        "success": 47,
+        "admitted": 51,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 112,
+        "requests": 112,
+        "success": 70,
+        "admitted": 78,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321001,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 43,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 80,
+        "requests": 80,
+        "success": 63,
+        "admitted": 70,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 112,
+        "requests": 112,
+        "success": 83,
+        "admitted": 91,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 46,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 80,
+        "requests": 80,
+        "success": 58,
+        "admitted": 66,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 112,
+        "requests": 112,
+        "success": 69,
+        "admitted": 75,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 44,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 80,
+        "requests": 80,
+        "success": 65,
+        "admitted": 69,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 112,
+        "requests": 112,
+        "success": 73,
+        "admitted": 84,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321004,
+        "load": 48,
+        "requests": 48,
+        "success": 37,
+        "admitted": 40,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 80,
+        "requests": 80,
+        "success": 53,
+        "admitted": 58,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 112,
+        "requests": 112,
+        "success": 64,
+        "admitted": 68,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321005,
+        "load": 48,
+        "requests": 48,
+        "success": 36,
+        "admitted": 44,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 80,
+        "requests": 80,
+        "success": 63,
+        "admitted": 67,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 112,
+        "requests": 112,
+        "success": 60,
+        "admitted": 71,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321006,
+        "load": 48,
+        "requests": 48,
+        "success": 40,
+        "admitted": 45,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 80,
+        "requests": 80,
+        "success": 59,
+        "admitted": 68,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 112,
+        "requests": 112,
+        "success": 84,
+        "admitted": 88,
+        "profile": "steady"
+      },
+      {
+        "seed": 321007,
+        "load": 48,
+        "requests": 48,
+        "success": 35,
+        "admitted": 38,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 80,
+        "requests": 80,
+        "success": 56,
+        "admitted": 62,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 112,
+        "requests": 112,
+        "success": 76,
+        "admitted": 81,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 48,
+        "requests": 48,
+        "success": 32,
+        "admitted": 36,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 80,
+        "requests": 80,
+        "success": 58,
+        "admitted": 62,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 112,
+        "requests": 112,
+        "success": 71,
+        "admitted": 75,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321009,
+        "load": 48,
+        "requests": 48,
+        "success": 43,
+        "admitted": 45,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 80,
+        "requests": 80,
+        "success": 71,
+        "admitted": 73,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 112,
+        "requests": 112,
+        "success": 84,
+        "admitted": 92,
+        "profile": "steady"
+      }
+    ]
+  },
+  {
+    "method": "price",
+    "threshold": 8.0,
+    "rate": 0.7083333333333334,
+    "rows": [
+      {
+        "seed": 321000,
+        "load": 48,
+        "requests": 48,
+        "success": 31,
+        "admitted": 35,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 80,
+        "requests": 80,
+        "success": 47,
+        "admitted": 51,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 112,
+        "requests": 112,
+        "success": 70,
+        "admitted": 78,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321001,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 43,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 80,
+        "requests": 80,
+        "success": 63,
+        "admitted": 70,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 112,
+        "requests": 112,
+        "success": 83,
+        "admitted": 91,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 46,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 80,
+        "requests": 80,
+        "success": 58,
+        "admitted": 66,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 112,
+        "requests": 112,
+        "success": 69,
+        "admitted": 75,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 44,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 80,
+        "requests": 80,
+        "success": 65,
+        "admitted": 69,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 112,
+        "requests": 112,
+        "success": 73,
+        "admitted": 84,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321004,
+        "load": 48,
+        "requests": 48,
+        "success": 37,
+        "admitted": 40,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 80,
+        "requests": 80,
+        "success": 53,
+        "admitted": 58,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 112,
+        "requests": 112,
+        "success": 64,
+        "admitted": 68,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321005,
+        "load": 48,
+        "requests": 48,
+        "success": 36,
+        "admitted": 44,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 80,
+        "requests": 80,
+        "success": 63,
+        "admitted": 67,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 112,
+        "requests": 112,
+        "success": 60,
+        "admitted": 71,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321006,
+        "load": 48,
+        "requests": 48,
+        "success": 40,
+        "admitted": 45,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 80,
+        "requests": 80,
+        "success": 59,
+        "admitted": 68,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 112,
+        "requests": 112,
+        "success": 84,
+        "admitted": 88,
+        "profile": "steady"
+      },
+      {
+        "seed": 321007,
+        "load": 48,
+        "requests": 48,
+        "success": 35,
+        "admitted": 38,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 80,
+        "requests": 80,
+        "success": 56,
+        "admitted": 62,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 112,
+        "requests": 112,
+        "success": 76,
+        "admitted": 81,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 48,
+        "requests": 48,
+        "success": 32,
+        "admitted": 36,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 80,
+        "requests": 80,
+        "success": 58,
+        "admitted": 62,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 112,
+        "requests": 112,
+        "success": 71,
+        "admitted": 75,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321009,
+        "load": 48,
+        "requests": 48,
+        "success": 43,
+        "admitted": 45,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 80,
+        "requests": 80,
+        "success": 71,
+        "admitted": 73,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 112,
+        "requests": 112,
+        "success": 84,
+        "admitted": 92,
+        "profile": "steady"
+      }
+    ]
+  },
+  {
+    "method": "price",
+    "threshold": null,
+    "rate": 0.7083333333333334,
+    "rows": [
+      {
+        "seed": 321000,
+        "load": 48,
+        "requests": 48,
+        "success": 31,
+        "admitted": 35,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 80,
+        "requests": 80,
+        "success": 47,
+        "admitted": 51,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321000,
+        "load": 112,
+        "requests": 112,
+        "success": 70,
+        "admitted": 78,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321001,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 43,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 80,
+        "requests": 80,
+        "success": 63,
+        "admitted": 70,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321001,
+        "load": 112,
+        "requests": 112,
+        "success": 83,
+        "admitted": 91,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 48,
+        "requests": 48,
+        "success": 41,
+        "admitted": 46,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 80,
+        "requests": 80,
+        "success": 58,
+        "admitted": 66,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321002,
+        "load": 112,
+        "requests": 112,
+        "success": 69,
+        "admitted": 75,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 48,
+        "requests": 48,
+        "success": 39,
+        "admitted": 44,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 80,
+        "requests": 80,
+        "success": 65,
+        "admitted": 69,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321003,
+        "load": 112,
+        "requests": 112,
+        "success": 73,
+        "admitted": 84,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321004,
+        "load": 48,
+        "requests": 48,
+        "success": 37,
+        "admitted": 40,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 80,
+        "requests": 80,
+        "success": 53,
+        "admitted": 58,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321004,
+        "load": 112,
+        "requests": 112,
+        "success": 64,
+        "admitted": 68,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321005,
+        "load": 48,
+        "requests": 48,
+        "success": 36,
+        "admitted": 44,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 80,
+        "requests": 80,
+        "success": 63,
+        "admitted": 67,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321005,
+        "load": 112,
+        "requests": 112,
+        "success": 60,
+        "admitted": 71,
+        "profile": "retrieval_first"
+      },
+      {
+        "seed": 321006,
+        "load": 48,
+        "requests": 48,
+        "success": 40,
+        "admitted": 45,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 80,
+        "requests": 80,
+        "success": 59,
+        "admitted": 68,
+        "profile": "steady"
+      },
+      {
+        "seed": 321006,
+        "load": 112,
+        "requests": 112,
+        "success": 84,
+        "admitted": 88,
+        "profile": "steady"
+      },
+      {
+        "seed": 321007,
+        "load": 48,
+        "requests": 48,
+        "success": 35,
+        "admitted": 38,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 80,
+        "requests": 80,
+        "success": 56,
+        "admitted": 62,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321007,
+        "load": 112,
+        "requests": 112,
+        "success": 76,
+        "admitted": 81,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 48,
+        "requests": 48,
+        "success": 32,
+        "admitted": 36,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 80,
+        "requests": 80,
+        "success": 58,
+        "admitted": 62,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321008,
+        "load": 112,
+        "requests": 112,
+        "success": 71,
+        "admitted": 75,
+        "profile": "upload_first"
+      },
+      {
+        "seed": 321009,
+        "load": 48,
+        "requests": 48,
+        "success": 43,
+        "admitted": 45,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 80,
+        "requests": 80,
+        "success": 71,
+        "admitted": 73,
+        "profile": "steady"
+      },
+      {
+        "seed": 321009,
+        "load": 112,
+        "requests": 112,
+        "success": 84,
+        "admitted": 92,
+        "profile": "steady"
+      }
+    ]
+  }
+]

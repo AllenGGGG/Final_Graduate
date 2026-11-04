@@ -1,0 +1,2770 @@
+{
+  "parameters": [
+    1.0,
+    0.25,
+    1.0
+  ],
+  "rows": [
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222000,
+      "load": 48,
+      "requests": 48,
+      "success": 41,
+      "admitted": 43,
+      "by_service": {
+        "telemetry": {
+          "requests": 20,
+          "success": 15
+        },
+        "object": {
+          "requests": 21,
+          "success": 21
+        },
+        "command": {
+          "requests": 7,
+          "success": 5
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222000,
+      "load": 80,
+      "requests": 80,
+      "success": 57,
+      "admitted": 65,
+      "by_service": {
+        "telemetry": {
+          "requests": 28,
+          "success": 13
+        },
+        "object": {
+          "requests": 32,
+          "success": 27
+        },
+        "command": {
+          "requests": 20,
+          "success": 17
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222001,
+      "load": 48,
+      "requests": 48,
+      "success": 41,
+      "admitted": 46,
+      "by_service": {
+        "telemetry": {
+          "requests": 12,
+          "success": 10
+        },
+        "object": {
+          "requests": 20,
+          "success": 18
+        },
+        "command": {
+          "requests": 16,
+          "success": 13
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222001,
+      "load": 80,
+      "requests": 80,
+      "success": 66,
+      "admitted": 72,
+      "by_service": {
+        "telemetry": {
+          "requests": 32,
+          "success": 23
+        },
+        "object": {
+          "requests": 32,
+          "success": 31
+        },
+        "command": {
+          "requests": 16,
+          "success": 12
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222002,
+      "load": 48,
+      "requests": 48,
+      "success": 40,
+      "admitted": 45,
+      "by_service": {
+        "telemetry": {
+          "requests": 14,
+          "success": 9
+        },
+        "object": {
+          "requests": 19,
+          "success": 16
+        },
+        "command": {
+          "requests": 15,
+          "success": 15
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222002,
+      "load": 80,
+      "requests": 80,
+      "success": 59,
+      "admitted": 65,
+      "by_service": {
+        "telemetry": {
+          "requests": 24,
+          "success": 14
+        },
+        "object": {
+          "requests": 33,
+          "success": 26
+        },
+        "command": {
+          "requests": 23,
+          "success": 19
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222003,
+      "load": 48,
+      "requests": 48,
+      "success": 43,
+      "admitted": 45,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 13
+        },
+        "object": {
+          "requests": 21,
+          "success": 21
+        },
+        "command": {
+          "requests": 10,
+          "success": 9
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222003,
+      "load": 80,
+      "requests": 80,
+      "success": 59,
+      "admitted": 67,
+      "by_service": {
+        "telemetry": {
+          "requests": 32,
+          "success": 21
+        },
+        "object": {
+          "requests": 31,
+          "success": 26
+        },
+        "command": {
+          "requests": 17,
+          "success": 12
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222004,
+      "load": 48,
+      "requests": 48,
+      "success": 42,
+      "admitted": 46,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 13
+        },
+        "object": {
+          "requests": 23,
+          "success": 22
+        },
+        "command": {
+          "requests": 8,
+          "success": 7
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222004,
+      "load": 80,
+      "requests": 80,
+      "success": 61,
+      "admitted": 67,
+      "by_service": {
+        "telemetry": {
+          "requests": 31,
+          "success": 16
+        },
+        "object": {
+          "requests": 26,
+          "success": 26
+        },
+        "command": {
+          "requests": 23,
+          "success": 19
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222005,
+      "load": 48,
+      "requests": 48,
+      "success": 36,
+      "admitted": 41,
+      "by_service": {
+        "telemetry": {
+          "requests": 21,
+          "success": 14
+        },
+        "object": {
+          "requests": 16,
+          "success": 13
+        },
+        "command": {
+          "requests": 11,
+          "success": 9
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222005,
+      "load": 80,
+      "requests": 80,
+      "success": 61,
+      "admitted": 67,
+      "by_service": {
+        "telemetry": {
+          "requests": 34,
+          "success": 21
+        },
+        "object": {
+          "requests": 23,
+          "success": 20
+        },
+        "command": {
+          "requests": 23,
+          "success": 20
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222006,
+      "load": 48,
+      "requests": 48,
+      "success": 42,
+      "admitted": 45,
+      "by_service": {
+        "telemetry": {
+          "requests": 16,
+          "success": 10
+        },
+        "object": {
+          "requests": 19,
+          "success": 19
+        },
+        "command": {
+          "requests": 13,
+          "success": 13
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222006,
+      "load": 80,
+      "requests": 80,
+      "success": 63,
+      "admitted": 67,
+      "by_service": {
+        "telemetry": {
+          "requests": 28,
+          "success": 15
+        },
+        "object": {
+          "requests": 29,
+          "success": 28
+        },
+        "command": {
+          "requests": 23,
+          "success": 20
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222007,
+      "load": 48,
+      "requests": 48,
+      "success": 40,
+      "admitted": 45,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 16
+        },
+        "object": {
+          "requests": 18,
+          "success": 16
+        },
+        "command": {
+          "requests": 11,
+          "success": 8
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222007,
+      "load": 80,
+      "requests": 80,
+      "success": 60,
+      "admitted": 69,
+      "by_service": {
+        "telemetry": {
+          "requests": 32,
+          "success": 19
+        },
+        "object": {
+          "requests": 23,
+          "success": 19
+        },
+        "command": {
+          "requests": 25,
+          "success": 22
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222008,
+      "load": 48,
+      "requests": 48,
+      "success": 39,
+      "admitted": 46,
+      "by_service": {
+        "telemetry": {
+          "requests": 12,
+          "success": 9
+        },
+        "object": {
+          "requests": 23,
+          "success": 19
+        },
+        "command": {
+          "requests": 13,
+          "success": 11
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222008,
+      "load": 80,
+      "requests": 80,
+      "success": 67,
+      "admitted": 75,
+      "by_service": {
+        "telemetry": {
+          "requests": 25,
+          "success": 18
+        },
+        "object": {
+          "requests": 37,
+          "success": 32
+        },
+        "command": {
+          "requests": 18,
+          "success": 17
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222009,
+      "load": 48,
+      "requests": 48,
+      "success": 41,
+      "admitted": 43,
+      "by_service": {
+        "telemetry": {
+          "requests": 21,
+          "success": 16
+        },
+        "object": {
+          "requests": 18,
+          "success": 16
+        },
+        "command": {
+          "requests": 9,
+          "success": 9
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222009,
+      "load": 80,
+      "requests": 80,
+      "success": 60,
+      "admitted": 67,
+      "by_service": {
+        "telemetry": {
+          "requests": 31,
+          "success": 16
+        },
+        "object": {
+          "requests": 26,
+          "success": 22
+        },
+        "command": {
+          "requests": 23,
+          "success": 22
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222010,
+      "load": 48,
+      "requests": 48,
+      "success": 42,
+      "admitted": 43,
+      "by_service": {
+        "telemetry": {
+          "requests": 20,
+          "success": 15
+        },
+        "object": {
+          "requests": 21,
+          "success": 20
+        },
+        "command": {
+          "requests": 7,
+          "success": 7
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222010,
+      "load": 80,
+      "requests": 80,
+      "success": 61,
+      "admitted": 69,
+      "by_service": {
+        "telemetry": {
+          "requests": 30,
+          "success": 17
+        },
+        "object": {
+          "requests": 30,
+          "success": 24
+        },
+        "command": {
+          "requests": 20,
+          "success": 20
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222011,
+      "load": 48,
+      "requests": 48,
+      "success": 40,
+      "admitted": 45,
+      "by_service": {
+        "telemetry": {
+          "requests": 15,
+          "success": 11
+        },
+        "object": {
+          "requests": 19,
+          "success": 18
+        },
+        "command": {
+          "requests": 14,
+          "success": 11
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222011,
+      "load": 80,
+      "requests": 80,
+      "success": 61,
+      "admitted": 73,
+      "by_service": {
+        "telemetry": {
+          "requests": 27,
+          "success": 19
+        },
+        "object": {
+          "requests": 26,
+          "success": 19
+        },
+        "command": {
+          "requests": 27,
+          "success": 23
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222012,
+      "load": 48,
+      "requests": 48,
+      "success": 36,
+      "admitted": 42,
+      "by_service": {
+        "telemetry": {
+          "requests": 21,
+          "success": 14
+        },
+        "object": {
+          "requests": 15,
+          "success": 13
+        },
+        "command": {
+          "requests": 12,
+          "success": 9
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222012,
+      "load": 80,
+      "requests": 80,
+      "success": 55,
+      "admitted": 64,
+      "by_service": {
+        "telemetry": {
+          "requests": 32,
+          "success": 13
+        },
+        "object": {
+          "requests": 34,
+          "success": 30
+        },
+        "command": {
+          "requests": 14,
+          "success": 12
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222013,
+      "load": 48,
+      "requests": 48,
+      "success": 40,
+      "admitted": 45,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 14
+        },
+        "object": {
+          "requests": 17,
+          "success": 16
+        },
+        "command": {
+          "requests": 12,
+          "success": 10
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222013,
+      "load": 80,
+      "requests": 80,
+      "success": 61,
+      "admitted": 68,
+      "by_service": {
+        "telemetry": {
+          "requests": 32,
+          "success": 19
+        },
+        "object": {
+          "requests": 28,
+          "success": 23
+        },
+        "command": {
+          "requests": 20,
+          "success": 19
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222014,
+      "load": 48,
+      "requests": 48,
+      "success": 37,
+      "admitted": 40,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 11
+        },
+        "object": {
+          "requests": 14,
+          "success": 13
+        },
+        "command": {
+          "requests": 15,
+          "success": 13
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222014,
+      "load": 80,
+      "requests": 80,
+      "success": 63,
+      "admitted": 72,
+      "by_service": {
+        "telemetry": {
+          "requests": 27,
+          "success": 18
+        },
+        "object": {
+          "requests": 29,
+          "success": 26
+        },
+        "command": {
+          "requests": 24,
+          "success": 19
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222015,
+      "load": 48,
+      "requests": 48,
+      "success": 39,
+      "admitted": 43,
+      "by_service": {
+        "telemetry": {
+          "requests": 21,
+          "success": 14
+        },
+        "object": {
+          "requests": 20,
+          "success": 20
+        },
+        "command": {
+          "requests": 7,
+          "success": 5
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222015,
+      "load": 80,
+      "requests": 80,
+      "success": 54,
+      "admitted": 69,
+      "by_service": {
+        "telemetry": {
+          "requests": 31,
+          "success": 16
+        },
+        "object": {
+          "requests": 35,
+          "success": 27
+        },
+        "command": {
+          "requests": 14,
+          "success": 11
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222016,
+      "load": 48,
+      "requests": 48,
+      "success": 36,
+      "admitted": 44,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 13
+        },
+        "object": {
+          "requests": 19,
+          "success": 14
+        },
+        "command": {
+          "requests": 12,
+          "success": 9
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222016,
+      "load": 80,
+      "requests": 80,
+      "success": 63,
+      "admitted": 72,
+      "by_service": {
+        "telemetry": {
+          "requests": 28,
+          "success": 19
+        },
+        "object": {
+          "requests": 31,
+          "success": 27
+        },
+        "command": {
+          "requests": 21,
+          "success": 17
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222017,
+      "load": 48,
+      "requests": 48,
+      "success": 37,
+      "admitted": 40,
+      "by_service": {
+        "telemetry": {
+          "requests": 23,
+          "success": 13
+        },
+        "object": {
+          "requests": 16,
+          "success": 15
+        },
+        "command": {
+          "requests": 9,
+          "success": 9
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222017,
+      "load": 80,
+      "requests": 80,
+      "success": 66,
+      "admitted": 72,
+      "by_service": {
+        "telemetry": {
+          "requests": 26,
+          "success": 16
+        },
+        "object": {
+          "requests": 29,
+          "success": 27
+        },
+        "command": {
+          "requests": 25,
+          "success": 23
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222018,
+      "load": 48,
+      "requests": 48,
+      "success": 39,
+      "admitted": 43,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 14
+        },
+        "object": {
+          "requests": 18,
+          "success": 17
+        },
+        "command": {
+          "requests": 11,
+          "success": 8
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222018,
+      "load": 80,
+      "requests": 80,
+      "success": 55,
+      "admitted": 62,
+      "by_service": {
+        "telemetry": {
+          "requests": 37,
+          "success": 17
+        },
+        "object": {
+          "requests": 22,
+          "success": 20
+        },
+        "command": {
+          "requests": 21,
+          "success": 18
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222019,
+      "load": 48,
+      "requests": 48,
+      "success": 43,
+      "admitted": 46,
+      "by_service": {
+        "telemetry": {
+          "requests": 11,
+          "success": 9
+        },
+        "object": {
+          "requests": 23,
+          "success": 20
+        },
+        "command": {
+          "requests": 14,
+          "success": 14
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222019,
+      "load": 80,
+      "requests": 80,
+      "success": 64,
+      "admitted": 69,
+      "by_service": {
+        "telemetry": {
+          "requests": 29,
+          "success": 16
+        },
+        "object": {
+          "requests": 32,
+          "success": 30
+        },
+        "command": {
+          "requests": 19,
+          "success": 18
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222020,
+      "load": 48,
+      "requests": 48,
+      "success": 40,
+      "admitted": 41,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 12
+        },
+        "object": {
+          "requests": 13,
+          "success": 13
+        },
+        "command": {
+          "requests": 16,
+          "success": 15
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222020,
+      "load": 80,
+      "requests": 80,
+      "success": 60,
+      "admitted": 66,
+      "by_service": {
+        "telemetry": {
+          "requests": 35,
+          "success": 18
+        },
+        "object": {
+          "requests": 28,
+          "success": 27
+        },
+        "command": {
+          "requests": 17,
+          "success": 15
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222021,
+      "load": 48,
+      "requests": 48,
+      "success": 39,
+      "admitted": 45,
+      "by_service": {
+        "telemetry": {
+          "requests": 21,
+          "success": 15
+        },
+        "object": {
+          "requests": 17,
+          "success": 16
+        },
+        "command": {
+          "requests": 10,
+          "success": 8
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222021,
+      "load": 80,
+      "requests": 80,
+      "success": 61,
+      "admitted": 65,
+      "by_service": {
+        "telemetry": {
+          "requests": 35,
+          "success": 17
+        },
+        "object": {
+          "requests": 31,
+          "success": 30
+        },
+        "command": {
+          "requests": 14,
+          "success": 14
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222022,
+      "load": 48,
+      "requests": 48,
+      "success": 41,
+      "admitted": 44,
+      "by_service": {
+        "telemetry": {
+          "requests": 12,
+          "success": 7
+        },
+        "object": {
+          "requests": 18,
+          "success": 18
+        },
+        "command": {
+          "requests": 18,
+          "success": 16
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222022,
+      "load": 80,
+      "requests": 80,
+      "success": 62,
+      "admitted": 67,
+      "by_service": {
+        "telemetry": {
+          "requests": 27,
+          "success": 13
+        },
+        "object": {
+          "requests": 27,
+          "success": 25
+        },
+        "command": {
+          "requests": 26,
+          "success": 24
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222023,
+      "load": 48,
+      "requests": 48,
+      "success": 41,
+      "admitted": 44,
+      "by_service": {
+        "telemetry": {
+          "requests": 22,
+          "success": 18
+        },
+        "object": {
+          "requests": 13,
+          "success": 11
+        },
+        "command": {
+          "requests": 13,
+          "success": 12
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222023,
+      "load": 80,
+      "requests": 80,
+      "success": 63,
+      "admitted": 72,
+      "by_service": {
+        "telemetry": {
+          "requests": 28,
+          "success": 20
+        },
+        "object": {
+          "requests": 27,
+          "success": 22
+        },
+        "command": {
+          "requests": 25,
+          "success": 21
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222024,
+      "load": 48,
+      "requests": 48,
+      "success": 40,
+      "admitted": 46,
+      "by_service": {
+        "telemetry": {
+          "requests": 13,
+          "success": 11
+        },
+        "object": {
+          "requests": 20,
+          "success": 18
+        },
+        "command": {
+          "requests": 15,
+          "success": 11
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222024,
+      "load": 80,
+      "requests": 80,
+      "success": 55,
+      "admitted": 72,
+      "by_service": {
+        "telemetry": {
+          "requests": 24,
+          "success": 14
+        },
+        "object": {
+          "requests": 34,
+          "success": 23
+        },
+        "command": {
+          "requests": 22,
+          "success": 18
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222025,
+      "load": 48,
+      "requests": 48,
+      "success": 42,
+      "admitted": 46,
+      "by_service": {
+        "telemetry": {
+          "requests": 15,
+          "success": 13
+        },
+        "object": {
+          "requests": 18,
+          "success": 17
+        },
+        "command": {
+          "requests": 15,
+          "success": 12
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222025,
+      "load": 80,
+      "requests": 80,
+      "success": 62,
+      "admitted": 72,
+      "by_service": {
+        "telemetry": {
+          "requests": 28,
+          "success": 18
+        },
+        "object": {
+          "requests": 37,
+          "success": 33
+        },
+        "command": {
+          "requests": 15,
+          "success": 11
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222026,
+      "load": 48,
+      "requests": 48,
+      "success": 40,
+      "admitted": 45,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 15
+        },
+        "object": {
+          "requests": 17,
+          "success": 15
+        },
+        "command": {
+          "requests": 12,
+          "success": 10
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222026,
+      "load": 80,
+      "requests": 80,
+      "success": 60,
+      "admitted": 63,
+      "by_service": {
+        "telemetry": {
+          "requests": 36,
+          "success": 23
+        },
+        "object": {
+          "requests": 27,
+          "success": 23
+        },
+        "command": {
+          "requests": 17,
+          "success": 14
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222027,
+      "load": 48,
+      "requests": 48,
+      "success": 39,
+      "admitted": 45,
+      "by_service": {
+        "telemetry": {
+          "requests": 14,
+          "success": 12
+        },
+        "object": {
+          "requests": 23,
+          "success": 18
+        },
+        "command": {
+          "requests": 11,
+          "success": 9
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222027,
+      "load": 80,
+      "requests": 80,
+      "success": 60,
+      "admitted": 66,
+      "by_service": {
+        "telemetry": {
+          "requests": 31,
+          "success": 16
+        },
+        "object": {
+          "requests": 38,
+          "success": 33
+        },
+        "command": {
+          "requests": 11,
+          "success": 11
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222028,
+      "load": 48,
+      "requests": 48,
+      "success": 38,
+      "admitted": 41,
+      "by_service": {
+        "telemetry": {
+          "requests": 18,
+          "success": 10
+        },
+        "object": {
+          "requests": 14,
+          "success": 12
+        },
+        "command": {
+          "requests": 16,
+          "success": 16
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222028,
+      "load": 80,
+      "requests": 80,
+      "success": 58,
+      "admitted": 62,
+      "by_service": {
+        "telemetry": {
+          "requests": 30,
+          "success": 14
+        },
+        "object": {
+          "requests": 28,
+          "success": 23
+        },
+        "command": {
+          "requests": 22,
+          "success": 21
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222029,
+      "load": 48,
+      "requests": 48,
+      "success": 45,
+      "admitted": 47,
+      "by_service": {
+        "telemetry": {
+          "requests": 14,
+          "success": 12
+        },
+        "object": {
+          "requests": 23,
+          "success": 22
+        },
+        "command": {
+          "requests": 11,
+          "success": 11
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222029,
+      "load": 80,
+      "requests": 80,
+      "success": 64,
+      "admitted": 70,
+      "by_service": {
+        "telemetry": {
+          "requests": 29,
+          "success": 17
+        },
+        "object": {
+          "requests": 30,
+          "success": 29
+        },
+        "command": {
+          "requests": 21,
+          "success": 18
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222030,
+      "load": 48,
+      "requests": 48,
+      "success": 32,
+      "admitted": 41,
+      "by_service": {
+        "telemetry": {
+          "requests": 22,
+          "success": 14
+        },
+        "object": {
+          "requests": 17,
+          "success": 13
+        },
+        "command": {
+          "requests": 9,
+          "success": 5
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222030,
+      "load": 80,
+      "requests": 80,
+      "success": 65,
+      "admitted": 70,
+      "by_service": {
+        "telemetry": {
+          "requests": 30,
+          "success": 19
+        },
+        "object": {
+          "requests": 34,
+          "success": 32
+        },
+        "command": {
+          "requests": 16,
+          "success": 14
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222031,
+      "load": 48,
+      "requests": 48,
+      "success": 36,
+      "admitted": 44,
+      "by_service": {
+        "telemetry": {
+          "requests": 14,
+          "success": 8
+        },
+        "object": {
+          "requests": 20,
+          "success": 19
+        },
+        "command": {
+          "requests": 14,
+          "success": 9
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222031,
+      "load": 80,
+      "requests": 80,
+      "success": 65,
+      "admitted": 70,
+      "by_service": {
+        "telemetry": {
+          "requests": 28,
+          "success": 17
+        },
+        "object": {
+          "requests": 37,
+          "success": 33
+        },
+        "command": {
+          "requests": 15,
+          "success": 15
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222032,
+      "load": 48,
+      "requests": 48,
+      "success": 43,
+      "admitted": 46,
+      "by_service": {
+        "telemetry": {
+          "requests": 10,
+          "success": 8
+        },
+        "object": {
+          "requests": 27,
+          "success": 25
+        },
+        "command": {
+          "requests": 11,
+          "success": 10
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222032,
+      "load": 80,
+      "requests": 80,
+      "success": 64,
+      "admitted": 70,
+      "by_service": {
+        "telemetry": {
+          "requests": 24,
+          "success": 15
+        },
+        "object": {
+          "requests": 40,
+          "success": 34
+        },
+        "command": {
+          "requests": 16,
+          "success": 15
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222033,
+      "load": 48,
+      "requests": 48,
+      "success": 36,
+      "admitted": 39,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 10
+        },
+        "object": {
+          "requests": 23,
+          "success": 19
+        },
+        "command": {
+          "requests": 8,
+          "success": 7
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222033,
+      "load": 80,
+      "requests": 80,
+      "success": 71,
+      "admitted": 76,
+      "by_service": {
+        "telemetry": {
+          "requests": 26,
+          "success": 22
+        },
+        "object": {
+          "requests": 44,
+          "success": 40
+        },
+        "command": {
+          "requests": 10,
+          "success": 9
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222034,
+      "load": 48,
+      "requests": 48,
+      "success": 37,
+      "admitted": 43,
+      "by_service": {
+        "telemetry": {
+          "requests": 15,
+          "success": 8
+        },
+        "object": {
+          "requests": 17,
+          "success": 15
+        },
+        "command": {
+          "requests": 16,
+          "success": 14
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222034,
+      "load": 80,
+      "requests": 80,
+      "success": 62,
+      "admitted": 68,
+      "by_service": {
+        "telemetry": {
+          "requests": 30,
+          "success": 18
+        },
+        "object": {
+          "requests": 29,
+          "success": 25
+        },
+        "command": {
+          "requests": 21,
+          "success": 19
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222035,
+      "load": 48,
+      "requests": 48,
+      "success": 42,
+      "admitted": 46,
+      "by_service": {
+        "telemetry": {
+          "requests": 15,
+          "success": 12
+        },
+        "object": {
+          "requests": 22,
+          "success": 20
+        },
+        "command": {
+          "requests": 11,
+          "success": 10
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222035,
+      "load": 80,
+      "requests": 80,
+      "success": 62,
+      "admitted": 71,
+      "by_service": {
+        "telemetry": {
+          "requests": 26,
+          "success": 13
+        },
+        "object": {
+          "requests": 39,
+          "success": 37
+        },
+        "command": {
+          "requests": 15,
+          "success": 12
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222036,
+      "load": 48,
+      "requests": 48,
+      "success": 42,
+      "admitted": 43,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 14
+        },
+        "object": {
+          "requests": 23,
+          "success": 23
+        },
+        "command": {
+          "requests": 6,
+          "success": 5
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222036,
+      "load": 80,
+      "requests": 80,
+      "success": 59,
+      "admitted": 74,
+      "by_service": {
+        "telemetry": {
+          "requests": 24,
+          "success": 16
+        },
+        "object": {
+          "requests": 34,
+          "success": 26
+        },
+        "command": {
+          "requests": 22,
+          "success": 17
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222037,
+      "load": 48,
+      "requests": 48,
+      "success": 42,
+      "admitted": 45,
+      "by_service": {
+        "telemetry": {
+          "requests": 15,
+          "success": 11
+        },
+        "object": {
+          "requests": 25,
+          "success": 24
+        },
+        "command": {
+          "requests": 8,
+          "success": 7
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222037,
+      "load": 80,
+      "requests": 80,
+      "success": 62,
+      "admitted": 72,
+      "by_service": {
+        "telemetry": {
+          "requests": 23,
+          "success": 12
+        },
+        "object": {
+          "requests": 34,
+          "success": 32
+        },
+        "command": {
+          "requests": 23,
+          "success": 18
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222038,
+      "load": 48,
+      "requests": 48,
+      "success": 37,
+      "admitted": 43,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 12
+        },
+        "object": {
+          "requests": 13,
+          "success": 12
+        },
+        "command": {
+          "requests": 16,
+          "success": 13
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222038,
+      "load": 80,
+      "requests": 80,
+      "success": 62,
+      "admitted": 65,
+      "by_service": {
+        "telemetry": {
+          "requests": 32,
+          "success": 16
+        },
+        "object": {
+          "requests": 29,
+          "success": 28
+        },
+        "command": {
+          "requests": 19,
+          "success": 18
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222039,
+      "load": 48,
+      "requests": 48,
+      "success": 38,
+      "admitted": 42,
+      "by_service": {
+        "telemetry": {
+          "requests": 23,
+          "success": 15
+        },
+        "object": {
+          "requests": 16,
+          "success": 15
+        },
+        "command": {
+          "requests": 9,
+          "success": 8
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222039,
+      "load": 80,
+      "requests": 80,
+      "success": 54,
+      "admitted": 65,
+      "by_service": {
+        "telemetry": {
+          "requests": 34,
+          "success": 17
+        },
+        "object": {
+          "requests": 25,
+          "success": 22
+        },
+        "command": {
+          "requests": 21,
+          "success": 15
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222040,
+      "load": 48,
+      "requests": 48,
+      "success": 33,
+      "admitted": 40,
+      "by_service": {
+        "telemetry": {
+          "requests": 18,
+          "success": 7
+        },
+        "object": {
+          "requests": 14,
+          "success": 13
+        },
+        "command": {
+          "requests": 16,
+          "success": 13
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222040,
+      "load": 80,
+      "requests": 80,
+      "success": 54,
+      "admitted": 65,
+      "by_service": {
+        "telemetry": {
+          "requests": 34,
+          "success": 19
+        },
+        "object": {
+          "requests": 25,
+          "success": 19
+        },
+        "command": {
+          "requests": 21,
+          "success": 16
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222041,
+      "load": 48,
+      "requests": 48,
+      "success": 45,
+      "admitted": 48,
+      "by_service": {
+        "telemetry": {
+          "requests": 8,
+          "success": 8
+        },
+        "object": {
+          "requests": 26,
+          "success": 24
+        },
+        "command": {
+          "requests": 14,
+          "success": 13
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222041,
+      "load": 80,
+      "requests": 80,
+      "success": 66,
+      "admitted": 75,
+      "by_service": {
+        "telemetry": {
+          "requests": 20,
+          "success": 13
+        },
+        "object": {
+          "requests": 39,
+          "success": 36
+        },
+        "command": {
+          "requests": 21,
+          "success": 17
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222042,
+      "load": 48,
+      "requests": 48,
+      "success": 42,
+      "admitted": 43,
+      "by_service": {
+        "telemetry": {
+          "requests": 21,
+          "success": 16
+        },
+        "object": {
+          "requests": 21,
+          "success": 20
+        },
+        "command": {
+          "requests": 6,
+          "success": 6
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222042,
+      "load": 80,
+      "requests": 80,
+      "success": 61,
+      "admitted": 70,
+      "by_service": {
+        "telemetry": {
+          "requests": 27,
+          "success": 17
+        },
+        "object": {
+          "requests": 40,
+          "success": 33
+        },
+        "command": {
+          "requests": 13,
+          "success": 11
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222043,
+      "load": 48,
+      "requests": 48,
+      "success": 42,
+      "admitted": 47,
+      "by_service": {
+        "telemetry": {
+          "requests": 15,
+          "success": 12
+        },
+        "object": {
+          "requests": 14,
+          "success": 14
+        },
+        "command": {
+          "requests": 19,
+          "success": 16
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222043,
+      "load": 80,
+      "requests": 80,
+      "success": 66,
+      "admitted": 73,
+      "by_service": {
+        "telemetry": {
+          "requests": 29,
+          "success": 19
+        },
+        "object": {
+          "requests": 30,
+          "success": 27
+        },
+        "command": {
+          "requests": 21,
+          "success": 20
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222044,
+      "load": 48,
+      "requests": 48,
+      "success": 37,
+      "admitted": 44,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 11
+        },
+        "object": {
+          "requests": 15,
+          "success": 13
+        },
+        "command": {
+          "requests": 14,
+          "success": 13
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222044,
+      "load": 80,
+      "requests": 80,
+      "success": 64,
+      "admitted": 69,
+      "by_service": {
+        "telemetry": {
+          "requests": 38,
+          "success": 26
+        },
+        "object": {
+          "requests": 20,
+          "success": 16
+        },
+        "command": {
+          "requests": 22,
+          "success": 22
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222045,
+      "load": 48,
+      "requests": 48,
+      "success": 42,
+      "admitted": 43,
+      "by_service": {
+        "telemetry": {
+          "requests": 16,
+          "success": 10
+        },
+        "object": {
+          "requests": 18,
+          "success": 18
+        },
+        "command": {
+          "requests": 14,
+          "success": 14
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222045,
+      "load": 80,
+      "requests": 80,
+      "success": 62,
+      "admitted": 67,
+      "by_service": {
+        "telemetry": {
+          "requests": 24,
+          "success": 16
+        },
+        "object": {
+          "requests": 34,
+          "success": 28
+        },
+        "command": {
+          "requests": 22,
+          "success": 18
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222046,
+      "load": 48,
+      "requests": 48,
+      "success": 40,
+      "admitted": 46,
+      "by_service": {
+        "telemetry": {
+          "requests": 15,
+          "success": 11
+        },
+        "object": {
+          "requests": 15,
+          "success": 14
+        },
+        "command": {
+          "requests": 18,
+          "success": 15
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222046,
+      "load": 80,
+      "requests": 80,
+      "success": 65,
+      "admitted": 72,
+      "by_service": {
+        "telemetry": {
+          "requests": 25,
+          "success": 18
+        },
+        "object": {
+          "requests": 29,
+          "success": 24
+        },
+        "command": {
+          "requests": 26,
+          "success": 23
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222047,
+      "load": 48,
+      "requests": 48,
+      "success": 43,
+      "admitted": 46,
+      "by_service": {
+        "telemetry": {
+          "requests": 10,
+          "success": 8
+        },
+        "object": {
+          "requests": 24,
+          "success": 23
+        },
+        "command": {
+          "requests": 14,
+          "success": 12
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222047,
+      "load": 80,
+      "requests": 80,
+      "success": 64,
+      "admitted": 75,
+      "by_service": {
+        "telemetry": {
+          "requests": 22,
+          "success": 16
+        },
+        "object": {
+          "requests": 41,
+          "success": 34
+        },
+        "command": {
+          "requests": 17,
+          "success": 14
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222048,
+      "load": 48,
+      "requests": 48,
+      "success": 37,
+      "admitted": 42,
+      "by_service": {
+        "telemetry": {
+          "requests": 18,
+          "success": 14
+        },
+        "object": {
+          "requests": 19,
+          "success": 13
+        },
+        "command": {
+          "requests": 11,
+          "success": 10
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222048,
+      "load": 80,
+      "requests": 80,
+      "success": 64,
+      "admitted": 72,
+      "by_service": {
+        "telemetry": {
+          "requests": 31,
+          "success": 21
+        },
+        "object": {
+          "requests": 35,
+          "success": 32
+        },
+        "command": {
+          "requests": 14,
+          "success": 11
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222049,
+      "load": 48,
+      "requests": 48,
+      "success": 39,
+      "admitted": 43,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 12
+        },
+        "object": {
+          "requests": 16,
+          "success": 15
+        },
+        "command": {
+          "requests": 13,
+          "success": 12
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222049,
+      "load": 80,
+      "requests": 80,
+      "success": 64,
+      "admitted": 75,
+      "by_service": {
+        "telemetry": {
+          "requests": 25,
+          "success": 19
+        },
+        "object": {
+          "requests": 30,
+          "success": 25
+        },
+        "command": {
+          "requests": 25,
+          "success": 20
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222050,
+      "load": 48,
+      "requests": 48,
+      "success": 38,
+      "admitted": 41,
+      "by_service": {
+        "telemetry": {
+          "requests": 19,
+          "success": 13
+        },
+        "object": {
+          "requests": 21,
+          "success": 17
+        },
+        "command": {
+          "requests": 8,
+          "success": 8
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222050,
+      "load": 80,
+      "requests": 80,
+      "success": 62,
+      "admitted": 68,
+      "by_service": {
+        "telemetry": {
+          "requests": 31,
+          "success": 21
+        },
+        "object": {
+          "requests": 33,
+          "success": 28
+        },
+        "command": {
+          "requests": 16,
+          "success": 13
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222051,
+      "load": 48,
+      "requests": 48,
+      "success": 36,
+      "admitted": 40,
+      "by_service": {
+        "telemetry": {
+          "requests": 22,
+          "success": 15
+        },
+        "object": {
+          "requests": 15,
+          "success": 13
+        },
+        "command": {
+          "requests": 11,
+          "success": 8
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222051,
+      "load": 80,
+      "requests": 80,
+      "success": 61,
+      "admitted": 65,
+      "by_service": {
+        "telemetry": {
+          "requests": 36,
+          "success": 20
+        },
+        "object": {
+          "requests": 27,
+          "success": 26
+        },
+        "command": {
+          "requests": 17,
+          "success": 15
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222052,
+      "load": 48,
+      "requests": 48,
+      "success": 37,
+      "admitted": 47,
+      "by_service": {
+        "telemetry": {
+          "requests": 16,
+          "success": 13
+        },
+        "object": {
+          "requests": 20,
+          "success": 16
+        },
+        "command": {
+          "requests": 12,
+          "success": 8
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222052,
+      "load": 80,
+      "requests": 80,
+      "success": 68,
+      "admitted": 74,
+      "by_service": {
+        "telemetry": {
+          "requests": 30,
+          "success": 22
+        },
+        "object": {
+          "requests": 36,
+          "success": 34
+        },
+        "command": {
+          "requests": 14,
+          "success": 12
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222053,
+      "load": 48,
+      "requests": 48,
+      "success": 38,
+      "admitted": 42,
+      "by_service": {
+        "telemetry": {
+          "requests": 22,
+          "success": 16
+        },
+        "object": {
+          "requests": 14,
+          "success": 12
+        },
+        "command": {
+          "requests": 12,
+          "success": 10
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222053,
+      "load": 80,
+      "requests": 80,
+      "success": 50,
+      "admitted": 59,
+      "by_service": {
+        "telemetry": {
+          "requests": 41,
+          "success": 17
+        },
+        "object": {
+          "requests": 24,
+          "success": 19
+        },
+        "command": {
+          "requests": 15,
+          "success": 14
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222054,
+      "load": 48,
+      "requests": 48,
+      "success": 41,
+      "admitted": 43,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 13
+        },
+        "object": {
+          "requests": 21,
+          "success": 18
+        },
+        "command": {
+          "requests": 10,
+          "success": 10
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222054,
+      "load": 80,
+      "requests": 80,
+      "success": 60,
+      "admitted": 68,
+      "by_service": {
+        "telemetry": {
+          "requests": 30,
+          "success": 17
+        },
+        "object": {
+          "requests": 29,
+          "success": 26
+        },
+        "command": {
+          "requests": 21,
+          "success": 17
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222055,
+      "load": 48,
+      "requests": 48,
+      "success": 40,
+      "admitted": 44,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 12
+        },
+        "object": {
+          "requests": 19,
+          "success": 18
+        },
+        "command": {
+          "requests": 12,
+          "success": 10
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222055,
+      "load": 80,
+      "requests": 80,
+      "success": 66,
+      "admitted": 75,
+      "by_service": {
+        "telemetry": {
+          "requests": 25,
+          "success": 18
+        },
+        "object": {
+          "requests": 29,
+          "success": 25
+        },
+        "command": {
+          "requests": 26,
+          "success": 23
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222056,
+      "load": 48,
+      "requests": 48,
+      "success": 38,
+      "admitted": 42,
+      "by_service": {
+        "telemetry": {
+          "requests": 16,
+          "success": 8
+        },
+        "object": {
+          "requests": 19,
+          "success": 17
+        },
+        "command": {
+          "requests": 13,
+          "success": 13
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222056,
+      "load": 80,
+      "requests": 80,
+      "success": 63,
+      "admitted": 67,
+      "by_service": {
+        "telemetry": {
+          "requests": 28,
+          "success": 16
+        },
+        "object": {
+          "requests": 32,
+          "success": 29
+        },
+        "command": {
+          "requests": 20,
+          "success": 18
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222057,
+      "load": 48,
+      "requests": 48,
+      "success": 40,
+      "admitted": 43,
+      "by_service": {
+        "telemetry": {
+          "requests": 17,
+          "success": 12
+        },
+        "object": {
+          "requests": 19,
+          "success": 17
+        },
+        "command": {
+          "requests": 12,
+          "success": 11
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222057,
+      "load": 80,
+      "requests": 80,
+      "success": 65,
+      "admitted": 72,
+      "by_service": {
+        "telemetry": {
+          "requests": 27,
+          "success": 17
+        },
+        "object": {
+          "requests": 31,
+          "success": 28
+        },
+        "command": {
+          "requests": 22,
+          "success": 20
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222058,
+      "load": 48,
+      "requests": 48,
+      "success": 40,
+      "admitted": 44,
+      "by_service": {
+        "telemetry": {
+          "requests": 16,
+          "success": 12
+        },
+        "object": {
+          "requests": 22,
+          "success": 19
+        },
+        "command": {
+          "requests": 10,
+          "success": 9
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222058,
+      "load": 80,
+      "requests": 80,
+      "success": 64,
+      "admitted": 70,
+      "by_service": {
+        "telemetry": {
+          "requests": 30,
+          "success": 20
+        },
+        "object": {
+          "requests": 31,
+          "success": 27
+        },
+        "command": {
+          "requests": 19,
+          "success": 17
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222059,
+      "load": 48,
+      "requests": 48,
+      "success": 42,
+      "admitted": 46,
+      "by_service": {
+        "telemetry": {
+          "requests": 12,
+          "success": 8
+        },
+        "object": {
+          "requests": 25,
+          "success": 24
+        },
+        "command": {
+          "requests": 11,
+          "success": 10
+        }
+      }
+    },
+    {
+      "method": "modal_greedy",
+      "init": 0,
+      "seed": 222059,
+      "load": 80,
+      "requests": 80,
+      "success": 66,
+      "admitted": 73,
+      "by_service": {
+        "telemetry": {
+          "requests": 26,
+          "success": 17
+        },
+        "object": {
+          "requests": 33,
+          "success": 30
+        },
+        "command": {
+          "requests": 21,
+          "success": 19
+        }
+      }
+    }
+  ],
+  "rate": 0.7911458333333333
+}
