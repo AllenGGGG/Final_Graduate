@@ -1,0 +1,53 @@
+{
+  "reference_source_commit": "e4e330a4a658d91046ae003c6a4532141dea087d",
+  "reference_protocol_sha256": "e5ccd6ba2f8a5dcc6440a63f2272b263965160baca52afdf0a3f3b0171228c2a",
+  "reference_training_complete_sha256": "bd4626b0e00dfe69d9843cd3b65151215b8bb4d7015b340dd6279416569e8f58",
+  "note": "Selected checkpoint steps are not the total compute budget. Reference initial training plus bounded continuation already used 65536 interactions per initialization; this study adds 32768, excluding validation/testing and prior development studies.",
+  "models": [
+    {
+      "init": 11,
+      "reference_total_training_budget": 65536,
+      "reference_selected_checkpoint": 32768,
+      "additional_training_budget": 32768,
+      "selected_additional_checkpoint": 16384,
+      "total_training_interaction_budget": 98304,
+      "reference_model_sha256": "4a8202161f194306a981326e6c8e1f1682f614ec0d3d77561ce3c79945b86c5b"
+    },
+    {
+      "init": 23,
+      "reference_total_training_budget": 65536,
+      "reference_selected_checkpoint": 49152,
+      "additional_training_budget": 32768,
+      "selected_additional_checkpoint": 32768,
+      "total_training_interaction_budget": 98304,
+      "reference_model_sha256": "b21fc802ba32fdc8c616b4642f6625018c904ecb65d53367cddf93341e025ead"
+    },
+    {
+      "init": 37,
+      "reference_total_training_budget": 65536,
+      "reference_selected_checkpoint": 16384,
+      "additional_training_budget": 32768,
+      "selected_additional_checkpoint": 8192,
+      "total_training_interaction_budget": 98304,
+      "reference_model_sha256": "d72ecb9f26c4056c8abff5d12bc5580ed1e342a73c5bd140036038352ec49c76"
+    },
+    {
+      "init": 53,
+      "reference_total_training_budget": 65536,
+      "reference_selected_checkpoint": 65536,
+      "additional_training_budget": 32768,
+      "selected_additional_checkpoint": 0,
+      "total_training_interaction_budget": 98304,
+      "reference_model_sha256": "bc43cee4287f62dc1ebb4757cf11af970eca7696700cda4e780afa3a2cf5e189"
+    },
+    {
+      "init": 71,
+      "reference_total_training_budget": 65536,
+      "reference_selected_checkpoint": 65536,
+      "additional_training_budget": 32768,
+      "selected_additional_checkpoint": 0,
+      "total_training_interaction_budget": 98304,
+      "reference_model_sha256": "4e7d9973b8ab6136cde351242c9a4658ed325678250b2fd295af99facc240d36"
+    }
+  ]
+}

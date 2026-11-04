@@ -1,0 +1,12 @@
+{
+  "test_sources": {
+    "tests/test_allocation_confirm.py": "f5a176637fef0522fe8659fa890bba34fd0c8c01c4422524bd69e4e5414941c2",
+    "tests/test_allocation_credit.py": "7453530163cbc36d9977f40c3b3c1d227ff864c90e324208173c7f9d4e72747b",
+    "tests/test_allocation_mc.py": "18d454433f86a3db7d3419c9f80d83e44dacc884cf827d48cc8282131fd52a59",
+    "tests/test_allocation_simple.py": "e432c01eb54328bf2774f505c41d868f73762590b98f522cea8c0e7030ba6d10",
+    "tests/test_allocation_value.py": "731651eb038172f4cb1af4a8742c684d41139629bb0421ead6b5b611b003e0e1",
+    "tests/test_patrol.py": "89e65eaafa59ce71fc0f7ea6510e16c7c237e0d972e0af1344b35cc353cdac5f"
+  },
+  "log_sha256": "38103dee9c2db98d09d1cf03161fe13f3f48389f732312498bd63b491cdd531d",
+  "passed_tests": 28
+}

@@ -1,30 +1,47 @@
-# 最终验证版复现
+# 验证与完整复现
 
-当前唯一入口为code目录下的 `python -m slice_alloc`。已完成的本地结果位于 `slice_alloc/results/final`；运行以下命令重新核验，不会重新训练：
+## 已有完整本地产物
+
+唯一入口是在 `code` 目录运行：
 
 ```bash
-python -m slice_alloc verify --workers 5
+python -m slice_alloc verify --workers 8
 ```
 
-从头训练请使用全新的输出目录，默认入口自动完成32768步初始训练、最多65536步的有界续训、验证集选检查点、原协议测试集对照和独立审计：
+默认读取 `slice_alloc/results/final`；可用 `LOWALT_ALLOCATION_OUTPUT` 指定其他完整输出目录。该命令核对冻结参数、所有模型、2520 个原生回合的逐包 SLA/方向/预约和 30 次模型重载重放，不重新选择检查点或修改原始评测数据。
+
+代码测试：
 
 ```bash
-export LOWALT_REFINE_OUTPUT=/absolute/path/to/new-output
-export LOWALT_REFERENCE_OUTPUT="$LOWALT_REFINE_OUTPUT/pretraining"
+python -m unittest discover -s slice_alloc/tests -p 'test_*.py' -v
+```
+
+测试只有在进程成功退出后才写 `tests_passed.json`。失败日志不会被当作完成状态；独立 `evaluate` 也会先完成同一套训练、代码测试与分析注册检查，再打开测试集。
+
+## Git 中的数据边界
+
+Git 保存源码、协议、训练/选型记录、原始逐回合汇总、审计结果和论文图表，不包含模型权重、逐包轨迹或 ns-3 二进制。因此仅克隆仓库不能直接执行逐包核验：需要复制完整 `results/final`，或按下述训练链重新产生它。完整模型获取目前没有公开下载地址，不声称只靠哈希就能独立验证。
+
+`results/final` 包含 `reference_models/`、`training/`、`models/`、`native/`、冻结源码、测试日志与所有注册。`artifact_metadata_repair.json` 记录先导模型在测试前进行的回放容量属性修正，原文件位于 `provenance/`，每一个策略张量都验证为完全相同。该修正不改变训练所得策略或其验证结果。
+
+## 从头生成训练输入
+
+本轮方法以独立训练的 Double-DQN 为起点，不能把额外 32768 步当作从零总预算。重做这一链条需要：
+
+1. 按 `reproduction/README.md` 配置 ns-3/ndnSIM，设置 `LOWALT_NS3_ROOT`。执行源码为 `execution/allocation_final_scenario.cc`，构建 `allocation-final-scenario`。包版本见 `environment.json`。
+2. 在历史提交 `e4e330a` 的独立 worktree 中，按该提交的复现说明运行 `python -m slice_alloc train --workers 5`，产生五个独立 RL 参考模型。旧正式测试种子已经公开；重跑只算复现。
+3. 在归档分支 `archive/firstpart-independent-rl-20261105`（`e524fc5`）的独立 worktree 中，把参考模型复制到 `code/slice_alloc/results/final/models/`。在其 `code` 目录执行 `python -m slice_alloc.tools.allocation_credit_run prepare --workers 5`，再执行 `python -m slice_alloc.tools.allocation_mc_run --workers 2`。将五个参考模型另存到所生成 `results/monte_carlo/reference_models/`。这里产生两个初始化的真实先导训练和验证记录，不必重跑先导正式测试。
+4. 回到当前主线，在 `code` 目录指定先导产物和一个空的新输出目录：
+
+```bash
+export LOWALT_MC_PILOT=/absolute/path/to/archive-worktree/code/slice_alloc/results/monte_carlo
+export LOWALT_ALLOCATION_OUTPUT=/absolute/path/to/new-confirmation-output
 export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1
 python -m slice_alloc all --workers 5
 ```
 
-先在安装requirements.txt依赖的Python环境中运行。本机实际包版本见environment.json。原生平台的确切提交与所需补丁见[平台复现](reproduction/README.md)。带ndnSIM的ns-3通过LOWALT_NS3_ROOT指定；默认是用户目录下.local/share/lowalt-ndnsim/ns-3。将execution/allocation_final_scenario.cc复制为ns-3的scratch/allocation-final-scenario.cc，在ns-3目录运行：
+它保留两个先导初始化的策略，补齐另三个初始化，冻结实际配置，按验证集选检查点，然后执行已公开协议的评测和独立审计。重新生成的模型可能因软件/硬件版本而不同，必须重新记录自己的哈希。已有测试种子的重跑是复现，不应冒称新增独立证据。
 
-```bash
-./waf build --targets=allocation-final-scenario -j 4
-```
+## 归档
 
-protocol.json记录模型、源码、参数和种子；frozen保存冻结源码；training/models保存检查点及模型；native保存输入、逐包事件、决策和审计结果。全部初始化均保留。pretraining仅在从头复现时生成，扩展版原始产物另存于恢复说明中的归档目录。
-
-论文主指标和原版对照都来自同一批原协议场景。原版对照在本轮重新运行，是当前审计证据的一部分；不是另一套待选最终结果。续训收益区间跨零，应照实写作小幅观察值，不应写作已证实的算法改进。
-
-源码和报告可以入Git；本地完整模型及逐包数据目前保存在results/final，没有上传外部存储。只拿报告和哈希不能逐包复核，需取得完整输出目录或从头复现。
-
-本次为历史种子复现，补充原版480回合：设置LOWALT_SIMPLE_OUTPUT为最终输出的pretraining目录，执行python -m slice_alloc.tools.allocation_simple_run evaluate --workers 5，再执行python -m slice_alloc.tools.allocation_simple_report <pretraining目录>。完整测试日志与analysis_registration.json须在评测前注册准备。
+之前的 paired 回放、势函数、短/长窗口、两初始化先导和负面结果保存在 `archive/firstpart-independent-rl-20261105`，逐包/权重另存于用户目录 `.local/share/lowalt-experiments/independent-rl-development-20261104`。更早的强规则研究在 `archive/firstpart-strong-baselines-20261104`。它们不与当前批次合并计算置信区间，也不作为并列的最终入口。

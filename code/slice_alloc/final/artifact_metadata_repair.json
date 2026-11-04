@@ -1,0 +1,77 @@
+{
+  "reason": "correct saved replay capacity to match actual pilot replay; no policy or target changes",
+  "changes": [
+    {
+      "path": "training/11/0.zip",
+      "before_sha256": "4cb231b8f534f1f4d584ccf7c98651c921c46301ca91e39c811ee92800509754",
+      "after_sha256": "6e819f9c8fbfd555f4dc5961f6b52711aa7e72755097432499e4f099add5e9cb",
+      "old_serialized_buffer_size": 20000,
+      "actual_training_buffer_size": 50000,
+      "all_policy_tensors_identical": true,
+      "original": "provenance/serialized-before-metadata-fix/training/11/0.zip"
+    },
+    {
+      "path": "training/11/8192.zip",
+      "before_sha256": "258dee1dab38027048dc983e5a4cccfad599bcf5fe64c62103aa30cad33a4900",
+      "after_sha256": "4213febb063ce081cdddb42d05209b11c5e395308f2ae969164390894185c8bb",
+      "old_serialized_buffer_size": 20000,
+      "actual_training_buffer_size": 50000,
+      "all_policy_tensors_identical": true,
+      "original": "provenance/serialized-before-metadata-fix/training/11/8192.zip"
+    },
+    {
+      "path": "training/11/16384.zip",
+      "before_sha256": "e148f13619fa7815bee7c390843265525888aa1236e349cf5c0c47d7b7b1c7f8",
+      "after_sha256": "baa4de709cb02aa95ce1ff9ccd47c9c3eec9ba851f7892f47d40b2b209cb2643",
+      "old_serialized_buffer_size": 20000,
+      "actual_training_buffer_size": 50000,
+      "all_policy_tensors_identical": true,
+      "original": "provenance/serialized-before-metadata-fix/training/11/16384.zip"
+    },
+    {
+      "path": "training/11/32768.zip",
+      "before_sha256": "4a346cf81f9776291a5cb66d1e21f0ec930a79992dd7f4f3c96ac4ed28f17ed5",
+      "after_sha256": "2bd93a8bbbabae247357c2ad826c21d018f39a2b9fdca53aee41122bd87b8ffc",
+      "old_serialized_buffer_size": 20000,
+      "actual_training_buffer_size": 50000,
+      "all_policy_tensors_identical": true,
+      "original": "provenance/serialized-before-metadata-fix/training/11/32768.zip"
+    },
+    {
+      "path": "training/23/0.zip",
+      "before_sha256": "c2740bdb0c4a96e742f64847f68ab335eaaeec9fb98ed7b929d5003a2623135d",
+      "after_sha256": "c22022baa25ceec0e6110661ff9426ce7adb08c88717aac177d9ae85ea3544e5",
+      "old_serialized_buffer_size": 20000,
+      "actual_training_buffer_size": 50000,
+      "all_policy_tensors_identical": true,
+      "original": "provenance/serialized-before-metadata-fix/training/23/0.zip"
+    },
+    {
+      "path": "training/23/8192.zip",
+      "before_sha256": "022b1a341aee5310b03f40e69bab1b709597456159a10e7c5bc51dada3c6c304",
+      "after_sha256": "24f6c7ba6867d6feb264695d99e25118062f5c561ac7d0ed572f76f863db3a1d",
+      "old_serialized_buffer_size": 20000,
+      "actual_training_buffer_size": 50000,
+      "all_policy_tensors_identical": true,
+      "original": "provenance/serialized-before-metadata-fix/training/23/8192.zip"
+    },
+    {
+      "path": "training/23/16384.zip",
+      "before_sha256": "91eb6a2cce99a67050a7c80850c9f958a39cfa17e382f110a3f4de61cb5745bf",
+      "after_sha256": "70ac9e6ab3750a9ef4de3fced2e0fcfa074627e10eb76e0101bc56217f094ba2",
+      "old_serialized_buffer_size": 20000,
+      "actual_training_buffer_size": 50000,
+      "all_policy_tensors_identical": true,
+      "original": "provenance/serialized-before-metadata-fix/training/23/16384.zip"
+    },
+    {
+      "path": "training/23/32768.zip",
+      "before_sha256": "5f3a9c7f89cf22ff3effaad05b9832e2df196c2e81a3a7e8b1065df2027abead",
+      "after_sha256": "dfc538fb71fd7a31d575ca72e898aa904fd978fc41c743c08a8aecbcd9ee3b96",
+      "old_serialized_buffer_size": 20000,
+      "actual_training_buffer_size": 50000,
+      "all_policy_tensors_identical": true,
+      "original": "provenance/serialized-before-metadata-fix/training/23/32768.zip"
+    }
+  ]
+}

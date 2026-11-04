@@ -1,22 +1,63 @@
 {
-  "passed_tests": 22,
-  "verified_native_episodes": 1560,
-  "full_training_complete": true,
-  "fresh_test_complete": false,
+  "verified_native_episodes": 2520,
+  "inference_probes": 30,
+  "actual_models": [
+    {
+      "init": 11,
+      "pretrained_steps": 32768,
+      "selected_additional_steps": 16384,
+      "model_sha256": "baa4de709cb02aa95ce1ff9ccd47c9c3eec9ba851f7892f47d40b2b209cb2643",
+      "origin": "unchanged pilot policies and validation records; serialized replay metadata repaired before final freeze/test",
+      "replay_class": "MonteCarloDictReplay"
+    },
+    {
+      "init": 23,
+      "pretrained_steps": 49152,
+      "selected_additional_steps": 32768,
+      "model_sha256": "dfc538fb71fd7a31d575ca72e898aa904fd978fc41c743c08a8aecbcd9ee3b96",
+      "origin": "unchanged pilot policies and validation records; serialized replay metadata repaired before final freeze/test",
+      "replay_class": "MonteCarloDictReplay"
+    },
+    {
+      "init": 37,
+      "pretrained_steps": 16384,
+      "selected_additional_steps": 8192,
+      "model_sha256": "cfd48dc4b6ae813e7a35447b419c9cf162cc846882ec6b4c3a5502d7448e1b94",
+      "origin": "new full-return continuation with exactly the pilot interaction schedule",
+      "replay_class": "MonteCarloDictReplay"
+    },
+    {
+      "init": 53,
+      "pretrained_steps": 65536,
+      "selected_additional_steps": 0,
+      "model_sha256": "909bc4791e0ebe3ad1e6ca2b1ae6770fd77de567d4384724d55fd90364f4d24d",
+      "origin": "new full-return continuation with exactly the pilot interaction schedule",
+      "replay_class": "MonteCarloDictReplay"
+    },
+    {
+      "init": 71,
+      "pretrained_steps": 65536,
+      "selected_additional_steps": 0,
+      "model_sha256": "033551e0088512ea49a872d4b0f7ef05dbfe086573fb696a1bd6cc26e745a36f",
+      "origin": "new full-return continuation with exactly the pilot interaction schedule",
+      "replay_class": "MonteCarloDictReplay"
+    }
+  ],
   "all_packet_audits_pass": true,
   "all_direction_audits_pass": true,
   "all_reservation_replays_pass": true,
   "all_methods_share_scenarios": true,
   "all_initializations_reported": true,
-  "protocol_sha256": "e5ccd6ba2f8a5dcc6440a63f2272b263965160baca52afdf0a3f3b0171228c2a",
-  "recovered_source_commit": "72f5ec9",
-  "actual_parameters_verified": true,
-  "historical_reproduction": true,
-  "new_independent_test": false,
-  "separately_verified_original_episodes": 480,
-  "original_statistics_reproduced_exactly": true,
-  "post_cleanup_passed_tests": 23,
-  "final_entry_verified": true,
-  "post_cleanup_test_log_sha256": "ec9bae0b4d93deb9969b9d5b5a9976e1f494a8fcee212c12cbcfd36c5e5f1d1f",
-  "analysis_dependency_hashes_verified": true
+  "new_independent_test": true,
+  "passed_tests": 28,
+  "primary_comparison_passed": true,
+  "full_publication_passed": true,
+  "publication_gates": {
+    "greedy_ci_positive": true,
+    "nearest_ci_positive": true,
+    "first_fit_ci_positive": true,
+    "native_ci_positive": true,
+    "violation_all_not_worse": true,
+    "violation_admitted_not_worse": true
+  }
 }

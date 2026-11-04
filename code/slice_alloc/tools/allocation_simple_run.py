@@ -53,7 +53,7 @@ SOURCES = (
     "patrol_contract.schema.json",
     "tools/modal_binding_run.py",
     "tests/test_allocation_simple.py",
-    "SIMPLE_DESIGN.md",
+    "docs/REFERENCE_TRAINING.md",
     "execution/allocation_final_scenario.cc",
     "tools/allocation_simple_run.py",
 )

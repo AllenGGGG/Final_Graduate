@@ -1,0 +1,8 @@
+{
+  "protocol.json": "5151ff28e709294278a4cbb5e749c9fcef233adb745237af5c208d56e6f863e2",
+  "training_complete.json": "6381d57f5c5309cd6ce24dfbcd97ba54347fb84ac4e688956c2e38f16b3902c2",
+  "evaluation_registration.json": "8cfb606832dd297c20f3ed39e0814bb58e397d4b95ed57e7f2d67c456508f2c3",
+  "tests_passed.json": "858235435b708aed2538261093317de0c16413b71699f2489511b3381dd18f1f",
+  "full-tests.log": "38103dee9c2db98d09d1cf03161fe13f3f48389f732312498bd63b491cdd531d",
+  "artifact_metadata_repair.json": "1f557b16ce3d969d3dbeccd230315738dc651ac2871c6bba9d0c32361e7ab23b"
+}

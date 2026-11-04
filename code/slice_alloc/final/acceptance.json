@@ -1,9 +1,0 @@
-{
-  "primary_paired_ci_positive": true,
-  "sla_success_higher": true,
-  "violation_all_not_worse": true,
-  "violation_admitted_not_worse": true,
-  "native_audits_complete": true,
-  "retained_tests_passed": true,
-  "all_initializations_reported": true
-}
