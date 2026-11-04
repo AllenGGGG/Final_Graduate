@@ -15,6 +15,14 @@ def finalize_output(output):
     digest=lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
     package=Path(__file__).resolve().parent
     verification=json.loads((output/'verification.json').read_text())
+    recovery=output/'recovery_verification.json'
+    recovery_data=json.loads(recovery.read_text()) if recovery.exists() else None
+    if recovery_data is not None:
+        verification.update(recovered_source_commit=recovery_data['source_commit'],
+            actual_parameters_verified=recovery_data['all_actual_models_loaded'],
+            historical_reproduction=True,new_independent_test=False,fresh_test_complete=False,
+            separately_verified_original_episodes=recovery_data['verified_original_episodes'],
+            original_statistics_reproduced_exactly=recovery_data['original_statistics_reproduced_exactly'])
     post=output/'post-cleanup-tests.log'
     if post.exists():
         log=post.read_text()
@@ -38,7 +46,19 @@ def finalize_output(output):
         text+='\n## 最终结论与清理\n\n续训相对原版增加'+f"{100*gain['difference']:.2f}"+'个百分点，但区间跨零，尚不能断言这项训练优化带来稳定收益。主比较RL对Greedy的结论见上。\n'
         if post.exists():
             text+='\n清理后'+str(verification['post_cleanup_passed_tests'])+'项相关测试通过；默认入口重新核验了全部正式回合。旧版独立结果目录已删除，仅保留最终研究与本轮必要对照审计证据。\n'
-        report.write_text(text)
+    if recovery_data is not None:
+        text=text.replace('60个新测试种子','60个原协议测试种子')
+        text=text.replace('旧版独立结果目录已删除，仅保留最终研究与本轮必要对照审计证据。',
+            '扩展版及其负面结果另行归档，当前仅保留第一部分主线与必要对照证据。')
+        if '## 恢复复现与违约率口径' not in text:
+            text+='\n## 恢复复现与违约率口径\n\n沿用历史协议种子重新训练和核验，不是新增独立测试，不重复计作显著性证据。原版480回合另经审计，见recovery_verification.json与original_480_report.md。\n\n'
+            text+='| 方法 | SLA成功率 | 违约／全部到达 | 违约／已接纳 |\n|---|---:|---:|---:|\n'
+            for method in ('double_dqn','greedy','nearest','first_fit'):
+                row=analysis['methods'][method]
+                conditional=row['admitted_violations']/row['admitted'] if row['admitted'] else 0.
+                text+=f"| {method} | {row['success_rate']:.2%} | {row['violation_rate_all']:.2%} | {conditional:.2%} |\n"
+            text+='\n小幅优势限定于本协议所列规则，不外推为优于所有传统方法。扩展版负面结果保留于archive/expanded-study-ee8f44d。\n'
+    report.write_text(text)
     source_manifest={str(f.relative_to(package)):digest(f) for f in sorted(package.rglob('*'))
         if f.is_file() and f.relative_to(package).parts[0] not in ('results','final')
         and '__pycache__' not in f.parts}
@@ -49,6 +69,10 @@ def finalize_output(output):
     if output==package/'results/final' and (package/'final').exists():
         for name in ('report.md','analysis.json','verification.json','protocol.json','manifest.json','code_manifest.json'):
             shutil.copy2(output/name,package/'final'/name)
+        export=package/'final'
+        (export/'export_manifest.json').write_text(json.dumps({
+            str(f.relative_to(export)):digest(f) for f in sorted(export.rglob('*'))
+            if f.is_file() and f.name!='export_manifest.json'},ensure_ascii=False,indent=2)+'\n')
 
 
 def main():
