@@ -1,0 +1,104 @@
+{
+  "interval_method": "20000 paired bootstrap resamples of scenes (and initializations for rl); supplemental baselines are deterministic single-run rules, not part of the frozen primary selection",
+  "modal_greedy": {
+    "requests": 11520,
+    "success": 9278,
+    "admitted": 10131,
+    "forced_reject": 1389,
+    "voluntary_reject": 0,
+    "admitted_violations": 853,
+    "success_rate": 0.8053819444444444,
+    "admission_rate": 0.8794270833333333,
+    "forced_reject_rate": 0.12057291666666667,
+    "voluntary_reject_rate": 0.0,
+    "violation_rate_all": 0.07404513888888889,
+    "by_service": {
+      "telemetry": {
+        "requests": 3901,
+        "success": 2426
+      },
+      "object": {
+        "requests": 4743,
+        "success": 4331
+      },
+      "command": {
+        "requests": 2876,
+        "success": 2521
+      }
+    },
+    "modes": {
+      "ndn": 2885,
+      "ip": 6526,
+      "id": 720
+    },
+    "violation_rate_admitted": 0.08419701905043925,
+    "minimum_service_success": 0.6218918226095873,
+    "ci95": [
+      0.7953125,
+      0.8157118055555556
+    ]
+  },
+  "rl-modal_greedy": {
+    "difference": -0.01460069444444445,
+    "ci95": [
+      -0.021944878472222318,
+      -0.007083333333333328
+    ],
+    "centered_bootstrap_p": 4.999750012499375e-05,
+    "holm_adjusted_p_expanded": 0.0002999850007499625
+  },
+  "exponential_price": {
+    "requests": 11520,
+    "success": 9015,
+    "admitted": 10325,
+    "forced_reject": 1195,
+    "voluntary_reject": 0,
+    "admitted_violations": 1310,
+    "success_rate": 0.7825520833333334,
+    "admission_rate": 0.8962673611111112,
+    "forced_reject_rate": 0.1037326388888889,
+    "voluntary_reject_rate": 0.0,
+    "violation_rate_all": 0.11371527777777778,
+    "by_service": {
+      "telemetry": {
+        "requests": 3901,
+        "success": 2519
+      },
+      "object": {
+        "requests": 4743,
+        "success": 3988
+      },
+      "command": {
+        "requests": 2876,
+        "success": 2508
+      }
+    },
+    "modes": {
+      "ip": 10325
+    },
+    "violation_rate_admitted": 0.12687651331719127,
+    "minimum_service_success": 0.6457318636247116,
+    "ci95": [
+      0.772048611111111,
+      0.7934027777777776
+    ]
+  },
+  "rl-exponential_price": {
+    "difference": 0.00822916666666662,
+    "ci95": [
+      0.0009895833333333215,
+      0.015868055555555264
+    ],
+    "centered_bootstrap_p": 0.029898505074746264,
+    "holm_adjusted_p_expanded": 0.0896955152242388
+  },
+  "expanded_exploratory_holm": {
+    "rl-first_fit": 0.0002999850007499625,
+    "rl-modal_greedy": 0.0002999850007499625,
+    "rl-native": 0.00039998000099995,
+    "rl-exponential_price": 0.0896955152242388,
+    "rl-nearest": 0.0896955152242388,
+    "rl-initial_rl": 0.09159542022898855
+  },
+  "multiplicity": "six secondary comparisons together; frozen original family and primary decision unchanged"
+}

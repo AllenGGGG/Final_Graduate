@@ -1,0 +1,16 @@
+{
+  "native_episodes": 900,
+  "all_packet_audits": true,
+  "all_direction_audits": true,
+  "all_reservation_replays": true,
+  "all_methods_share_scenarios": true,
+  "protocol_sha256": "c81dfc8fc1004e45d6b5aac9a4229a393e2036fb58275404002b9b2c23ed035d",
+  "selection_sha256": "3251300f77bd3efeabb521a06bc83dce210edd5b0ed1a7352c43c2ecf860cb40",
+  "test_sha256": "9bdaf814df24e5a09b8caf28c3a7a3f13446c2183b6b683ecdc77972c01504f5",
+  "sources": {
+    "tools/allocation_greedy_improve.py": "cccb420e9a2f2ea22df45a24263f35e0fd95c540b6b0fe6cacbce763e732fee5",
+    "tools/allocation_strong_baseline_supplement.py": "a09e0f98c7e82f1bd11352ac90bbfcb6ff96bb54e56fe14cc9f33dc255faf8e1",
+    "tools/allocation_simple_report.py": "73b910f244cadb44a5ac80c86cd1d335d0ba5ec40aa3cd827c1df46c6b915f42",
+    "supplement_tests/test_greedy_study.py": "da3a97c723bf046240a1f92948ce817de844d3e2e67ba538cd6a8b3065dcb45c"
+  }
+}

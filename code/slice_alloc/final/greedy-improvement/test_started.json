@@ -1,0 +1,56 @@
+{
+  "protocol_sha256": "c81dfc8fc1004e45d6b5aac9a4229a393e2036fb58275404002b9b2c23ed035d",
+  "selection_sha256": "3251300f77bd3efeabb521a06bc83dce210edd5b0ed1a7352c43c2ecf860cb40",
+  "configurations": [
+    {
+      "name": "resource_greedy",
+      "rule": "greedy",
+      "parameters": [
+        2.0,
+        0.5,
+        0.0
+      ],
+      "threshold": null
+    },
+    {
+      "name": "original_modal",
+      "rule": "modal_greedy",
+      "parameters": [
+        2.0,
+        0.5,
+        0.0
+      ],
+      "threshold": null
+    },
+    {
+      "name": "development_modal",
+      "rule": "modal_greedy",
+      "parameters": [
+        2.0,
+        0.0,
+        1.0
+      ],
+      "threshold": null
+    },
+    {
+      "name": "selected_greedy",
+      "rule": "modal_greedy",
+      "parameters": [
+        2.0,
+        0.0,
+        1.0
+      ],
+      "threshold": 2.0
+    },
+    {
+      "name": "archived_modal_price",
+      "rule": "modal_price_threshold",
+      "parameters": [
+        2.0,
+        0.5,
+        1.0
+      ],
+      "threshold": 2.0
+    }
+  ]
+}

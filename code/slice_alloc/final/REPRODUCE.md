@@ -45,3 +45,31 @@ python -m slice_alloc all --workers 5
 ## 归档
 
 之前的 paired 回放、势函数、短/长窗口、两初始化先导和负面结果保存在 `archive/firstpart-independent-rl-20261105`，逐包/权重另存于用户目录 `.local/share/lowalt-experiments/independent-rl-development-20261104`。更早的强规则研究在 `archive/firstpart-strong-baselines-20261104`。它们不与当前批次合并计算置信区间，也不作为并列的最终入口。
+
+## 事后补充与 Greedy 优化
+
+当前 `report.md` 是包含事后补充的发布报告。原冻结 `verify` 只重生成工作目录 `results/final/report.md` 的预注册主实验部分；它不生成事后补充段落，也不覆盖 Git 中的发布报告。补充分析独立运行，不能把原2520回合的审计范围自动扩展到新增回合。
+
+同协议强规则补充在 `code` 目录执行：
+
+```bash
+python -m slice_alloc.tools.allocation_strong_baseline_supplement --workers 8
+python -m slice_alloc.tools.allocation_strong_baseline_analysis
+python -m slice_alloc.tools.allocation_per_load_comparison
+```
+
+360个新增回合保留逐包轨迹，按原审计器检查SLA、方向和预约。`exponential_price`是无准入阈值的指数资源价格规则，不同于归档中的模态感知准入价格规则。扩展的六项次要比较共同进行Holm校正，原冻结主分析保持不变；12项分负载结果另作探索性比较并共同校正。
+
+Greedy优化另用独立输出目录和全新场景：
+
+```bash
+python -m slice_alloc.tools.allocation_greedy_improve --workers 8
+python -m slice_alloc.tools.allocation_strong_baseline_analysis --audit-traces
+python -m unittest discover -s slice_alloc/supplement_tests -p 'test_*.py' -v
+```
+
+默认输出 `results/greedy-improvement`，可用 `LOWALT_GREEDY_OUTPUT`覆盖。先注册24组评分、5个阈值、开发/验证/测试种子与比较方式；开发用548000—548011，验证用549000—549029，测试用550000—550059。测试集打开前保存选择和源码哈希；测试后不重新选参数。五个规则在相同的60场景、32/64/96负载上运行，900个正式回合全部逐包审计。开发、验证、测试数据及本地轨迹分别保留，不能与447000系列直接拼接比较。
+
+新增5项回归检查放在`supplement_tests`，避免改变已冻结主实验的28项测试来源和完成标记。
+
+Git中的`greedy-improvement/`保留协议、完整开发/验证/测试逐回合记录、选型、统计、核验和逐包文件哈希。实际轨迹位于本地`results/greedy-improvement/test/native`，强规则补充轨迹位于`results/final/native`；这两批的按请求ID计数和轨迹清单分别保存，不能只凭哈希宣称已下载并独立验证轨迹。
